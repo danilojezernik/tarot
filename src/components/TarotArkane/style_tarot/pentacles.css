@@ -1,0 +1,44 @@
+/* PENTACLES */
+
+.bg-64:before {
+    background-image: url("~@/assets/pentacles/ace-of-pentacles.png");
+}
+.bg-65:before {
+    background-image: url("~@/assets/pentacles/two-of-pentacles.png");
+}
+.bg-66:before {
+    background-image: url("~@/assets/pentacles/three-of-pentacles.png");
+}
+.bg-67:before {
+    background-image: url("~@/assets/pentacles/four-of-pentacles.png");
+}
+.bg-68:before {
+    background-image: url("~@/assets/pentacles/five-of-pentacles.png");
+}
+.bg-69:before {
+    background-image: url("~@/assets/pentacles/six-of-pentacles.png");
+}
+.bg-70:before {
+    background-image: url("~@/assets/pentacles/seven-of-pentacles.png");
+}
+.bg-71:before {
+    background-image: url("~@/assets/pentacles/eight-of-pentacles.png");
+}
+.bg-72:before {
+    background-image: url("~@/assets/pentacles/nine-of-pentacles.png");
+}
+.bg-73:before {
+    background-image: url("~@/assets/pentacles/ten-of-pentacles.png");
+}
+.bg-74:before {
+    background-image: url("~@/assets/pentacles/page-of-pentacles.png");
+}
+.bg-75:before {
+    background-image: url("~@/assets/pentacles/knight-of-pentacles.png");
+}
+.bg-76:before {
+    background-image: url("~@/assets/pentacles/queen-of-pentacles.png");
+}
+.bg-77:before {
+    background-image: url("~@/assets/pentacles/king-of-pentacles.png");
+}

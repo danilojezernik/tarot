@@ -1,0 +1,91 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Tarot
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/tarot">Tarot</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Mala Arkana: Meči</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid p-0 bg-header">
+    <div class="container p-md-4 p-2">
+
+        <div class="p-md-2 text-black">
+
+            <!-- MINOR ARCANA: MEČI-->
+            <div class="py-4 text-center">
+                <h1 class="text-center">Mala Arkana: Meči</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+
+            <p>Karte Tarota Meči obravnavajo mentalno raven zavesti, ki je osredotočena na um in intelekt. Meči
+                odsevajo kakovost uma, ki je prisotna v vaših mislih, stališčih in prepričanjih.</p>
+
+            <p>Meči so pogosto dvorezni in na ta način obleka mečev simbolizira fino ravnovesje med intelektom in
+                močjo ter kako je mogoče ta dva elementa uporabiti za dobro ali zlo. Kot taki morajo biti meči
+                uravnoteženi z
+                duhom (palice) in občutkom (pokali), da imajo najbolj pozitiven učinek.</p>
+
+            <p>Obleka mečev je povezana z elementom zraka. Zrak je neoprijemljiv in neviden, a tudi v nenehnem
+                gibanju. Zrak je lahko miren in večinoma neopazen, hitro pa lahko postane vetrič ali močan veter. Je
+                močan, a
+                osvežujoč in čisti. Simbolično se element zraka nanaša na znanje, delovanje, moč in spremembe. Je moška
+                energija, ki lahko vodi s silo in močjo, čeprav ostaja nevidna.</p>
+
+            <p><span class="fw-bold">Kaj v branju pomenijo tarot karte z meči?</span>
+                Pomeni kart tarota "Obleka mečev" so povezani z dejanji, spremembo, silo, močjo, zatiranjem, ambicijo,
+                pogumom
+                in konfliktom. Dejanje je lahko konstruktivno in/ali destruktivno.</p>
+
+            <p>Negativni vidiki obleke mečev vključujejo jezo, krivdo, ostro sodbo, pomanjkanje sočutja ter
+                verbalno in duševno zlorabo.</p>
+
+            <p>Meči Tarot karte pogosto predstavljajo astrološka znamenja zraka - Vodnar, Tehtnica in Dvojčka. Ko v
+                branju tarota vidite karte z meči, se to pogosto nanaša na osebo z zvezdnim znamenjem Vodnar, Tehtnica
+                in
+                Dvojčka. Na splošno so ljudje Mečev inteligentni, premišljeni, racionalni, logični in odlični
+                komunikatorji. So
+                razumna bitja in radi izkušajo svet z razumevanjem in analizo dogajanja okoli njih. Na drugi strani so
+                ljudje
+                Mečev lahko neusmiljeni, prevladujoči, konfrontacijski in togi.</p>
+
+            <p><span class="fw-bold">Kaj pomeni, ko so pri branju tarota prisotne večinoma tarot karta mečev?</span>
+                Če je branje tarota pretežno iz kart mečev, iščete rešitve za tisto, kar so predvsem duševni boji,
+                konflikti in
+                prepiri ter odločitve, ki jih je treba sprejeti. Prav tako je lahko trenutno veliko prepirov ali celo
+                nasilja.
+                Medtem ko lahko Meči s seboj nosijo številna negativna ali zelo močna, silovita sporočila, Meči služijo
+                tudi kot
+                opozorilo, da ste bolj previdni glede tega, kar se dogaja okoli vas.</p>
+
+            <div class="py-4 text-center">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+            <!-- SWORDS -->
+            <div class="row row-cols-1 row-cols-lg-5 g-4">
+                <div class="col" v-for="(karta, index) in meci" :key="index">
+                    <router-link class="text-decoration-none text-white" :to="`${karta.to}`">
+                        <div class="card border-dark" :class="karta.img">
+                            <div class="content">
+                                <h2 class="title">{{ karta.ime }}</h2>
+                                <p>{{ karta.pregled }}</p>
+                            </div>
+                        </div>
+                    </router-link>
+                </div>
+            </div>
+            <!-- END SWORDS -->
+        </div>
+    </div>
+</div>
+
+<app-navrh/>

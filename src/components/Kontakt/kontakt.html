@@ -1,0 +1,62 @@
+<div class="container-fluid bg-tarot-index text-white shadow-lg">
+    <div class="container p-4">
+        <div class="fs-1 fw-bold">
+            Kontakt
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Kontakt</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container">
+
+        <div class="row p-2 p-md-2 pt-md-5 pb-md-5 d-flex align-items-center justify-content-center">
+
+            <div class="col-3 d-none d-lg-block">
+                <img src="~@/assets/majorarcana/the-empress.png" ondragstart="return false;"
+                     class="img-fluid shadow">
+            </div>
+
+            <div class="col-lg-4 bg-tarot-index text-white p-4 shadow rounded-2">
+                <form>
+                    <!-- Name input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example1">Ime in priimek</label>
+                        <input type="text" id="form4Example1" class="form-control text-white border-dark bg-tarot" />
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example2">Email naslov</label>
+                        <input type="email" id="form4Example2" class="form-control text-white border-dark bg-tarot" />
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example3">Sporočilo</label>
+                        <textarea class="form-control text-white border-dark bg-tarot" id="form4Example3" rows="5"></textarea>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-outline-warning btn-block mt-4">Pošlji</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-3 d-none d-lg-block">
+                <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
+                      class="img-fluid shadow">
+            </div>
+        </div>
+
+
+    </div>
+</div>

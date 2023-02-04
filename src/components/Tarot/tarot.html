@@ -1,0 +1,191 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Tarot
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Tarot</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid p-0 bg-header">
+    <div class="container p-md-4 p-2">
+
+        <div class="py-4 text-center">
+            <h1>Tarot</h1>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            <div class="lead text-center">Ko se učite brati tarot, je najbolje, da začnete z učenjem pomenov tarot
+                kart.
+            </div>
+        </div>
+
+        <div class="row animate__animated animate__fadeInTopRight">
+
+            <div class="col-lg cursor">
+                <router-link to="/glavna-arkana" class="text-decoration-none">
+                    <div class="card border-dark bg-1">
+                        <div class="content">
+                            <span class="title fs-1">Velika Arkana<br>&nbsp</span>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
+            <div class="col-lg cursor">
+                <router-link to="/palice" class="text-decoration-none">
+                    <div class="card border-dark bg-2">
+                        <div class="content">
+                            <span class="title fs-1">Mala Arkana:<br>Palice</span>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
+            <div class="col-lg cursor">
+                <router-link to="/kelihi" class="text-decoration-none">
+                    <div class="card border-dark bg-3">
+                        <div class="content">
+                            <span class="title fs-1">Mala Arkana:<br>Kelihi</span>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
+            <div class="col-lg cursor">
+                <router-link to="/meci" class="text-decoration-none">
+                    <div class="card border-dark bg-4">
+                        <div class="content">
+                            <span class="title fs-1">Mala Arkana:<br>Meči</span>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
+            <div class="col-lg cursor">
+                <router-link to="/pentakli" class="text-decoration-none">
+                    <div class="card border-dark bg-5">
+                        <div class="content">
+                            <span class="title fs-1">Mala Arkana:<br>Pentakli</span>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <vue-final-modal v-model="showModal" classes="modal-container" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal = false">
+                <mdi-close>X</mdi-close>
+            </button>
+            <span class="modal__title text-center p-3">Pomen besede "Arkana":</span>
+            <div class="modal__content">
+                <p>"Arkana" je množina besede "arcanum", ki izhaja iz latinske besede "arcanus", kar pomeni
+                    "skrivnost". Velike arkanske karte v tarotu predstavljajo življenjske teme in lekcije, ki
+                    odražajo vašo posvetno in duhovno resničnost. Uporaba kart Velike Arkane pri branju tarota je
+                    povezana z željo po globlje uglašenosti z vzorcem, ki se odvija v življenju, v prepričanju, da
+                    so vse izkušnje smiselne, povezane in pravilne.</p>
+            </div>
+        </vue-final-modal>
+    </div>
+
+    <div class="container p-md-4 p-2">
+        <p>22 kart velike
+            <v-button class="cursor text-white fs-5" @click="showModal = true">arkane</v-button>
+            predstavlja življenjske karmične in duhovne lekcije. Predstavljajo pot do duhovnega
+            samozavedanja in prikazujejo različne stopnje, s katerimi se srečujemo, ko iščemo večji pomen in
+            razumevanje. Na ta način imajo karte Velike arkane globoke in pomembne lekcije na ravni duše.
+        </p>
+
+        <p>56 kart male arkane odraža preizkušnje in stiske, ki jih doživljamo vsak dan. Te karte tarota poudarjajo bolj
+            praktične vidike življenja in se lahko nanašajo na trenutna vprašanja, ki imajo začasen ali manjši
+            vpliv.</p>
+
+        <p>Znotraj kart male arkane je 16 tarot dvornih kart, od katerih vsaka predstavlja 16 različnih osebnostnih
+            značilnosti, ki jih lahko kadar koli izrazimo. Obstaja tudi 40 oštevilčenih kart, organiziranih v 4 barve –
+            skodelice, pentaklji, meči in palice – vsaka z 10 kartami, ki predstavljajo različne situacije, s katerimi
+            se srečujemo vsak dan.</p>
+
+        <p>Nekateri bodo morda rekli, da so karte tarot preprosto črnilo na papirju. Vendar pa sem ugotovil naslednje,
+            medtem, ko sem se poglabljal v njih:</p>
+
+        <p class="fw-bold">Tarot je knjiga zgodb našega življenja, ogledalo naše duše in ključ do naše notranje
+            modrosti.</p>
+
+        <p>Vsako duhovno lekcijo, ki jo srečamo v življenju, lahko najdemo v 78 kartah tarota. In ko se
+            posvetujemo s tarotom, nam bodo pokazane natančne lekcije, ki se jih moramo naučiti in obvladati, da bomo
+            živeli navdihnjeno življenje. To je, kot da bi sebi postavili ogledalo, da bi lahko dostopali do svoje
+            podzavesti in se dotaknili modrosti (in odgovorov), ki živi v vseh nas.</p>
+    </div>
+</div>
+
+<div class="container-fluid bg-tarot-index">
+    <!-- PODNASLOV POKONČNA -->
+    <h1 class="m-0 p-3 text-white text-center">Rider Waite tarot karte</h1>
+</div>
+
+<div class="container-fluid p-0 bg-header">
+
+    <!-- SLIKA VIDNA NAD lg-->
+    <img src="@/assets/tarot-index-card.png" class="img-fluid float-md-start m-2 d-none d-lg-block" alt="...">
+
+    <!-- SLIKA VIDNA POD lg-->
+
+    <div class="d-flex align-items-center justify-content-center">
+    <img src="@/assets/tarot-index-card.png" class="p-4 d-lg-none" alt="...">
+    </div>
+
+    <div class="card-body">
+        <p class="card-text">Tarot Rider-Waite je postavil standard za stotine drugih tarot kart, ki
+            sledijo arhetipskim podobam, ki jih je leta 1909 ustvarila Pamela Colman Smith pod vodstvom
+            Arthurja Edwarda Waitea. Ta izdaja vključuje Smithove izvirne ročno narisane naslove.
+            Edinstvena značilnost kompleta Rider-Waite in eden od glavnih razlogov za njegovo trajno
+            priljubljenost je, da vse karte, vključno z Minor Arcana, prikazujejo celotne prizore s
+            figurami in simboli.</p>
+
+        <p>Pred tarotom Rider-Waite so bile karte za pike skoraj vseh tarot krovov
+            označene le z razporeditvijo znakov obleke - meči, palice, skodelice in kovanci ali
+            pentakli. Slikovne slike na vseh kartah omogočajo interpretacije brez potrebe po večkratnem
+            pregledovanju pojasnjevalnega besedila. Inovativna Manjša Arcana in sposobnost Pamele Colman
+            Smith, da ujame subtilnost čustev in izkušenj, je tarot Rider-Waite postal model za načrte
+            številnih paketov tarota. Tarot Rider-Waite je bil po izboru Aeclectic Tarot imenovan za
+            enega izmed najboljših desetih tarot zbirk vseh časov.</p>
+
+
+        <p>Pamela Colman Smith se je rodila 16. februarja 1878 v Middlesexu v Angliji ameriškim
+            staršem, Smithovo otroštvo so preživeli med Londonom, New Yorkom, in Kingstonom na
+            Jamajki. V mladosti je potovala po Angliji z gledališko družbo Ellen Terry in Henryja
+            Irvinga. Nato se je začela formalno izobraževati na inštitutu Pratt v Brooklynu, ki ga je
+            diplomirala leta 1897.</p>
+
+        <p>Smith se je vrnil v Anglijo, kjer je postala gledališka oblikovalka
+            za miniaturno gledališče in ilustratorka – predvsem knjig, brošur in plakatov. Okoli leta
+            1903 se je pridružila redu Zlate zore. Leta 1909 se je pod vodstvom Arthurja Edwarda Waitea
+            lotila serije oseminsedemdeset alegoričnih slik, ki jih je Waite opisal kot popravljen paket
+            tarota.</p>
+
+        <p>Dizajni, ki so jih istega leta objavili William Rider in sin, ponazarjajo mistiko,
+            ritual, domišljijo, fantazijo in globoka čustva umetnika. Arthur Edward Waite, rojen v
+            Ameriki leta 1857, je bil Waite vzgojen in izobražen kot katoličan v Angliji.</p>
+
+        <p>Pri 21 letih se je Waite ukvarjal z raziskavami in pisanjem o psihičnih in ezoteričnih
+            zadevah. Kmalu po pridružitvi Hermetičnemu redu Zlate zore je postal veliki mojster in
+            preusmeril fokus reda iz magije v mistiko. Zlati red, katerega strukturna hierarhija je
+            temeljila na kabali, velja za največji vpliv 20. stoletja na okultistiko.</p>
+
+        <p>Waite je bil plodovit avtor okultnih besedil,
+            del o Svetem gralu in zbirke mističnega znanja, ki je osnova sodobnega tarota. Najbolj znan
+            je kot soustvarjalec kompleta Tarot Rider-Waite in avtor spremljevalnega zvezka The
+            Pictorial Key to the Tarot, ki je bil prvič objavljen leta 1910.
+        </p>
+    </div>
+</div>
+
+
+<app-navrh/>

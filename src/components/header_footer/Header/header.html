@@ -1,0 +1,63 @@
+<div class="sticky-top">
+    <nav class="navbar navbar-dark bg-header shadow position-relative">
+        <div class="container">
+            <router-link class="navbar-brand" to="/">
+
+                <div class="d-none d-lg-block">
+                    <img src="https://img.icons8.com/bubbles/60/000000/tarot-cards.png"
+                         class="position-absolute top-0 start-0 translate-middle" alt="tarot"/>
+                    <div class="ps-3 fs-2">Tarot zate!</div>
+                </div>
+
+                <div class="d-lg-none">
+                    <div class="fs-1">
+                        <img src="https://img.icons8.com/bubbles/60/000000/tarot-cards.png"
+                             class="d-inline-block align-text-center" alt="tarot"/>
+                        Tarot zate!
+                    </div>
+                </div>
+
+            </router-link>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-header" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tarot zate!</h5>
+                    <button type="button" class="btn-close btn-close-dark text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-image-header text-center">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/">Domov</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/tarot">Tarot</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/vaje">Tarot vaje</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/kabala">Kabala</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/dharana">Dharana</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/sadhana">Sadhana</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/literatura">Literatura</router-link>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <router-link class="nav-link" to="/kontakt">Kontakt</router-link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>

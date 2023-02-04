@@ -1,0 +1,68 @@
+/* MAJOR ARCANA */
+
+.bg-0:before {
+    background-image: url("~@/assets/majorarcana/the-fool.png");
+}
+.bg-1:before {
+    background-image: url("~@/assets/majorarcana/the-magician.png");
+}
+.bg-2:before {
+    background-image: url("~@/assets/majorarcana/the-high-priestess.png");
+}
+.bg-3:before {
+    background-image: url("~@/assets/majorarcana/the-empress.png");
+}
+.bg-4:before {
+    background-image: url("~@/assets/majorarcana/the-emperor.png");
+}
+.bg-5:before {
+    background-image: url("~@/assets/majorarcana/the-hierophant.png");
+}
+.bg-6:before {
+    background-image: url("~@/assets/majorarcana/the-lovers.png");
+}
+.bg-7:before {
+    background-image: url("~@/assets/majorarcana/the-cariot.png");
+}
+.bg-8:before {
+    background-image: url("~@/assets/majorarcana/strength.png");
+}
+.bg-9:before {
+    background-image: url("~@/assets/majorarcana/the-hermit.png");
+}
+.bg-10:before {
+    background-image: url("~@/assets/majorarcana/weel-of-fortune.png");
+}
+.bg-11:before {
+    background-image: url("~@/assets/majorarcana/justice.png");
+}
+.bg-12:before {
+    background-image: url("~@/assets/majorarcana/the-hanged-man.png");
+}
+.bg-13:before {
+    background-image: url("~@/assets/majorarcana/death.png");
+}
+.bg-14:before {
+    background-image: url("~@/assets/majorarcana/temperance.png");
+}
+.bg-15:before {
+    background-image: url("~@/assets/majorarcana/the-devil.png");
+}
+.bg-16:before {
+    background-image: url("~@/assets/majorarcana/the-tower.png");
+}
+.bg-17:before {
+    background-image: url("~@/assets/majorarcana/the-star.png");
+}
+.bg-18:before {
+    background-image: url("~@/assets/majorarcana/the-moon.png");
+}
+.bg-19:before {
+    background-image: url("~@/assets/majorarcana/the-sun.png");
+}
+.bg-20:before {
+    background-image: url("~@/assets/majorarcana/judgement.png");
+}
+.bg-21:before {
+    background-image: url("~@/assets/majorarcana/the-world.png");
+}
