@@ -1,5 +1,9 @@
 export default {
     data() {
-        return {}
+        return {
+            feature: [
+
+            ]
+        }
     }
 }

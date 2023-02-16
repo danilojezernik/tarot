@@ -99,6 +99,10 @@ export default {
                     vrednost: 1,
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "Vishuddhi, manipura",
+                },
+                {
                     ime: "Element:",
                     vrednost: "Zrak, Zemlja",
                 },
@@ -113,6 +117,14 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "Se premika; hitro"
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Akvamarin, citrin."
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Roke, dlani, pljuča, črevesja."
                 }
             ],
             background: "bg",

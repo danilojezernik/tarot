@@ -5,6 +5,7 @@ import MeditacijaComp from '@/components/Meditacija/MeditacijaComp.vue'
 import TarotComp from '@/components/Tarot/TarotComp.vue'
 import TarotVajeComp from '@/components/TarotVaje/TarotVajeComp.vue'
 import SadhanaComp from '@/components/Sadhana/SadhanaComp.vue'
+import LiteraturaComp from '@/components/Literatura/LiteraturaComp.vue'
 import KontaktComp from '@/components/Kontakt/KontaktComp.vue'
 
 // Arkane
@@ -22,9 +23,14 @@ import TheEmpress from '@/components/OpisTarotKarte/TheEmpress/TheEmpress.vue'
 import TheEmperor from '@/components/OpisTarotKarte/TheEmperor/TheEmperor.vue'
 import TheHierophant from '@/components/OpisTarotKarte/TheHierophant/TheHierophant.vue'
 import TheWorld from '@/components/OpisTarotKarte/TheWorld/TheWorld.vue'
-
+import Thelovers from "@/components/OpisTarotKarte/TheLovers/TheLovers.vue";
+import TheChariot from "@/components/OpisTarotKarte/TheChariot/TheChariot.vue";
+import Strength from "@/components/OpisTarotKarte/Strength/Strength.vue";
+import TheHermit from "@/components/OpisTarotKarte/TheHermit/TheHermit.vue";
+import WheelOfFortune from "@/components/OpisTarotKarte/WheelOfFortune/WheelOfFortune.vue";
 
 import NotFound from '@/components/404/404.vue'
+
 
 const routes = [
     {
@@ -40,7 +46,7 @@ const routes = [
         component: KabalaComp,
     },
     {
-        path: '/dharana',
+        path: '/meditacija',
         component: MeditacijaComp,
     },
     {
@@ -50,6 +56,10 @@ const routes = [
     {
         path: '/sadhana',
         component: SadhanaComp,
+    },
+    {
+        path: '/literatura',
+        component: LiteraturaComp,
     },
     {
         path: '/kontakt',
@@ -102,6 +112,26 @@ const routes = [
     {
         path: "/the-hierophant",
         component: TheHierophant,
+    },
+    {
+        path: "/the-lovers",
+        component: Thelovers,
+    },
+    {
+        path: "/the-chariot",
+        component: TheChariot,
+    },
+    {
+        path: "/strength",
+        component: Strength,
+    },
+    {
+        path: "/the-hermit",
+        component: TheHermit,
+    },
+    {
+        path: "/wheel-of-fortune",
+        component: WheelOfFortune,
     },
     {
         path: '/:notFound(.*)',

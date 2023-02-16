@@ -107,6 +107,10 @@ export default {
                     vrednost: "4",
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "Mooladhara, manipura",
+                },
+                {
                     ime: "Element:",
                     vrednost: "Ogenj",
                 },
@@ -121,7 +125,15 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "Marec 21 - April 19"
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Ognjeni ahat, hematit, rdeči jaspis, granat."
 
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Kri, žolč. mišice, glava, možgani."
                 }
             ],
             background: "bg",

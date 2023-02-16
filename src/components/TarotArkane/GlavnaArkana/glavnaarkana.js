@@ -63,79 +63,92 @@ export default {
                     id: 9,
                     ime: "VIII – Strength",
                     img: "bg-8",
-                    pregled: "Trdnost, pogum, energija, uspeh, samodisciplina..."
+                    pregled: "Trdnost, pogum, energija, uspeh, samodisciplina...",
+                    to: "/strength"
                 },
                 {
                     id: 10,
                     ime: "IX – The Hermit",
                     img: "bg-9",
-                    pregled: "Preudarnost, izdaja, previdnost, vztrajnost..."
+                    pregled: "Preudarnost, izdaja, previdnost, vztrajnost...",
+                    to: "/the-hermit"
                 },
                 {
                     id: 11,
                     ime: "X – Wheel of Fortune",
                     img: "bg-10",
-                    pregled: "Roka usode, obrat na bolje, sreča, usoda, obilje..."
+                    pregled: "Roka usode, obrat na bolje, sreča, usoda, obilje...",
+                    to: "/wheel-of-fortune"
                 },
                 {
                     id: 12,
                     ime: "XI – Justice",
                     img: "bg-11",
-                    pregled: "Zakon, resnica, ravnovesje, nadzor, pogodba..."
+                    pregled: "Zakon, resnica, ravnovesje, nadzor, pogodba...",
+                    to: "/justice"
                 },
                 {
                     id: 13,
                     ime: "XII – The Hanged Man",
                     img: "bg-12",
-                    pregled: "Modrost v težavah, požrtvovalnost, intuicija, iniciacija, prerokba..."
+                    pregled: "Modrost v težavah, požrtvovalnost, intuicija, iniciacija, prerokba...",
+                    to: "/the-hanged-man"
                 },
                 {
                     id: 14,
                     ime: "XIII – Death",
                     img: "bg-13",
-                    pregled: "Preobrazba, dogodki, ki niso pod vašim nadzorom, nov a težek začetek..."
+                    pregled: "Preobrazba, dogodki, ki niso pod vašim nadzorom, nov a težek začetek...",
+                    to: "/death"
                 },
                 {
                     id: 15,
                     ime: "XIV – Temperance",
                     img: "bg-14",
-                    pregled: "Upravljanje, gospodarnost, duh, ki presega materijo, zmernost, modri nasveti..."
+                    pregled: "Upravljanje, gospodarnost, duh, ki presega materijo, zmernost, modri nasveti...",
+                    to: "/temperance"
                 },
                 {
                     id: 16,
                     ime: "XV – The Devil",
                     img: "bg-15",
-                    pregled: "Jeza, nasilje, ljubosumje, pohlep, prevara, nagon, spolna strast..."
+                    pregled: "Jeza, nasilje, ljubosumje, pohlep, prevara, nagon, spolna strast...",
+                    to: "/the-devil"
                 },
                 {
                     id: 17,
                     ime: "XVI – The Tower",
                     img: "bg-16",
-                    pregled: "Katastrofa, vrnitev v posest, propad, stiska, nesreča..."
+                    pregled: "Katastrofa, vrnitev v posest, propad, stiska, nesreča...",
+                    to: "/the-tower"
                 },
                 {
                     id: 18,
                     ime: "XVII – The Star",
                     img: "bg-17",
-                    pregled: "Upanje, cilji, pričakovanja, vodilna sila, razsvetljenje, svetli obeti..."
+                    pregled: "Upanje, cilji, pričakovanja, vodilna sila, razsvetljenje, svetli obeti...",
+                    to: "/the-star"
                 },
                 {
                     id: 19,
                     ime: "XVIII – The Moon",
                     img: "bg-18",
-                    pregled: "Temne sile, nočne more, iluzije, skriti strahovi, nevarnost premagana skozi intuicija..."
+                    pregled: "Temne sile, nočne more, iluzije, skriti strahovi, nevarnost premagana skozi intuicija...",
+                    to: "/the-moon"
                 },
                 {
                     id: 20,
                     ime: "XIX – The Sun",
                     img: "bg-19",
-                    pregled: "Sreča, veselje, preporod, svoboda, srečen zakon, uspeh..."
+                    pregled: "Sreča, veselje, preporod, svoboda, srečen zakon, uspeh...",
+                    to: "/the-sun"
                 },
                 {
                     id: 21,
                     ime: "XX – Judgement",
                     img: "bg-20",
-                    pregled: "Velika odločitev, izid, končni rezultat, ponovno rojstvo, težave premagati..."
+                    pregled: "Velika odločitev, izid, končni rezultat, ponovno rojstvo, težave premagati...",
+                    to: "/judgement"
                 },
                 {
                     id: 22,

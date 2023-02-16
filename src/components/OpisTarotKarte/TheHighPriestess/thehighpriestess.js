@@ -95,6 +95,10 @@ export default {
                     vrednost: 2,
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "Ajna, swadhisthana",
+                },
+                {
                     ime: "Element:",
                     vrednost: "Voda",
                 },
@@ -109,7 +113,14 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "Noč, Nova luna"
-
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Lapis Lazuli, lunin kamen."
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Prebavni sistem, prsi, maternica, trebušna slinovka."
                 }
             ],
             background: "bg",

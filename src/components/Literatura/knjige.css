@@ -1,0 +1,39 @@
+.bg-0 {
+    background-image: url("~@/assets/literatura/holistic-tarot.jpg");
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url("~@/assets/literatura/mystical-origins-tarot.jpg");
+    background-size: cover;
+}
+
+.bg-2 {
+    background-image: url("~@/assets/literatura/tarot-for-beginers-second-ed.jpg");
+    background-size: cover;
+}
+
+.bg-3 {
+    background-image: url("~@/assets/literatura/tarot-tree-of-life.jpg");
+    background-size: cover;
+}
+
+.bg-4 {
+    background-image: url("~@/assets/literatura/thot-tarot.jpg");
+    background-size: cover;
+}
+
+.bg-5 {
+    background-image: url("~@/assets/literatura/the-big-book-of-tarot.jpg");
+    background-size: cover;
+}
+
+.bg-6 {
+    background-image: url("~@/assets/literatura/fools-pilgrimage.jpg");
+    background-size: cover;
+}
+
+.bg-7 {
+    background-image: url("~@/assets/literatura/ceremonial-magic-tarot.jpg");
+    background-size: cover;
+}

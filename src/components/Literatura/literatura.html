@@ -1,0 +1,53 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Literatura
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Literatura</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container p-3">
+        <div class="py-4 text-center">
+            <h1>Literatura Tarota</h1>
+            <div class="lead text-center">"Tisti, ki bere živi tisoč življenj, preden umre... Ta, ki nikoli ne bere,
+                živi samo eno."
+            </div>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+
+            <div class="col" v-for="(literatura, index) in knjige" :key="index">
+                <div class="card bg-gradient text-white bg-dark rounded-0 shadow mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img :src="literatura.image" class="img-fluid h-100" style="min-width: 100%" alt="Ceremonial tarot">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h4 class="card-title">{{ literatura.naslovKnjige }}</h4>
+                                <h6 class="card-title fst-italic">{{ literatura.podnaslov }}</h6>
+                                <p class="card-text">{{ literatura.opis }}</p>
+                                <p class="card-text"><small class="text-muted">Avtor: {{ literatura.avtor }}</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<app-navrh/>

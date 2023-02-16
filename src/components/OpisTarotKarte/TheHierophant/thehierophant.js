@@ -27,74 +27,66 @@ export default {
             ],
             opisSimbolov: [
                 {
-                    simbol: "",
+                    simbol: "Krona",
+                    opis: 'Papeška krona. Papež velja za božjega predstavnika na zemlji. Izraz "pontifex maximus" pomeni velik graditelj mostov. Krona nakazuje na duhovno in posvetno avtoriteto in barva predstavlja energijo in modrost.'
+                },
+                {
+                    simbol: "Siva stebra",
+                    opis: "Stolpa predstavljata popolno ravnotežje v vseh stvareh in tudi znanje, ki se prosto deli med vse ostale. Siva prav tako govori o nezavednemu ali pa o nevtralnosti, ravnodušnosti in strpnosti."
+                },
+                {
+                    simbol: "Palica",
+                    opis: "Trojni križ nakazuje na tri stopnje predanosti (predanost na vseh ravneh), trojica. Prav tako mu daje avtoriteto, da govori o duhovnih zadevah. Prav tako palica sporoča, da naj ne bodo ovce ampak naj bomo pastirji!"
+                },
+                {
+                    simbol: "Troje križi",
+                    opis: "Pomen treh križev je božanska trojica. Tudi kult velike boginje (devica, mati, kraljica); trije svetovi (nebo, zemlja, podzemlje); trije nivoji zavesti (podzavest, zavest, nadzavest),..."
+                },
+                {
+                    simbol: "Dva ključa",
+                    opis: 'Jezus je uporabil simbol ključa, da je pooblastil Petra: "Dal ti bom ključe nebeškega kraljestva; in karkoli zavežeš na zemlji, bo zavezano v nebesih, in karkoli razvežeš na zemlji, bo razvezano v nebesih." Ključ predstvlja tudi dejstvo, da se nekaj odklene, kar nakazuje na osebo avtoriteto, posrednik med nebesi in zemljo.'
+                },
+                {
+                    simbol: "Položaj desne roke",
+                    opis: "Tako zgoraj kot spodaj. Tako v nebesih kot na zemlji. Moči blagoslavljanja nimajo samo duhovniki, ampak je vsako vredno dejanje blagoslov sam po sebi."
+                },
+                {
+                    simbol: "Rdeče oranžna halja",
+                    opis: "Povezana je z materialnim nivojem in zunanjimi kraljestvi."
+                },
+                {
+                    simbol: "Modro ogrinjalo pod rdečo haljo",
+                    opis: "Modra je pogosto povezana z elito in jo povezujejo z mirnostjo, duhovno lepoto in s transcendenco."
+                },
+                {
+                    simbol: "Rumeni tuniki menihov",
                     opis: ""
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Lilije in vrtnice",
+                    opis: "Kot pri Magiku in nekaterih drugih kartah, ti dve roži v rdeči in beli barvi pomenita čistost in ljubezen, ki sta osnova vsake prave vere."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Tonzura",
+                    opis: "Britje las z zgornjega dela glave še danes izvajajo nekateri meniški redovi in naj bi predstavljalo duhovno odprtost božanskemu."
                 },
                 {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Bistvo",
+                    opis: "Število 5 na karti in pet prstov na roki, katera blagoslovi, označujeta bistvo (dobesedno peto bistvo). Božji dar je lahko tako prednost kot slabost. Kar šteje je, kaj naredite z njim."
                 },
             ],
             modrostiKarte: [
                 {
-                    modrost: "\"\""
+                    modrost: "\"Povprečen učitelj pove. Dober učitelj razlaga. Nadrejeni učitelj demonstrira. Velik učitelj navdihuje.\""
                 },
                 {
-                    modrost: "\"\""
+                    modrost: "\"Ne čutim se dolžnega verjeti, da je isti Bog, ki nas je obdaril s čutom, razumom in intelektom, nameraval, da se jim odpovemo.\""
                 },
                 {
-                    modrost: "\"\""
+                    modrost: "\"Preprosti ljudje imajo vero za resnično, modri za lažno in vladarji za koristno.\""
                 },
                 {
-                    modrost: "\"\""
+                    modrost: "\"Današnja izobrazba oblikuje skupni um; tako kot je vejica upognjena, tako je drevo nagnjeno.\""
                 },
             ],
             elementi: [
@@ -111,6 +103,10 @@ export default {
                     vrednost: "5",
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "Vishuddhi.",
+                },
+                {
                     ime: "Element:",
                     vrednost: "Zemlja",
                 },
@@ -125,6 +121,16 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "April 20 - Maj 20"
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Safir, žad, smaragd."
+
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Vrat, grlo, ušesa, vokalni akordi, tonzile."
+
                 }
             ],
             background: "bg",

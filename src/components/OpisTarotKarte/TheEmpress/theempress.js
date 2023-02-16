@@ -96,7 +96,11 @@ export default {
                 },
                 {
                     ime: "Numerologija:",
-                    vrednost: 3,
+                    vrednost: "3",
+                },
+                {
+                    ime: "Čakre:",
+                    vrednost: "Anahata, swadhishana.",
                 },
                 {
                     ime: "Element:",
@@ -113,7 +117,14 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "Ko se dejavniki uskladijo"
-
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Rožnati kremen, smaragd, rodokrozit."
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Vrat, grlo, ustnice, maternični vrat."
                 }
             ],
             background: "bg",

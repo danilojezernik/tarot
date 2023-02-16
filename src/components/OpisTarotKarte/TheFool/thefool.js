@@ -111,6 +111,10 @@ export default {
                     vrednost: "Vsa števila",
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "Onstran sahasrare.",
+                },
+                {
                     ime: "Element:",
                     vrednost: "Zrak",
                 },
@@ -125,6 +129,14 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: "Spontano; v 30ih dneh"
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: "Prozoren kremen."
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: "Meča, gležnji, vid, živčni sistem."
                 }
             ],
             background: "bg",

@@ -22,7 +22,7 @@
     background-image: url("~@/assets/majorarcana/the-lovers.png");
 }
 .bg-7:before {
-    background-image: url("~@/assets/majorarcana/the-cariot.png");
+    background-image: url("~@/assets/majorarcana/the-chariot.png");
 }
 .bg-8:before {
     background-image: url("~@/assets/majorarcana/strength.png");
@@ -31,7 +31,7 @@
     background-image: url("~@/assets/majorarcana/the-hermit.png");
 }
 .bg-10:before {
-    background-image: url("~@/assets/majorarcana/weel-of-fortune.png");
+    background-image: url("~@/assets/majorarcana/wheel-of-fortune.png");
 }
 .bg-11:before {
     background-image: url("~@/assets/majorarcana/justice.png");

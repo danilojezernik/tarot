@@ -22,7 +22,7 @@ export default {
                     besedeObrnjena: ".",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"\"",
+                    opisMeditacija: "\"\"<br>",
                 }
             ],
             opisSimbolov: [
@@ -99,6 +99,10 @@ export default {
                     vrednost: "",
                 },
                 {
+                    ime: "Čakre:",
+                    vrednost: "",
+                },
+                {
                     ime: "Element:",
                     vrednost: "",
                 },
@@ -113,11 +117,17 @@ export default {
                 {
                     ime: "Čas:",
                     vrednost: ""
-
+                },
+                {
+                    ime: "Kristali:",
+                    vrednost: ""
+                },
+                {
+                    ime: "Telo:",
+                    vrednost: ""
                 }
             ],
             background: "bg",
-            backgroundTarot: "bg-empress"
         }
     }
 }
