@@ -13,6 +13,7 @@
         </nav>
     </div>
 </div>
+
 <div class="container-fluid p-0 bg-header">
     <div class="container p-md-4 p-2">
 
@@ -24,59 +25,27 @@
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
 
-        <div class="row animate__animated animate__fadeInTopRight">
 
-            <div class="col-lg cursor">
-                <router-link to="/glavna-arkana" class="text-decoration-none">
-                    <div class="card border-dark bg-1">
-                        <div class="content">
-                            <span class="title fs-1">Velika Arkana<br>&nbsp</span>
+            <div class="row row-cols-1 row-cols-xl-5 g-4">
+                <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in arkane"
+                     :key="index">
+                    <router-link :to="`${arkana.to}`" class="text-decoration-none">
+                        <div class="card-my">
+                            <div class="content-my">
+                                <div class="front">
+                                    <img :src="arkana.image" alt="" class="img-fluid">
+                                </div>
+                                <div class="back text-dark bg-gradient">
+                                    <h3 class="py-5 text-shadow" v-html="arkana.opis"></h3>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                </router-link>
+                    </router-link>
+                </div>
             </div>
 
-            <div class="col-lg cursor">
-                <router-link to="/palice" class="text-decoration-none">
-                    <div class="card border-dark bg-2">
-                        <div class="content">
-                            <span class="title fs-1">Mala Arkana:<br>Palice</span>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
 
-            <div class="col-lg cursor">
-                <router-link to="/kelihi" class="text-decoration-none">
-                    <div class="card border-dark bg-3">
-                        <div class="content">
-                            <span class="title fs-1">Mala Arkana:<br>Kelihi</span>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
-
-            <div class="col-lg cursor">
-                <router-link to="/meci" class="text-decoration-none">
-                    <div class="card border-dark bg-4">
-                        <div class="content">
-                            <span class="title fs-1">Mala Arkana:<br>Meči</span>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
-
-            <div class="col-lg cursor">
-                <router-link to="/pentakli" class="text-decoration-none">
-                    <div class="card border-dark bg-5">
-                        <div class="content">
-                            <span class="title fs-1">Mala Arkana:<br>Pentakli</span>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
-
-        </div>
     </div>
 
     <div>
@@ -123,67 +92,65 @@
             živeli navdihnjeno življenje. To je, kot da bi sebi postavili ogledalo, da bi lahko dostopali do svoje
             podzavesti in se dotaknili modrosti (in odgovorov), ki živi v vseh nas.</p>
     </div>
-</div>
 
-<div class="container-fluid bg-tarot-index">
-    <!-- PODNASLOV POKONČNA -->
-    <h1 class="m-0 p-3 text-white text-center">Rider Waite tarot karte</h1>
-</div>
-
-<div class="container-fluid p-0 bg-header">
-
-    <!-- SLIKA VIDNA NAD lg-->
-    <img src="@/assets/tarot-index-card.png" class="img-fluid float-md-start m-2 d-none d-lg-block" alt="...">
-
-    <!-- SLIKA VIDNA POD lg-->
-
-    <div class="d-flex align-items-center justify-content-center">
-    <img src="@/assets/tarot-index-card.png" class="p-4 d-lg-none" alt="...">
+    <div class="container-fluid">
+        <!-- PODNASLOV POKONČNA -->
+        <div class="text-center">
+            <h1>Rider Waite tarot karte</h1>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
     </div>
 
-    <div class="card-body">
-        <p class="card-text">Tarot Rider-Waite je postavil standard za stotine drugih tarot kart, ki
-            sledijo arhetipskim podobam, ki jih je leta 1909 ustvarila Pamela Colman Smith pod vodstvom
-            Arthurja Edwarda Waitea. Ta izdaja vključuje Smithove izvirne ročno narisane naslove.
-            Edinstvena značilnost kompleta Rider-Waite in eden od glavnih razlogov za njegovo trajno
-            priljubljenost je, da vse karte, vključno z Minor Arcana, prikazujejo celotne prizore s
-            figurami in simboli.</p>
+    <div class="container-fluid p-0 bg-header">
 
-        <p>Pred tarotom Rider-Waite so bile karte za pike skoraj vseh tarot krovov
-            označene le z razporeditvijo znakov obleke - meči, palice, skodelice in kovanci ali
-            pentakli. Slikovne slike na vseh kartah omogočajo interpretacije brez potrebe po večkratnem
-            pregledovanju pojasnjevalnega besedila. Inovativna Manjša Arcana in sposobnost Pamele Colman
-            Smith, da ujame subtilnost čustev in izkušenj, je tarot Rider-Waite postal model za načrte
-            številnih paketov tarota. Tarot Rider-Waite je bil po izboru Aeclectic Tarot imenovan za
-            enega izmed najboljših desetih tarot zbirk vseh časov.</p>
+        <!-- SLIKA VIDNA NAD lg-->
+        <div class="text-center">
+            <img src="@/assets/tarot-index-card.png" class="img-fluid pt-3" alt="...">
+        </div>
 
+        <div class="card-body">
+            <p class="card-text">Tarot Rider-Waite je postavil standard za stotine drugih tarot kart, ki
+                sledijo arhetipskim podobam, ki jih je leta 1909 ustvarila Pamela Colman Smith pod vodstvom
+                Arthurja Edwarda Waitea. Ta izdaja vključuje Smithove izvirne ročno narisane naslove.
+                Edinstvena značilnost kompleta Rider-Waite in eden od glavnih razlogov za njegovo trajno
+                priljubljenost je, da vse karte, vključno z Minor Arcana, prikazujejo celotne prizore s
+                figurami in simboli.</p>
 
-        <p>Pamela Colman Smith se je rodila 16. februarja 1878 v Middlesexu v Angliji ameriškim
-            staršem, Smithovo otroštvo so preživeli med Londonom, New Yorkom, in Kingstonom na
-            Jamajki. V mladosti je potovala po Angliji z gledališko družbo Ellen Terry in Henryja
-            Irvinga. Nato se je začela formalno izobraževati na inštitutu Pratt v Brooklynu, ki ga je
-            diplomirala leta 1897.</p>
+            <p>Pred tarotom Rider-Waite so bile karte za pike skoraj vseh tarot krovov
+                označene le z razporeditvijo znakov obleke - meči, palice, skodelice in kovanci ali
+                pentakli. Slikovne slike na vseh kartah omogočajo interpretacije brez potrebe po večkratnem
+                pregledovanju pojasnjevalnega besedila. Inovativna Manjša Arcana in sposobnost Pamele Colman
+                Smith, da ujame subtilnost čustev in izkušenj, je tarot Rider-Waite postal model za načrte
+                številnih paketov tarota. Tarot Rider-Waite je bil po izboru Aeclectic Tarot imenovan za
+                enega izmed najboljših desetih tarot zbirk vseh časov.</p>
 
-        <p>Smith se je vrnil v Anglijo, kjer je postala gledališka oblikovalka
-            za miniaturno gledališče in ilustratorka – predvsem knjig, brošur in plakatov. Okoli leta
-            1903 se je pridružila redu Zlate zore. Leta 1909 se je pod vodstvom Arthurja Edwarda Waitea
-            lotila serije oseminsedemdeset alegoričnih slik, ki jih je Waite opisal kot popravljen paket
-            tarota.</p>
+            <p>Pamela Colman Smith se je rodila 16. februarja 1878 v Middlesexu v Angliji ameriškim
+                staršem, Smithovo otroštvo so preživeli med Londonom, New Yorkom, in Kingstonom na
+                Jamajki. V mladosti je potovala po Angliji z gledališko družbo Ellen Terry in Henryja
+                Irvinga. Nato se je začela formalno izobraževati na inštitutu Pratt v Brooklynu, ki ga je
+                diplomirala leta 1897.</p>
 
-        <p>Dizajni, ki so jih istega leta objavili William Rider in sin, ponazarjajo mistiko,
-            ritual, domišljijo, fantazijo in globoka čustva umetnika. Arthur Edward Waite, rojen v
-            Ameriki leta 1857, je bil Waite vzgojen in izobražen kot katoličan v Angliji.</p>
+            <p>Smith se je vrnil v Anglijo, kjer je postala gledališka oblikovalka
+                za miniaturno gledališče in ilustratorka – predvsem knjig, brošur in plakatov. Okoli leta
+                1903 se je pridružila redu Zlate zore. Leta 1909 se je pod vodstvom Arthurja Edwarda Waitea
+                lotila serije oseminsedemdeset alegoričnih slik, ki jih je Waite opisal kot popravljen paket
+                tarota.</p>
 
-        <p>Pri 21 letih se je Waite ukvarjal z raziskavami in pisanjem o psihičnih in ezoteričnih
-            zadevah. Kmalu po pridružitvi Hermetičnemu redu Zlate zore je postal veliki mojster in
-            preusmeril fokus reda iz magije v mistiko. Zlati red, katerega strukturna hierarhija je
-            temeljila na kabali, velja za največji vpliv 20. stoletja na okultistiko.</p>
+            <p>Dizajni, ki so jih istega leta objavili William Rider in sin, ponazarjajo mistiko,
+                ritual, domišljijo, fantazijo in globoka čustva umetnika. Arthur Edward Waite, rojen v
+                Ameriki leta 1857, je bil Waite vzgojen in izobražen kot katoličan v Angliji.</p>
 
-        <p>Waite je bil plodovit avtor okultnih besedil,
-            del o Svetem gralu in zbirke mističnega znanja, ki je osnova sodobnega tarota. Najbolj znan
-            je kot soustvarjalec kompleta Tarot Rider-Waite in avtor spremljevalnega zvezka The
-            Pictorial Key to the Tarot, ki je bil prvič objavljen leta 1910.
-        </p>
+            <p>Pri 21 letih se je Waite ukvarjal z raziskavami in pisanjem o psihičnih in ezoteričnih
+                zadevah. Kmalu po pridružitvi Hermetičnemu redu Zlate zore je postal veliki mojster in
+                preusmeril fokus reda iz magije v mistiko. Zlati red, katerega strukturna hierarhija je
+                temeljila na kabali, velja za največji vpliv 20. stoletja na okultistiko.</p>
+
+            <p>Waite je bil plodovit avtor okultnih besedil,
+                del o Svetem gralu in zbirke mističnega znanja, ki je osnova sodobnega tarota. Najbolj znan
+                je kot soustvarjalec kompleta Tarot Rider-Waite in avtor spremljevalnega zvezka The
+                Pictorial Key to the Tarot, ki je bil prvič objavljen leta 1910.
+            </p>
+        </div>
     </div>
 </div>
 

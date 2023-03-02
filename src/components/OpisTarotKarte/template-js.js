@@ -11,15 +11,15 @@ export default {
             ],
             opisKarte: [
                 {
-                    opisKarte: "",
+                    opisKarte: '',
 
                     podnaslovPokoncna: "Pokončna karta",
-                    opisPokoncna: "",
-                    besedePokoncna: "",
+                    opisPokoncna: '',
+                    besedePokoncna: '',
 
                     podnaslovObrnjena: "Obrnjena karta",
-                    opisObrnjena: "",
-                    besedeObrnjena: ".",
+                    opisObrnjena: '',
+                    besedeObrnjena: '.',
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"\"<br>",

@@ -6,7 +6,7 @@ export default {
                 {
                     tarotKarta: "VIII - Strength (Moč)",
                     rekLevo: "Če nekdo moli za potrpljenje, mislite, da mu Bog daje potrpljenje? Ali pa jim daje možnost, da so potrpežljivi? Če molite za pogum, ali vam Bog daje pogum ali vam daje priložnosti, da ste pogumni? Če je nekdo molil, da bi mu bila družina bližje, ali mislite, da ga Bog navdaja s toplimi zamegljenimi občutki ali jim daje priložnost, da se radostijo?",
-                    rekDesno: "Ne potrebujemo nekega čiudeža ali neke posebne magije, da spremenimo svet okoli sebe ali v nas, kajti vso moč, ki jo potrebujemo, že nosimo v sebi: imamo moč, da si vse predstavljamo bolje in tudi naredimo vse bolje.",
+                    rekDesno: "Ne potrebujemo nekega čudeža ali neke posebne magije, da spremenimo svet okoli sebe ali v nas, kajti vso moč, ki jo potrebujemo, že nosimo v sebi: imamo moč, da si vse predstavljamo bolje in tudi naredimo vse bolje.",
                 },
             ],
             opisKarte: [
@@ -28,7 +28,7 @@ export default {
             opisSimbolov: [
                 {
                     simbol: "Simbol neskončnosti",
-                    opis: "Predstavlja večeno energijo narave, vedno prisotno in vedno se premikajočo, vidno kot nevidno. Predstavlja tudi ravnotežje, vibracije in vitalnost in tudi, da smo del večnosti. V negativnem smilu pa lovljenje repa, nemir, ponavljanje brez napredka."
+                    opis: "Predstavlja večno energijo narave, vedno prisotno in vedno se premikajočo, vidno kot nevidno. Predstavlja tudi ravnotežje, vibracije in vitalnost in tudi, da smo del večnosti. V negativnem smilu pa lovljenje repa, nemir, ponavljanje brez napredka."
                 },
                 {
                     simbol: "Ženska v beli obleki",
@@ -48,7 +48,7 @@ export default {
                 },
                 {
                     simbol: "Modre gore",
-                    opis: "Kažej na to, da so višja področja, ki jih je potrebno raziskati, kot tudi ovire, ki jih je potrebno preplezati. Gore lahko predstavljajo tudi naše želje."
+                    opis: "Kaže na to, da so višja področja, ki jih je potrebno raziskati, kot tudi ovire, ki jih je potrebno preplezati. Gore lahko predstavljajo tudi naše želje."
                 },
                 {
                     simbol: "Rumeno ozadje",
@@ -67,7 +67,7 @@ export default {
                     modrost: "\"Lev, ki zlomi sovražnikove vrste, je manjši junak v primerjavi z levom, ki premaga samega sebe.\""
                 },
                 {
-                    modrost: "\"Edina stvar, ki je vas je vredna je sočutje, nepremagljivost, brezmejenost, brezpogojnost. Sovraštvo vam nikoli ne bo dovolilo, da se soočite z zverjo v človeku.\""
+                    modrost: "\"Edina stvar, ki je vas je vredna je sočutje, nepremagljivost, brezmejnost, brezpogojnost. Sovraštvo vam nikoli ne bo dovolilo, da se soočite z zverjo v človeku.\""
                 },
                 {
                     modrost: "\"Priložnosti, da najdemo globlje moči v sebi, pridejo takrat, ko se življenje zdi najbolj zahtevno.\""

@@ -20,7 +20,7 @@
         </nav>
     </div>
 </div>
-<div class="container-fluid p-0 bg-tarot">
+<div class="container-fluid p-0 pt-5 bg-tarot">
     <div class="container text-center text-black">
         <div class="row p-0 d-flex align-items-center justify-content-center"
              v-for="(modrosti, index) in modrost" :key="index"
@@ -33,9 +33,8 @@
 
             <!-- SREDINA -->
             <div class="col-lg-4 p-3">
-                <h1 class="mb-3 d-none d-lg-block">{{ modrosti.tarotKarta }}</h1>
                 <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
-                     style="height: 500px" class="img-fluid">
+                     style="height: 500px" class="img-fluid shadow">
             </div>
 
             <!-- DESNA -->
@@ -51,60 +50,67 @@
         </div>
     </div>
 
-
     <div v-for="(opis, index) in opisKarte" :key="index">
 
-
         <!-- SPODAJ -->
-        <div class="container p-2 p-md-5">
-            <div v-html="opis.opisKarte"></div>
+        <div class="container">
+            <div v-html="opis.opisKarte" class="p-2"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV POKONČNA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovPokoncna }}</h2>
+            <div class="text-center ">
+                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
 
             <!-- SLIKA VIDNA NAD lg-->
             <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
-                 class="float-md-start m-2 d-none d-lg-block">
+                 class="float-md-start m-2 d-none d-lg-block shadow">
 
             <!-- SLIKA VIDNA POD lg-->
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex py-md-0 py-4 align-items-center justify-content-center">
                 <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
-                     class="p-4 d-lg-none">
+                     class="p-md-4 p-0 d-lg-none shadow">
             </div>
 
             <div v-html="opis.opisPokoncna"></div>
             <span class="fw-bold">Ključne besede pokončne karte:</span> {{ opis.besedePokoncna }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV OBRNJENA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovObrnjena }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
 
             <!-- SLIKA VIDNA NAD lg-->
             <img src="~@/assets/majorarcana/the-emperor-down.png" ondragstart="return false;"
-                 class="float-lg-end m-2 d-none d-lg-block">
+                 class="float-lg-end m-2 d-none d-lg-block shadow">
 
             <!-- SLIKA VIDNA POD lg-->
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex py-md-0 py-4 align-items-center justify-content-center">
                 <img src="~@/assets/majorarcana/the-emperor-down.png" ondragstart="return false;"
-                     class="p-4 d-lg-none">
+                     class="p-md-4 p-0 d-lg-none shadow">
             </div>
 
             <div v-html="opis.opisObrnjena"></div>
             <span class="fw-bold">Ključne besede obrnjene karte:</span> {{ opis.besedeObrnjena }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2 p-md-4">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Pomen simbolov v karti</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="text-center pb-3">
-                            <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;">
+                            <img src="~@/assets/majorarcana/the-emperor.png" class="shadow" ondragstart="return false;">
                         </div>
                         <ul class="list-group list-group-flush rounded-2">
                             <li class="list-group-item text-white shadow border-0 bg-opis" v-for="element in elementi">
@@ -141,7 +147,7 @@
             <!-- OPIS VIDEN SAMO NA NAPRAVAH POD lg -->
             <div class="d-lg-none">
                 <div class="text-center pb-3">
-                    <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;" class="p-2">
+                    <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;" class="shadow">
                 </div>
                 <ul class="list-group list-group-numbered">
                     <li class="list-group-item bg-transparent border-0 d-flex justify-content-between align-items-start"
@@ -165,17 +171,23 @@
             </div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovMeditacija }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovMeditacija }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
         <div class="container pt-3 pb-3 pb-lg-5 pt-lg-5">
             <div class="text-center fs-4" v-html="opis.opisMeditacija"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Modrosti karte</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Modrosti karte</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-4">
@@ -190,10 +202,14 @@
             </div>
 
         </div>
-        <div class="container-fluid text-white bg-tarot-index shadow">
-            <h2 class="p-3 text-center">Galerija</h2>
-        </div>
 
+        <div class="container-fluid p-2">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">Galerija</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+        </div>
 
         <!-- GALERIJA VIDNA SAMO NA NAPRAVAH NAD lg -->
         <div class="d-none d-lg-block">

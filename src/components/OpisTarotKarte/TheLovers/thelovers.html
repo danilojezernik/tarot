@@ -20,7 +20,7 @@
         </nav>
     </div>
 </div>
-<div class="container-fluid p-0 bg-tarot">
+<div class="container-fluid p-0 pt-5 bg-tarot">
     <div class="container text-center text-black">
         <div class="row p-0 d-flex align-items-center justify-content-center"
              v-for="(modrosti, index) in modrost" :key="index"
@@ -33,7 +33,6 @@
 
             <!-- SREDINA -->
             <div class="col-lg-4 p-3">
-                <h1 class="mb-3 d-none d-lg-block">{{ modrosti.tarotKarta }}</h1>
                 <img src="~@/assets/majorarcana/the-lovers.png" ondragstart="return false;"
                      style="height: 500px" class="img-fluid shadow">
             </div>
@@ -51,18 +50,19 @@
         </div>
     </div>
 
-
     <div v-for="(opis, index) in opisKarte" :key="index">
 
-
         <!-- SPODAJ -->
-        <div class="container p-2 p-md-5">
-            <div v-html="opis.opisKarte"></div>
+        <div class="container">
+            <div v-html="opis.opisKarte" class="p-2"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV POKONČNA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovPokoncna }}</h2>
+            <div class="text-center ">
+                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -81,9 +81,12 @@
             <span class="fw-bold">Ključne besede pokončne karte:</span> {{ opis.besedePokoncna }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV OBRNJENA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovObrnjena }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -102,9 +105,12 @@
             <span class="fw-bold">Ključne besede obrnjene karte:</span> {{ opis.besedeObrnjena }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2 p-md-4">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Pomen simbolov v karti</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -165,17 +171,23 @@
             </div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovMeditacija }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovMeditacija }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
         <div class="container pt-3 pb-3 pb-lg-5 pt-lg-5">
             <div class="text-center fs-4" v-html="opis.opisMeditacija"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Modrosti karte</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Modrosti karte</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-4">
@@ -190,8 +202,13 @@
             </div>
 
         </div>
-        <div class="container-fluid text-white bg-tarot-index shadow">
-            <h2 class="p-3 text-center">Galerija</h2>
+
+        <div class="container-fluid p-2">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">Galerija</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <!-- GALERIJA VIDNA SAMO NA NAPRAVAH NAD lg -->

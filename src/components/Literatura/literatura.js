@@ -22,6 +22,10 @@ import hidden from '@/assets/literatura/hidden-symbols.jpg'
 import guide from '@/assets/literatura/holistic-guide.jpg'
 import numerlogy from '@/assets/literatura/numerology-book.jpg'
 import numerlogytantra from '@/assets/literatura/numerology-tantra.jpg'
+import kabalistictarot from '@/assets/literatura/kabalistic-tarot.jpg'
+import kabalagates from '@/assets/literatura/tarot-gates.jpg'
+import tarottransformation from '@/assets/literatura/tarot-transformation.jpg'
+import karmatarot from '@/assets/literatura/karma-tariot.jpg'
 
 export default {
     data() {
@@ -218,6 +222,38 @@ export default {
                     image: numerlogytantra,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
                     avtor: "Harish Johari"
+                },
+                {
+                    id: 25,
+                    naslovKnjige: "KABBALISTIC TAROT",
+                    podnaslov: "Hebraic Wisdom in the Major and Minor Arcana",
+                    image: kabalistictarot,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Dovid Krafchow"
+                },
+                {
+                    id: 26,
+                    naslovKnjige: "TAROT AND THE GATES OF LIGHT",
+                    podnaslov: "A Kabbalistic Path to Liberation",
+                    image: kabalagates,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Mark Horn"
+                },
+                {
+                    id: 27,
+                    naslovKnjige: "Tarot for Transformation",
+                    podnaslov: "Using the Major Arcana to Discover Your Best Self and Create a Life Worth Living",
+                    image: tarottransformation,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Andy Matzner"
+                },
+                {
+                    id: 28,
+                    naslovKnjige: "KARMIC TAROT",
+                    podnaslov: "A Profound System for Finding and Following Your Life's Path",
+                    image: karmatarot,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "William C. Lammey"
                 }
             ]
         }

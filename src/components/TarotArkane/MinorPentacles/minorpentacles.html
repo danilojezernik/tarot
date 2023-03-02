@@ -66,18 +66,32 @@
                 Če so pri branju tarota pretežno pentakli, iščete rešitve za predvsem materialne konflikte, finančne
                 zadeve ter
                 skrbi za kariero in delo.</p>
+            <div class="py-4 text-center">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+
+            <strong>Karte pentaklov so:</strong> <span v-for="karte in pentakli">
+                <router-link class="text-decoration-none text-white" :to="`${karte.to}`">{{ karte.ime }}</router-link> |
+            </span>
 
             <div class="py-4 text-center">
                 <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
             </div>
             <!-- PENTACLES -->
-            <div class="row row-cols-1 row-cols-lg-5 g-4">
-                <div class="col" v-for="(karta, index) in pentakli" :key="index">
-                    <router-link class="text-decoration-none text-white" :to="`${karta.to}`">
-                        <div class="card border-dark" :class="karta.img">
-                            <div class="content">
-                                <h2 class="title">{{ karta.ime }}</h2>
-                                <p>{{ karta.pregled }}</p>
+            <div class="row row-cols-1 row-cols-xl-4 g-4">
+                <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in pentakli"
+                     :key="index">
+                    <router-link :to="`${arkana.to}`" class="text-decoration-none">
+                        <div class="card-my">
+                            <div class="content-my">
+                                <div class="front">
+                                    <img :src="arkana.img" alt="" class="img-fluid">
+                                </div>
+                                <div class="back p-2 text-dark bg-gradient">
+                                    <h3 class="text-shadow">{{ arkana.ime }}</h3>
+                                    <p>{{ arkana.pregled }}</p>
+                                </div>
+
                             </div>
                         </div>
                     </router-link>

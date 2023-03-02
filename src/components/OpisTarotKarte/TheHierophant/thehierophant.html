@@ -14,13 +14,14 @@
                 <li class="breadcrumb-item">
                     <router-link class="text-decoration-none" to="/glavna-arkana">Velika arkana</router-link>
                 </li>
-                <li class="breadcrumb-item text-white active" aria-current="page" v-for="karta in modrost">{{ karta.tarotKarta }}
+                <li class="breadcrumb-item text-white active" aria-current="page" v-for="karta in modrost">
+                    {{ karta.tarotKarta }}
                 </li>
             </ol>
         </nav>
     </div>
 </div>
-<div class="container-fluid p-0 bg-tarot">
+<div class="container-fluid p-0 pt-5 bg-tarot">
     <div class="container text-center text-black">
         <div class="row p-0 d-flex align-items-center justify-content-center"
              v-for="(modrosti, index) in modrost" :key="index"
@@ -33,7 +34,6 @@
 
             <!-- SREDINA -->
             <div class="col-lg-4 p-3">
-                <h1 class="mb-3 d-none d-lg-block">{{ modrosti.tarotKarta }}</h1>
                 <img src="~@/assets/majorarcana/the-hierophant.png" ondragstart="return false;"
                      style="height: 500px" class="img-fluid shadow">
             </div>
@@ -51,18 +51,19 @@
         </div>
     </div>
 
-
     <div v-for="(opis, index) in opisKarte" :key="index">
 
-
         <!-- SPODAJ -->
-        <div class="container p-2 p-md-5">
-            <div v-html="opis.opisKarte"></div>
+        <div class="container">
+            <div v-html="opis.opisKarte" class="p-2"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV POKONČNA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovPokoncna }}</h2>
+            <div class="text-center ">
+                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -81,9 +82,12 @@
             <span class="fw-bold">Ključne besede pokončne karte:</span> {{ opis.besedePokoncna }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid">
             <!-- PODNASLOV OBRNJENA -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovObrnjena }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -102,9 +106,12 @@
             <span class="fw-bold">Ključne besede obrnjene karte:</span> {{ opis.besedeObrnjena }}
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2 p-md-4">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Pomen simbolov v karti</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-2 p-md-4">
@@ -165,17 +172,23 @@
             </div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">{{ opis.podnaslovMeditacija }}</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovMeditacija }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
         <div class="container pt-3 pb-3 pb-lg-5 pt-lg-5">
             <div class="text-center fs-4" v-html="opis.opisMeditacija"></div>
         </div>
 
-        <div class="container-fluid text-white bg-tarot-index shadow">
+        <div class="container-fluid p-2">
             <!-- PODNASLOV -->
-            <h2 class="p-3 text-center">Modrosti karte</h2>
+            <div class="text-center">
+                <h1 class="shadow-text-main">Modrosti karte</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container p-4">
@@ -190,8 +203,13 @@
             </div>
 
         </div>
-        <div class="container-fluid text-white bg-tarot-index shadow">
-            <h2 class="p-3 text-center">Galerija</h2>
+
+        <div class="container-fluid p-2">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">Galerija</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <!-- GALERIJA VIDNA SAMO NA NAPRAVAH NAD lg -->
@@ -199,26 +217,40 @@
             <div class="container">
                 <div class="row p-md-3">
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-0.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-1.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-2.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-3.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-0.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-1.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-2.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-3.jpg"
+                             ondragstart="return false;"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-10.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-9.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-4.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-10.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-9.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-4.jpg"
+                             ondragstart="return false;"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-5.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-6.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-7.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-8.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-5.png"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-6.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-7.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-8.jpg"
+                             ondragstart="return false;"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-11.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-12.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-13.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-11.jpg"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-12.png"
+                             ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-13.jpg"
+                             ondragstart="return false;"/>
                     </div>
                 </div>
             </div>
@@ -229,29 +261,39 @@
             <div class="container">
                 <div class="row p-md-3">
                     <div class="col text-center">
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-0.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-0.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-1.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-1.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-2.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-2.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-3.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-3.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
                         <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-10.jpg" class="pb-2"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-9.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-9.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
                         <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-13.jpg" class="pb-2"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-5.png" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-5.png" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-6.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-6.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-7.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-7.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-8.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-8.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-4.jpg" class="pb-2" style="max-width: 100%"
+                        <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-4.jpg" class="pb-2"
+                             style="max-width: 100%"
                              ondragstart="return false;"/>
                         <img src="@/assets/galerija-tarota/the-hierophant/the-hierophant-11.jpg" class="pb-2"
                              style="max-width: 100%" ondragstart="return false;"/>

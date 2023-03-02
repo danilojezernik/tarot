@@ -28,6 +28,15 @@ import TheChariot from "@/components/OpisTarotKarte/TheChariot/TheChariot.vue";
 import Strength from "@/components/OpisTarotKarte/Strength/Strength.vue";
 import TheHermit from "@/components/OpisTarotKarte/TheHermit/TheHermit.vue";
 import WheelOfFortune from "@/components/OpisTarotKarte/WheelOfFortune/WheelOfFortune.vue";
+import Justice from "@/components/OpisTarotKarte/Justice/Justice.vue";
+import TheHangedMan from "@/components/OpisTarotKarte/TheHangedMan/TheHangedMan.vue";
+import Death from "@/components/OpisTarotKarte/Death/Death.vue";
+import Temperance from "@/components/OpisTarotKarte/Temperance/Temperance.vue";
+import TheDevil from "@/components/OpisTarotKarte/TheDevil/TheDevil.vue";
+import TheTower from "@/components/OpisTarotKarte/TheTower/TheTower.vue";
+import TheStar from "@/components/OpisTarotKarte/TheStar/TheStar.vue";
+import TheMoon from "@/components/OpisTarotKarte/TheMoon/TheMoon.vue";
+import TheSun from "@/components/OpisTarotKarte/TheSun/TheSun.vue";
 
 import NotFound from '@/components/404/404.vue'
 
@@ -132,6 +141,42 @@ const routes = [
     {
         path: "/wheel-of-fortune",
         component: WheelOfFortune,
+    },
+    {
+        path: "/justice",
+        component: Justice,
+    },
+    {
+        path: "/the-hanged-man",
+        component: TheHangedMan,
+    },
+    {
+        path: "/death",
+        component: Death,
+    },
+    {
+        path: "/temperance",
+        component: Temperance,
+    },
+    {
+        path: "/the-devil",
+        component: TheDevil,
+    },
+    {
+        path: "/the-tower",
+        component: TheTower,
+    },
+    {
+        path: "/the-star",
+        component: TheStar,
+    },
+    {
+        path: "/the-moon",
+        component: TheMoon,
+    },
+    {
+        path: "/the-sun",
+        component: TheSun,
     },
     {
         path: '/:notFound(.*)',
