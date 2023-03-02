@@ -15,7 +15,7 @@ import MinorPentacles from '@/components/TarotArkane/MinorPentacles/MinorPentacl
 import MinorSwords from '@/components/TarotArkane/MinorSwords/MinorSwords.vue';
 import MinorWands from '@/components/TarotArkane/MinorWands/MinorWands.vue';
 
-// Karte Opis
+// Karte Opis: Velika Arkana
 import TheFool from '@/components/OpisTarotKarte/TheFool/TheFool.vue'
 import TheMagician from '@/components/OpisTarotKarte/TheMagician/TheMagician.vue'
 import TheHighPriestess from '@/components/OpisTarotKarte/TheHighPriestess/TheHighPriestess.vue'
@@ -37,9 +37,9 @@ import TheTower from "@/components/OpisTarotKarte/TheTower/TheTower.vue";
 import TheStar from "@/components/OpisTarotKarte/TheStar/TheStar.vue";
 import TheMoon from "@/components/OpisTarotKarte/TheMoon/TheMoon.vue";
 import TheSun from "@/components/OpisTarotKarte/TheSun/TheSun.vue";
+import Judgement from "@/components/OpisTarotKarte/Judgement/Judgement.vue";
 
 import NotFound from '@/components/404/404.vue'
-
 
 const routes = [
     {
@@ -177,6 +177,10 @@ const routes = [
     {
         path: "/the-sun",
         component: TheSun,
+    },
+    {
+        path: "/judgement",
+        component: Judgement,
     },
     {
         path: '/:notFound(.*)',
