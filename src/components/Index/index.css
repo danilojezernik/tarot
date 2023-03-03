@@ -27,3 +27,7 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.index {
+    z-index: -1;
+}

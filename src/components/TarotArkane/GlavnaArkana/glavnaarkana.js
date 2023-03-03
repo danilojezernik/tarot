@@ -169,7 +169,7 @@ export default {
                 },
                 {
                     id: 21,
-                    ime: "XX – Presoja (Judgement)",
+                    ime: "XX – Sodba (Judgement)",
                     img: judgement,
                     pregled: "Velika odločitev, izid, končni rezultat, ponovno rojstvo, težave premagati...",
                     to: "/judgement"

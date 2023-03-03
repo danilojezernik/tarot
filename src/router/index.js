@@ -1,4 +1,5 @@
 import {createRouter, createWebHistory} from 'vue-router'
+
 import IndexComp from '@/components/Index/IndexComp.vue'
 import KabalaComp from '@/components/Kabala/KabalaComp.vue'
 import MeditacijaComp from '@/components/Meditacija/MeditacijaComp.vue'
