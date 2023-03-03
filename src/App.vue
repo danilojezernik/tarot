@@ -13,14 +13,4 @@
 </style>
 
 <script>
-
-let docTitle = document.title;
-window.addEventListener("blur", () => {
-  document.title = "Nikoli ne obupajte!";
-});
-
-window.addEventListener("focus", () => {
-  document.title = docTitle
-})
-
 </script>
