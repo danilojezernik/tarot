@@ -19,98 +19,98 @@ export default {
             palice: [
                 {
                     id: 1,
-                    ime: "Ace of Wands",
+                    ime: "As palic",
                     img: ace,
                     pregled: "Novo delo ali podjetje, pobuda, ideje, izum...",
                     to: "/ace-of-wands"
                 },
                 {
                     id: 2,
-                    ime: "Two of Wands",
+                    ime: "Dvojka palic",
                     img: two,
                     pregled: "nezadovoljstvo z materialnimi stvarmi, nemirnost, razmišljanje o dogodkih, ki se dogajajo drugje...",
                     to: ""
                 },
                 {
                     id: 3,
-                    ime: "Three of Wands",
+                    ime: "Trojka palic",
                     img: three,
                     pregled: "Prekomorska trgovina, načrtovana potovanja, trgovina, uveljavljena moč...",
                     to: ""
                 },
                 {
                     id: 4,
-                    ime: "Four of Wands",
+                    ime: "Štirica palic",
                     img: four,
                     pregled: "Praznovanje, življenje na podeželju, druženje, blaginja, mir in soglasje...",
                     to: ""
                 },
                 {
                     id: 5,
-                    ime: "Five of Wands",
+                    ime: "Petica palic",
                     img: five,
                     pregled: "Majhni prepiri med skupinami ljudi, lažni boj, prepiri...",
                     to: ""
                 },
                 {
                     id: 6,
-                    ime: "Six of Wands",
+                    ime: "Šestica palic",
                     img: six,
                     pregled: "Dosežena zmaga, dobre novice, podpora drugih, priznanje...",
                     to: ""
                 },
                 {
                     id: 7,
-                    ime: "Seven of Wands",
+                    ime: "Sedmica palic",
                     img: seven,
                     pregled: "Pogum, zmaga proti vsem, premagovanje opozicije, stopiti na vrh svojih težav...",
                     to: ""
                 },
                 {
                     id: 8,
-                    ime: "Eight of Wands",
+                    ime: "Osmica palic",
                     img: eight,
                     pregled: "Komunikacija, sporočilo ali pismo, hitrost, hiter zaključek...",
                     to: ""
                 },
                 {
                     id: 9,
-                    ime: "Nine of Wands",
+                    ime: "Devetica palic",
                     img: nine,
                     pregled: "Neprijetno čakanje, zbiranje moči; težave, ki jih je treba še rešiti...",
                     to: ""
                 },
                 {
                     id: 10,
-                    ime: "Ten of Wands",
+                    ime: "Desetica palic",
                     img: ten,
                     pregled: "Zatiranje; breme, ki ga je težko nositi, prekomerno delo, čustveni pritisk, neprijetna novica...",
                     to: ""
                 },
                 {
                     id: 11,
-                    ime: "Page of Wands",
+                    ime: "Paž palic",
                     img: page,
                     pregled: "Objavljena dobra novica, zvesta mlada oseba ali otrok...",
                     to: ""
                 },
                 {
                     id: 12,
-                    ime: "Knight of Wands",
+                    ime: "Vitez palic",
                     img: knight,
                     pregled: "Sprememba prebivališča, podjetna mlada oseba...",
                     to: ""
                 },
                 {
                     id: 13,
-                    ime: "Queen of Wands",
+                    ime: "Kraljica palic",
                     img: queen,
                     pregled: "Pronicljiva ženska z dobrim poslovnim občutkom...",
                     to: ""
                 },
                 {
                     id: 14,
-                    ime: "King of Wands",
+                    ime: "Kralj palic",
                     img: king,
                     pregled: "Pameten, pošten, človek, ki daje dobre nasvete...",
                     to: ""

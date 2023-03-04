@@ -17,28 +17,32 @@ import MinorSwords from '@/components/TarotArkane/MinorSwords/MinorSwords.vue';
 import MinorWands from '@/components/TarotArkane/MinorWands/MinorWands.vue';
 
 // Karte Opis: Velika Arkana
-import TheFool from '@/components/OpisTarotKarte/TheFool/TheFool.vue'
-import TheMagician from '@/components/OpisTarotKarte/TheMagician/TheMagician.vue'
-import TheHighPriestess from '@/components/OpisTarotKarte/TheHighPriestess/TheHighPriestess.vue'
-import TheEmpress from '@/components/OpisTarotKarte/TheEmpress/TheEmpress.vue'
-import TheEmperor from '@/components/OpisTarotKarte/TheEmperor/TheEmperor.vue'
-import TheHierophant from '@/components/OpisTarotKarte/TheHierophant/TheHierophant.vue'
-import TheWorld from '@/components/OpisTarotKarte/TheWorld/TheWorld.vue'
-import Thelovers from "@/components/OpisTarotKarte/TheLovers/TheLovers.vue";
-import TheChariot from "@/components/OpisTarotKarte/TheChariot/TheChariot.vue";
-import Strength from "@/components/OpisTarotKarte/Strength/Strength.vue";
-import TheHermit from "@/components/OpisTarotKarte/TheHermit/TheHermit.vue";
-import WheelOfFortune from "@/components/OpisTarotKarte/WheelOfFortune/WheelOfFortune.vue";
-import Justice from "@/components/OpisTarotKarte/Justice/Justice.vue";
-import TheHangedMan from "@/components/OpisTarotKarte/TheHangedMan/TheHangedMan.vue";
-import Death from "@/components/OpisTarotKarte/Death/Death.vue";
-import Temperance from "@/components/OpisTarotKarte/Temperance/Temperance.vue";
-import TheDevil from "@/components/OpisTarotKarte/TheDevil/TheDevil.vue";
-import TheTower from "@/components/OpisTarotKarte/TheTower/TheTower.vue";
-import TheStar from "@/components/OpisTarotKarte/TheStar/TheStar.vue";
-import TheMoon from "@/components/OpisTarotKarte/TheMoon/TheMoon.vue";
-import TheSun from "@/components/OpisTarotKarte/TheSun/TheSun.vue";
-import Judgement from "@/components/OpisTarotKarte/Judgement/Judgement.vue";
+import TheFool from '@/components/OpisTarotKarte/VelikaArkana/TheFool/TheFool.vue'
+import TheMagician from '@/components/OpisTarotKarte/VelikaArkana/TheMagician/TheMagician.vue'
+import TheHighPriestess from '@/components/OpisTarotKarte/VelikaArkana/TheHighPriestess/TheHighPriestess.vue'
+import TheEmpress from '@/components/OpisTarotKarte/VelikaArkana/TheEmpress/TheEmpress.vue'
+import TheEmperor from '@/components/OpisTarotKarte/VelikaArkana/TheEmperor/TheEmperor.vue'
+import TheHierophant from '@/components/OpisTarotKarte/VelikaArkana/TheHierophant/TheHierophant.vue'
+import Thelovers from "@/components/OpisTarotKarte/VelikaArkana/TheLovers/TheLovers.vue";
+import TheChariot from "@/components/OpisTarotKarte/VelikaArkana/TheChariot/TheChariot.vue";
+import Strength from "@/components/OpisTarotKarte/VelikaArkana/Strength/Strength.vue";
+import TheHermit from "@/components/OpisTarotKarte/VelikaArkana/TheHermit/TheHermit.vue";
+import WheelOfFortune from "@/components/OpisTarotKarte/VelikaArkana/WheelOfFortune/WheelOfFortune.vue";
+import Justice from "@/components/OpisTarotKarte/VelikaArkana/Justice/Justice.vue";
+import TheHangedMan from "@/components/OpisTarotKarte/VelikaArkana/TheHangedMan/TheHangedMan.vue";
+import Death from "@/components/OpisTarotKarte/VelikaArkana/Death/Death.vue";
+import Temperance from "@/components/OpisTarotKarte/VelikaArkana/Temperance/Temperance.vue";
+import TheDevil from "@/components/OpisTarotKarte/VelikaArkana/TheDevil/TheDevil.vue";
+import TheTower from "@/components/OpisTarotKarte/VelikaArkana/TheTower/TheTower.vue";
+import TheStar from "@/components/OpisTarotKarte/VelikaArkana/TheStar/TheStar.vue";
+import TheMoon from "@/components/OpisTarotKarte/VelikaArkana/TheMoon/TheMoon.vue";
+import TheSun from "@/components/OpisTarotKarte/VelikaArkana/TheSun/TheSun.vue";
+import Judgement from "@/components/OpisTarotKarte/VelikaArkana/Judgement/Judgement.vue";
+import TheWorld from '@/components/OpisTarotKarte/VelikaArkana/TheWorld/TheWorld.vue'
+
+// Karte Opis: Velika Arkana
+import AsPalic from "@/components/OpisTarotKarte/Palice/As/As.vue";
+
 
 import NotFound from '@/components/404/404.vue'
 
@@ -182,6 +186,10 @@ const routes = [
     {
         path: "/judgement",
         component: Judgement,
+    },
+    {
+        path: "/ace-of-wands",
+        component: AsPalic,
     },
     {
         path: '/:notFound(.*)',
