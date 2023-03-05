@@ -21,7 +21,7 @@ export default {
                     besedeObrnjena: 'Nastajajoča ideja, pomanjkanje smeri, motnje, zamude, pomanjkanje energije, dolgočasje.',
 
                     podnaslovAfirmacija: "Afirmacija",
-                    afirmacija: "\"Pripravljen sem in željan sprejeti novo priložnost\"",
+                    afirmacija: "\"Pripravljen sem in željan sprejeti novo priložnost!\"",
                 }
             ],
             opisSimbolov: [
@@ -30,44 +30,36 @@ export default {
                     opis: "Smo kot palica: porojeni s silami zemlje in svetlobe, dragulj življenjske sile, odcep preteklosti, energija sedanjosti, korenina prihodnosti. če poganjki manjkajo - togost, suha kot kost, mrtva."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Palica",
+                    opis: "Falični simbol, čarovniška metla, bergla, opora. Predstavlja tudi rast, staranje, zorenje, potomstvo. Simbolizira tudi les, ki hrani ogenj. Je ogenj življenja, ki prebiva v nas. Predstavlja dejanja in moč volje iz sokov rastočega lesa. Ogenj predstavlja tudi čiščenje in prečiščevanje volje. Ogenj pa predstavlja tudi pretvorbo mase v energijo, grobe snovi v eterično snov."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Roka, ki sega iz oblakov",
+                    opis: "Palica je darilo za vas. Vi sami ste darilo – zase in za svet. Sprejmite to darilo in naredite nekaj iz njega. Zgrabite ga, dobro ravnajte z njim in naredite tako, da bo vaš ogenj močno gorel."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Sivi oblak",
+                    opis: "V pozitivnem smislu predstavlja nevtralno, objektivno, umirjeno, nepristransko, brez predsodkov. V negativnem pa nezavesten, apatičen, nezainteresiran."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Tri drevesa",
+                    opis: "Predstavljajo človeka kot državljana dveh svetov (glava v nebesih, korenine v zemlji) in rast, staranje, zorenje, potomstvo. Starši in otrok, samouresničitev in razmnoževanje, neodvisnost in skupnost."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Reka/pokrajina",
+                    opis: 'Širokao podeželje, velike naloge, veliko se je treba lotiti in doseči. Reka pomeni kontinuiteto v spremembi, povezavo med izvirom in odtokom. Biti in ostati energijsko "v toku".'
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Grad/palača",
+                    opis: "Dom, zaščita, varnost, srce, jasna identifikacija, nadzor nad širokim prostranstvom ozemlja, ohranjanje miru, stalnost. Po negativni strani pa predstavlja zaprtost vase, pod nadzorom, ujetost, agresijo."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "18 zelenih listov in 8 padajočih",
+                    opis: "Zelena je barva je barva narave, vitalnosti in rasti ter tudi upanja. Ampak lahko pomeni tudi nezrelost, pomanjkanje uglajenosti in stvari, o katerih niste razmišljali skozi pravilno. 18 listov se nanaša na karto Luna v tarotu in predstavljajo: prenova življenja in emancipacija, rast onstran sebe. Od teh 18ih listov jih je 8 tistih, ki padajo ali letijo, kar poudarja prehod med nebom in zemljo."
                 },
                 {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Beli žarki",
+                    opis: "Predstavljajo upanje in so pozitiven znak."
                 },
             ],
             elementi: [

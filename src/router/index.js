@@ -40,8 +40,9 @@ import TheSun from "@/components/OpisTarotKarte/VelikaArkana/TheSun/TheSun.vue";
 import Judgement from "@/components/OpisTarotKarte/VelikaArkana/Judgement/Judgement.vue";
 import TheWorld from '@/components/OpisTarotKarte/VelikaArkana/TheWorld/TheWorld.vue'
 
-// Karte Opis: Velika Arkana
+// Karte Opis: Palice
 import AsPalic from "@/components/OpisTarotKarte/Palice/As/As.vue";
+import DvojkaPalic from "@/components/OpisTarotKarte/Palice/Dvojka/Dvojka.vue";
 
 
 import NotFound from '@/components/404/404.vue'
@@ -188,8 +189,12 @@ const routes = [
         component: Judgement,
     },
     {
-        path: "/ace-of-wands",
+        path: "/aspalic",
         component: AsPalic,
+    },
+    {
+        path: "/dvojkapalic",
+        component: DvojkaPalic,
     },
     {
         path: '/:notFound(.*)',

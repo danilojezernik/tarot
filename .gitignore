@@ -24,3 +24,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# template
+./src/components/OpisTarotKarte/template-js.js
+./src/components/OpisTarotKarte/template-minor.js
