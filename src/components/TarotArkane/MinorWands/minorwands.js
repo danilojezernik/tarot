@@ -43,77 +43,77 @@ export default {
                     ime: "Štirica palic",
                     img: four,
                     pregled: "Praznovanje, življenje na podeželju, druženje, blaginja, mir in soglasje...",
-                    to: "/"
+                    to: "/stiricapalic"
                 },
                 {
                     id: 5,
                     ime: "Petica palic",
                     img: five,
                     pregled: "Majhni prepiri med skupinami ljudi, lažni boj, prepiri...",
-                    to: "/"
+                    to: "/peticapalic"
                 },
                 {
                     id: 6,
                     ime: "Šestica palic",
                     img: six,
                     pregled: "Dosežena zmaga, dobre novice, podpora drugih, priznanje...",
-                    to: "/"
+                    to: "/sesticapalic"
                 },
                 {
                     id: 7,
                     ime: "Sedmica palic",
                     img: seven,
                     pregled: "Pogum, zmaga proti vsem, premagovanje opozicije, stopiti na vrh svojih težav...",
-                    to: "/"
+                    to: "/sedmicapalic"
                 },
                 {
                     id: 8,
                     ime: "Osmica palic",
                     img: eight,
                     pregled: "Komunikacija, sporočilo ali pismo, hitrost, hiter zaključek...",
-                    to: "/"
+                    to: "/osmicapalic"
                 },
                 {
                     id: 9,
                     ime: "Devetica palic",
                     img: nine,
                     pregled: "Neprijetno čakanje, zbiranje moči; težave, ki jih je treba še rešiti...",
-                    to: "/"
+                    to: "/deveticapalic"
                 },
                 {
                     id: 10,
                     ime: "Desetica palic",
                     img: ten,
                     pregled: "Zatiranje; breme, ki ga je težko nositi, prekomerno delo, čustveni pritisk, neprijetna novica...",
-                    to: "/"
+                    to: "/deseticapalic"
                 },
                 {
                     id: 11,
                     ime: "Paž palic",
                     img: page,
                     pregled: "Objavljena dobra novica, zvesta mlada oseba ali otrok...",
-                    to: "/"
+                    to: "/pazpalic"
                 },
                 {
                     id: 12,
                     ime: "Vitez palic",
                     img: knight,
                     pregled: "Sprememba prebivališča, podjetna mlada oseba...",
-                    to: "/"
+                    to: "/vitezpalic"
                 },
                 {
                     id: 13,
                     ime: "Kraljica palic",
                     img: queen,
                     pregled: "Pronicljiva ženska z dobrim poslovnim občutkom...",
-                    to: "/"
+                    to: "/kraljicapalic"
                 },
                 {
                     id: 14,
                     ime: "Kralj palic",
                     img: king,
                     pregled: "Pameten, pošten, človek, ki daje dobre nasvete...",
-                    to: "/"
+                    to: "/kraljpalic"
                 }
             ]
         }

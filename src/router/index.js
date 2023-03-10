@@ -43,7 +43,12 @@ import TheWorld from '@/components/OpisTarotKarte/VelikaArkana/TheWorld/TheWorld
 // Karte Opis: Palice
 import AsPalic from "@/components/OpisTarotKarte/Palice/As/As.vue";
 import DvojkaPalic from "@/components/OpisTarotKarte/Palice/Dvojka/Dvojka.vue";
-
+import TrojkaPalic from "@/components/OpisTarotKarte/Palice/Trojka/Trojka.vue";
+import StiricaPalic from "@/components/OpisTarotKarte/Palice/Stirica/Stirica.vue";
+import PeticaPalic from "@/components/OpisTarotKarte/Palice/Petica/Petica.vue";
+import SesticaPalic from "@/components/OpisTarotKarte/Palice/Sestica/Sestica.vue";
+import SedmicaPalic from "@/components/OpisTarotKarte/Palice/Sedmica/Sedmica.vue";
+import OsmicaPalic from "@/components/OpisTarotKarte/Palice/Osmica/Osmica.vue";
 
 import NotFound from '@/components/404/404.vue'
 
@@ -195,6 +200,30 @@ const routes = [
     {
         path: "/dvojkapalic",
         component: DvojkaPalic,
+    },
+    {
+        path: "/trojkapalic",
+        component: TrojkaPalic,
+    },
+    {
+        path: "/stiricapalic",
+        component: StiricaPalic,
+    },
+    {
+        path: "/peticapalic",
+        component: PeticaPalic,
+    },
+    {
+        path: "/sesticapalic",
+        component: SesticaPalic,
+    },
+    {
+        path: "/sedmicapalic",
+        component: SedmicaPalic,
+    },
+    {
+        path: "/osmicapalic",
+        component: OsmicaPalic,
     },
     {
         path: '/:notFound(.*)',

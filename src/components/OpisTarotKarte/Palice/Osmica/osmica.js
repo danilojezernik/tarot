@@ -4,8 +4,8 @@ export default {
             showModal: false,
             modrost: [
                 {
-                    tarotKarta: "",
-                    rekDesno: "VNOS<br>VNOS<br>VNOS",
+                    tarotKarta: "Osmica palic",
+                    rekDesno: "Gibanje in hitrost<br>Nič vas ne ustavi<br>Prispeli boste hitreje, kot si mislite",
                 },
             ],
             opisKarte: [
@@ -21,7 +21,7 @@ export default {
                     besedeObrnjena: '.',
 
                     podnaslovAfirmacija: "Afirmacija",
-                    afirmacija: "\"\"<br>",
+                    afirmacija: "\"Naprej grem hitro in natančno!\"<br>",
                 }
             ],
             opisSimbolov: [

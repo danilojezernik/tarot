@@ -26,6 +26,7 @@ import kabalistictarot from '@/assets/literatura/kabalistic-tarot.jpg'
 import kabalagates from '@/assets/literatura/tarot-gates.jpg'
 import tarottransformation from '@/assets/literatura/tarot-transformation.jpg'
 import karmatarot from '@/assets/literatura/karma-tariot.jpg'
+import treeoflifetarot from '@/assets/literatura/tarot-frater-achad.jpg'
 
 export default {
     data() {
@@ -254,6 +255,14 @@ export default {
                     image: karmatarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
                     avtor: "William C. Lammey"
+                },
+                {
+                    id: 29,
+                    naslovKnjige: "THE TAROT AND THE TREE OF LIFE",
+                    podnaslov: "A Profound System for Finding and Following Your Life's Path",
+                    image: treeoflifetarot,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Frater Achad"
                 }
             ]
         }

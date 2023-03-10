@@ -121,10 +121,10 @@
 
             <!-- KARTA DNEVA -->
             <div class="col-lg-4">
-                <img src="@/assets/majorarcana/the-sun.png" alt="" class="shadow">
+                <img :src="selectedImage" alt="" class="shadow">
             </div>
 
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">Napiši sporočilo</div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">{{currentDate()}}</div>
 
         </div>
 
