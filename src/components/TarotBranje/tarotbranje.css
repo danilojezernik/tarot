@@ -12,3 +12,54 @@
 li + .breadcrumb-item::before {
     color: white;
 }
+
+.cursor {
+    cursor: grab;
+}
+
+::v-deep .modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+::v-deep .modal-container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+::v-deep .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 90%;
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid #212529;
+    border-radius: 0.25rem;
+    background: rgb(176, 153, 104);
+    background: linear-gradient(266deg, rgba(176, 153, 104, 1) 0%, rgba(187, 148, 89, 1) 100%);
+}
+
+.modal__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.modal__content {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.modal__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}

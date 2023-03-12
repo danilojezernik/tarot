@@ -1,7 +1,7 @@
 <div class="container-fluid text-white bg-tarot-index shadow-sm">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
-            Meditacija
+            Tarot branje
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -18,19 +18,72 @@
     <div class="container p-3">
         <div class="py-4 text-center">
             <h1>Tarot branje</h1>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            <p class="lead">Naključna izbira kart</p>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
         </div>
-        <h2>1 karta</h2>
-
-        <div class="col-lg-4">
-            <img :src="selectedImage" alt="" class="shadow">
+        <div class="py-4 text-center">
+            <h2>Obrnite eno karto:</h2>
+            <p class="lead">Pritisnite na vprašaj in prikazala se vam bo ena naključna karta. S klikom na izbrano sliko
+                vas popelje na opis karte.</p>
         </div>
 
-        <h2>3 karte</h2>
-
-        <div>
-            <img v-for="imageUrl in randomImageUrls" :key="imageUrl" :src="imageUrl"/>
+        <div class="d-flex align-items-center justify-content-center">
+            <v-button class="cursor">
+                <img src="~@/assets/cardspread/vpr.png" style="max-height: 400px" @click="showModal1 = true">
+            </v-button>
         </div>
+
+        <vue-final-modal v-model="showModal1" classes="modal-container" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal1 = false">
+                <mdi-close>X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Naključno izbrana karta</span>
+
+            <div class="modal__content d-flex align-items-center justify-content-center">
+                <div>
+                    <h4 class="fw-bold text-center">{{ selectedImage.name }}</h4>
+                    <router-link :to="selectedImage.to" class="text-decoration-none">
+                        <img :src="selectedImage.src" :alt="selectedImage.name"/>
+                    </router-link>
+                </div>
+            </div>
+        </vue-final-modal>
+
+
+        <div class="py-4 text-center">
+            <h2>Obrnite tri karte:</h2>
+            <p class="lead">Pritisnite na vprašaje in prikazale se vam bodo tri naključne karte. S klikom na izbrano
+                sliko
+                vas popelje na opis karte. Zapišite si imena dobljenih kart in raziščite, kaj vam sporočajo.</p>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center">
+            <v-button class="cursor">
+                <img src="~@/assets/cardspread/vpr.png" style="max-height: 400px" @click="showModal2 = true">
+                <img src="~@/assets/cardspread/vpr.png" style="max-height: 400px" @click="showModal2 = true">
+                <img src="~@/assets/cardspread/vpr.png" style="max-height: 400px" @click="showModal2 = true">
+            </v-button>
+        </div>
+
+        <vue-final-modal v-model="showModal2" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal2 = false">
+                <mdi-close>X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Tri naključno izbrane karte</span>
+
+            <div class="modal__content">
+                <div class="container">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-lg-4" v-for="image in randomImageUrls" :key="image.src">
+                            <router-link :to="image.to" class="text-decoration-none">
+                                <img class="" :src="image.src"/>
+                            </router-link>
+                            <p class="text-center fw-bold">{{ image.name }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
 
     </div>
 </div>
