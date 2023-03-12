@@ -14,7 +14,7 @@ li + .breadcrumb-item::before {
 }
 
 .cursor {
-    cursor: grab;
+    cursor: pointer;
 }
 
 ::v-deep .modal-container {
