@@ -27,6 +27,12 @@ import kabalagates from '@/assets/literatura/tarot-gates.jpg'
 import tarottransformation from '@/assets/literatura/tarot-transformation.jpg'
 import karmatarot from '@/assets/literatura/karma-tariot.jpg'
 import treeoflifetarot from '@/assets/literatura/tarot-frater-achad.jpg'
+import mindfulnesstarot from '@/assets/literatura/mindfulness-tarot.jpg'
+import tarotmystical from '@/assets/literatura/mystical-tarot.jpg'
+import tarotdeciphered from '@/assets/literatura/tarot-deciphered.jpg'
+import pathworking from '@/assets/literatura/pathworking-tarot.jpg'
+import mindful from '@/assets/literatura/mindful-tarot.jpg'
+import correspondences from '@/assets/literatura/correspondences-tarot.jpg'
 
 export default {
     data() {
@@ -262,7 +268,55 @@ export default {
                     podnaslov: "A Profound System for Finding and Following Your Life's Path",
                     image: treeoflifetarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
-                    avtor: "Frater Achad"
+                    avtor: "Evelin Burger, Johannes Fiebig"
+                },
+                {
+                    id: 30,
+                    naslovKnjige: "TAROT",
+                    podnaslov: "The Way of Mindfulness: Use the Cards to Find Peace & Balance",
+                    image: mindfulnesstarot,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Evelin Burger, Johannes Fiebig"
+                },
+                {
+                    id: 31,
+                    naslovKnjige: "STUDIES ON MYSTICAL TAROT",
+                    podnaslov: "The Court Cards",
+                    image: tarotmystical,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Yolanda M. Robinson, Paul K. Austad"
+                },
+                {
+                    id: 32,
+                    naslovKnjige: "TAROT DECIPHERED",
+                    podnaslov: "Decoding Esoteric Symbolism in Modern Tarot",
+                    image: tarotdeciphered,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "M. M. Meleen, T. Susan Chang"
+                },
+                {
+                    id: 33,
+                    naslovKnjige: "Pathworking the Tarot",
+                    podnaslov: "Spiritual Guidance & Practical Advice from the Cards",
+                    image: pathworking,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Leeza Robertson"
+                },
+                {
+                    id: 34,
+                    naslovKnjige: "Mindful Tarot",
+                    podnaslov: "Bring a Peace-Filled, Compassionate Practice to the 78 Cards",
+                    image: mindful,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Lisa Freinkel Tishman PhD"
+                },
+                {
+                    id: 35,
+                    naslovKnjige: "Ancient Secrets for Everyday Readers",
+                    podnaslov: "Bring a Peace-Filled, Compassionate Practice to the 78 Cards",
+                    image: correspondences,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "T. Susan Chang"
                 }
             ]
         }

@@ -8,6 +8,7 @@ import TarotVajeComp from '@/components/TarotVaje/TarotVajeComp.vue'
 import SadhanaComp from '@/components/Sadhana/SadhanaComp.vue'
 import LiteraturaComp from '@/components/Literatura/LiteraturaComp.vue'
 import KontaktComp from '@/components/Kontakt/KontaktComp.vue'
+import TarotBranje from '@/components/TarotBranje/TarotBranje.vue'
 
 // Arkane
 import GlavnaArcana from '@/components/TarotArkane/GlavnaArkana/GlavnaArkana.vue';
@@ -49,6 +50,11 @@ import PeticaPalic from "@/components/OpisTarotKarte/Palice/Petica/Petica.vue";
 import SesticaPalic from "@/components/OpisTarotKarte/Palice/Sestica/Sestica.vue";
 import SedmicaPalic from "@/components/OpisTarotKarte/Palice/Sedmica/Sedmica.vue";
 import OsmicaPalic from "@/components/OpisTarotKarte/Palice/Osmica/Osmica.vue";
+import DeveticaPalic from "@/components/OpisTarotKarte/Palice/Devetica/Devetica.vue";
+import DeseticaPalic from "@/components/OpisTarotKarte/Palice/Desetica/Desetica.vue";
+import PazPalic from "@/components/OpisTarotKarte/Palice/Paz/Paz.vue";
+
+
 
 import NotFound from '@/components/404/404.vue'
 
@@ -60,6 +66,10 @@ const routes = [
     {
         path: '/tarot',
         component: TarotComp,
+    },
+    {
+        path: '/tarotbranje',
+        component: TarotBranje,
     },
     {
         path: '/kabala',
@@ -224,6 +234,18 @@ const routes = [
     {
         path: "/osmicapalic",
         component: OsmicaPalic,
+    },
+    {
+        path: "/deveticapalic",
+        component: DeveticaPalic,
+    },
+    {
+        path: "/deseticapalic",
+        component: DeseticaPalic,
+    },
+    {
+        path: "/pazpalic",
+        component: PazPalic,
     },
     {
         path: '/:notFound(.*)',

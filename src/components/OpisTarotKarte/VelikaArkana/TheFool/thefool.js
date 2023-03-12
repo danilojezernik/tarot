@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
     data() {
         return {
@@ -139,7 +141,16 @@ export default {
                     vrednost: "Meča, gležnji, vid, živčni sistem."
                 }
             ],
-            background: "bg",
+            upright: 'the-fool.png',
+            reversed: 'the-fool-down.png',
+        }
+    },
+    computed: {
+        imageSrcUp() {
+            return `http://localhost:5000/velika_arkana/${this.upright}`;
+        },
+        imageSrcUDown() {
+            return `http://localhost:5000/velika_arkana/${this.reversed}`;
         }
     }
 }
