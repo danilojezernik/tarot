@@ -19,101 +19,101 @@ export default {
             skodelice: [
                 {
                     id: 1,
-                    ime: "Ace of Cups",
+                    ime: "As kelihov",
                     img: ace,
                     pregled: "Začetki čustvene sreče; nova ljubezen ali ponovni vžig zakona, veselje, zadovoljstvo, plodnost...",
-                    to: "/ace-cups"
+                    to: "/askelihov"
                 },
                 {
                     id: 2,
-                    ime: "Two of Cups",
+                    ime: "Dvojka kelihov",
                     img: two,
                     pregled: "Čustvena in duhovna ljubezen; ljubezen, blagoslovljena z nebesi...",
-                    to: ""
+                    to: "/dvojkakelihov"
                 },
                 {
                     id: 3,
-                    ime: "Three of Cups",
+                    ime: "Trojka kelihov",
                     img: three,
                     pregled: "Praznovanje, veselje, dobri prijatelji...",
-                    to: ""
+                    to: "/trojkakelihov"
                 },
                 {
                     id: 4,
-                    ime: "Four of Cups",
+                    ime: "Štirica kelihov",
                     img: four,
                     pregled: "Nezadovoljstvo ali depresija lahko povzročita izgubo zlate priložnosti, utrujenost...",
-                    to: ""
+                    to: "/stiricakelihov"
                 },
                 {
                     id: 5,
-                    ime: "Five of Cups",
+                    ime: "Petica kelihov",
                     img: five,
                     pregled: "Jok nad prelitim mlekom; priložnost je na dosegu roke in čakajo se novi mostovi...",
-                    to: ""
+                    to: "/peticakelihov"
                 },
                 {
                     id: 6,
-                    ime: "Six of Cups",
+                    ime: "Šestica kelihov",
                     img: six,
                     pregled: "Spomini na otroštvo ali prijatelji prinašajo srečo; srečno otroštvo...",
-                    to: ""
+                    to: "/sesticakelihov"
                 },
                 {
                     id: 7,
-                    ime: "Seven of Cups",
+                    ime: "Sedmica kelihov",
                     img: seven,
                     pregled: "Fantazija in iluzija zamotita iskalca...",
-                    to: ""
+                    to: "/sedmicakelihov"
                 },
                 {
                     id: 8,
-                    ime: "Eight of Cups",
+                    ime: "Osmica kelihov",
                     img: eight,
                     pregled: "Pustiti preteklost za seboj; pogumna, a težka odločitev...",
-                    to: ""
+                    to: "/osmicakelihov"
                 },
                 {
                     id: 9,
-                    ime: "Nine of Cups",
+                    ime: "Devetica kelihov",
                     img: nine,
                     pregled: "Zadovoljstvo zagotovljeno, vendar pazite na samozadovoljstvo...",
-                    to: ""
+                    to: "/deveticakelihov"
                 },
                 {
                     id: 10,
-                    ime: "Ten of Cups",
+                    ime: "Desetica kelihov",
                     img: ten,
                     pregled: "Ekstatična osebna in družinska srečo...",
-                    to: ""
+                    to: "/deseticakelihov"
                 },
                 {
                     id: 11,
-                    ime: "Page of Cups",
+                    ime: "Paž kelihov",
                     img: page,
                     pregled: "Občutljiv mladenič, svetla ideja, novice...",
-                    to: ""
+                    to: "/pazkelihov"
                 },
                 {
                     id: 12,
-                    ime: "Knight of Cups",
+                    ime: "Vitez kelihov",
                     img: knight,
                     pregled: "Vitez grala, romantičnost, umetniškost, domiselnost, sporočilo ljubezni...",
-                    to: ""
+                    to: "/vitezkelihov"
                 },
                 {
                     id: 13,
-                    ime: "Queen of Cups",
+                    ime: "Kraljica kelihov",
                     img: queen,
                     pregled: "Občutljiva, vizionarska ženska; časih lahko postane depresiven...",
-                    to: ""
+                    to: "/kraljicakelihov"
                 },
                 {
                     id: 14,
-                    ime: "King of Cups",
+                    ime: "Kralj kelihov",
                     img: king,
                     pregled: "Občutljiv in ustvarjalen očetovski mož...",
-                    to: ""
+                    to: "/kraljkelihov"
                 }
             ]
         }

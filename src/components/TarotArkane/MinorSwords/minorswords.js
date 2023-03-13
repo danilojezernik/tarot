@@ -19,101 +19,101 @@ export default {
             meci: [
                 {
                     id: 1,
-                    ime: "Ace of Swords",
+                    ime: "As mečev",
                     img: ace,
                     pregled: "Zmagoslavje volje, začetek močnega odnosa...",
-                    to: ""
+                    to: "/asmecev"
                 },
                 {
                     id: 2,
-                    ime: "Two of Swords",
+                    ime: "Dvojka mečev",
                     img: two,
                     pregled: "Odločitev, ki zahteva nepristranski odnos, intuitivno razumevanje, amnestija...",
-                    to: ""
+                    to: "/dvojkamecev"
                 },
                 {
                     id: 3,
-                    ime: "Three of Swords",
+                    ime: "Trojka mečev",
                     img: three,
                     pregled: "Srčne bolečine, zlom, oddelek, zamuda...",
-                    to: ""
+                    to: "/trojkamecev"
                 },
                 {
                     id: 4,
-                    ime: "Four of Swords",
+                    ime: "Štirica mečev",
                     img: four,
                     pregled: "Počitek, umik in samota; čas okrevanja...",
-                    to: ""
+                    to: "/stiricamecev"
                 },
                 {
                     id: 5,
-                    ime: "Five of Swords",
+                    ime: "Petica mečev",
                     img: five,
                     pregled: "Sramota in izguba, izdaja s strani prijatelja...",
-                    to: ""
+                    to: "/peticamecev"
                 },
                 {
                     id: 6,
-                    ime: "Six of Swords",
+                    ime: "Šestica mečev",
                     img: six,
                     pregled: "Potovanje ali počitnice, izogibanje težavam...",
-                    to: ""
+                    to: "/sesticamecev"
                 },
                 {
                     id: 7,
-                    ime: "Seven of Swords",
+                    ime: "Sedmica mečev",
                     img: seven,
                     pregled: "Kraja, prevara, zvijača, pazite sleparja...",
-                    to: ""
+                    to: "/sedmicamecev"
                 },
                 {
                     id: 8,
-                    ime: "Eight of Swords",
+                    ime: "Osmica mečev",
                     img: eight,
                     pregled: "Frustracija, zapor, kritika in bolezen...",
-                    to: ""
+                    to: "/osmicamecev"
                 },
                 {
                     id: 9,
-                    ime: "Nine of Swords",
+                    ime: "Devetica mečev",
                     img: nine,
                     pregled: "Skrb, obup in nevroza; slabe sanje in pereče težave...",
-                    to: ""
+                    to: "/deveticamecev"
                 },
                 {
                     id: 10,
-                    ime: "Ten of Swords",
+                    ime: "Desetica mečev",
                     img: ten,
                     pregled: "Neuspeh, solze, žalost ali bolezen; a najhujšega je konec in prihaja nova zora...",
-                    to: ""
+                    to: "/deseticamecev"
                 },
                 {
                     id: 11,
-                    ime: "Page of Swords",
+                    ime: "Paž mečev",
                     img: page,
                     pregled: "Nezaupanja vredna mlajša oseba; vohun, ki ti bo zabodel nož v hrbet...",
-                    to: ""
+                    to: "/pazmecev"
                 },
                 {
                     id: 12,
-                    ime: "Knight of Swords",
+                    ime: "Vitez mečev",
                     img: knight,
                     pregled: "Neusmiljena oseba, deluje hitro in bo poskušal zasukati zakon sebi v prid...",
-                    to: ""
+                    to: "/vitezmecev"
                 },
                 {
                     id: 13,
-                    ime: "Queen of Swords",
+                    ime: "Kraljica mečev",
                     img: queen,
                     pregled: "Žalostna ženska na oblasti, razume bolečino in žalost...",
-                    to: ""
+                    to: "/kraljicamecev"
                 },
                 {
                     id: 14,
-                    ime: "King of Swords",
+                    ime: "Kralj mečev",
                     img: king,
                     pregled: "Kritičen človek na oblasti, njegova odločitev je dokončna...",
-                    to: ""
+                    to: "/kraljmecev"
                 }
             ]
         }

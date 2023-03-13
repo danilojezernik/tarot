@@ -137,8 +137,8 @@ import kingswordsDown from '@/assets/swords/king-of-swords-down.png'
 // Pentaklji
 import acepentacles from '@/assets/pentacles/ace-of-pentacles.png'
 import acepentaclesDown from '@/assets/pentacles/ace-of-pentacles-down.png'
-import twopentaclespentacles from '@/assets/pentacles/two-of-pentacles.png'
-import twopentaclespentaclesDown from '@/assets/pentacles/two-of-pentacles-down.png'
+import twopentacles from '@/assets/pentacles/two-of-pentacles.png'
+import twopentaclesDown from '@/assets/pentacles/two-of-pentacles-down.png'
 import threepentacles from '@/assets/pentacles/three-of-pentacles.png'
 import threepentaclesDown from '@/assets/pentacles/three-of-pentacles-down.png'
 import fourpentacles from '@/assets/pentacles/four-of-pentacles.png'
@@ -168,6 +168,7 @@ export default {
     data() {
         return {
             slike: [
+                // Velika Arkana
                 {
                     id: 1,
                     name: '0 - Norec',
@@ -431,7 +432,683 @@ export default {
                     name: 'XXI – Svet',
                     src: worldDown,
                     to: "/the-world"
-                }
+                },
+                // Palice
+                {
+                    id: 23,
+                    name: 'As palic',
+                    src: acewands,
+                    to: "/aspalic"
+                },
+                {
+                    id: 23,
+                    name: 'As palic',
+                    src: acewandsDown,
+                    to: "/aspalic"
+                },
+                {
+                    id: 24,
+                    name: 'Dvojka palic',
+                    src: twowands,
+                    to: "/dvojkapalic"
+                },
+                {
+                    id: 24,
+                    name: 'Dvojka palic',
+                    src: twowandsDown,
+                    to: "/dvojkapalic"
+                },
+                {
+                    id: 25,
+                    name: 'Trojka palic',
+                    src: threewands,
+                    to: "/trojkapalic"
+                },
+                {
+                    id: 25,
+                    name: 'Trojka palic',
+                    src: threewandsDown,
+                    to: "/trojkapalic"
+                },
+                {
+                    id: 26,
+                    name: 'Štirica palic',
+                    src: fourwands,
+                    to: "/stiricapalic"
+                },
+                {
+                    id: 26,
+                    name: 'Štirica palic',
+                    src: fourwandsDown,
+                    to: "/stiricapalic"
+                },
+                {
+                    id: 27,
+                    name: 'Petica palic',
+                    src: fivewands,
+                    to: "/peticapalic"
+                },
+                {
+                    id: 27,
+                    name: 'Petica palic',
+                    src: fivewandsDown,
+                    to: "/peticapalic"
+                },
+                {
+                    id: 28,
+                    name: 'Šestica palic',
+                    src: sixwands,
+                    to: "/sesticapalic"
+                },
+                {
+                    id: 28,
+                    name: 'Šestica palic',
+                    src: sixwandsDown,
+                    to: "/sesticapalic"
+                },
+                {
+                    id: 29,
+                    name: 'Sedmica palic',
+                    src: sevenwands,
+                    to: "/sevenwands"
+                },
+                {
+                    id: 29,
+                    name: 'Sedmica palic',
+                    src: sevenwandsDown,
+                    to: "/sedmicapalic"
+                },
+                {
+                    id: 30,
+                    name: 'Osmica palic',
+                    src: eightwands,
+                    to: "/osmicapalic"
+                },
+                {
+                    id: 30,
+                    name: 'Osmica palic',
+                    src: eightwandsDown,
+                    to: "/osmicapalic"
+                },
+                {
+                    id: 31,
+                    name: 'Devetica palic',
+                    src: ninewands,
+                    to: "/deveticapalic"
+                },
+                {
+                    id: 31,
+                    name: 'Devetica palic',
+                    src: ninewandsDown,
+                    to: "/deveticapalic"
+                },
+                {
+                    id: 32,
+                    name: 'Desetica palic',
+                    src: tenwands,
+                    to: "/deseticapalic"
+                },
+                {
+                    id: 32,
+                    name: 'Desetica palic',
+                    src: tenwandsDown,
+                    to: "/deseticapalic"
+                },
+                {
+                    id: 33,
+                    name: 'Paž palic',
+                    src: pagewands,
+                    to: "/pazpalic"
+                },
+                {
+                    id: 33,
+                    name: 'Paž palic',
+                    src: pagewandsDown,
+                    to: "/pazpalic"
+                },
+                {
+                    id: 34,
+                    name: 'Vitez palic',
+                    src: knightwands,
+                    to: "/vitezpalic"
+                },
+                {
+                    id: 34,
+                    name: 'Vitez palic',
+                    src: knightwandsDown,
+                    to: "/vitezpalic"
+                },
+                {
+                    id: 35,
+                    name: 'Kraljica palic',
+                    src: queenwands,
+                    to: "/kraljicapalic"
+                },
+                {
+                    id: 35,
+                    name: 'Kraljica palic',
+                    src: queenwandsDown,
+                    to: "/kraljicapalic"
+                },
+                {
+                    id: 35,
+                    name: 'Kralj palic',
+                    src: kingwands,
+                    to: "/kraljpalic"
+                },
+                {
+                    id: 35,
+                    name: 'Kralj palic',
+                    src: kingwandsDown,
+                    to: "/kraljpalic"
+                },
+                // Kelihi
+                {
+                    id: 36,
+                    name: 'As kelihov',
+                    src: acecups,
+                    to: "/askelihov"
+                },
+                {
+                    id: 36,
+                    name: 'As kelihov',
+                    src: acecupsDown,
+                    to: "/askelihov"
+                },
+                {
+                    id: 37,
+                    name: 'Dvojka kelihov',
+                    src: twocups,
+                    to: "/dvojkakelihov"
+                },
+                {
+                    id: 37,
+                    name: 'Dvojka kelihov',
+                    src: twocupsDown,
+                    to: "/dvojkakelihov"
+                },
+                {
+                    id: 38,
+                    name: 'Trojka kelihov',
+                    src: threecups,
+                    to: "/trojkakelihov"
+                },
+                {
+                    id: 38,
+                    name: 'Trojka kelihov',
+                    src: threecupsDown,
+                    to: "/trojkakelihov"
+                },
+                {
+                    id: 39,
+                    name: 'Štirica kelihov',
+                    src: fourcups,
+                    to: "/stiricakelihov"
+                },
+                {
+                    id: 39,
+                    name: 'Štirica kelihov',
+                    src: fourcupsDown,
+                    to: "/stiricakelihov"
+                },
+                {
+                    id: 40,
+                    name: 'Petica kelihov',
+                    src: fivecups,
+                    to: "/peticakelihov"
+                },
+                {
+                    id: 40,
+                    name: 'Petica kelihov',
+                    src: fivecupsDown,
+                    to: "/peticakelihov"
+                },
+                {
+                    id: 41,
+                    name: 'Šestica kelihov',
+                    src: sixcups,
+                    to: "/sesticakelihov"
+                },
+                {
+                    id: 41,
+                    name: 'Šestica kelihov',
+                    src: sixcupsDown,
+                    to: "/sesticakelihov"
+                },
+                {
+                    id: 42,
+                    name: 'Sedmica kelihov',
+                    src: sevencups,
+                    to: "/sedmicakelihov"
+                },
+                {
+                    id: 42,
+                    name: 'Sedmica kelihov',
+                    src: sevencupsDown,
+                    to: "/sedmicakelihov"
+                },
+                {
+                    id: 43,
+                    name: 'Osmica kelihov',
+                    src: eightcups,
+                    to: "/osmicakelihov"
+                },
+                {
+                    id: 43,
+                    name: 'Osmica kelihov',
+                    src: eightcupsDown,
+                    to: "/osmicakelihov"
+                },
+                {
+                    id: 44,
+                    name: 'Devetica kelihov',
+                    src: ninecups,
+                    to: "/deveticakelihov"
+                },
+                {
+                    id: 44,
+                    name: 'Devetica kelihov',
+                    src: ninecupsDown,
+                    to: "/deveticakelihov"
+                },
+                {
+                    id: 45,
+                    name: 'Desetica kelihov',
+                    src: tencups,
+                    to: "/deseticakelihov"
+                },
+                {
+                    id: 45,
+                    name: 'Desetica kelihov',
+                    src: tencupsDown,
+                    to: "/deseticakelihov"
+                },
+                {
+                    id: 46,
+                    name: 'Paž kelihov',
+                    src: pagecups,
+                    to: "/pazkelihov"
+                },
+                {
+                    id: 46,
+                    name: 'Paž kelihov',
+                    src: pagecupsDown,
+                    to: "/pazkelihov"
+                },
+                {
+                    id: 47,
+                    name: 'Vitez kelihov',
+                    src: knightcups,
+                    to: "/vitezkelihov"
+                },
+                {
+                    id: 47,
+                    name: 'Vitez kelihov',
+                    src: knightcupsDown,
+                    to: "/vitezkelihov"
+                },
+                {
+                    id: 48,
+                    name: 'Kraljica kelihov',
+                    src: queencups,
+                    to: "/kraljicakelihov"
+                },
+                {
+                    id: 48,
+                    name: 'Kraljica kelihov',
+                    src: queencupsDown,
+                    to: "/kraljicakelihov"
+                },
+                {
+                    id: 49,
+                    name: 'Kralj kelihov',
+                    src: kingcups,
+                    to: "/kraljkelihov"
+                },
+                {
+                    id: 49,
+                    name: 'Kralj kelihov',
+                    src: kingcupsDown,
+                    to: "/kraljkelihov"
+                },
+                // Meči
+                {
+                    id: 50,
+                    name: 'As mečev',
+                    src: aceswords,
+                    to: "/asmecev"
+                },
+                {
+                    id: 50,
+                    name: 'As mečev',
+                    src: aceswordsDown,
+                    to: "/asmecev"
+                },
+                {
+                    id: 51,
+                    name: 'Dvojka mečev',
+                    src: twoswords,
+                    to: "/dvojkamecev"
+                },
+                {
+                    id: 51,
+                    name: 'Dvojka mečev',
+                    src: twoswordsDown,
+                    to: "/dvojkamecev"
+                },
+                {
+                    id: 52,
+                    name: 'Trojka mečev',
+                    src: threeswords,
+                    to: "/trojkamecev"
+                },
+                {
+                    id: 52,
+                    name: 'Trojka mečev',
+                    src: threeswordsDown,
+                    to: "/trojkamecev"
+                },
+                {
+                    id: 53,
+                    name: 'Štirica mečev',
+                    src: fourswords,
+                    to: "/stiricamecev"
+                },
+                {
+                    id: 53,
+                    name: 'Štirica mečev',
+                    src: fourswordsDown,
+                    to: "/stiricamecev"
+                },
+                {
+                    id: 54,
+                    name: 'Petica mečev',
+                    src: fiveswords,
+                    to: "/peticamecev"
+                },
+                {
+                    id: 54,
+                    name: 'Petica mečev',
+                    src: fiveswordsDown,
+                    to: "/peticamecev"
+                },
+                {
+                    id: 55,
+                    name: 'Šestica mečev',
+                    src: sixswords,
+                    to: "/sesticamecev"
+                },
+                {
+                    id: 55,
+                    name: 'Šestica mečev',
+                    src: sixswordsDown,
+                    to: "/sesticamecev"
+                },
+                {
+                    id: 56,
+                    name: 'Sedmica mečev',
+                    src: sevenswords,
+                    to: "/sevenswords"
+                },
+                {
+                    id: 56,
+                    name: 'Sedmica mečev',
+                    src: sevenswordsDown,
+                    to: "/sedmicamecev"
+                },
+                {
+                    id: 57,
+                    name: 'Osmica mečev',
+                    src: eightswords,
+                    to: "/osmicamecev"
+                },
+                {
+                    id: 57,
+                    name: 'Osmica mečev',
+                    src: eightswordsDown,
+                    to: "/osmicamecev"
+                },
+                {
+                    id: 58,
+                    name: 'Devetica mečev',
+                    src: nineswords,
+                    to: "/deveticamecev"
+                },
+                {
+                    id: 58,
+                    name: 'Devetica mečev',
+                    src: nineswordsDown,
+                    to: "/deveticamecev"
+                },
+                {
+                    id: 59,
+                    name: 'Desetica mečev',
+                    src: tenswords,
+                    to: "/deseticamecev"
+                },
+                {
+                    id: 59,
+                    name: 'Desetica mečev',
+                    src: tenswordsDown,
+                    to: "/deseticamecev"
+                },
+                {
+                    id: 60,
+                    name: 'Paž mečev',
+                    src: pageswords,
+                    to: "/pazmecev"
+                },
+                {
+                    id: 60,
+                    name: 'Paž mečev',
+                    src: pageswordsDown,
+                    to: "/pazmecev"
+                },
+                {
+                    id: 61,
+                    name: 'Vitez mečev',
+                    src: knightswords,
+                    to: "/vitezmecev"
+                },
+                {
+                    id: 61,
+                    name: 'Vitez mečev',
+                    src: knightswordsDown,
+                    to: "/vitezmecev"
+                },
+                {
+                    id: 62,
+                    name: 'Kraljica mečev',
+                    src: queenswords,
+                    to: "/kraljicamecev"
+                },
+                {
+                    id: 62,
+                    name: 'Kraljica mečev',
+                    src: queenswordsDown,
+                    to: "/kraljicamecev"
+                },
+                {
+                    id: 63,
+                    name: 'Kralj mečev',
+                    src: kingswords,
+                    to: "/kraljmecev"
+                },
+                {
+                    id: 63,
+                    name: 'Kralj mečev',
+                    src: kingswordsDown,
+                    to: "/kraljmecev"
+                },
+                // Pentaklji
+                {
+                    id: 64,
+                    name: 'As pentakljev',
+                    src: acepentacles,
+                    to: "/aspentakljev"
+                },
+                {
+                    id: 64,
+                    name: 'As pentakljev',
+                    src: acepentaclesDown,
+                    to: "/aspentakljev"
+                },
+                {
+                    id: 65,
+                    name: 'Dvojka pentakljev',
+                    src: twopentacles,
+                    to: "/dvojkapentakljev"
+                },
+                {
+                    id: 65,
+                    name: 'Dvojka pentakljev',
+                    src: twopentaclesDown,
+                    to: "/dvojkapentakljev"
+                },
+                {
+                    id: 66,
+                    name: 'Trojka pentakljev',
+                    src: threepentacles,
+                    to: "/trojkapentakljev"
+                },
+                {
+                    id: 66,
+                    name: 'Trojka pentakljev',
+                    src: threepentaclesDown,
+                    to: "/trojkapentakljev"
+                },
+                {
+                    id: 67,
+                    name: 'Štirica pentakljev',
+                    src: fourpentacles,
+                    to: "/stiricapentakljev"
+                },
+                {
+                    id: 67,
+                    name: 'Štirica pentakljev',
+                    src: fourpentaclesDown,
+                    to: "/stiricapentakljev"
+                },
+                {
+                    id: 68,
+                    name: 'Petica pentakljev',
+                    src: fivepentacles,
+                    to: "/peticapentakljev"
+                },
+                {
+                    id: 68,
+                    name: 'Petica pentakljev',
+                    src: fivepentaclesDown,
+                    to: "/peticapentakljev"
+                },
+                {
+                    id: 69,
+                    name: 'Šestica pentakljev',
+                    src: sixpentacles,
+                    to: "/sesticapentakljev"
+                },
+                {
+                    id: 69,
+                    name: 'Šestica pentakljev',
+                    src: sixpentaclesDown,
+                    to: "/sesticapentakljev"
+                },
+                {
+                    id: 70,
+                    name: 'Sedmica pentakljev',
+                    src: sevenpentacles,
+                    to: "/sedmicapentakljev"
+                },
+                {
+                    id: 70,
+                    name: 'Sedmica pentakljev',
+                    src: sevenpentaclesDown,
+                    to: "/sedmicapentakljev"
+                },
+                {
+                    id: 71,
+                    name: 'Osmica pentakljev',
+                    src: eightpentacles,
+                    to: "/osmicapentakljev"
+                },
+                {
+                    id: 71,
+                    name: 'Osmica pentakljev',
+                    src: eightpentaclesDown,
+                    to: "/osmicapentakljev"
+                },
+                {
+                    id: 72,
+                    name: 'Devetica pentakljev',
+                    src: ninepentacles,
+                    to: "/deveticapentakljev"
+                },
+                {
+                    id: 72,
+                    name: 'Devetica pentakljev',
+                    src: ninepentaclesDown,
+                    to: "/deveticapentakljev"
+                },
+                {
+                    id: 73,
+                    name: 'Desetica pentakljev',
+                    src: tenpentacles,
+                    to: "/deseticapentakljev"
+                },
+                {
+                    id: 73,
+                    name: 'Desetica pentakljev',
+                    src: tenpentaclesDown,
+                    to: "/deseticapentakljev"
+                },
+                {
+                    id: 74,
+                    name: 'Paž pentakljev',
+                    src: pagepentacles,
+                    to: "/pazpentakljev"
+                },
+                {
+                    id: 74,
+                    name: 'Paž pentakljev',
+                    src: pagepentaclesDown,
+                    to: "/pazpentakljev"
+                },
+                {
+                    id: 75,
+                    name: 'Vitez pentakljev',
+                    src: knightpentacles,
+                    to: "/vitezpentakljev"
+                },
+                {
+                    id: 75,
+                    name: 'Vitez pentakljev',
+                    src: knightpentaclesDown,
+                    to: "/vitezpentakljev"
+                },
+                {
+                    id: 76,
+                    name: 'Kraljica pentakljev',
+                    src: queenpentacles,
+                    to: "/kraljicapentakljev"
+                },
+                {
+                    id: 76,
+                    name: 'Kraljica pentakljev',
+                    src: queenpentaclesDown,
+                    to: "/kraljicapentakljev"
+                },
+                {
+                    id: 77,
+                    name: 'Kralj pentakljev',
+                    src: kingpentacles,
+                    to: "/kraljpentakljev"
+                },
+                {
+                    id: 77,
+                    name: 'Kralj pentakljev',
+                    src: kingpentaclesDown,
+                    to: "/kraljpentakljev"
+                },
             ],
             selectedImage: '',
             threeSpread: 3,
@@ -463,8 +1140,7 @@ export default {
 
             return randomIds.map(id => {
                 const matchingImages = this.slike.filter(image => image.id === id)
-                const randomImage = matchingImages[Math.floor(Math.random() * matchingImages.length)]
-                return randomImage
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
             })
         }
     }

@@ -20,101 +20,101 @@ export default {
             pentakli: [
                 {
                     id: 1,
-                    ime: "Ace of Pentacles",
+                    ime: "As pentakljev",
                     img: ace,
                     pregled: "Zlata priložnost; obilje in izboljšane finančne obeti...",
-                    to: ""
+                    to: "/aspentakljev"
                 },
                 {
                     id: 2,
-                    ime: "Two of Pentacles",
+                    ime: "Dvojka pentakljev",
                     img: two,
                     pregled: "Čustveni vzponi in padci, žongliranje s financami...",
-                    to: ""
+                    to: "/dvojkapentakljev"
                 },
                 {
                     id: 3,
-                    ime: "Three of Pentacles",
+                    ime: "Trojka pentakljev",
                     img: three,
                     pregled: "Cenjene veščine, spoštovanje, čast in nagrada...",
-                    to: ""
+                    to: "/trojkapentakljev"
                 },
                 {
                     id: 4,
-                    ime: "Four of Pentacles",
+                    ime: "Štirica pentakljev",
                     img: four,
                     pregled: "Varčevanje denarja, previdnost pri denarju, požrešnost...",
-                    to: ""
+                    to: "/stiricapentakljev"
                 },
                 {
                     id: 5,
-                    ime: "Five of Pentacles",
+                    ime: "Petica pentakljev",
                     img: five,
                     pregled: "Revščina in stiska, materialne težave, zapleten odnos, duhovna revščina...",
-                    to: ""
+                    to: "/peticapentakljev"
                 },
                 {
                     id: 6,
-                    ime: "Six of Pentacles",
+                    ime: "Šestica pentakljev",
                     img: six,
                     pregled: "Darila, pomoč pri roki in velikodušnost; naj vam denar ne gre skozi prste...",
-                    to: ""
+                    to: "/sesticapentakljev"
                 },
                 {
                     id: 7,
-                    ime: "Seven of Pentacles",
+                    ime: "Sedmica pentakljev",
                     img: seven,
                     pregled: "Nestrpnost, stvari bodo prišle s časom, zaskrbljenost zaradi denarja...",
-                    to: ""
+                    to: "/sedmicapentakljev"
                 },
                 {
                     id: 8,
-                    ime: "Eight of Pentacles",
+                    ime: "Osmica pentakljev",
                     img: eight,
                     pregled: "Uspeh dosežen s trdim delom, obrtne in poslovne veščine, izboljšave delovnih mest...",
-                    to: ""
+                    to: "/osmicapentakljev"
                 },
                 {
                     id: 9,
-                    ime: "Nine of Pentacles",
+                    ime: "Devetica pentakljev",
                     img: nine,
                     pregled: "Zapuščina, nezasluženi denar, materialno zadovoljstvo, nagrade, užitek...",
-                    to: ""
+                    to: "/deveticapentakljev"
                 },
                 {
                     id: 10,
-                    ime: "Ten of Pentacles",
+                    ime: "Desetica pentakljev",
                     img: ten,
                     pregled: "Stabilen dom, bogastvo, družinsko življenje, dosežen uspeh...",
-                    to: ""
+                    to: "/deseticapentakljev"
                 },
                 {
                     id: 11,
-                    ime: "Page of Pentacles",
+                    ime: "Paž pentakljev",
                     img: page,
                     pregled: "Ambiciozna mlada oseba; uspeh v študiju in karieri; vodstvene sposobnosti...",
-                    to: ""
+                    to: "/pazpentakljev"
                 },
                 {
                     id: 12,
-                    ime: "Knight of Pentacles",
+                    ime: "Vitez pentakljev",
                     img: knight,
                     pregled: "Zanesljiv, odgovoren človek; upravitelj banke ali vlagatelj; trdo delo, vztrajnost...",
-                    to: ""
+                    to: "/vitezpentakljev"
                 },
                 {
                     id: 13,
-                    ime: "Queen of Pentacles",
+                    ime: "Kraljica pentakljev",
                     img: queen,
                     pregled: "Resna, inteligentna, materinska ženska; razkošje, varnost, velikodušnost...",
-                    to: ""
+                    to: "/kraljicapentakljev"
                 },
                 {
                     id: 14,
-                    ime: "King of Pentacles",
+                    ime: "Kralj pentakljev",
                     img: king,
                     pregled: "Bogat inteligenten človek; pogum, stabilnost...",
-                    to: ""
+                    to: "/kraljpentakljev"
                 }
             ]
         }
