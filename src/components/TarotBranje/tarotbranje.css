@@ -31,7 +31,7 @@ li + .breadcrumb-item::before {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -62,4 +62,12 @@ li + .breadcrumb-item::before {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+}
+
+.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)
 }

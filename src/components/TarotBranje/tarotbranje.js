@@ -1112,10 +1112,12 @@ export default {
             ],
             selectedImage: '',
             threeSpread: 3,
-            threeSpreadCross: 7,
+            threeSpreadCross: 5,
+            threeSpreadCeltic: 10,
             showModal1: false,
             showModal2: false,
             showModal3: false,
+            showModal4: false,
 
         }
     },
@@ -1150,6 +1152,22 @@ export default {
             const randomIds = []
 
             while (randomIds.length < this.threeSpreadCross) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsCeltic() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.threeSpreadCeltic) {
                 const randomId = this.slike[Math.floor(Math.random() * numImages)].id
                 if (!randomIds.includes(randomId)) {
                     randomIds.push(randomId)
