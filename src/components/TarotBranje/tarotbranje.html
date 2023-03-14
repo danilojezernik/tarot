@@ -24,7 +24,7 @@
             <img src="~@/assets/hrline.png" class="img-fluid text-center">
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-xl-3 g-4">
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h3 class="card-header border-white">1 karte</h3>
@@ -83,6 +83,58 @@
                     </button>
                 </div>
             </div>
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">Pretekla življenja</h3>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModal5 = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">Partnerski odnos</h3>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModal6 = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">Mandala</h3>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModal7 = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">Rojstni dan</h3>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModal8 = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!-- Modal ENE KARTE: showModal1 -->
@@ -114,11 +166,11 @@
                 <div class="container">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-3" v-for="(image, index) in randomImageUrls" :key="image.src">
-                            <h4 class="text-center fw-bold">{{ index + 1 }}</h4>
+                            <h6 class="text-center fw-bold">{{ index + 1 }}</h6>
                             <router-link :to="image.to" class="text-decoration-none">
                                 <img :src="image.src" class="img-fluid"/>
                             </router-link>
-                            <h5 class="text-center fw-bold">{{ image.name }}</h5>
+                            <h6 class="text-center fw-bold">{{ image.name }}</h6>
                         </div>
                     </div>
                 </div>
@@ -137,45 +189,45 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-4"></div>
                         <div class="col-4">
-                            <h4 class="text-center fw-bold">4</h4>
+                            <h6 class="text-center fw-bold">4</h6>
                             <router-link :to="randomImageUrlsCross[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsCross[0].src" class="img-fluid"/>
                             </router-link>
-                            <h4 class="text-center fw-bold">{{ randomImageUrlsCross[0].name }}</h4>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[0].name }}</h6>
                         </div>
                         <div class="col-4"></div>
                     </div>
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-4 text-center">
-                            <h4 class="text-center fw-bold">1</h4>
+                            <h6 class="text-center fw-bold">1</h6>
                             <router-link :to="randomImageUrlsCross[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsCross[1].src" class="img-fluid"/>
                             </router-link>
-                            <h4 class="text-center fw-bold">{{ randomImageUrlsCross[1].name }}</h4>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[1].name }}</h6>
                         </div>
                         <div class="col-4">
-                            <h4 class="text-center fw-bold">2</h4>
+                            <h6 class="text-center fw-bold">2</h6>
                             <router-link :to="randomImageUrlsCross[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsCross[2].src" class="img-fluid"/>
                             </router-link>
-                            <h4 class="text-center fw-bold">{{ randomImageUrlsCross[2].name }}</h4>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[2].name }}</h6>
                         </div>
                         <div class="col-4">
-                            <h4 class="text-center fw-bold">3</h4>
+                            <h6 class="text-center fw-bold">3</h6>
                             <router-link :to="randomImageUrlsCross[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsCross[3].src" class="img-fluid"/>
                             </router-link>
-                            <h4 class="text-center fw-bold">{{ randomImageUrlsCross[3].name }}</h4>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[3].name }}</h6>
                         </div>
                     </div>
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-4"></div>
                         <div class="col-4">
-                            <h4 class="text-center fw-bold">5</h4>
+                            <h6 class="text-center fw-bold">5</h6>
                             <router-link :to="randomImageUrlsCross[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsCross[4].src" class="img-fluid"/>
                             </router-link>
-                            <h4 class="text-center fw-bold">{{ randomImageUrlsCross[4].name }}</h4>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[4].name }}</h6>
                         </div>
                         <div class="col-4"></div>
                     </div>
@@ -318,6 +370,382 @@
                     Za ogled te postavitve morate imeti napravo z širino ekrana, ki je večja od 575px.
                 </div>
 
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal PRETEKLA ŽIVLJENJA: showModal5 -->
+        <vue-final-modal v-model="showModal5" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal5 = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Pretekla življenja</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsPastLife[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[0].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsPastLife[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[1].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsPastLife[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[2].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsPastLife[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsPastLife[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[4].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsPastLife[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[5].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsPastLife[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[6].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">8</h6>
+                            <router-link :to="randomImageUrlsPastLife[7].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPastLife[7].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[7].name }}</h6>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal PARTNERSKI ODNOS: showModal6 -->
+        <vue-final-modal v-model="showModal6" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal6 = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">5 naključnih kart</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">9</h6>
+                            <router-link :to="randomImageUrlsRelationship[8].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[8].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[8].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3 text-center">
+                            <h6 class="text-center fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsRelationship[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[4].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsRelationship[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[5].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsRelationship[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[6].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">8</h6>
+                            <router-link :to="randomImageUrlsRelationship[7].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[7].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[7].name }}</h6>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsRelationship[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsRelationship[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsRelationship[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[1].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsRelationship[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsRelationship[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal MANDALA: showModal7 -->
+        <vue-final-modal v-model="showModal7" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal7 = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">5 naključnih kart</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">9</h6>
+                            <router-link :to="randomImageUrlsMandala[8].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[8].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[8].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3 text-center">
+                            <h6 class="text-center fw-bold">8</h6>
+                            <router-link :to="randomImageUrlsMandala[7].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[7].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[7].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsMandala[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[1].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3 text-center">
+                            <h6 class="text-center fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsMandala[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[6].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsMandala[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[0].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsMandala[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3 text-center">
+                            <h6 class="text-center fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsMandala[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[5].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsMandala[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3 text-center">
+                            <h6 class="text-center fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsMandala[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMandala[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[4].name }}</h6>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal ROJSTNI DAN: showModal8 -->
+        <vue-final-modal v-model="showModal8" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModal8 = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Rojstni dan</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsBirthday[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[0].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsBirthday[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[1].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsBirthday[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[2].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsBirthday[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsBirthday[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[4].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsBirthday[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[5].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsBirthday[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[6].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">8</h6>
+                            <router-link :to="randomImageUrlsBirthday[7].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[7].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[7].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center fw-bold">9</h6>
+                            <router-link :to="randomImageUrlsBirthday[8].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsBirthday[8].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[8].name }}</h6>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
             </div>
         </vue-final-modal>
 
