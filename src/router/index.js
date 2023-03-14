@@ -57,7 +57,7 @@ import VitezPalic from "@/components/OpisTarotKarte/Palice/Vitez/Vitez.vue";
 import KraljicaPalic from "@/components/OpisTarotKarte/Palice/Kraljica/Kraljica.vue";
 import KraljPalic from "@/components/OpisTarotKarte/Palice/Kralj/Kralj.vue";
 
-// Karte Opis: Palice
+// Karte Opis: Kelihi
 import AsKelihov from "@/components/OpisTarotKarte/Kelihi/As/As.vue";
 import DvojkaKelihov from "@/components/OpisTarotKarte/Kelihi/Dvojka/Dvojka.vue";
 import TrojkaKelihov from "@/components/OpisTarotKarte/Kelihi/Trojka/Trojka.vue";
@@ -73,7 +73,39 @@ import VitezKelihov from "@/components/OpisTarotKarte/Kelihi/Vitez/Vitez.vue";
 import KraljicaKelihov from "@/components/OpisTarotKarte/Kelihi/Kraljica/Kraljica.vue";
 import KraljKelihov from "@/components/OpisTarotKarte/Kelihi/Kralj/Kralj.vue";
 
+// Karte Opis: Meči
+import AsMecev from "@/components/OpisTarotKarte/Meci/As/As.vue";
+import DvojkaMecev from "@/components/OpisTarotKarte/Meci/Dvojka/Dvojka.vue";
+import TrojkaMecev from "@/components/OpisTarotKarte/Meci/Trojka/Trojka.vue";
+import StiricaMecev from "@/components/OpisTarotKarte/Meci/Stirica/Stirica.vue";
+import PeticaMecev from "@/components/OpisTarotKarte/Meci/Petica/Petica.vue";
+import SesticaMecev from "@/components/OpisTarotKarte/Meci/Sestica/Sestica.vue";
+import SedmicaMecev from "@/components/OpisTarotKarte/Meci/Sedmica/Sedmica.vue";
+import OsmicaMecev from "@/components/OpisTarotKarte/Meci/Osmica/Osmica.vue";
+import DeveticaMecev from "@/components/OpisTarotKarte/Meci/Devetica/Devetica.vue";
+import DeseticaMecev from "@/components/OpisTarotKarte/Meci/Desetica/Desetica.vue";
+import PazMecev from "@/components/OpisTarotKarte/Meci/Paz/Paz.vue";
+import VitezMecev from "@/components/OpisTarotKarte/Meci/Vitez/Vitez.vue";
+import KraljicaMecev from "@/components/OpisTarotKarte/Meci/Kraljica/Kraljica.vue";
+import KraljMecev from "@/components/OpisTarotKarte/Meci/Kralj/Kralj.vue";
 
+// Karte Opis: Pentaklji
+import AsPentaklji from "@/components/OpisTarotKarte/Pentaklji/As/As.vue";
+import DvojkaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Dvojka/Dvojka.vue";
+import TrojkaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Trojka/Trojka.vue";
+import StiricaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Stirica/Stirica.vue";
+import PeticaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Petica/Petica.vue";
+import SesticaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Sestica/Sestica.vue";
+import SedmicaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Sedmica/Sedmica.vue";
+import OsmicaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Osmica/Osmica.vue";
+import DeveticaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Devetica/Devetica.vue";
+import DeseticaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Desetica/Desetica.vue";
+import PazPentaklji from "@/components/OpisTarotKarte/Pentaklji/Paz/Paz.vue";
+import VitezPentaklji from "@/components/OpisTarotKarte/Pentaklji/Vitez/Vitez.vue";
+import KraljicaPentaklji from "@/components/OpisTarotKarte/Pentaklji/Kraljica/Kraljica.vue";
+import KraljPentaklji from "@/components/OpisTarotKarte/Pentaklji/Kralj/Kralj.vue";
+
+// 404
 import NotFound from '@/components/404/404.vue'
 
 const routes = [
@@ -334,6 +366,120 @@ const routes = [
     {
         path: "/kraljkelihov",
         component: KraljKelihov,
+    },
+    // Meči
+    {
+        path: "/asmecev",
+        component: AsMecev,
+    },
+    {
+        path: "/dvojkamecev",
+        component: DvojkaMecev,
+    },
+    {
+        path: "/trojkamecev",
+        component: TrojkaMecev,
+    },
+    {
+        path: "/stiricamecev",
+        component: StiricaMecev,
+    },
+    {
+        path: "/peticamecev",
+        component: PeticaMecev,
+    },
+    {
+        path: "/sesticamecev",
+        component: SesticaMecev,
+    },
+    {
+        path: "/sedmicamecev",
+        component: SedmicaMecev,
+    },
+    {
+        path: "/osmicamecev",
+        component: OsmicaMecev,
+    },
+    {
+        path: "/deveticamecev",
+        component: DeveticaMecev,
+    },
+    {
+        path: "/deseticamecev",
+        component: DeseticaMecev,
+    },
+    {
+        path: "/pazmecev",
+        component: PazMecev,
+    },
+    {
+        path: "/vitezmecev",
+        component: VitezMecev,
+    },
+    {
+        path: "/kraljicamecev",
+        component: KraljicaMecev,
+    },
+    {
+        path: "/kraljmecev",
+        component: KraljMecev,
+    },
+    // Pentaklji,
+    {
+        path: "/aspentakljev",
+        component: AsPentaklji,
+    },
+    {
+        path: "/dvojkapentakljev",
+        component: DvojkaPentaklji,
+    },
+    {
+        path: "/trojkapentakljev",
+        component: TrojkaPentaklji,
+    },
+    {
+        path: "/stiricapentakljev",
+        component: StiricaPentaklji,
+    },
+    {
+        path: "/peticapentakljev",
+        component: PeticaPentaklji,
+    },
+    {
+        path: "/sesticapentakljev",
+        component: SesticaPentaklji,
+    },
+    {
+        path: "/sedmicapentakljev",
+        component: SedmicaPentaklji,
+    },
+    {
+        path: "/osmicapentakljev",
+        component: OsmicaPentaklji,
+    },
+    {
+        path: "/deveticapentakljev",
+        component: DeveticaPentaklji,
+    },
+    {
+        path: "/deseticapentakljev",
+        component: DeseticaPentaklji,
+    },
+    {
+        path: "/pazpentakljev",
+        component: PazPentaklji,
+    },
+    {
+        path: "/vitezpentakljev",
+        component: VitezPentaklji,
+    },
+    {
+        path: "/kraljicapentakljev",
+        component: KraljicaPentaklji,
+    },
+    {
+        path: "/kraljpentakljev",
+        component: KraljPentaklji,
     },
     {
         path: '/:notFound(.*)',
