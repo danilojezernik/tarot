@@ -53,7 +53,7 @@ import OsmicaPalic from "@/components/OpisTarotKarte/Palice/Osmica/Osmica.vue";
 import DeveticaPalic from "@/components/OpisTarotKarte/Palice/Devetica/Devetica.vue";
 import DeseticaPalic from "@/components/OpisTarotKarte/Palice/Desetica/Desetica.vue";
 import PazPalic from "@/components/OpisTarotKarte/Palice/Paz/Paz.vue";
-
+import VitezPalic from "@/components/OpisTarotKarte/Palice/Vitez/Vitez.vue";
 
 
 import NotFound from '@/components/404/404.vue'
@@ -246,6 +246,10 @@ const routes = [
     {
         path: "/pazpalic",
         component: PazPalic,
+    },
+    {
+        path: "/vitezpalic",
+        component: VitezPalic,
     },
     {
         path: '/:notFound(.*)',
