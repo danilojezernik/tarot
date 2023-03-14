@@ -1,0 +1,170 @@
+<div class="container-fluid bg-tarot-index text-white shadow-lg">
+    <div class="container p-4">
+        <div class="fs-1 fw-bold" v-for="karta in modrost">
+            {{ karta.tarotKarta }}
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/tarot">Tarot</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/palice">Mala arkana: Palice</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page" v-for="karta in modrost">
+                    {{ karta.tarotKarta }}
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid p-0 pt-5 bg-tarot">
+    <div class="container text-black">
+        <div class="row p-0 d-flex align-items-center justify-content-center"
+             v-for="(modrosti, index) in modrost" :key="index"
+        >
+
+            <!-- SREDINA -->
+            <div class="col-lg-4 p-3">
+                <img src="~@/assets/cups/five-of-cups.png" ondragstart="return false;"
+                     style="height: 500px" class="img-fluid shadow">
+            </div>
+
+            <!-- DESNA -->
+            <div class="col-lg-4 fs-5 p-3 fw-bold" v-html="modrosti.rekDesno">
+            </div>
+
+        </div>
+    </div>
+
+    <div v-for="(opis, index) in opisKarte" :key="index">
+
+        <!-- SPODAJ -->
+        <div class="container">
+            <div v-html="opis.opisKarte" class="p-2"></div>
+        </div>
+
+        <div class="container-fluid">
+            <!-- PODNASLOV POKONČNA -->
+            <div class="text-center ">
+                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+        </div>
+
+        <div class="container p-2 p-md-4">
+
+            <!-- SLIKA VIDNA NAD lg-->
+            <img src="~@/assets/cups/five-of-cups.png" ondragstart="return false;"
+                 class="float-md-start m-2 d-none d-lg-block shadow">
+
+            <!-- SLIKA VIDNA POD lg-->
+            <div class="d-flex py-md-0 py-4 align-items-center justify-content-center">
+                <img src="~@/assets/cups/five-of-cups.png" ondragstart="return false;"
+                     class="p-md-4 p-0 d-lg-none shadow">
+            </div>
+
+            <div v-html="opis.opisPokoncna"></div>
+            <span class="fw-bold">Ključne besede pokončne karte:</span> {{ opis.besedePokoncna }}
+        </div>
+
+        <div class="container-fluid">
+            <!-- PODNASLOV OBRNJENA -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+        </div>
+
+        <div class="container p-2 p-md-4">
+
+            <div v-html="opis.opisObrnjena"></div>
+            <span class="fw-bold">Ključne besede obrnjene karte:</span> {{ opis.besedeObrnjena }}
+        </div>
+
+        <div class="container-fluid p-2 p-md-4">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+        </div>
+
+        <div class="container p-2 p-md-4">
+            <!-- Slike simbolov ali pa slika karte in na vseh straneh opis v sliki-->
+
+            <!-- OPIS VIDEN SAMO NA NAPRAVAH NAD lg -->
+            <div class="d-none d-lg-block">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <ul class="list-group list-group-numbered">
+                            <li class="list-group-item bg-transparent border-0 d-flex justify-content-between align-items-start"
+                                v-for="(simbol, index) in opisSimbolov" :key="index">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">{{ simbol.simbol }}</div>
+                                    {{ simbol.opis }}
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="text-center pb-3">
+                            <img src="~@/assets/cups/five-of-cups.png" class="shadow"
+                                 ondragstart="return false;">
+                        </div>
+                        <ul class="list-group list-group-flush rounded-2">
+                            <li class="list-group-item text-white shadow border-0 bg-opis" v-for="element in elementi">
+                                <b>{{ element.ime }}</b>
+                                {{ element.vrednost }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OPIS VIDEN SAMO NA NAPRAVAH POD lg -->
+            <div class="d-lg-none">
+                <div class="text-center pb-3">
+                    <img src="~@/assets/cups/five-of-cups.png" ondragstart="return false;" class="shadow">
+                </div>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item bg-transparent border-0 d-flex justify-content-between align-items-start"
+                        v-for="(simbol, index) in opisSimbolov" :key="index">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">{{ simbol.simbol }}</div>
+                            {{ simbol.opis }}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- OPIS VIDEN SAMO NA NAPRAVAH POD lg -->
+            <div class="d-lg-none">
+                <ul class="list-group list-group-flush rounded-2">
+                    <li class="list-group-item bg-opis text-white border-0" v-for="element in elementi">
+                        <b>{{ element.ime }}</b>
+                        {{ element.vrednost }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid p-2">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovAfirmacija }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
+        </div>
+        <div class="container pt-3 pb-3 pb-lg-5 pt-lg-3">
+            <div class="text-center fs-4" v-html="opis.afirmacija"></div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Nazaj na vrh -->
+<app-navrh/>

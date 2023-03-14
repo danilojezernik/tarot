@@ -29,7 +29,7 @@
                         <h5 class="card-title">Obrni eno karto</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
-                        <button class="btn btn-primary" @click="showModal1 = true">Prikaži</button>
+                        <button class="btn btn-warning" @click="showModal1 = true">Prikaži</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <h5 class="card-title">Obrni tri karte</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
-                        <button class="btn btn-primary" @click="showModal2 = true">Prikaži</button>
+                        <button class="btn btn-warning" @click="showModal2 = true">Prikaži</button>
                     </div>
                 </div>
             </div>
@@ -49,16 +49,16 @@
                         <h5 class="card-title">Križ</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content.</p>
-                        <button class="btn btn-primary" @click="showModal3 = true">Prikaži</button>
+                        <button class="btn btn-warning" @click="showModal3 = true">Prikaži</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal ENE KARTE -->
+        <!-- Modal ENE KARTE: showModal1 -->
         <vue-final-modal v-model="showModal1" classes="modal-container" content-class="modal-content">
             <button class="modal__close border-0 bg-transparent" @click="showModal1 = false">
-                <mdi-close>X</mdi-close>
+                <mdi-close class="fw-bold">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Naključno izbrana karta</span>
 
@@ -66,24 +66,24 @@
                 <div>
 
                     <router-link :to="selectedImage.to" class="text-decoration-none">
-                        <img :src="selectedImage.src" :alt="selectedImage.name"/>
+                        <img :src="selectedImage.src" :alt="selectedImage.name" class="img-fluid"/>
                     </router-link>
                     <h4 class="fw-bold text-center">{{ selectedImage.name }}</h4>
                 </div>
             </div>
         </vue-final-modal>
 
-        <!-- Modal TREH KART -->
+        <!-- Modal TREH KART: showModal2 -->
         <vue-final-modal v-model="showModal2" classes="modal-container-three" content-class="modal-content">
             <button class="modal__close border-0 bg-transparent" @click="showModal2 = false">
-                <mdi-close>X</mdi-close>
+                <mdi-close class="fw-bold">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Tri naključno izbrane karte</span>
 
             <div class="modal__content">
                 <div class="container">
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-lg-4" v-for="image in randomImageUrls" :key="image.src">
+                        <div class="col-4" v-for="image in randomImageUrls" :key="image.src">
                             <router-link :to="image.to" class="text-decoration-none">
                                 <img :src="image.src" class="img-fluid"/>
                             </router-link>
@@ -94,10 +94,10 @@
             </div>
         </vue-final-modal>
 
-        <!-- Modal KRIŽ KART -->
+        <!-- Modal KRIŽ KART: showModal3 -->
         <vue-final-modal v-model="showModal3" classes="modal-container-three" content-class="modal-content">
             <button class="modal__close border-0 bg-transparent" @click="showModal3 = false">
-                <mdi-close>X</mdi-close>
+                <mdi-close class="fw-bold">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Naključno izbrane karte v križu</span>
 

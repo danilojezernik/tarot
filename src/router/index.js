@@ -54,6 +54,24 @@ import DeveticaPalic from "@/components/OpisTarotKarte/Palice/Devetica/Devetica.
 import DeseticaPalic from "@/components/OpisTarotKarte/Palice/Desetica/Desetica.vue";
 import PazPalic from "@/components/OpisTarotKarte/Palice/Paz/Paz.vue";
 import VitezPalic from "@/components/OpisTarotKarte/Palice/Vitez/Vitez.vue";
+import KraljicaPalic from "@/components/OpisTarotKarte/Palice/Kraljica/Kraljica.vue";
+import KraljPalic from "@/components/OpisTarotKarte/Palice/Kralj/Kralj.vue";
+
+// Karte Opis: Palice
+import AsKelihov from "@/components/OpisTarotKarte/Kelihi/As/As.vue";
+import DvojkaKelihov from "@/components/OpisTarotKarte/Kelihi/Dvojka/Dvojka.vue";
+import TrojkaKelihov from "@/components/OpisTarotKarte/Kelihi/Trojka/Trojka.vue";
+import StiricaKelihov from "@/components/OpisTarotKarte/Kelihi/Stirica/Stirica.vue";
+import PeticaKelihov from "@/components/OpisTarotKarte/Kelihi/Petica/Petica.vue";
+import SesticaKelihov from "@/components/OpisTarotKarte/Kelihi/Sestica/Sestica.vue";
+import SedmicaKelihov from "@/components/OpisTarotKarte/Kelihi/Sedmica/Sedmica.vue";
+import OsmicaKelihov from "@/components/OpisTarotKarte/Kelihi/Osmica/Osmica.vue";
+import DeveticaKelihov from "@/components/OpisTarotKarte/Kelihi/Devetica/Devetica.vue";
+import DeseticaKelihov from "@/components/OpisTarotKarte/Kelihi/Desetica/Desetica.vue";
+import PazKelihov from "@/components/OpisTarotKarte/Kelihi/Paz/Paz.vue";
+import VitezKelihov from "@/components/OpisTarotKarte/Kelihi/Vitez/Vitez.vue";
+import KraljicaKelihov from "@/components/OpisTarotKarte/Kelihi/Kraljica/Kraljica.vue";
+import KraljKelihov from "@/components/OpisTarotKarte/Kelihi/Kralj/Kralj.vue";
 
 
 import NotFound from '@/components/404/404.vue'
@@ -203,6 +221,7 @@ const routes = [
         path: "/judgement",
         component: Judgement,
     },
+    // Palice
     {
         path: "/aspalic",
         component: AsPalic,
@@ -250,6 +269,71 @@ const routes = [
     {
         path: "/vitezpalic",
         component: VitezPalic,
+    },
+    {
+        path: "/kraljicapalic",
+        component: KraljicaPalic,
+    },
+    {
+        path: "/kraljpalic",
+        component: KraljPalic,
+    },
+    // Kelihi
+    {
+        path: "/askelihov",
+        component: AsKelihov,
+    },
+    {
+        path: "/dvojkakelihov",
+        component: DvojkaKelihov,
+    },
+    {
+        path: "/trojkakelihov",
+        component: TrojkaKelihov,
+    },
+    {
+        path: "/stiricakelihov",
+        component: StiricaKelihov,
+    },
+    {
+        path: "/peticakelihov",
+        component: PeticaKelihov,
+    },
+    {
+        path: "/sesticakelihov",
+        component: SesticaKelihov,
+    },
+    {
+        path: "/sedmicakelihov",
+        component: SedmicaKelihov,
+    },
+    {
+        path: "/osmicakelihov",
+        component: OsmicaKelihov,
+    },
+    {
+        path: "/deveticakelihov",
+        component: DeveticaKelihov,
+    },
+    {
+        path: "/deseticakelihov",
+        component: DeseticaKelihov,
+    },
+    {
+        path: "/pazkelihov",
+        component: PazKelihov,
+    },
+    {
+        path: "/vitezkelihov",
+        component: VitezKelihov,
+    },
+    {
+        path: "/kraljicakelihov",
+        component: KraljicaKelihov,
+    },
+    {
+        path: "/kraljkelihov",
+        component: KraljKelihov,
     },
     {
         path: '/:notFound(.*)',

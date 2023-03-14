@@ -63,12 +63,3 @@ li + .breadcrumb-item::before {
     top: 0.5rem;
     right: 0.5rem;
 }
-
-.cross-shape {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-}
