@@ -1111,22 +1111,72 @@ export default {
                 },
             ],
             selectedImage: '',
-            threeSpread: 3,
-            threeSpreadCross: 5,
-            threeSpreadCeltic: 10,
-            threeSpreadPastLife: 8,
-            threeSpreadRelationship: 9,
-            threeSpreadMandala: 9,
-            threeSpreadBirthday: 9,
             showModal1: false,
+            threeSpread: 3,
             showModal2: false,
+            threeSpreadCross: 5,
             showModal3: false,
+            threeSpreadCeltic: 10,
             showModal4: false,
+            threeSpreadPastLife: 8,
             showModal5: false,
+            threeSpreadRelationship: 9,
             showModal6: false,
+            threeSpreadMandala: 9,
             showModal7: false,
+            threeSpreadBirthday: 9,
             showModal8: false,
-
+            // 25 postavitev za osvetlitev poti
+            fool: 4,
+            showModalFool: false,
+            magician: 6,
+            showModalMagician: false,
+            priestessOne: 3,
+            showModalPriestessOne: false,
+            priestessTwo: 6,
+            showModalPriestessTwo: false,
+            empress: 5,
+            showModalEmpress: false,
+            emperor: 5,
+            showModalEmperor: false,
+            hierophant: 5,
+            showModalHierophant: false,
+            loversOne: 7,
+            showModalLoversOne: false,
+            loversTwo: 7,
+            showModalLoversTwo: false,
+            chariot: 5,
+            showModalChariot: false,
+            strength: 5,
+            showModalStrength: false,
+            hermit: 5,
+            showModalHermit: false,
+            wheel: 5,
+            showModalWheel: false,
+            justice: 6,
+            showModalJustice: false,
+            hanged: 5,
+            showModalHanged: false,
+            death: 5,
+            showModalDeath: false,
+            temperance: 4,
+            showModalTemperance: false,
+            devil: 6,
+            showModalDevil: false,
+            tower: 6,
+            showModalTower: false,
+            star: 6,
+            showModalStar: false,
+            moon: 5,
+            showModalMoon: false,
+            sun: 7,
+            showModalSun: false,
+            judgement: 6,
+            showModalJudgement: false,
+            world: 7,
+            showModalWorld: false,
+            wholePicture: 22,
+            showModalWholePicture: false,
         }
     },
     created() {
@@ -1250,6 +1300,406 @@ export default {
                 const matchingImages = this.slike.filter(image => image.id === id)
                 return matchingImages[Math.floor(Math.random() * matchingImages.length)]
             })
-        }
+        },
+        randomImageUrlsFool() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.fool) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsMagician() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.magician) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsPriestessOne() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.priestessOne) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsPriestessTwo() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.priestessTwo) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsEmpress() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.empress) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsEmperor() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.emperor) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsHierophant() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.hierophant) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsLoversOne() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.loversOne) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsLoversTwo() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.loversTwo) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsChariot() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.chariot) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsStrength() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.strength) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsHermit() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.hermit) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsWheel() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.wheel) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsJustice() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.justice) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsHanged() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.hanged) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsDeath() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.death) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsTemperance() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.temperance) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsDevil() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.devil) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsTower() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.tower) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsStar() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.star) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsMoon() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.moon) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsSun() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.sun) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsJudgement() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.judgement) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsWorld() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.world) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
+        randomImageUrlsWholePicture() {
+            const numImages = this.slike.length
+            const randomIds = []
+
+            while (randomIds.length < this.wholePicture) {
+                const randomId = this.slike[Math.floor(Math.random() * numImages)].id
+                if (!randomIds.includes(randomId)) {
+                    randomIds.push(randomId)
+                }
+            }
+
+            return randomIds.map(id => {
+                const matchingImages = this.slike.filter(image => image.id === id)
+                return matchingImages[Math.floor(Math.random() * matchingImages.length)]
+            })
+        },
     }
 }

@@ -166,11 +166,12 @@
                 <div class="container">
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-3" v-for="(image, index) in randomImageUrls" :key="image.src">
-                            <h6 class="text-center fw-bold">{{ index + 1 }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient text-white m-0 p-1 fw-bold">{{ index + 1 }}</h6>
                             <router-link :to="image.to" class="text-decoration-none">
                                 <img :src="image.src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ image.name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient text-white m-0 p-1  fw-bold">
+                                {{ image.name }}</h6>
                         </div>
                     </div>
                 </div>
@@ -453,7 +454,6 @@
                         </div>
 
                     </div>
-
 
 
                 </div>
@@ -744,12 +744,544 @@
                     </div>
 
 
-
                 </div>
             </div>
         </vue-final-modal>
 
     </div>
+
+    <div class="container p-3">
+        <div class="py-4 text-center">
+            <h1>25 postavitev za osvetlitev poti</h1>
+            <p class="lead">Sledi 25 postavitev, ki utelešajo vsako od 22-ih kart v veliki arkani.</p>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
+        </div>
+
+        <div class="row row-cols-1 row-cols-xl-3 g-4">
+            <!-- 0 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Norec: Poglej preden skočiš</h4>
+                    <div class="card-body">
+                        <p class="card-text">Pri branju ene karte je odličen način ta, da spoznamo pomen karte hkrati pa
+                            si lahko vzamemo čas, da karto spoznamo. Ko uporabite eno karto pri branju, si preden jo
+                            izberete, postavite vprašanje, kot je: "Kakšno sporočilo imate zame za današnji dan?"</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalFool = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 1 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Magik: Spoznajte svojo moč; Uporabite svoja orodja</h4>
+                    <div class="card-body">
+                        <p class="card-text">Ta postavitev kart je odlična za manjše branje. Prva karta predstavlja vašo
+                            preteklost, druga vašo sedanjost in tretja vašo prihodnost (kakšen bi lahko bil izid). To
+                            postavitev lahko uporabite tudi za branje drugih aspektov v življenju kot je na primer 1.
+                            um,
+                            2. telo, 3. duša ali pa 1. ljubezen, 2. denar, 3. dom ali 1. situacija, 2. ovire, 3.
+                            nasvet.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalMagician = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 2-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Visoka Svečenica: Skrivni svet sanj</h4>
+                    <div class="card-body">
+                        <p class="card-text">Postavitev 5ih kart gre za dodaten odgovor, kjer karta 4 predstavlja glavni
+                            razlog za okoliščine, karta 5 pa pokaže potencial za situacijo (Čeprav morda ni dejanski
+                            izid, kaže na najsvetlejšo in/ali najtemnejšo možnost, ki se skriva v stanju stvari.)</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalPriestessOne = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 3-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Visoka Svečenica: Intuitivni vpogled</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalPriestessTwo = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 4-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Cesarica: Nega se začne pri sebi</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalEmpress = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 5-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Cesar: zmagoviti načrt</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalEmperor = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 6-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Svečenik: Iskanje sveta modreca</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalHierophant = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 7-->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Ljubimca: Za zaljubljene</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalLoversOne = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Ljubimca: Za samske</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalLoversTwo = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Kočija: Neomajni razgled</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalChariot = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Moč: Zmaga nad strahom</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalStrength = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Puščavnik: Pojdi vase</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalHermit = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Kolo sreče: Karmične lekcije</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalWheel = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 13 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Pravica: Resnica v ravnotežju</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalJustice = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 14 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Obešenec: Resnica v perspektivi</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalHanged = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 15 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Smrt: Sprejemanje sprememb</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalDeath = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 16 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Zmernost: Sveta poravnava</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalTemperance = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 17 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Hudič: Zdrave meje</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalDevil = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 18 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Trdnjava: Onkraj ruševin</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalTower = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 19 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Zvezda: Luč, ki vodi</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalStar = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 20 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Luna: Sence v središču</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalMoon = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 21 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Sonce: Najboljši obraz naprej</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalSun = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 22 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Sodba: Upoštevajte klic</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalJudgement = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 23 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Svet: Prihaja poln krog</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalWorld = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+            <!-- 24 -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h4 class="card-header border-white">Celotna slika: 22 kart</h4>
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="showModalWholePicture = true">
+                        Obrni
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- showModalFool -->
+        <vue-final-modal v-model="showModalFool" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalFool = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Norec</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsFool[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsFool[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsFool[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 text-center"></div>
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsFool[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsFool[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsFool[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsFool[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsFool[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsFool[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsFool[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsFool[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsFool[1].name }}</h6>
+                        </div>
+
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalMagician -->
+        <vue-final-modal v-model="showModalMagician" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalMagician = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Magik</span>
+
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsMagician[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[3].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsMagician[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 margin-top-magician-lr">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsMagician[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                        <div class="col-3 margin-top-magician-lr">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsMagician[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[5].name }}</h6>
+                        </div>
+                    </div>
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 margin-top-magician margin-top-magician-r">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsMagician[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[0].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-magician margin-top-magician-b">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsMagician[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMagician[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMagician[1].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalFool -->
+        <vue-final-modal v-model="showModalPriestessOne" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalPriestessOne = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Visoka svečenica</span>
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsPriestessOne[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessOne[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessOne[1].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-high-ptiestess">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsPriestessOne[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessOne[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessOne[0].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsPriestessOne[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessOne[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessOne[2].name }}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+
+    </div>
+
 </div>
 
 

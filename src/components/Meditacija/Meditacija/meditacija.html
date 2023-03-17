@@ -1,14 +1,14 @@
 <div class="container-fluid text-white bg-tarot-index shadow-sm">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
-            Meditacija
+            Meditacije
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                     <router-link class="text-decoration-none " to="/">Domov</router-link>
                 </li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Meditacija</li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Meditacije</li>
             </ol>
         </nav>
     </div>
@@ -17,18 +17,37 @@
 <div class="container-fluid p-0 bg-tarot">
     <div class="container p-3">
         <div class="py-4 text-center">
-            <h1>Meditacija</h1>
+            <h1>Meditacije</h1>
+            <p class="lead">"Ne meditiraj... BODI! Ne misli, da si... BODI! Ne razmišljaj o tem, da si... TI SI!"</p>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col" v-for="(literatura, index) in knjige" :key="index">
-                <div class="card bg-transparent border-0 h-100">
-                    <router-link class="text-decoration-none text-white" :to="`${literatura.to}`">
-                        <img :src="literatura.image" class="card-img-top" alt="...">
-                    </router-link>
+
+        <div class="row row-cols-1 row-cols-xl-1 g-4">
+            <div class="col" v-for="(cakra, index) in cakre" :key="index">
+                <div class="card bg-transparent border-0">
+                    <div class="row g-0">
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                            <img :src="cakra.image" class="img-fluid rounded-start m-3" alt="...">
+                        </div>
+                        <div class="col-lg-9 bg-dark bg-gradient text-white h-100">
+                            <h3 class="card-header border-white">{{ cakra.name }}</h3>
+                            <div class="card-body">
+                                <p class="card-text">{{ cakra.opis }}</p>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <router-link class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                                             :to="`${cakra.to}`"> Meditacije za: {{ cakra.name }} čakro
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center d-lg-none">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
                 </div>
             </div>
         </div>
+
         <p>Kako meditirati s tarot kartami (in zakaj)</p>
 
         <p>Meditacija s tarotom lahko poglobi vaše razumevanje kart na zelo osebno in globoko raven. Lahko je tudi močno

@@ -40,8 +40,9 @@ li + .breadcrumb-item::before {
     display: flex;
     flex-direction: column;
     max-height: 90%;
-    margin: 0 1rem;
-    padding: 1rem;
+    min-height: 90%;
+    margin: 0 5px;
+    padding: 5px;
     border: 1px solid #212529;
     border-radius: 0.25rem;
     background: rgb(176, 153, 104);
@@ -70,4 +71,55 @@ li + .breadcrumb-item::before {
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg)
+}
+
+.margin-top-fool {
+    margin-top: -200px;
+}
+
+.margin-top-magician {
+    margin-top: -200px;
+}
+
+.margin-top-magician-lr {
+    margin-top: -40px;
+}
+
+.margin-top-magician-r {
+    margin-right: -40px;
+}
+
+.margin-top-magician-b {
+    margin-bottom: -40px;
+}
+
+.margin-top-high-ptiestess {
+    margin-bottom: -200px;
+}
+
+@media screen and (max-width: 480px) {
+    .margin-top-fool {
+        margin-top: -70px;
+    }
+    .margin-top-magician {
+        margin-top: -70px;
+    }
+    .margin-top-magician-r {
+        margin-right: -15px;
+    }
+    .margin-top-high-ptiestess {
+        margin-bottom: -70px;
+    }
+    .margin-top-magician-b {
+        margin-bottom: -15px;
+    }
+    .font-size-sm {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+    .margin-top-fool {
+        margin-top: -150px;
+    }
 }

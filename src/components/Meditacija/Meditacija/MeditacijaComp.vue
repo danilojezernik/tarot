@@ -2,5 +2,4 @@
 
 <script src="./meditacija.js"></script>
 
-<style src="./meditacija.css" scoped></style>
-
+<style src="../style/style.css" scoped></style>

@@ -2,13 +2,24 @@ import {createRouter, createWebHistory} from 'vue-router'
 
 import IndexComp from '@/components/Index/IndexComp.vue'
 import KabalaComp from '@/components/Kabala/KabalaComp.vue'
-import MeditacijaComp from '@/components/Meditacija/MeditacijaComp.vue'
+import KliphotComp from '@/components/Kliphot/KliphotComp.vue'
+import MeditacijaComp from '@/components/Meditacija/Meditacija/MeditacijaComp.vue'
 import TarotComp from '@/components/Tarot/TarotComp.vue'
 import TarotVajeComp from '@/components/TarotVaje/TarotVajeComp.vue'
 import SadhanaComp from '@/components/Sadhana/SadhanaComp.vue'
 import LiteraturaComp from '@/components/Literatura/LiteraturaComp.vue'
 import KontaktComp from '@/components/Kontakt/KontaktComp.vue'
 import TarotBranje from '@/components/TarotBranje/TarotBranje.vue'
+
+// Čakre
+import MuladharaComp from '@/components/Meditacija/Muladhara/MuladharaComp.vue'
+import SwadhisthanaComp from '@/components/Meditacija/Swadhisthana/SwadhisthanaComp.vue'
+import ManipuraComp from '@/components/Meditacija/Manipura/ManipuraComp.vue'
+import AnahataComp from '@/components/Meditacija/Anahata/AnahataComp.vue'
+import VishuddhiComp from '@/components/Meditacija/Vishuddhi/VishuddhiComp.vue'
+import AjnaComp from '@/components/Meditacija/Ajna/AjnaComp.vue'
+import BinduComp from '@/components/Meditacija/Bindu/BinduComp.vue'
+import SahasraraComp from '@/components/Meditacija/Sahasrara/SahasraraComp.vue'
 
 // Arkane
 import GlavnaArcana from '@/components/TarotArkane/GlavnaArkana/GlavnaArkana.vue';
@@ -126,8 +137,45 @@ const routes = [
         component: KabalaComp,
     },
     {
+        path: '/kliphot',
+        component: KliphotComp,
+    },
+    {
         path: '/meditacija',
         component: MeditacijaComp,
+    },
+    // Meditacije na čakre
+    {
+        path: '/muladhara',
+        component: MuladharaComp,
+    },
+    {
+        path: '/swadhisthana',
+        component: SwadhisthanaComp,
+    },
+    {
+        path: '/manipura',
+        component: ManipuraComp,
+    },
+    {
+        path: '/anahata',
+        component: AnahataComp,
+    },
+    {
+        path: '/vishuddhi',
+        component: VishuddhiComp,
+    },
+    {
+        path: '/ajna',
+        component: AjnaComp,
+    },
+    {
+        path: '/bindu',
+        component: BinduComp,
+    },
+    {
+        path: '/sahasrara',
+        component: SahasraraComp,
     },
     {
         path: '/vaje',
@@ -145,6 +193,7 @@ const routes = [
         path: '/kontakt',
         component: KontaktComp,
     },
+    // AKRANE
     {
         path: '/glavna-arkana',
         component: GlavnaArcana,
@@ -165,6 +214,7 @@ const routes = [
         path: '/palice',
         component: MinorWands,
     },
+    // VELIKA ARKANA
     {
         path: "/the-fool",
         component: TheFool,
