@@ -1244,7 +1244,7 @@
             </div>
         </vue-final-modal>
 
-        <!-- showModalFool -->
+        <!-- showModalPriestessOne -->
         <vue-final-modal v-model="showModalPriestessOne" classes="modal-container-three" content-class="modal-content">
             <button class="modal__close border-0 bg-transparent" @click="showModalPriestessOne = false">
                 <mdi-close class="fw-bold">X</mdi-close>
@@ -1273,6 +1273,68 @@
                                 <img :src="randomImageUrlsPriestessOne[2].src" class="img-fluid"/>
                             </router-link>
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessOne[2].name }}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalPriestessTwo -->
+        <vue-final-modal v-model="showModalPriestessTwo" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalPriestessTwo = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Visoka svečenica</span>
+            <div class="modal__content">
+                <div class="container text-center">
+                    <div class="row d-flex g-1 align-items-center justify-content-center pt-5">
+
+                        <div class="col-3 rotate-high-priestess-two-l me-sm-5 me-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[2].name }}</h6>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[3].name }}</h6>
+                        </div>
+
+                        <div class="col-3 rotate-high-priestess-two-r ms-sm-5 ms-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[4].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center pt-4">
+                        <div class="col-3 rotate-high-priestess-two-l  me-sm-5 me-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[1].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[0].name }}</h6>
+                        </div>
+                        <div class="col-3 rotate-high-priestess-two-r ms-sm-5 ms-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsPriestessTwo[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsPriestessTwo[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPriestessTwo[5].name }}</h6>
                         </div>
                     </div>
                 </div>

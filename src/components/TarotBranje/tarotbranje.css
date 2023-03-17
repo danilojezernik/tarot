@@ -72,6 +72,27 @@ li + .breadcrumb-item::before {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg)
 }
+.rotate-high-priestess-two-l {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg)
+}
+.rotate-high-priestess-two-r {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg)
+}
+
+.margin-high-priestes-l {
+    margin-left: -30px;
+}
+.margin-high-priestes-r {
+    margin-right: -30px;
+}
 
 .margin-top-fool {
     margin-top: -200px;
