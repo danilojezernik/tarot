@@ -118,6 +118,18 @@ li + .breadcrumb-item::before {
     margin-bottom: -200px;
 }
 
+.margin-top-empress {
+    margin-top: -300px;
+}
+
+.margin-top-hierophant {
+    margin-top: -310px;
+}
+
+.margin-top-hierophant-plus {
+    margin-top: 200px;
+}
+
 @media screen and (max-width: 480px) {
     .margin-top-fool {
         margin-top: -70px;
@@ -131,6 +143,15 @@ li + .breadcrumb-item::before {
     .margin-top-high-ptiestess {
         margin-bottom: -70px;
     }
+    .margin-top-empress {
+        margin-top: -150px;
+    }
+    .margin-top-hierophant {
+        margin-top: -150px;
+    }
+    .margin-top-hierophant-plus {
+        margin-top: 40px;
+    }
     .margin-top-magician-b {
         margin-bottom: -15px;
     }
@@ -142,5 +163,14 @@ li + .breadcrumb-item::before {
 @media screen and (min-width: 480px) and (max-width: 766px) {
     .margin-top-fool {
         margin-top: -150px;
+    }
+    .margin-top-hierophant-plus {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .margin-top-hierophant-plus {
+        margin-top: 140px;
     }
 }
