@@ -130,6 +130,13 @@ li + .breadcrumb-item::before {
     margin-top: 200px;
 }
 
+.margin-top-devil-first {
+    margin-top: -300px;
+}
+.margin-top-devil-second {
+    margin-top: -90px;
+}
+
 @media screen and (max-width: 480px) {
     .margin-top-fool {
         margin-top: -70px;
@@ -154,6 +161,12 @@ li + .breadcrumb-item::before {
     }
     .margin-top-magician-b {
         margin-bottom: -15px;
+    }
+    .margin-top-devil-first {
+        margin-top: -150px;
+    }
+    .margin-top-devil-second {
+        margin-top: -30px;
     }
     .font-size-sm {
         font-size: 10px !important;

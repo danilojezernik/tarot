@@ -1724,6 +1724,693 @@
             </div>
         </vue-final-modal>
 
+        <!-- showModalChariot -->
+        <vue-final-modal v-model="showModalChariot" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalChariot = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Neomajni razgled</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsChariot[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsChariot[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsChariot[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsChariot[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsChariot[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsChariot[2].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsChariot[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsChariot[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsChariot[1].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsChariot[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsChariot[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsChariot[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsChariot[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsChariot[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsChariot[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalStrength -->
+        <vue-final-modal v-model="showModalStrength" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalStrength = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Zmaga nad strahom</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsStrength[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStrength[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStrength[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 rotate-high-priestess-two-l me-sm-5 me-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsStrength[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStrength[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStrength[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsStrength[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStrength[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStrength[4].name }}</h6>
+                        </div>
+                        <div class="col-3 rotate-high-priestess-two-r ms-sm-5 ms-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsStrength[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStrength[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStrength[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsStrength[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStrength[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStrength[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalHermit -->
+        <vue-final-modal v-model="showModalHermit" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalHermit = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Pojdi vase</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsHermit[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHermit[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHermit[0].name }}</h6>
+                        </div>
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsHermit[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHermit[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHermit[1].name }}</h6>
+                        </div>
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsHermit[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHermit[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHermit[2].name }}</h6>
+                        </div>
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsHermit[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHermit[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHermit[3].name }}</h6>
+                        </div>
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsHermit[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHermit[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHermit[4].name }}</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalWheel -->
+        <vue-final-modal v-model="showModalWheel" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalWheel = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Karmične lekcije</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsWheel[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWheel[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWheel[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsWheel[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWheel[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWheel[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsWheel[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWheel[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWheel[0].name }}</h6>
+                        </div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsWheel[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWheel[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWheel[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsWheel[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWheel[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWheel[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalJustice -->
+        <vue-final-modal v-model="showModalJustice" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalJustice = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Resnica v ravnotežju</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsJustice[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[5].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsJustice[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[4].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsJustice[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsJustice[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[0].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsJustice[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsJustice[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJustice[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJustice[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalHanged -->
+        <vue-final-modal v-model="showModalHanged" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalHanged = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Resnica v perspektivi</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsHanged[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHanged[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHanged[0].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsHanged[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHanged[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHanged[1].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsHanged[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHanged[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHanged[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsHanged[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHanged[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHanged[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsHanged[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsHanged[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsHanged[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalDeath -->
+        <vue-final-modal v-model="showModalDeath" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalDeath = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Sprejemanje sprememb</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsDeath[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDeath[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDeath[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsDeath[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDeath[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDeath[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 margin-top-empress">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsDeath[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDeath[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDeath[0].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsDeath[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDeath[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDeath[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsDeath[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDeath[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDeath[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalTemperance -->
+        <vue-final-modal v-model="showModalTemperance" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalTemperance = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Sveta poravnava</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsTemperance[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTemperance[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTemperance[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsTemperance[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTemperance[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTemperance[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsTemperance[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTemperance[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTemperance[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsTemperance[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTemperance[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTemperance[1].name }}</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalDevil -->
+        <vue-final-modal v-model="showModalDevil" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalDevil = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Zdrave meje</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsDevil[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1 margin-top-devil-first">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsDevil[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsDevil[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[3].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1 margin-top-devil-first">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsDevil[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1 margin-top-devil-second">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsDevil[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1 margin-top-devil-second">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsDevil[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsDevil[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsDevil[5].name }}</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalTower -->
+        <vue-final-modal v-model="showModalTower" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalTower = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Onkraj ruševin</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsTower[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[0].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsTower[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[1].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsTower[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[2].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsTower[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[5].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsTower[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[3].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-devil-first">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsTower[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsTower[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsTower[4].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
 
     </div>
 
