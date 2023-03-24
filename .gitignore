@@ -28,3 +28,4 @@ pnpm-debug.log*
 # template
 ./src/components/OpisTarotKarte/template-js.js
 ./src/components/OpisTarotKarte/template-minor.js
+./src/assets/cardspread/vpr.psd

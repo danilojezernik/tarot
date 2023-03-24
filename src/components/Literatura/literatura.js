@@ -33,6 +33,7 @@ import tarotdeciphered from '@/assets/literatura/tarot-deciphered.jpg'
 import pathworking from '@/assets/literatura/pathworking-tarot.jpg'
 import mindful from '@/assets/literatura/mindful-tarot.jpg'
 import correspondences from '@/assets/literatura/correspondences-tarot.jpg'
+import kabbalahexperiences from '@/assets/literatura/kabala-experiences.jpg'
 
 export default {
     data() {
@@ -317,6 +318,14 @@ export default {
                     image: correspondences,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
                     avtor: "T. Susan Chang"
+                },
+                {
+                    id: 35,
+                    naslovKnjige: "The Kabbalah Experience",
+                    podnaslov: "The Practical Guide to Kabbalistic Wisdom",
+                    image: kabbalahexperiences,
+                    opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    avtor: "Naomi Ozaniec"
                 }
             ]
         }

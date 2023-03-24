@@ -1,0 +1,137 @@
+.bg-tarot {
+    background: rgb(176,153,104);
+    background: linear-gradient(266deg, rgba(176,153,104,1) 0%, rgba(187,148,89,1) 100%);
+}
+
+.bg-tarot-index {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1.5), rgba(255,255,255,0.5)), url("~@/assets/tgarot-bg-2.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li + .breadcrumb-item::before {
+    color: white;
+}
+
+::v-deep .modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+::v-deep .modal-container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+::v-deep .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 90%;
+    min-height: 90%;
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #212529;
+    border-radius: 0.25rem;
+    background: rgb(176, 153, 104);
+    background: linear-gradient(266deg, rgba(176, 153, 104, 1) 0%, rgba(187, 148, 89, 1) 100%);
+}
+
+.modal__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.modal__content {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.modal__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 0 1px 5px black;
+    -webkit-text-stroke-color: black;
+}
+
+.style-card {
+    height: 100%;
+    filter: brightness(60%);
+}
+
+/* STYLE CARDS */
+.card-my {
+    width: 200px;
+    height: 340px;
+    perspective: 1000px;
+}
+
+.content-my {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card-my:hover .content-my {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+}
+
+.front,
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: #d4af36;
+    color: white;
+    transform: rotateY( 180deg );
+}
+
+
+/* TEXT SHADOW */
+
+.text-shadow {
+    text-shadow: 1px 1px 2px black;
+
+}
+
+/* Index of image */
+.index {
+    z-index: -1;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("@/assets/arrow-down.png");
+}
+
+.accordion-button::after {
+    background-image: url("@/assets/arrow-down.png");
+}

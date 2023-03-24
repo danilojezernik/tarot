@@ -1,0 +1,89 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            {{ naslov }}
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/sadhana">Sadhana</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">{{ naslov }}</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container p-3">
+
+        <div class="py-4 text-center">
+            <h1>{{ naslov }}</h1>
+            <div class="lead text-center">{{ modrostGlavna }}
+            </div>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+
+        <h2>Priprava</h2>
+        <span v-html="priprava"></span>
+
+        <div class="row row-cols-1 row-cols-xl-1 g-4 pb-4">
+
+            <div class="col">
+                <div class="card bg-transparent border-0 shadow">
+                    <div class="row g-0">
+                        <div class="col-lg-12 bg-dark bg-gradient text-white">
+                            <h2 class="card-header border-white">Uvod - Stopnja 1</h2>
+                            <div class="card-body">
+                                <p class="card-text" v-html="uvodPrvi">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center d-lg-none">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-transparent border-0 shadow">
+                    <div class="row g-0">
+                        <div class="col-lg-12 bg-dark bg-gradient text-white">
+                            <h2 class="card-header border-white">Uvod - Stopnja 2</h2>
+                            <div class="card-body">
+                                <p class="card-text" v-html="uvodDva">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center d-lg-none">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
+                </div>
+            </div>
+        </div>
+
+        <h2>Zaključek</h2>
+        <span v-html="konec"></span>
+
+        <div class="py-4 text-center">
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+
+        <h2>Dodatno</h2>
+        <span v-html="dodatno"></span>
+
+        <h2>Opombe:</h2>
+        <span v-html="opombe"></span>
+
+    </div>
+</div>
+
+
+<app-navrh/>

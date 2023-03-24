@@ -1,0 +1,49 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Vprašanja & Odgovori
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Vprašanja & Odgovori</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container p-3">
+
+        <div class="py-4 text-center">
+            <h1>Vprašanja & Odgovori</h1>
+            <div class="lead text-center">{{ rekVpr }}</div>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+
+        <div class="accordion text-decoration-none rounded-0" id="accordionFlushExample">
+
+                <div class="accordion-item border-dark rounded-0" v-for="accordion in accordions">
+                    <h2 class="accordion-header" :id="accordion.idHeading">
+                        <button class="accordion-button collapsed text-white bg-dark bg-gradient rounded-0" type="button" data-bs-toggle="collapse"
+                                :data-bs-target="accordion.idCollapseL" aria-expanded="false"
+                                :aria-controls="accordion.idCollapse">
+                            {{ accordion.vpr }}
+                        </button>
+                    </h2>
+                    <div :id="accordion.idCollapse" class="accordion-collapse collapse text-dark collapse bg-tarot rounded-0"
+                         :aria-labelledby="accordion.idHeading" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" v-html="accordion.odg">
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<app-navrh/>

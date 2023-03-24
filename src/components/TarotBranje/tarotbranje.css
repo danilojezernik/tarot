@@ -65,6 +65,10 @@ li + .breadcrumb-item::before {
     right: 0.5rem;
 }
 
+.card-header {
+    font-weight: bold;
+}
+
 .rotate {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -137,6 +141,10 @@ li + .breadcrumb-item::before {
     margin-top: -90px;
 }
 
+.padding-top-star {
+    padding-top: 100px;
+}
+
 @media screen and (max-width: 480px) {
     .margin-top-fool {
         margin-top: -70px;
@@ -167,6 +175,9 @@ li + .breadcrumb-item::before {
     }
     .margin-top-devil-second {
         margin-top: -30px;
+    }
+    .padding-top-star {
+        padding-top: 50px;
     }
     .font-size-sm {
         font-size: 10px !important;

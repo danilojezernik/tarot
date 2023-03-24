@@ -24,28 +24,24 @@
             </div>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
-
-
-            <div class="row row-cols-1 row-cols-xl-5 g-4">
-                <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in arkane"
-                     :key="index">
-                    <router-link :to="`${arkana.to}`" class="text-decoration-none">
-                        <div class="card-my">
-                            <div class="content-my">
-                                <div class="front">
-                                    <img :src="arkana.image" alt="" class="img-fluid">
-                                </div>
-                                <div class="back text-dark bg-gradient">
-                                    <h3 class="py-5 text-shadow" v-html="arkana.opis"></h3>
-                                </div>
-
+        <div class="row row-cols-1 row-cols-xl-5 g-4">
+            <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in arkane"
+                 :key="index">
+                <router-link :to="`${arkana.to}`" class="text-decoration-none">
+                    <div class="card-my">
+                        <div class="content-my">
+                            <div class="front">
+                                <img :src="arkana.image" alt="" class="img-fluid">
                             </div>
+                            <div class="back text-dark bg-gradient">
+                                <h3 class="py-5 text-shadow" v-html="arkana.opis"></h3>
+                            </div>
+
                         </div>
-                    </router-link>
-                </div>
+                    </div>
+                </router-link>
             </div>
-
-
+        </div>
     </div>
 
     <div>

@@ -25,13 +25,18 @@
         </div>
 
         <div class="row row-cols-1 row-cols-xl-3 g-4">
+            <!-- 1 karta -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">1 karte</h3>
+                    <h3 class="card-header border-white">1 karta</h3>
                     <div class="card-body">
-                        <p class="card-text">Pri branju ene karte je odličen način ta, da spoznamo pomen karte hkrati pa
-                            si lahko vzamemo čas, da karto spoznamo. Ko uporabite eno karto pri branju, si preden jo
-                            izberete, postavite vprašanje, kot je: "Kakšno sporočilo imate zame za današnji dan?"</p>
+                        <p class="card-text">Pri branju z eno karto je odličen način ta, da spoznamo pomen karte in se z
+                            njo povežemo, hkrati pa
+                            si lahko vzamemo čas, da karto do cela spoznamo. Ko uporabite eno karto pri branju, si
+                            preden jo izberete, postavite vprašanje, kot je: "Kakšno sporočilo imate zame za današnji
+                            dan?". Z eno karto si lahko odgovorite na vprašanja, ki od kart zahtevajo odgovore kot so
+                            "Da" ali "Ne" ali pa "Morda". Vsekakor je ta odgovor zelo površinski in je primeren za hitre
+                            odločitve.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModal1 = true">
@@ -39,15 +44,17 @@
                     </button>
                 </div>
             </div>
+            <!-- 3 karte -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h3 class="card-header border-white">3 karte</h3>
                     <div class="card-body">
-                        <p class="card-text">Ta postavitev kart je odlična za manjše branje. Prva karta predstavlja vašo
+                        <p class="card-text">Ta postavitev kart je odlična za manjše branje in pa za bolj natačni
+                            odgovor pri vprašanjih, ki zahtevajo odgovor "Da" ali "Ne". Če je odgovor 3x "Da" potem je
+                            odločen "Da!". Sicer pa prva karta predstavlja vašo
                             preteklost, druga vašo sedanjost in tretja vašo prihodnost (kakšen bi lahko bil izid). To
                             postavitev lahko uporabite tudi za branje drugih aspektov v življenju kot je na primer 1.
-                            um,
-                            2. telo, 3. duša ali pa 1. ljubezen, 2. denar, 3. dom ali 1. situacija, 2. ovire, 3.
+                            um, 2. telo, 3. duša ali pa 1. ljubezen, 2. denar, 3. dom ali 1. situacija, 2. ovire, 3.
                             nasvet.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
@@ -56,26 +63,19 @@
                     </button>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">5 kart</h3>
-                    <div class="card-body">
-                        <p class="card-text">Postavitev 5ih kart gre za dodaten odgovor, kjer karta 4 predstavlja glavni
-                            razlog za okoliščine, karta 5 pa pokaže potencial za situacijo (Čeprav morda ni dejanski
-                            izid, kaže na najsvetlejšo in/ali najtemnejšo možnost, ki se skriva v stanju stvari.)</p>
-                    </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
-                            @click="showModal3 = true">
-                        Obrni
-                    </button>
-                </div>
-            </div>
+            <!-- Keltski križ -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h3 class="card-header border-white">Keltski križ</h3>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <p class="card-text">Karta 1 predstavlja sedanjost, kaj se trenutno dogaja. Karta 2 predstavlja
+                            izziv ali težavo s katero se trenutno soočate. Karta 2 predstavlja preteklost oziroma
+                            dogodke, ki so vas privedli do trenutne situacije. Karta 4 prihodnost oziroma, kaj se lahko
+                            naredi v naslednjih dneh ali tednih. Karta 5 odraža vaš cilj, željo ali najboljši izzid
+                            glede na situacijo. Karta 6 lahko prinese sporočilo iz notranjosti, podzavesti. Karta 7 je
+                            nasvet, kakšen pristop je potreben, da se stvari uredijo. Karta 8 je karta zunanjih vplivov
+                            ljudi, energij ali dogodkov. Karta 9 je karta upanja in/ali strahov. In karta 10 je karta
+                            rezultata oziroma kam vodi situacija in kako težavo rešiti.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModal4 = true">
@@ -83,12 +83,17 @@
                     </button>
                 </div>
             </div>
+            <!-- Pretekla življenja -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h3 class="card-header border-white">Pretekla življenja</h3>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <p class="card-text">Karta 1 predstavlja, kakšen je vpliv le teh na vaša čustva, karta 2
+                            predstavlja kakšen je vpliv na vaše duševno stanje, karta 3 kakšen je vpliv na vaše duhovno
+                            stanje, karta 4 kakšen je vpliv na vaše fizično stanje, karta 5 prestavlja vaš karmični dolg
+                            in karta 6 kakšne so vaše karmične lekcije, ki se jih morate naučiti. Sledi karta 7, ki
+                            predstavlja vpliv preteklega življenja na sedanje življenje in karta 8 predstavlja vpliv
+                            preteklega življenja na vašo prihodnost.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModal5 = true">
@@ -96,25 +101,17 @@
                     </button>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">Partnerski odnos</h3>
-                    <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                    </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
-                            @click="showModal6 = true">
-                        Obrni
-                    </button>
-                </div>
-            </div>
+            <!-- Mandala -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h3 class="card-header border-white">Mandala</h3>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <p class="card-text">Karta 1 predstavlja vas. Karta 2 predstavlja vaše ambicije, želje in
+                            primarne pozive. Karta 3 predstavlja Ideale, cilje in pot do duhovnega zadovoljstva. Karta 4
+                            predstavlja resnične dosežke in življenjsko pot. Karta 5 predstavlja odvisnosti,
+                            zasvojenosti in zmotne vrednote. Karta 6 predstavlja prednosti in pozitivne osebnostne
+                            lastnosti. Karta 7 predstavlja napake in slabosti. Karta 8 govori o vašem samozavedanju in
+                            samopodobi in karta 9 o vaših željah in višjih namenih.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModal7 = true">
@@ -122,12 +119,17 @@
                     </button>
                 </div>
             </div>
+            <!-- Vaše rojstvo -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">Rojstni dan</h3>
+                    <h3 class="card-header border-white">Vaše rojstvo</h3>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <p class="card-text">Karta 1 predstavlja vaše trenutno mesto v svetu. Karta dva predstavlja vaše
+                            cilje za naslednje leto. Karta 3 govori o tem, kaj je tisto, kar vam daje moč. Karta 4
+                            govori o tem, katere so notranje moči, ki jih morate razviti. Karta 5 govori o prisotnem
+                            fizičnem in materialnem počutju. Karta 6 govori o trenutnem čustvenem stanju. Karta 7
+                            predstavlja vaše trenutno duhovno stanje. Karta 8 predstavlja nasprotovanja in karta 9
+                            dejanja, ki so potrebna za doseganje ciljev.</p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModal8 = true">
@@ -143,14 +145,12 @@
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Naključno izbrana karta</span>
-
             <div class="modal__content d-flex align-items-center justify-content-center">
                 <div>
-
                     <router-link :to="selectedImage.to" class="text-decoration-none">
                         <img :src="selectedImage.src" :alt="selectedImage.name" class="img-fluid"/>
                     </router-link>
-                    <h4 class="fw-bold text-center">{{ selectedImage.name }}</h4>
+                    <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ selectedImage.name }}</h6>
                 </div>
             </div>
         </vue-final-modal>
@@ -170,67 +170,9 @@
                             <router-link :to="image.to" class="text-decoration-none">
                                 <img :src="image.src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient text-white m-0 p-1  fw-bold">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
                                 {{ image.name }}</h6>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </vue-final-modal>
-
-        <!-- Modal KRIŽ KART: showModal3 -->
-        <vue-final-modal v-model="showModal3" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal3 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
-            </button>
-            <span class="modal__title text-center py-3">5 naključnih kart</span>
-
-            <div class="modal__content">
-                <div class="container text-center">
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-4"></div>
-                        <div class="col-4">
-                            <h6 class="text-center fw-bold">4</h6>
-                            <router-link :to="randomImageUrlsCross[0].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsCross[0].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[0].name }}</h6>
-                        </div>
-                        <div class="col-4"></div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-4 text-center">
-                            <h6 class="text-center fw-bold">1</h6>
-                            <router-link :to="randomImageUrlsCross[1].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsCross[1].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[1].name }}</h6>
-                        </div>
-                        <div class="col-4">
-                            <h6 class="text-center fw-bold">2</h6>
-                            <router-link :to="randomImageUrlsCross[2].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsCross[2].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[2].name }}</h6>
-                        </div>
-                        <div class="col-4">
-                            <h6 class="text-center fw-bold">3</h6>
-                            <router-link :to="randomImageUrlsCross[3].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsCross[3].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[3].name }}</h6>
-                        </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-4"></div>
-                        <div class="col-4">
-                            <h6 class="text-center fw-bold">5</h6>
-                            <router-link :to="randomImageUrlsCross[4].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsCross[4].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsCross[4].name }}</h6>
-                        </div>
-                        <div class="col-4"></div>
                     </div>
                 </div>
             </div>
@@ -255,58 +197,58 @@
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4"></div>
                                     <div class="col-sm-4">
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[2].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[2].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[2].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[2].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">3</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
                                     </div>
                                     <div class="col-sm-4"></div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4">
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[5].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[5].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[5].to" class="text-decoration-none">
-                                            <img :src="randomImageUrlsCeltic[5].src" class="img-fluid py-3"/>
+                                            <img :src="randomImageUrlsCeltic[5].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">6</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
                                     </div>
 
                                     <div class="col-sm-3 position-relative">
-                                        <h6 class="text-center fw-bold">1</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
                                         <router-link :to="randomImageUrlsCeltic[0].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[0].src"
                                                  class="img-fluid position-absolute top-50 start-0 translate-middle-y"
                                                  style=" z-index: 1;"/>
                                         </router-link>
 
-                                        <h6 class="text-center fw-bold">2</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
                                         <router-link :to="randomImageUrlsCeltic[1].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[1].src"
                                                  class="img-fluid position-absolute top-0 start-0 rotate"
                                                  style=" z-index: 2;"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[1].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[1].name }}</h6>
                                     </div>
 
                                     <div class="col-sm-4">
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[4].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[4].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[4].to" class="text-decoration-none">
-                                            <img :src="randomImageUrlsCeltic[4].src" class="img-fluid py-3"/>
+                                            <img :src="randomImageUrlsCeltic[4].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">5</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4"></div>
                                     <div class="col-sm-4">
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[3].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[3].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[3].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[3].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">4</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
                                     </div>
                                     <div class="col-sm-4">
                                         <h6 class="text-center fw-bold">Dve karti na sredini:</h6>
@@ -323,42 +265,42 @@
                             <div class="container text-center">
 
                                 <div class="row d-flex align-items-center justify-content-center">
-                                    <div class="col-8">
-                                        <h6 class="text-center fw-bold">10</h6>
+                                    <div class="col-8 pb-1">
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">10</h6>
                                         <router-link :to="randomImageUrlsCeltic[9].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[9].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[9].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[9].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
-                                    <div class="col-8">
-                                        <h6 class="text-center fw-bold">9</h6>
+                                    <div class="col-8 pb-1">
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">9</h6>
                                         <router-link :to="randomImageUrlsCeltic[8].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[8].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[8].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[8].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
-                                    <div class="col-8">
-                                        <h6 class="text-center fw-bold">8</h6>
+                                    <div class="col-8 pb-1">
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">8</h6>
                                         <router-link :to="randomImageUrlsCeltic[7].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[7].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[7].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[7].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-8">
-                                        <h6 class="text-center fw-bold">7</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
                                         <router-link :to="randomImageUrlsCeltic[6].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[6].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center fw-bold">{{ randomImageUrlsCeltic[6].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[6].name }}</h6>
                                     </div>
                                 </div>
                             </div>
@@ -385,180 +327,77 @@
                 <div class="container text-center">
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">1</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
                             <router-link :to="randomImageUrlsPastLife[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[0].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">2</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
                             <router-link :to="randomImageUrlsPastLife[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[1].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">3</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
                             <router-link :to="randomImageUrlsPastLife[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[2].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">4</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
                             <router-link :to="randomImageUrlsPastLife[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[3].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">5</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
                             <router-link :to="randomImageUrlsPastLife[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[4].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">6</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
                             <router-link :to="randomImageUrlsPastLife[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[5].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">7</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
                             <router-link :to="randomImageUrlsPastLife[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[6].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-3">
-                            <h6 class="text-center fw-bold">8</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">8</h6>
                             <router-link :to="randomImageUrlsPastLife[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsPastLife[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[7].name }}</h6>
                         </div>
 
                     </div>
 
 
-                </div>
-            </div>
-        </vue-final-modal>
-
-        <!-- Modal PARTNERSKI ODNOS: showModal6 -->
-        <vue-final-modal v-model="showModal6" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal6 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
-            </button>
-            <span class="modal__title text-center py-3">5 naključnih kart</span>
-
-            <div class="modal__content">
-                <div class="container text-center">
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3"></div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">9</h6>
-                            <router-link :to="randomImageUrlsRelationship[8].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[8].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[8].name }}</h6>
-                        </div>
-                        <div class="col-3"></div>
-                        <div class="col-3"></div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3 text-center">
-                            <h6 class="text-center fw-bold">5</h6>
-                            <router-link :to="randomImageUrlsRelationship[4].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[4].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[4].name }}</h6>
-                        </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">6</h6>
-                            <router-link :to="randomImageUrlsRelationship[5].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[5].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[5].name }}</h6>
-                        </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">7</h6>
-                            <router-link :to="randomImageUrlsRelationship[6].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[6].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[6].name }}</h6>
-                        </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">8</h6>
-                            <router-link :to="randomImageUrlsRelationship[7].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[7].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[7].name }}</h6>
-                        </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3"></div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">4</h6>
-                            <router-link :to="randomImageUrlsRelationship[3].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[3].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[3].name }}</h6>
-                        </div>
-                        <div class="col-3"></div>
-                        <div class="col-3"></div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3"></div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">3</h6>
-                            <router-link :to="randomImageUrlsRelationship[2].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[2].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[2].name }}</h6>
-                        </div>
-                        <div class="col-3"></div>
-                        <div class="col-3"></div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3"></div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">2</h6>
-                            <router-link :to="randomImageUrlsRelationship[1].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[1].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[1].name }}</h6>
-                        </div>
-                        <div class="col-3"></div>
-                        <div class="col-3"></div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3"></div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">1</h6>
-                            <router-link :to="randomImageUrlsRelationship[0].to" class="text-decoration-none">
-                                <img :src="randomImageUrlsRelationship[0].src" class="img-fluid"/>
-                            </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsRelationship[0].name }}</h6>
-                        </div>
-                        <div class="col-3"></div>
-                        <div class="col-3"></div>
-                    </div>
                 </div>
             </div>
         </vue-final-modal>
@@ -568,85 +407,85 @@
             <button class="modal__close border-0 bg-transparent" @click="showModal7 = false">
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
-            <span class="modal__title text-center py-3">5 naključnih kart</span>
+            <span class="modal__title text-center py-3">Mandala</span>
 
             <div class="modal__content">
                 <div class="container text-center">
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">9</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">9</h6>
                             <router-link :to="randomImageUrlsMandala[8].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[8].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[8].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[8].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3 text-center">
-                            <h6 class="text-center fw-bold">8</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">8</h6>
                             <router-link :to="randomImageUrlsMandala[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[7].name }}</h6>
                         </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">2</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
                             <router-link :to="randomImageUrlsMandala[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[1].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3 text-center">
-                            <h6 class="text-center fw-bold">7</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
                             <router-link :to="randomImageUrlsMandala[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[6].name }}</h6>
                         </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">1</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
                             <router-link :to="randomImageUrlsMandala[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[0].name }}</h6>
                         </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">3</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
                             <router-link :to="randomImageUrlsMandala[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[2].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3 text-center">
-                            <h6 class="text-center fw-bold">6</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
                             <router-link :to="randomImageUrlsMandala[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[5].name }}</h6>
                         </div>
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">4</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
                             <router-link :to="randomImageUrlsMandala[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[3].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3 text-center">
-                            <h6 class="text-center fw-bold">5</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
                             <router-link :to="randomImageUrlsMandala[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsMandala[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[4].name }}</h6>
                         </div>
                     </div>
 
@@ -655,90 +494,90 @@
             </div>
         </vue-final-modal>
 
-        <!-- Modal ROJSTNI DAN: showModal8 -->
+        <!-- Modal VAŠE ROJSTVO: showModal8 -->
         <vue-final-modal v-model="showModal8" classes="modal-container-three" content-class="modal-content">
             <button class="modal__close border-0 bg-transparent" @click="showModal8 = false">
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
-            <span class="modal__title text-center py-3">Rojstni dan</span>
+            <span class="modal__title text-center py-3">Vaše rojstvo</span>
 
             <div class="modal__content">
                 <div class="container text-center">
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">1</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
                             <router-link :to="randomImageUrlsBirthday[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[0].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">2</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
                             <router-link :to="randomImageUrlsBirthday[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[1].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">3</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
                             <router-link :to="randomImageUrlsBirthday[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[2].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">4</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
                             <router-link :to="randomImageUrlsBirthday[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[3].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">5</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
                             <router-link :to="randomImageUrlsBirthday[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[4].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">6</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
                             <router-link :to="randomImageUrlsBirthday[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[5].name }}</h6>
                         </div>
 
-                        <div class="col-3">
-                            <h6 class="text-center fw-bold">7</h6>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
                             <router-link :to="randomImageUrlsBirthday[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[6].name }}</h6>
                         </div>
                     </div>
 
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-3">
-                            <h6 class="text-center fw-bold">8</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">8</h6>
                             <router-link :to="randomImageUrlsBirthday[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[7].name }}</h6>
                         </div>
                         <div class="col-3">
-                            <h6 class="text-center fw-bold">9</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">9</h6>
                             <router-link :to="randomImageUrlsBirthday[8].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[8].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center fw-bold">{{ randomImageUrlsBirthday[8].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[8].name }}</h6>
                         </div>
 
                     </div>
@@ -756,16 +595,18 @@
             <p class="lead">Sledi 25 postavitev, ki utelešajo vsako od 22-ih kart v veliki arkani.</p>
             <img src="~@/assets/hrline.png" class="img-fluid text-center">
         </div>
-
-        <div class="row row-cols-1 row-cols-xl-3 g-4">
-            <!-- 0 -->
+        <div v-html="opis25postavitev"></div>
+        <div class="pb-4 text-center">
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
+        </div>
+        <!-- 25 Cards -->
+        <div class="row row-cols-1 row-cols-xl-1 g-4">
+            <!-- 0 - Norec -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Norec: Poglej preden skočiš</h4>
                     <div class="card-body">
-                        <p class="card-text">Pri branju ene karte je odličen način ta, da spoznamo pomen karte hkrati pa
-                            si lahko vzamemo čas, da karto spoznamo. Ko uporabite eno karto pri branju, si preden jo
-                            izberete, postavite vprašanje, kot je: "Kakšno sporočilo imate zame za današnji dan?"</p>
+                        <div v-html="opisFool"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalFool = true">
@@ -773,17 +614,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 1 -->
+            <!-- 1 - Magik -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Magik: Spoznajte svojo moč; Uporabite svoja orodja</h4>
                     <div class="card-body">
-                        <p class="card-text">Ta postavitev kart je odlična za manjše branje. Prva karta predstavlja vašo
-                            preteklost, druga vašo sedanjost in tretja vašo prihodnost (kakšen bi lahko bil izid). To
-                            postavitev lahko uporabite tudi za branje drugih aspektov v življenju kot je na primer 1.
-                            um,
-                            2. telo, 3. duša ali pa 1. ljubezen, 2. denar, 3. dom ali 1. situacija, 2. ovire, 3.
-                            nasvet.</p>
+                        <div v-html="opisMagician"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalMagician = true">
@@ -791,14 +627,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 2-->
+            <!-- 2 - Visoka Svečenica 1 -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Visoka Svečenica: Skrivni svet sanj</h4>
                     <div class="card-body">
-                        <p class="card-text">Postavitev 5ih kart gre za dodaten odgovor, kjer karta 4 predstavlja glavni
-                            razlog za okoliščine, karta 5 pa pokaže potencial za situacijo (Čeprav morda ni dejanski
-                            izid, kaže na najsvetlejšo in/ali najtemnejšo možnost, ki se skriva v stanju stvari.)</p>
+                        <div v-html="opisPriestessOne"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalPriestessOne = true">
@@ -806,13 +640,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 3-->
+            <!-- 2 - Visoka Svečenica 2 -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Visoka Svečenica: Intuitivni vpogled</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisPriestessTwo"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalPriestessTwo = true">
@@ -820,13 +653,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 4-->
+            <!-- 3 - Cesarica -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Cesarica: Nega se začne pri sebi</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisEmpress"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalEmpress = true">
@@ -834,13 +666,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 5-->
+            <!-- 4 - Cesar -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h4 class="card-header border-white">Cesar: zmagoviti načrt</h4>
+                    <h4 class="card-header border-white">Cesar: Zmagoviti načrt</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisEmperor"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalEmperor = true">
@@ -848,13 +679,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 6-->
+            <!-- 5 - Svečenik -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Svečenik: Iskanje sveta modreca</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisHierophant"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalHierophant = true">
@@ -862,13 +692,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 7-->
+            <!-- 6 - Ljubimca 1 -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h4 class="card-header border-white">Ljubimca: Za zaljubljene</h4>
+                    <h4 class="card-header border-white">Ljubimca: Za pare</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisLoversOne"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalLoversOne = true">
@@ -876,13 +705,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 8 -->
+            <!-- 6 - Ljubimca 2-->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Ljubimca: Za samske</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisLoversTwo"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalLoversTwo = true">
@@ -890,13 +718,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 9 -->
+            <!-- 7 - Kočija -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Kočija: Neomajni razgled</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisChariot"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalChariot = true">
@@ -904,13 +731,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 10 -->
+            <!-- 8 - Moč -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Moč: Zmaga nad strahom</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisStrength"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalStrength = true">
@@ -918,13 +744,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 11 -->
+            <!-- 9 - Puščavnik -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Puščavnik: Pojdi vase</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisHermit"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalHermit = true">
@@ -932,13 +757,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 12 -->
+            <!-- 10 - Kolo sreče -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Kolo sreče: Karmične lekcije</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisWheel"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalWheel = true">
@@ -946,13 +770,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 13 -->
+            <!-- 11 - Pravica -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Pravica: Resnica v ravnotežju</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisJustice"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalJustice = true">
@@ -960,13 +783,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 14 -->
+            <!-- 12 - Obešenec -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Obešenec: Resnica v perspektivi</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisHanged"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalHanged = true">
@@ -974,13 +796,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 15 -->
+            <!-- 15 - Smrt -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Smrt: Sprejemanje sprememb</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisDeath"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalDeath = true">
@@ -988,13 +809,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 16 -->
+            <!-- 16 - Zmernost -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Zmernost: Sveta poravnava</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisTemperance"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalTemperance = true">
@@ -1002,13 +822,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 17 -->
+            <!-- 17 - Hudič -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Hudič: Zdrave meje</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisDevil"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalDevil = true">
@@ -1016,13 +835,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 18 -->
+            <!-- 18 - Trdnjava -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Trdnjava: Onkraj ruševin</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisTower"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalTower = true">
@@ -1030,13 +848,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 19 -->
+            <!-- 19 - Zvezda -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Zvezda: Luč, ki vodi</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisStar"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalStar = true">
@@ -1044,13 +861,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 20 -->
+            <!-- 20 - Luna -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Luna: Sence v središču</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisMoon"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalMoon = true">
@@ -1058,13 +874,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 21 -->
+            <!-- 21 - Sonce -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Sonce: Najboljši obraz naprej</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisSun"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalSun = true">
@@ -1072,13 +887,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 22 -->
+            <!-- 22 - Sodba -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Sodba: Upoštevajte klic</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisJudgement"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalJudgement = true">
@@ -1086,13 +900,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 23 -->
+            <!-- 23 - Svet -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
                     <h4 class="card-header border-white">Svet: Prihaja poln krog</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisWorld"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalWorld = true">
@@ -1100,13 +913,12 @@
                     </button>
                 </div>
             </div>
-            <!-- 24 -->
+            <!-- 24 - 22 Kart -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h4 class="card-header border-white">Celotna slika: 22 kart</h4>
+                    <h4 class="card-header border-white">Celotna slika z 22 kartami</h4>
                     <div class="card-body">
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <div v-html="opisAll"></div>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalWholePicture = true">
@@ -1114,7 +926,6 @@
                     </button>
                 </div>
             </div>
-
         </div>
 
         <!-- showModalFool -->
@@ -2407,6 +2218,416 @@
                         </div>
                         <div class="col-3"></div>
                     </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalStar -->
+        <vue-final-modal v-model="showModalStar" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalStar = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Luč, ki vodi</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row padding-top-star d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsStar[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[0].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsStar[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[1].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsStar[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[2].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsStar[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsStar[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[4].name }}</h6>
+                        </div>
+                        <div class="col-3 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsStar[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsStar[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsStar[5].name }}</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalMoon -->
+        <vue-final-modal v-model="showModalMoon" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalMoon = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Sence v središču</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsMoon[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMoon[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMoon[1].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsMoon[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMoon[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMoon[4].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsMoon[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMoon[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMoon[0].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsMoon[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMoon[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMoon[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsMoon[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsMoon[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMoon[3].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalSun -->
+        <vue-final-modal v-model="showModalSun" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalSun = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Najboljši obraz za naprej</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsSun[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsSun[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[2].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsSun[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[6].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsSun[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[0].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsSun[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[3].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsSun[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[5].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsSun[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsSun[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsSun[4].name }}</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalJudgement -->
+        <vue-final-modal v-model="showModalJudgement" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalJudgement = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Upoštevajte klic</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsJudgement[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[4].name }}</h6>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsJudgement[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[5].name }}</h6>
+                        </div>
+                    </div>
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-2 pb-1 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsJudgement[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[2].name }}</h6>
+                        </div>
+                        <div class="col-2 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsJudgement[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[1].name }}</h6>
+                        </div>
+                        <div class="col-2 pb-1 margin-top-fool">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsJudgement[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[3].name }}</h6>
+                        </div>
+                    </div>
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-2"></div>
+                        <div class="col-2 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsJudgement[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsJudgement[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsJudgement[0].name }}</h6>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalWorld -->
+        <vue-final-modal v-model="showModalWorld" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalWorld = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Sence v središču</span>
+            <div class="modal__content">
+                <div class="container text-center">
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3"></div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
+                            <router-link :to="randomImageUrlsWorld[6].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[6].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[6].name }}</h6>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1 margin-top-empress">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                            <router-link :to="randomImageUrlsWorld[4].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[4].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[4].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                            <router-link :to="randomImageUrlsWorld[5].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[5].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[5].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1 margin-top-empress">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                            <router-link :to="randomImageUrlsWorld[0].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[0].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[0].name }}</h6>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex g-1 align-items-center justify-content-center">
+                        <div class="col-3 pb-1 margin-top-empress">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                            <router-link :to="randomImageUrlsWorld[1].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[1].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[1].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                            <router-link :to="randomImageUrlsWorld[2].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[2].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[2].name }}</h6>
+                        </div>
+                        <div class="col-3 pb-1 margin-top-empress">
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                            <router-link :to="randomImageUrlsWorld[3].to" class="text-decoration-none">
+                                <img :src="randomImageUrlsWorld[3].src" class="img-fluid"/>
+                            </router-link>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsWorld[3].name }}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- showModalWholePicture -->
+        <vue-final-modal v-model="showModalWholePicture" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="showModalWholePicture = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">Celotna slika z 22 kartami</span>
+            <div class="modal__content">
+                <div class="container">
+                    <ol>
+                        <li><b>Norec</b>: Kje si zdaj na svojem potovanju?</li>
+                        <li><b>Čarovnik</b>: Vaše naravne spretnosti/sposobnosti, ki vam bodo pomagale na vašem
+                            potovanju.
+                        </li>
+                        <li><b>Visoka svečenica</b>: Vaša povezava z vašo intuicijo.</li>
+                        <li><b>Carica</b>: Kako negujete sebe/druge.</li>
+                        <li><b>Cesar</b>: Pravila ali strukture, ki trenutno urejajo vaše življenje.</li>
+                        <li><b>Hierofant</b>: Kako religija/duhovnost igra vlogo v vašem življenju in na vaši poti.</li>
+                        <li><b>Ljubimci</b>: Kako se izražati v ljubezni.</li>
+                        <li><b>The Chariot</b>: Za kaj si trenutno prizadevate.</li>
+                        <li><b>Prednosti</b>: Vaše največje področje moči.</li>
+                        <li><b>Puščavnik</b>: Kako preživeti čas v samoti.</li>
+                        <li><b>Kolo sreče</b>: Kako se karma trenutno zrcali na vaše življenje.</li>
+                        <li><b>Pravica</b>: Težka resnica, ki jo morate slišati.</li>
+                        <li><b>Obešeni mož</b>: Vprašanje ali miselnost, ki zahteva spremembo perspektive.</li>
+                        <li><b>Smrt</b>: Nekaj v vašem življenju, ki se bliža koncu svojega cikla.</li>
+                        <li><b>Zmernost</b>: Kako lahko najbolje dosežete stanje ravnovesja.</li>
+                        <li><b>Hudič</b>: Navade/skušnjave/odvisnosti itd. vaz držijo nazaj in se vas oklepajo.</li>
+                        <li><b>Stolp</b>: Področje vašega življenja, ki ga je treba temeljito prenoviti.</li>
+                        <li><b>Zvezda</b>: Način, kako lahko najbolje prispevate svetu ali sebi.</li>
+                        <li><b>Luna</b>: Posnetek vaše sence; del sebe, ki ga zakopljete ali skrijete.</li>
+                        <li><b>Sonce</b>: Kako vas vidijo drugi; zunanji izraz vas samih.</li>
+                        <li><b>Sodba</b>: Kaj je tisto, ki vas kliče, da morate dvigniti in se s tem soočiti.</li>
+                        <li><b>Svet</b>: Kako lahko najbolje dosežete izpolnitev v tem življenju ali na tej stopnji
+                            svojega
+                            potovanja.
+                        </li>
+                    </ol>
+
 
                 </div>
             </div>

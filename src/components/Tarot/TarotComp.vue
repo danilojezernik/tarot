@@ -2,4 +2,4 @@
 
 <script src="./tarot.js"></script>
 
-<style src="./tarot.css" scoped></style>
+<style src="../style/style.css" scoped></style>

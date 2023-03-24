@@ -1,25 +1,44 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
 import IndexComp from '@/components/Index/IndexComp.vue'
-import KabalaComp from '@/components/Kabala/KabalaComp.vue'
+
+import KabalaComp from '@/components/Kabala/Kabala/KabalaComp.vue'
+import KabalaOpisComp from '@/components/Kabala/KabalaOpis/KabalaOpisComp.vue'
+
+
 import KliphotComp from '@/components/Kliphot/KliphotComp.vue'
-import MeditacijaComp from '@/components/Meditacija/Meditacija/MeditacijaComp.vue'
+import MeditacijaComp from '@/components/Meditacija/MeditacijaComp.vue'
 import TarotComp from '@/components/Tarot/TarotComp.vue'
 import TarotVajeComp from '@/components/TarotVaje/TarotVajeComp.vue'
-import SadhanaComp from '@/components/Sadhana/SadhanaComp.vue'
+import SadhanaComp from '@/components/Sadhana/Sadhana/SadhanaComp.vue'
 import LiteraturaComp from '@/components/Literatura/LiteraturaComp.vue'
 import KontaktComp from '@/components/Kontakt/KontaktComp.vue'
 import TarotBranje from '@/components/TarotBranje/TarotBranje.vue'
+import VprInOdg from '@/components/VprInOdg/VprInOdgComp.vue'
 
-// Čakre
-import MuladharaComp from '@/components/Meditacija/Muladhara/MuladharaComp.vue'
-import SwadhisthanaComp from '@/components/Meditacija/Swadhisthana/SwadhisthanaComp.vue'
-import ManipuraComp from '@/components/Meditacija/Manipura/ManipuraComp.vue'
-import AnahataComp from '@/components/Meditacija/Anahata/AnahataComp.vue'
-import VishuddhiComp from '@/components/Meditacija/Vishuddhi/VishuddhiComp.vue'
-import AjnaComp from '@/components/Meditacija/Ajna/AjnaComp.vue'
-import BinduComp from '@/components/Meditacija/Bindu/BinduComp.vue'
-import SahasraraComp from '@/components/Meditacija/Sahasrara/SahasraraComp.vue'
+// Sadhana
+import FoolSadhana from '@/components/Sadhana/Fool/FoolSadhanaComp.vue'
+import MagicianSadhana from '@/components/Sadhana/Magician/MagicianSadhanaComp.vue'
+import PriestessSadhana from '@/components/Sadhana/Priestess/PriestessSadhanaComp.vue'
+import EmpressSadhana from '@/components/Sadhana/Empress/EmpressSadhanaComp.vue'
+import EmperorSadhana from '@/components/Sadhana/Emperor/EmperorSadhanaComp.vue'
+import HierophantSadhana from '@/components/Sadhana/Hierophant/HierophantSadhanaComp.vue'
+import LoversSadhana from '@/components/Sadhana/Lovers/LoversSadhanaComp.vue'
+import ChariotSadhana from '@/components/Sadhana/Chariot/ChariotSadhanaComp.vue'
+import StrengthSadhana from '@/components/Sadhana/Strength/StrengthSadhanaComp.vue'
+import HermitSadhana from '@/components/Sadhana/Hermit/HermitSadhanaComp.vue'
+import WheelSadhana from '@/components/Sadhana/Wheel/WheelSadhanaComp.vue'
+import JusticeSadhana from '@/components/Sadhana/Justice/JusticeSadhanaComp.vue'
+import HangedSadhana from '@/components/Sadhana/Hanged/HangedSadhanaComp.vue'
+import DeathSadhana from '@/components/Sadhana/Death/DeathSadhanaComp.vue'
+import TemperanceSadhana from '@/components/Sadhana/Temperance/TemperanceSadhanaComp.vue'
+import DevilSadhana from '@/components/Sadhana/Devil/DevilSadhanaComp.vue'
+import TowerSadhana from '@/components/Sadhana/Tower/TowerSadhanaComp.vue'
+import StarSadhana from '@/components/Sadhana/Star/StarSadhanaComp.vue'
+import MoonSadhana from '@/components/Sadhana/Moon/MoonSadhanaComp.vue'
+import SunSadhana from '@/components/Sadhana/Sun/SunSadhanaComp.vue'
+import JudgementSadhana from '@/components/Sadhana/Judgement/JudgementSadhanaComp.vue'
+import WorldSadhana from '@/components/Sadhana/World/WorldSadhanaComp.vue'
 
 // Arkane
 import GlavnaArcana from '@/components/TarotArkane/GlavnaArkana/GlavnaArkana.vue';
@@ -137,45 +156,16 @@ const routes = [
         component: KabalaComp,
     },
     {
+        path: '/kabala-opis',
+        component: KabalaOpisComp,
+    },
+    {
         path: '/kliphot',
         component: KliphotComp,
     },
     {
         path: '/meditacija',
         component: MeditacijaComp,
-    },
-    // Meditacije na čakre
-    {
-        path: '/muladhara',
-        component: MuladharaComp,
-    },
-    {
-        path: '/swadhisthana',
-        component: SwadhisthanaComp,
-    },
-    {
-        path: '/manipura',
-        component: ManipuraComp,
-    },
-    {
-        path: '/anahata',
-        component: AnahataComp,
-    },
-    {
-        path: '/vishuddhi',
-        component: VishuddhiComp,
-    },
-    {
-        path: '/ajna',
-        component: AjnaComp,
-    },
-    {
-        path: '/bindu',
-        component: BinduComp,
-    },
-    {
-        path: '/sahasrara',
-        component: SahasraraComp,
     },
     {
         path: '/vaje',
@@ -190,8 +180,101 @@ const routes = [
         component: LiteraturaComp,
     },
     {
+        path: '/vpr-odg',
+        component: VprInOdg,
+    },
+    {
         path: '/kontakt',
         component: KontaktComp,
+    },
+    // SADHANE ARKANA
+    {
+        path: '/the-fool-sadhana',
+        component: FoolSadhana
+    },
+    {
+        path: '/the-magician-sadhana',
+        component: MagicianSadhana,
+    },
+    {
+        path: '/the-high-priestess-sadhana',
+        component: PriestessSadhana,
+    },
+    {
+        path: '/the-empress-sadhana',
+        component: EmpressSadhana,
+    },
+    {
+        path: '/the-emperor-sadhana',
+        component: EmperorSadhana,
+    },
+    {
+        path: '/the-hierophant-sadhana',
+        component: HierophantSadhana,
+    },
+    {
+        path: '/the-lovers-sadhana',
+        component: LoversSadhana,
+    },
+    {
+        path: '/the-chariot-sadhana',
+        component: ChariotSadhana,
+    },
+    {
+        path: '/strength-sadhana',
+        component: StrengthSadhana,
+    },
+    {
+        path: '/the-hermit-sadhana',
+        component: HermitSadhana,
+    },
+    {
+        path: '/wheel-of-fortune-sadhana',
+        component: WheelSadhana,
+    },
+    {
+        path: '/justice-sadhana',
+        component: JusticeSadhana,
+    },
+    {
+        path: '/the-hanged-man-sadhana',
+        component: HangedSadhana,
+    },
+    {
+        path: '/death-sadhana',
+        component: DeathSadhana,
+    },
+    {
+        path: '/temperance-sadhana',
+        component: TemperanceSadhana,
+    },
+    {
+        path: '/the-devil-sadhana',
+        component: DevilSadhana,
+    },
+    {
+        path: '/the-tower-sadhana',
+        component: TowerSadhana,
+    },
+    {
+        path: '/the-star-sadhana',
+        component: StarSadhana,
+    },
+    {
+        path: '/the-moon-sadhana',
+        component: MoonSadhana,
+    },
+    {
+        path: '/the-sun-sadhana',
+        component: SunSadhana,
+    },
+    {
+        path: '/judgement-sadhana',
+        component: JudgementSadhana,
+    },
+    {
+        path: '/the-world-sadhana',
+        component: WorldSadhana,
     },
     // AKRANE
     {
