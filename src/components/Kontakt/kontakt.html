@@ -16,15 +16,20 @@
 
 <div class="container-fluid p-0 bg-tarot">
     <div class="container">
+        <div class="py-4 text-center">
+            <h1>Kontaktirajte me</h1>
+            <div class="lead text-center">Imate kakršno koli vprašanje? Vas karkoli zanima?</div>
+            <img src="~@/assets/hrline.png" class="img-fluid" alt="">
+        </div>
 
-        <div class="row p-2 p-md-2 pt-md-5 pb-md-5 d-flex align-items-center justify-content-center">
+        <div class="row p-2 p-md-2 pt-md-3 pb-md-3 d-flex align-items-center justify-content-center">
 
-            <div class="col-3 d-none d-lg-block text-start">
+            <div class="col-2 d-none d-lg-block text-start">
                 <img src="~@/assets/majorarcana/the-empress.png" ondragstart="return false;"
                      class="img-fluid shadow">
             </div>
 
-            <div class="col-lg-4 bg-tarot-index text-white p-4 shadow rounded-2">
+            <div class="col-lg-8 bg-dark bg-gradient text-white p-4 shadow rounded-2">
                 <form
                         action="https://formspree.io/f/xlekwvek"
                         method="POST"
@@ -32,20 +37,22 @@
                     <!-- Name input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example1">Ime in priimek</label>
-                        <input type="text" name="name" id="form4Example1" class="form-control text-white border-dark bg-tarot"/>
+                        <input type="text" name="name" id="form4Example1"
+                               class="form-control text-white border-dark bg-tarot" required/>
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example2">Email naslov</label>
-                        <input type="email" name="email" id="form4Example2" class="form-control text-white border-dark bg-tarot"/>
+                        <input type="email" name="email" id="form4Example2"
+                               class="form-control text-white border-dark bg-tarot" required/>
                     </div>
 
                     <!-- Message input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example3">Sporočilo</label>
                         <textarea class="form-control text-white border-dark bg-tarot" name="message" id="form4Example3"
-                                  rows="5"></textarea>
+                                  rows="5" required></textarea>
                     </div>
 
                     <!-- Submit button -->
@@ -55,7 +62,7 @@
                 </form>
             </div>
 
-            <div class="col-3 d-none d-lg-block text-end">
+            <div class="col-2 d-none d-lg-block text-end">
                 <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
                      class="img-fluid shadow ">
             </div>
