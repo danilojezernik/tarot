@@ -1,7 +1,7 @@
 <div class="container-fluid text-white bg-tarot-index shadow-sm">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
-            Kabala
+            {{ naslov }}
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -11,7 +11,7 @@
                 <li class="breadcrumb-item">
                     <router-link class="text-decoration-none " to="/kabala">Kabala</router-link>
                 </li>
-                <li class="breadcrumb-item text-white active" aria-current="page">O Kabali</li>
+                <li class="breadcrumb-item text-white active" aria-current="page">{{ naslov }}</li>
             </ol>
         </nav>
     </div>
@@ -21,12 +21,122 @@
     <div class="container p-3">
 
         <div class="py-4 text-center">
-            <h1>Kabala</h1>
+            <h1>{{ naslov }}</h1>
             <div class="lead text-center">{{ kabalaRek }}</div>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
 
-        <span v-html="opisKabala"></span>
+        <!--        <span v-html="opisKabala"></span>-->
+        <div class="row row-cols-1 row-cols-xl-3 g-4 pt-3">
+            <!-- Meditacija na mirnost telesa in tratak -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">{{ naslovKabala }}</h3>
+                    <div class="card-body">
+                        <p class="card-text" v-html="kabalaNaKratko"></p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="modalKabala = true">
+                        {{ button }}
+                    </button>
+                </div>
+            </div>
+            <!-- Meditacija na dih in čakre -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">{{ naslovSefirot }}</h3>
+                    <div class="card-body">
+                        <p class="card-text" v-html="kabalaSefirot"></p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="modalSefirot = true">
+                        {{ button }}
+                    </button>
+                </div>
+            </div>
+            <!-- Meditacija na tarot -->
+            <div class="col">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">{{ naslovNadangeli }}</h3>
+                    <div class="card-body">
+                        <p class="card-text" v-html="nadangeli"></p>
+                    </div>
+                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                            @click="modalNadangeli = true">
+                        {{ button }}
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal KAJ JE KABALA -->
+        <vue-final-modal v-model="modalKabala" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="modalKabala = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">{{ naslovKabala }}</span>
+
+            <div class="modal__content">
+                <div class="container">
+                    <span v-html="opisKabala"></span>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal OPIS SEFIROTOV -->
+        <vue-final-modal v-model="modalSefirot" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="modalSefirot = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">{{ naslovSefirot }}</span>
+
+            <div class="modal__content">
+                <div class="container">
+                    <h4 class="fw-bold">Kether</h4>
+                    <div v-html="keter"></div>
+                    <h4 class="fw-bold">Chokmah</h4>
+                    <div v-html="chokmah"></div>
+                    <h4 class="fw-bold">Binah</h4>
+                    <div v-html="binah"></div>
+                    <h4 class="fw-bold">Chesed</h4>
+                    <div v-html="chesed"></div>
+                    <h4 class="fw-bold">Geburah</h4>
+                    <div v-html="geburah"></div>
+                    <h4 class="fw-bold">Tiphareth</h4>
+                    <div v-html="tiphareth"></div>
+                    <h4 class="fw-bold">Netzach</h4>
+                    <div v-html="netzach"></div>
+                    <h4 class="fw-bold">Hod</h4>
+                    <div v-html="hod"></div>
+                    <h4 class="fw-bold">Yesod</h4>
+                    <div v-html="yesod"></div>
+                    <h4 class="fw-bold">Malkuth</h4>
+                    <div v-html="malkuth"></div>
+                </div>
+            </div>
+        </vue-final-modal>
+
+        <!-- Modal OPIS NADANGELOV -->
+        <vue-final-modal v-model="modalNadangeli" classes="modal-container-three" content-class="modal-content">
+            <button class="modal__close border-0 bg-transparent" @click="modalNadangeli = false">
+                <mdi-close class="fw-bold">X</mdi-close>
+            </button>
+            <span class="modal__title text-center py-3">{{ naslovNadangeli }}</span>
+
+            <div class="modal__content">
+                <div class="container">
+                    <span v-html="opisNadangeli"></span>
+                    <h4 class="fw-bold">Michael</h4>
+                    <div v-html="michael"></div>
+                    <h4 class="fw-bold">Uriel</h4>
+                    <div v-html="uriel"></div>
+                    <h4 class="fw-bold">Raphael</h4>
+                    <div v-html="raphael"></div>
+                    <h4 class="fw-bold">Gabriel</h4>
+                    <div v-html="gabriel"></div>
+                </div>
+            </div>
+        </vue-final-modal>
 
     </div>
 

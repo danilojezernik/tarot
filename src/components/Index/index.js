@@ -19,17 +19,16 @@ export default {
             return `http://localhost:5000/images/${this.imageName}`;
         },
     },
-    created () {
-            const idx = Math.floor(Math.random() * this.slike.length)
-            this.selectedImage = this.slike[idx]
+    created() {
+        const idx = Math.floor(Math.random() * this.slike.length)
+        this.selectedImage = this.slike[idx]
     },
     methods: {
         currentDate() {
             const current = new Date();
-            return `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+            return `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}`;
         }
-    }
-
+    },
 }
 
 

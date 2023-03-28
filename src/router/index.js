@@ -4,7 +4,8 @@ import IndexComp from '@/components/Index/IndexComp.vue'
 
 import KabalaComp from '@/components/Kabala/Kabala/KabalaComp.vue'
 import KabalaOpisComp from '@/components/Kabala/KabalaOpis/KabalaOpisComp.vue'
-
+import KabalaMeditacijaComp from '@/components/Kabala/KabalaMeditacija/KabalaMeditacijaComp.vue'
+import PentagramComp from '@/components/Kabala/Pentagram/PentagramComp.vue'
 
 import KliphotComp from '@/components/Kliphot/KliphotComp.vue'
 import MeditacijaComp from '@/components/Meditacija/MeditacijaComp.vue'
@@ -158,6 +159,14 @@ const routes = [
     {
         path: '/kabala-opis',
         component: KabalaOpisComp,
+    },
+    {
+        path: '/kabala-meditacija',
+        component: KabalaMeditacijaComp,
+    },
+    {
+        path: '/ritual-pentagram',
+        component: PentagramComp,
     },
     {
         path: '/kliphot',

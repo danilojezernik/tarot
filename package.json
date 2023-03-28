@@ -24,6 +24,7 @@
     "vue-axios": "^3.5.2",
     "vue-final-modal": "^3.4.4",
     "vue-light-gallery": "^1.0.1",
+    "vue-meta": "^2.4.0",
     "vue-router": "^4.0.3",
     "vue3-popper": "^1.4.2"
   },

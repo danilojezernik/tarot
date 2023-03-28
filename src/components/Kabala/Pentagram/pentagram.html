@@ -1,0 +1,51 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            {{ naslov }}
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none " to="/kabala">Kabala</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">{{ naslov }}</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container p-3">
+
+        <div class="py-4 text-center">
+            <h1>{{ naslov }}</h1>
+            <div class="lead text-center">{{ kabalaRek }}</div>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+        <h3 class="fw-bold">{{ naslovPriprava }}</h3>
+        <span v-html="priprava"></span>
+        <h3 class="fw-bold">{{ naslovKriz }}</h3>
+        <span v-html="kriz"></span>
+        <h3 class="fw-bold">{{ naslovPentagram }}</h3>
+        <span v-html="pentagram"></span>
+        <div class="d-flex py-md-0 align-items-center justify-content-center">
+            <img src="~@/assets/kabala/pentagram-ritual.png" ondragstart="return false;"
+                 class="p-0 img-fluid">
+        </div>
+        <h3 class="fw-bold">{{ naslovEvokacija }}</h3>
+        <span v-html="evokacija"></span>
+        <div class="d-flex py-md-0 align-items-center justify-content-center">
+            <img src="~@/assets/kabala/nadangeli.png" ondragstart="return false;"
+                 class="p-0 pb-3 img-fluid">
+        </div>
+        <h3 class="fw-bold">{{ naslovKonec }}</h3>
+        <span v-html="konec"></span>
+    </div>
+
+</div>
+
+
+<app-navrh/>

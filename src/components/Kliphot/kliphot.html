@@ -1,14 +1,14 @@
 <div class="container-fluid text-white bg-tarot-index shadow-sm">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
-            Kliphot
+            Qliphot
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                     <router-link class="text-decoration-none " to="/">Domov</router-link>
                 </li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Kliphot</li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Qliphot</li>
             </ol>
         </nav>
     </div>
@@ -17,38 +17,45 @@
 <div class="container-fluid p-0 bg-tarot">
     <div class="container text-center p-3">
         <div class="py-4 text-center">
-            <h1>Kliphot</h1>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            <h1>Qliphot</h1>
+            <div class="lead text-center">{{ qliphothRek }}</div>
+            <img src="~@/assets/hrline.png" class="img-fluid" alt="">
         </div>
-        <p>Po kabali je bilo na začetku vse Bog. Ko je Bog sklenil, da bi naredil prostor za stvarstvo, je
-            duhovna energija
-            zapolnila praznino. Energija se je prelivala v posode, ki so se napele, da bi zadržale veliko moč. Posode so
-            se
-            razbile in poslale nešteto drobcev, koščkov žareče snovi, v prostranstvo vesolja. Te razpršene koščke
-            božanske
-            svetlobe je treba zbrati. Ko bo naloga opravljena, bodo sile teme premagane in svet bo ozdravljen.</p>
-        <div class="row">
-
-            <div class="col-lg-3 fs-5 p-3 d-flex align-items-center justify-content-center">
-                "Z vsako izkušnjo rastemo in se bolj zavedamo notranje lepote, ki se skriva v nas. Navsezadnje smo res
-                sam svoj vodja. Vodimo povezavo in tok življenja, ki je naša dediščina."
-            </div>
-
-            <div class="col-lg-6 p-3">
-
-                <img src="~@/assets/kliphot/kliphot.png" class="img-fluid">
-            </div>
-
-            <div class="col-lg-3 fs-5 p-3 d-flex align-items-center justify-content-center">
-                "Ko se zgodijo slabe stvari ali ko ne prideš do svojega, če lahko odpreš svoje srce za sočutje, namesto
-                da ga zapreš v jezi, boš ustvaril več svetlobe."
-            </div>
-
-        </div>
+        <img src="~@/assets/kliphot/kliphot.png" class="img-fluid">
     </div>
+    <div class="container">
+        <span v-html="qliphothOpis"></span>
 
-    <div class="container p-3">
+        <div class="py-4 text-center">
+            <h1>Literatura</h1>
+            <img src="~@/assets/hrline.png" class="img-fluid" alt="">
+        </div>
 
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+
+            <div class="col" v-for="(literatura, index) in knjige" :key="index">
+                <div class="card bg-gradient text-white bg-dark rounded-0 shadow mb-3 position-relative">
+                    <a :href="literatura.depository" target="_blank">
+                        <img src="~@/assets/buy.png" class="position-absolute bottom-0 end-0 p-2">
+                    </a>
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img :src="literatura.image" class="img-fluid h-100" style="min-width: 100%"
+                                 alt="Ceremonial tarot">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h4 class="card-title">{{ literatura.naslovKnjige.toUpperCase() }}</h4>
+                                <h6 class="card-title fst-italic">{{ literatura.podnaslov }}</h6>
+                                <p class="card-text">{{ literatura.opis }}</p>
+                                <p class="card-text"><small class="text-muted">Avtor: {{ literatura.avtor }}</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 

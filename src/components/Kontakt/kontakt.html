@@ -25,35 +25,39 @@
             </div>
 
             <div class="col-lg-4 bg-tarot-index text-white p-4 shadow rounded-2">
-                <form>
+                <form
+                        action="https://formspree.io/f/xlekwvek"
+                        method="POST"
+                >
                     <!-- Name input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example1">Ime in priimek</label>
-                        <input type="text" id="form4Example1" class="form-control text-white border-dark bg-tarot" />
+                        <input type="text" name="name" id="form4Example1" class="form-control text-white border-dark bg-tarot"/>
                     </div>
 
                     <!-- Email input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example2">Email naslov</label>
-                        <input type="email" id="form4Example2" class="form-control text-white border-dark bg-tarot" />
+                        <input type="email" name="email" id="form4Example2" class="form-control text-white border-dark bg-tarot"/>
                     </div>
 
                     <!-- Message input -->
                     <div class="form-outline">
                         <label class="form-label" for="form4Example3">Sporočilo</label>
-                        <textarea class="form-control text-white border-dark bg-tarot" id="form4Example3" rows="5"></textarea>
+                        <textarea class="form-control text-white border-dark bg-tarot" name="message" id="form4Example3"
+                                  rows="5"></textarea>
                     </div>
 
                     <!-- Submit button -->
                     <div class="d-grid gap-2">
-                    <button type="submit" class="btn btn-outline-warning btn-block mt-4">Pošlji</button>
+                        <button type="submit" class="btn btn-outline-warning btn-block mt-4">Pošlji</button>
                     </div>
                 </form>
             </div>
 
             <div class="col-3 d-none d-lg-block text-end">
                 <img src="~@/assets/majorarcana/the-emperor.png" ondragstart="return false;"
-                      class="img-fluid shadow ">
+                     class="img-fluid shadow ">
             </div>
         </div>
 
