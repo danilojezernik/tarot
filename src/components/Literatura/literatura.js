@@ -45,6 +45,7 @@ export default {
                     podnaslov: "An Integrative Approach to Using Tarot for Personal Growth",
                     image: holistic,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Benebell Wen"
                 },
                 {
@@ -53,6 +54,7 @@ export default {
                     podnaslov: "From Ancient Roots to Modern Usage",
                     image: mystical,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Paul Huson"
                 },
                 {
@@ -61,6 +63,7 @@ export default {
                     podnaslov: "A Guide to Psychic Tarot Reading, Real Tarot Card Meanings, and Simple Tarot Spreads",
                     image: beginners,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Lisa Chamberlain"
                 },
                 {
@@ -69,6 +72,7 @@ export default {
                     podnaslov: "Finding Everyday Wisdom in the Minor Arcana",
                     image: tree,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Isabel Radow Kliegman"
                 },
                 {
@@ -77,6 +81,7 @@ export default {
                     podnaslov: "Understanding Aliester Crowley's Thot Tarot New Edition",
                     image: thot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Lon Milo DuQuette"
                 },
                 {
@@ -85,6 +90,7 @@ export default {
                     podnaslov: "How to Interpret the Cards and Work with Tarot Spreads for Personal Growth",
                     image: big,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Joan Bunning"
                 },
                 {
@@ -93,6 +99,7 @@ export default {
                     podnaslov: "Kabbalistic Meditations and the Tarot",
                     image: pilgrimage,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Stephan A. Hoeller"
                 },
                 {
@@ -101,6 +108,7 @@ export default {
                     podnaslov: "A Pictorial Synthesis of Three Great Pillars of Magic (Astrology, Enochian Magic, Goetia)",
                     image: ceremonial,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Lon Milo DuQuette"
                 },
                 {
@@ -109,6 +117,7 @@ export default {
                     podnaslov: "Theory & Practice",
                     image: tarotfirst,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Steve Hounsome"
                 },
                 {
@@ -117,6 +126,7 @@ export default {
                     podnaslov: "The Seekers Quest",
                     image: tarotsecond,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Steve Hounsome"
                 },
                 {
@@ -125,6 +135,7 @@ export default {
                     podnaslov: "The Map of the Quest",
                     image: tarotthird,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Steve Hounsome"
                 },
                 {
@@ -133,6 +144,7 @@ export default {
                     podnaslov: "Applying Ancient Wisdom to the Challenges of modern Living",
                     image: livingtarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Amber Jayanti"
                 },
                 {
@@ -141,6 +153,7 @@ export default {
                     podnaslov: "Secrets of Tarot Mastery",
                     image: insighttarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Dr. Dawn Rothwell, PhD"
                 },
                 {
@@ -149,6 +162,7 @@ export default {
                     podnaslov: "",
                     image: language,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Rzth Ann in Wald Amberstone"
                 },
                 {
@@ -157,6 +171,7 @@ export default {
                     podnaslov: "Illustrated with both the RIDER-WAITE and Crowley THOT decks",
                     image: introduction,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Susan Levitt"
                 },
                 {
@@ -165,6 +180,7 @@ export default {
                     podnaslov: "How to Give a Positive Reading in Any Situation",
                     image: fearless,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Eliot Adam"
                 },
                 {
@@ -173,6 +189,7 @@ export default {
                     podnaslov: "A Journey into Christian Hermeticism",
                     image: meditation,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Eliot Adam"
                 },
                 {
@@ -181,6 +198,7 @@ export default {
                     podnaslov: "",
                     image: pastkarma,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Edain McCoy"
                 },
                 {
@@ -189,6 +207,7 @@ export default {
                     podnaslov: "",
                     image: reversal,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Mary K. Greer"
                 },
                 {
@@ -197,6 +216,7 @@ export default {
                     podnaslov: "Revelation of a Thousand-year Wisdom",
                     image: code,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Carlo Bozzelli"
                 },
                 {
@@ -205,6 +225,7 @@ export default {
                     podnaslov: "The Hidden Symbols Explained",
                     image: hidden,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Derek Johnsen"
                 },
                 {
@@ -213,6 +234,7 @@ export default {
                     podnaslov: "A Holistic Guide to Using the Tarot for Personal Growth & Self Development",
                     image: guide,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Meg Hayertz"
                 },
                 {
@@ -221,6 +243,7 @@ export default {
                     podnaslov: "The Hidden Meaning of Numbers and Letters",
                     image: numerlogy,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Shirley Blackwell Lawrence"
                 },
                 {
@@ -229,6 +252,7 @@ export default {
                     podnaslov: "A Key to Human Behavior",
                     image: numerlogytantra,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Harish Johari"
                 },
                 {
@@ -237,6 +261,7 @@ export default {
                     podnaslov: "Hebraic Wisdom in the Major and Minor Arcana",
                     image: kabalistictarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Dovid Krafchow"
                 },
                 {
@@ -245,6 +270,7 @@ export default {
                     podnaslov: "A Kabbalistic Path to Liberation",
                     image: kabalagates,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Mark Horn"
                 },
                 {
@@ -253,6 +279,7 @@ export default {
                     podnaslov: "Using the Major Arcana to Discover Your Best Self and Create a Life Worth Living",
                     image: tarottransformation,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Andy Matzner"
                 },
                 {
@@ -261,6 +288,7 @@ export default {
                     podnaslov: "A Profound System for Finding and Following Your Life's Path",
                     image: karmatarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "William C. Lammey"
                 },
                 {
@@ -269,6 +297,7 @@ export default {
                     podnaslov: "A Profound System for Finding and Following Your Life's Path",
                     image: treeoflifetarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Evelin Burger, Johannes Fiebig"
                 },
                 {
@@ -277,6 +306,7 @@ export default {
                     podnaslov: "The Way of Mindfulness: Use the Cards to Find Peace & Balance",
                     image: mindfulnesstarot,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Evelin Burger, Johannes Fiebig"
                 },
                 {
@@ -285,6 +315,7 @@ export default {
                     podnaslov: "The Court Cards",
                     image: tarotmystical,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Yolanda M. Robinson, Paul K. Austad"
                 },
                 {
@@ -293,6 +324,7 @@ export default {
                     podnaslov: "Decoding Esoteric Symbolism in Modern Tarot",
                     image: tarotdeciphered,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "M. M. Meleen, T. Susan Chang"
                 },
                 {
@@ -301,6 +333,7 @@ export default {
                     podnaslov: "Spiritual Guidance & Practical Advice from the Cards",
                     image: pathworking,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Leeza Robertson"
                 },
                 {
@@ -309,6 +342,7 @@ export default {
                     podnaslov: "Bring a Peace-Filled, Compassionate Practice to the 78 Cards",
                     image: mindful,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Lisa Freinkel Tishman PhD"
                 },
                 {
@@ -317,6 +351,7 @@ export default {
                     podnaslov: "Bring a Peace-Filled, Compassionate Practice to the 78 Cards",
                     image: correspondences,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "T. Susan Chang"
                 },
                 {
@@ -325,6 +360,7 @@ export default {
                     podnaslov: "The Practical Guide to Kabbalistic Wisdom",
                     image: kabbalahexperiences,
                     opis: "Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...Mladostna neumnost, nedolžnost, zaslepljen od nevednosti, poslušaj opozorila, novinec...",
+                    depository: '',
                     avtor: "Naomi Ozaniec"
                 }
             ]

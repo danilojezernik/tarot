@@ -2,4 +2,4 @@
 
 <script src="./footer.js"></script>
 
-<style src="./footer.css"></style>
+<style src="../../style/style.css" scoped></style>

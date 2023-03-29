@@ -12,3 +12,8 @@
 li + .breadcrumb-item::before {
     color: white;
 }
+
+.loaded {
+    transition: opacity 1s;
+    opacity: 1;
+}
