@@ -26,74 +26,70 @@ export default {
             ],
             opisSimbolov: [
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Poza",
+                    opis: "Kraljica s hvaležnostjo gleda na dragoceni kelih. Njena suverenost temelji na tem spoštovanju lepote in vrednosti keliha, duše in njenih potreb."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Velik kelih I",
+                    opis: "To je edina karta kelihov, ki prikazuje ta velik, sveti, posebno dragocen kelih. Pomeni duhovno bogastvo vsakega človeka, neizrekljivo vrednost njegove ali njene duše. In: svarilo pred samo-pomembnostjo."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Dva angela / vilini / vile",
+                    opis: "Poudarjajo, kako dragocen je kelih, njihovo sporočilo pa je: Kar je tvoje lastno je sveto. Celovitost in varstvo posameznikove osebnosti sta osnovni pravici."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Velik kelih II",
+                    opis: "Samo na tej karti je prikazan kelih zaprt. Prestol pa je na široko odprt. Skupaj simbolizirata polarnost duhovnega obstoja. Prestol pomeni dovzetno uho, je kelih za edinstvenost."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Sivi prestol",
+                    opis: "Velik prestol v obliki školjke je znak za duhovno odprtost in sodelovanje. Pozitivno: spodbuja potrpežljivost in nepristranski odnos do čustev. Negativno: opozorilo pred pomanjkanjem vpletenosti in brezbrižnosti."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Tekoča modra obleka",
+                    opis: "Znak povezanosti z vodnimi svetovi. Naša telesa so sestavljena iz 80 odstotkov vode. Doma v vodi in tudi na kopnem. In še: odločilno je, da se zavedamo čustev."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Otroci / vodni dojenčki / nimfe",
+                    opis: "Notranji otrok, otroški občutki, dobre ali manj dobre skušnjave, čustvena nezrelost, ostati mlad po srcu v zrelih letih. Vrelec mladosti: v tem življenju znova in znova doživlja ponovno rojstvo."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Riba",
+                    opis: "Morda zunaj vidnega polja lika. Riba je simbol bogastva in sreče, pa tudi premagovanja egoističnih odnosov (kot riba v vodi). to je treba zavestno upoštevati!"
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Pečina",
+                    opis: "Zmagoslavja in nesreče življenja, s katerimi se je treba spopasti. To je ponavljajoča se izkušnja teh visokih in nizkih točk, ki nam omogočajo, da se ponovno rodimo in spet, da rastemo in tako na koncu dosežemo svoj potencial."
                 },
                 {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Barvni kamni",
+                    opis: "Mehka voda oblikuje trd kamen. Naloga: sprejemanje tega, kar je pred nami. Kamni spotike, ki jih je treba odstraniti s poti. Preskakovanje kamnov nad vodo."
                 },
             ],
             elementi: [
                 {
                     ime: "DA ali NE vprašanje:",
-                    vrednost: "",
+                    vrednost: "DA",
                 },
                 {
                     ime: "Numerologija:",
-                    vrednost: "",
+                    vrednost: "13",
                 },
                 {
                     ime: "Element:",
-                    vrednost: "",
+                    vrednost: "Voda",
                 },
                 {
                     ime: "Astrologija:",
-                    vrednost: "",
+                    vrednost: "Rak",
                 },
                 {
                     ime: "Kabalistični sefirot:",
-                    vrednost: "",
+                    vrednost: "Binah (Razumevanje)",
                 },
                 {
                     ime: "Čas:",
-                    vrednost: ""
+                    vrednost: "Začetek poletja, zima"
                 }
             ],
         }

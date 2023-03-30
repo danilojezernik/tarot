@@ -15,7 +15,6 @@
 </div>
 
 <div class="container-fluid p-0 bg-tarot position-relative">
-    <!-- <img src="~@/assets/chakre/sahasrara.png" class="img-fluid position-absolute top-0 start-0 translate-middle index-cakre" alt=""> -->
     <div class="container p-3">
         <div class="py-4 text-center">
             <h1>Meditacija</h1>
@@ -50,7 +49,7 @@
             <!-- Meditacija na mirnost telesa in tratak -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">Meditacija na telo in tratak</h3>
+                    <h3 class="card-header border-white">{{ meditacijaPrva }}</h3>
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaTelo }}</p>
                     </div>
@@ -63,7 +62,7 @@
             <!-- Meditacija na dih in čakre -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">Meditacija na dih in na čakre</h3>
+                    <h3 class="card-header border-white">{{ meditacijaDruga }}</h3>
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaDih }}</p>
                     </div>
@@ -76,7 +75,7 @@
             <!-- Meditacija na tarot -->
             <div class="col">
                 <div class="card bg-dark bg-gradient text-white h-100">
-                    <h3 class="card-header border-white">Meditacija ponovnega rojstva</h3>
+                    <h3 class="card-header border-white">{{ meditacijaTretja }}</h3>
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaRojstvo }}</p>
                     </div>
@@ -93,13 +92,14 @@
             <button class="modal__close border-0 bg-transparent" @click="showModalTelo = false">
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
-            <span class="modal__title text-center py-3">1 naključne karte</span>
+            <span class="modal__title text-center py-3">{{  meditacijaPrva }}</span>
 
             <div class="modal__content">
                 <div class="container">
-                    <h3>Meditacija na telo</h3>
-                    <p>Usedite se v udoben meditacijski položaj.</p>
-                    <h3>Tratak</h3>
+                    <h4>Meditacija na telo</h4>
+                    <p v-html="meditacijaNaTelo"></p>
+                    <h4>Tratak</h4>
+                    <p v-html="tratak"></p>
                 </div>
             </div>
         </vue-final-modal>
@@ -109,7 +109,7 @@
             <button class="modal__close border-0 bg-transparent" @click="showModalDih = false">
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
-            <span class="modal__title text-center py-3">3 naključne karte</span>
+            <span class="modal__title text-center py-3">{{ meditacijaDruga }}</span>
 
             <div class="modal__content">
                 <div class="container">
@@ -124,7 +124,7 @@
             <button class="modal__close border-0 bg-transparent" @click="showModalMeditacija = false">
                 <mdi-close class="fw-bold">X</mdi-close>
             </button>
-            <span class="modal__title text-center py-3">Naključno izbrane karte v križu</span>
+            <span class="modal__title text-center py-3">{{ meditacijaTretja }}</span>
 
             <div class="modal__content">
                 <div class="container">

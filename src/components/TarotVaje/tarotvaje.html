@@ -17,49 +17,23 @@
 <div class="container-fluid p-0 bg-tarot">
     <div class="container p-3">
         <div class="py-4 text-center">
-            <h1>Vaje za spoznavanje tarot kart</h1>
-            <div class="lead text-center">Preden sploh začnete z delom se morate spoznati z vsako tarot karto.<br>Z njo se
-                morate povezati in spoznati njene simbole.<br>Karta mora postati del vas.
+            <h1>{{ naslov }}</h1>
+            <div class="lead text-center">{{ rek }}</div>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+        <p v-html="opisVaje"></p>
+
+        <div class="row row-cols-1 row-cols-xl-2 g-4 pt-3">
+            <div class="col" v-for="(vaja, index) in vaje" :key="index">
+                <div class="card bg-dark bg-gradient text-white h-100">
+                    <h3 class="card-header border-white">{{ vaja.naslov }}</h3>
+                    <div class="card-body">
+                        <p class="card-text" v-html="vaja.opis"></p>
+                    </div>
+                </div>
             </div>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
-        <p>The effort directed toward the objective of accomplishing this union has been known by many names: yoga,
-            prayer,
-            magic, and meditation. The latter has received much popular attention in recent years, unfortunately not
-            always
-            accompanied by an understanding of either the objective or the method involved. The purpose of meditation is
-            to
-            clear a pathway between the outer personality ofthe individual and the inner center of his being. This
-            pathway becomes a Jacob’s ladder upon which the ascending angels of the outer man meet and join in joyous
-            union
-            with the descending angels of the indwelling God. Ignorance, fear, hostility, guilt, and discord are the
-            barriers that obstruct the freedom of the angelic host to meet at the summit of the soul. To learn the truth
-            about our relationship to the godhead in our souls, and to shed the fetters that hold us captive, is to
-            render
-            us capable of traveling the pathway to Divinity at will. He who prays for anything but for union with God is
-            a
-            blasphemer!</p>
 
-        <p>Pri vsaki karti Velike Arkane imate meditacijo na karto!</p>
-
-        <div class="py-4 text-center">
-            <h2>Vaja 1 - Spoznavanje Velike Arkane</h2>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-        </div>
-        <!-- Razumevanje simbolov v karti -->
-        1. gledanje karte in branje o karti in simbolih
-        2. Povezava s karto
-        3. Delovni zvezek Velike arkane
-        <div class="py-4 text-center">
-            <h2>Vaja 2 - Karta, ki vam nekaj sporoča</h2>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-        </div>
-        <!-- Naj karta poda nasvet za vas -->
-        1. Umirjanje
-        2. Vprašanje
-        3. Mešanje
-        4. Povlečite
-        5. Preberite in razmislite
     </div>
 </div>
 
