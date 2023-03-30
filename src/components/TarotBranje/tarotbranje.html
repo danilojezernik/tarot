@@ -1,14 +1,14 @@
 <div class="container-fluid text-white bg-tarot-index shadow-sm">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
-            Tarot branje
+            Tarot postavitve
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                     <router-link class="text-decoration-none " to="/">Domov</router-link>
                 </li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Tarot branje</li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Tarot postavitve</li>
             </ol>
         </nav>
     </div>
@@ -17,7 +17,7 @@
 <div class="container-fluid p-0 bg-tarot">
     <div class="container p-3">
         <div class="py-4 text-center">
-            <h1>Postavitev tarot kart za branje</h1>
+            <h1>Postavitev tarot kart</h1>
             <p class="lead">Pred mešanjem kart si vedno vzemite čas, da se sprostite in postavite vprašanje. Med
                 mešanjem se osredotočite na vprašanje in ga resnično začutite. Ko boste dobili občutek, da so karte
                 dovolj pomešane in, da bodo odgovorile, jih pričnite obračati.</p>
@@ -140,9 +140,9 @@
         </div>
 
         <!-- Modal ENE KARTE: showModal1 -->
-        <vue-final-modal v-model="showModal1" classes="modal-container" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal1 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal1" classes="modal-container animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal1 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Naključno izbrana karta</span>
             <div class="modal__content d-flex align-items-center justify-content-center">
@@ -156,9 +156,9 @@
         </vue-final-modal>
 
         <!-- Modal TREH KART: showModal2 -->
-        <vue-final-modal v-model="showModal2" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal2 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal2" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal2 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">3 naključne karte</span>
 
@@ -179,9 +179,9 @@
         </vue-final-modal>
 
         <!-- Modal KELTSKI KRIŽ KART: showModal4 -->
-        <vue-final-modal v-model="showModal4" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal4 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal4" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal4 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Naključno izbrane karte v križu</span>
 
@@ -317,9 +317,9 @@
         </vue-final-modal>
 
         <!-- Modal PRETEKLA ŽIVLJENJA: showModal5 -->
-        <vue-final-modal v-model="showModal5" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal5 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal5" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal5 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Pretekla življenja</span>
 
@@ -403,9 +403,9 @@
         </vue-final-modal>
 
         <!-- Modal MANDALA: showModal7 -->
-        <vue-final-modal v-model="showModal7" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal7 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal7" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal7 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Mandala</span>
 
@@ -495,9 +495,9 @@
         </vue-final-modal>
 
         <!-- Modal VAŠE ROJSTVO: showModal8 -->
-        <vue-final-modal v-model="showModal8" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModal8 = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModal8" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal8 = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Vaše rojstvo</span>
 
@@ -929,9 +929,9 @@
         </div>
 
         <!-- showModalFool -->
-        <vue-final-modal v-model="showModalFool" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalFool = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalFool" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalFool = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Poglej preden skočiš</span>
 
@@ -992,9 +992,9 @@
         </vue-final-modal>
 
         <!-- showModalMagician -->
-        <vue-final-modal v-model="showModalMagician" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalMagician = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalMagician" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalMagician = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Spoznajte svojo moč; uporabite svoja orodja.</span>
 
@@ -1066,9 +1066,9 @@
         </vue-final-modal>
 
         <!-- showModalPriestessOne -->
-        <vue-final-modal v-model="showModalPriestessOne" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalPriestessOne = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalPriestessOne" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalPriestessOne = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Skrivni svet sanj</span>
             <div class="modal__content">
@@ -1104,9 +1104,9 @@
         </vue-final-modal>
 
         <!-- showModalPriestessTwo -->
-        <vue-final-modal v-model="showModalPriestessTwo" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalPriestessTwo = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalPriestessTwo" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalPriestessTwo = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Intuitivni vpogled</span>
             <div class="modal__content">
@@ -1172,9 +1172,9 @@
         </vue-final-modal>
 
         <!-- showModalEmpress -->
-        <vue-final-modal v-model="showModalEmpress" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalEmpress = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalEmpress" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalEmpress = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Nega se začne pri sebi</span>
             <div class="modal__content">
@@ -1238,9 +1238,9 @@
         </vue-final-modal>
 
         <!-- showModalEmperor -->
-        <vue-final-modal v-model="showModalEmperor" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalEmperor = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalEmperor" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalEmperor = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Zmagoviti načrt</span>
             <div class="modal__content">
@@ -1304,9 +1304,9 @@
         </vue-final-modal>
 
         <!-- showModalHierophant -->
-        <vue-final-modal v-model="showModalHierophant" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalHierophant = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalHierophant" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHierophant = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Iskanje sveta modreca</span>
             <div class="modal__content">
@@ -1364,9 +1364,9 @@
         </vue-final-modal>
 
         <!-- showModalLoversOne -->
-        <vue-final-modal v-model="showModalLoversOne" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalLoversOne = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalLoversOne" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalLoversOne = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Za zaljubljene</span>
             <div class="modal__content">
@@ -1450,9 +1450,9 @@
         </vue-final-modal>
 
         <!-- showModalLoversTwo -->
-        <vue-final-modal v-model="showModalLoversTwo" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalLoversTwo = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalLoversTwo" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalLoversTwo = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Za samske</span>
             <div class="modal__content">
@@ -1536,9 +1536,9 @@
         </vue-final-modal>
 
         <!-- showModalChariot -->
-        <vue-final-modal v-model="showModalChariot" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalChariot = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalChariot" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalChariot = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Neomajni razgled</span>
             <div class="modal__content">
@@ -1602,9 +1602,9 @@
         </vue-final-modal>
 
         <!-- showModalStrength -->
-        <vue-final-modal v-model="showModalStrength" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalStrength = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalStrength" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalStrength = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Zmaga nad strahom</span>
             <div class="modal__content">
@@ -1668,9 +1668,9 @@
         </vue-final-modal>
 
         <!-- showModalHermit -->
-        <vue-final-modal v-model="showModalHermit" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalHermit = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalHermit" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHermit = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Pojdi vase</span>
             <div class="modal__content">
@@ -1724,9 +1724,9 @@
         </vue-final-modal>
 
         <!-- showModalWheel -->
-        <vue-final-modal v-model="showModalWheel" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalWheel = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalWheel" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWheel = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Karmične lekcije</span>
             <div class="modal__content">
@@ -1790,9 +1790,9 @@
         </vue-final-modal>
 
         <!-- showModalJustice -->
-        <vue-final-modal v-model="showModalJustice" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalJustice = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalJustice" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalJustice = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Resnica v ravnotežju</span>
             <div class="modal__content">
@@ -1863,9 +1863,9 @@
         </vue-final-modal>
 
         <!-- showModalHanged -->
-        <vue-final-modal v-model="showModalHanged" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalHanged = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalHanged" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHanged = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Resnica v perspektivi</span>
             <div class="modal__content">
@@ -1941,9 +1941,9 @@
         </vue-final-modal>
 
         <!-- showModalDeath -->
-        <vue-final-modal v-model="showModalDeath" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalDeath = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalDeath" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalDeath = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Sprejemanje sprememb</span>
             <div class="modal__content">
@@ -2013,9 +2013,9 @@
         </vue-final-modal>
 
         <!-- showModalTemperance -->
-        <vue-final-modal v-model="showModalTemperance" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalTemperance = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalTemperance" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalTemperance = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Sveta poravnava</span>
             <div class="modal__content">
@@ -2072,9 +2072,9 @@
         </vue-final-modal>
 
         <!-- showModalDevil -->
-        <vue-final-modal v-model="showModalDevil" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalDevil = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalDevil" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalDevil = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Zdrave meje</span>
             <div class="modal__content">
@@ -2145,9 +2145,9 @@
         </vue-final-modal>
 
         <!-- showModalTower -->
-        <vue-final-modal v-model="showModalTower" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalTower = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalTower" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalTower = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Onkraj ruševin</span>
             <div class="modal__content">
@@ -2224,9 +2224,9 @@
         </vue-final-modal>
 
         <!-- showModalStar -->
-        <vue-final-modal v-model="showModalStar" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalStar = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalStar" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalStar = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Luč, ki vodi</span>
             <div class="modal__content">
@@ -2294,9 +2294,9 @@
         </vue-final-modal>
 
         <!-- showModalMoon -->
-        <vue-final-modal v-model="showModalMoon" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalMoon = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalMoon" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalMoon = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Sence v središču</span>
             <div class="modal__content">
@@ -2360,9 +2360,9 @@
         </vue-final-modal>
 
         <!-- showModalSun -->
-        <vue-final-modal v-model="showModalSun" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalSun = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalSun" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalSun = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Najboljši obraz za naprej</span>
             <div class="modal__content">
@@ -2439,9 +2439,9 @@
         </vue-final-modal>
 
         <!-- showModalJudgement -->
-        <vue-final-modal v-model="showModalJudgement" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalJudgement = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalJudgement" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalJudgement = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Upoštevajte klic</span>
             <div class="modal__content">
@@ -2512,9 +2512,9 @@
         </vue-final-modal>
 
         <!-- showModalWorld -->
-        <vue-final-modal v-model="showModalWorld" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalWorld = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalWorld" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWorld = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Sence v središču</span>
             <div class="modal__content">
@@ -2591,9 +2591,9 @@
         </vue-final-modal>
 
         <!-- showModalWholePicture -->
-        <vue-final-modal v-model="showModalWholePicture" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalWholePicture = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalWholePicture" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWholePicture = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Celotna slika z 22 kartami</span>
             <div class="modal__content">

@@ -88,9 +88,9 @@
         </div>
 
         <!-- Modal MEDITACIJE NA TELO: showModalTelo -->
-        <vue-final-modal v-model="showModalTelo" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalTelo = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalTelo" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalTelo = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">{{  meditacijaPrva }}</span>
 
@@ -100,14 +100,16 @@
                     <p v-html="meditacijaNaTelo"></p>
                     <h4>Tratak</h4>
                     <p v-html="tratak"></p>
+                    <h4>Opomba</h4>
+                    <p v-html="opombaEna"></p>
                 </div>
             </div>
         </vue-final-modal>
 
         <!-- Modal MEDITACIJA NA DIH: showModalDih -->
-        <vue-final-modal v-model="showModalDih" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalDih = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalDih" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalDih = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">{{ meditacijaDruga }}</span>
 
@@ -120,9 +122,9 @@
         </vue-final-modal>
 
         <!-- Modal MEDITACIJA PONOVNEGA ROJSTVA: showModalMeditacija -->
-        <vue-final-modal v-model="showModalMeditacija" classes="modal-container-three" content-class="modal-content">
-            <button class="modal__close border-0 bg-transparent" @click="showModalMeditacija = false">
-                <mdi-close class="fw-bold">X</mdi-close>
+        <vue-final-modal v-model="showModalMeditacija" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+            <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalMeditacija = false">
+                <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">{{ meditacijaTretja }}</span>
 
