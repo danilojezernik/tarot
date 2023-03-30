@@ -202,23 +202,21 @@
                 Karta dneva!
             </div>
             <p class="lead">
-                Vsak dan namenim nekaj časa in obredno izberem karto iz velike arkane, ki služi kot spološno sporočilo
-                vsem!
+                Naključno izbrana karta iz velike arkane, ki se menja vsakih 24 ur, ki služi kot spološno sporočilo vsem!
             </p>
         </div>
-
-        <div class="row  text-center">
-
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">Napiši sporočilo</div>
-
+        <div class="row text-center d-flex align-items-center justify-content-center">
             <!-- KARTA DNEVA -->
             <div class="col-lg-4">
-                <img :src="currentImageSrc" alt="Randomly chosen image" />
+                <h6 class="text-center text-white m-0 p-1 fw-bold"></h6>
+                <router-link :to="currentImageLink" class="text-decoration-none">
+                <img :src="currentImageSrc" alt="Randomly chosen image"  class="img-fluid"/>
+                </router-link>
             </div>
-
-            <div class="col-lg-4 d-flex align-items-center justify-content-center"></div>
-
+            <div class="col-lg-8">
+                <h4>{{ currentImageName }}</h4>
+                <p>{{ currentImageText }}</p>
+            </div>
         </div>
-
     </div>
 </div>

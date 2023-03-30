@@ -167,33 +167,964 @@ import kingpentaclesDown from '@/assets/pentacles/king-of-pentacles-down.png'
 export default {
     data() {
         return {
-            slike: [fool, foolDown, magician, magicianDown, priestess, priestessDown, empress, empressDown, emperor,
-                emperorDown, hierophant, hierophantDown, lovers, loversDown, chariot, chariotDown, strength,
-                strengthDown, hermit, hermitDown, wheel, wheelDown, justice, justiceDown, hanged, hangedDown, death,
-                deathDown, temperance, temperanceDown, devil, devilDown, tower, towerDown, star, starDown, moon,
-                moonDown, sun, sunDown, judgement, judgementDown, world, worldDown, acewands, acewandsDown, twowands,
-                twowandsDown, threewands, threewandsDown, fourwands, fourwandsDown, fivewands, fivewandsDown, sixwands,
-                sixwandsDown, sevenwands, sevenwandsDown, eightwands, eightwandsDown, ninewands, ninewandsDown,
-                tenwands, tenwandsDown, pagewands, pagewandsDown, knightwands, knightwandsDown, queenwands,
-                queenwandsDown, kingwands, kingwandsDown, acecups, acecupsDown, twocups, twocupsDown, threecups,
-                threecupsDown, fourcups, fourcupsDown, fivecups, fivecupsDown, sixcups, sixcupsDown, sevencups,
-                sevencupsDown, eightcups, eightcupsDown, ninecups, ninecupsDown, tencups, tencupsDown, pagecups,
-                pagecupsDown, knightcups, knightcupsDown, queencups, queencupsDown, kingcups, kingcupsDown, aceswords,
-                aceswordsDown, twoswords, twoswordsDown, threeswords, threeswordsDown, fourswords, fourswordsDown,
-                fiveswords, fiveswordsDown, sixswords, sixswordsDown, sevenswords, sevenswordsDown, eightswords,
-                eightswordsDown, nineswords, nineswordsDown, tenswords, tenswordsDown, pageswords, pageswordsDown,
-                knightswords, knightswordsDown, queenswords, queenswordsDown, kingswords, kingswordsDown, acepentacles,
-                acepentaclesDown, twopentacles, twopentaclesDown, threepentacles, threepentaclesDown, fourpentacles,
-                fourpentaclesDown, fivepentacles, fivepentaclesDown, sixpentacles, sixpentaclesDown, sevenpentacles,
-                sevenpentaclesDown, eightpentacles, eightpentaclesDown, ninepentacles, ninepentaclesDown, tenpentacles,
-                tenpentaclesDown, pagepentacles, pagepentaclesDown, knightpentacles, knightpentaclesDown,
-                queenpentacles, queenpentaclesDown, kingpentacles, kingpentaclesDown],
+            slike: [
+                // Velika Arkana
+                {
+                    name: '0 - Norec',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fool,
+                    to: "/the-fool"
+                },
+                {
+                    name: '0 - Norec',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: foolDown,
+                    to: "/the-fool"
+                },
+                {
+                    name: 'I - Magik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: magician,
+                    to: "/the-magician"
+                },
+                {
+                    name: 'I - Magik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: magicianDown,
+                    to: "/the-magician"
+                },
+                {
+                    name: 'II - Visoka Svečenica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: priestess,
+                    to: "/the-high-priestess"
+                },
+                {
+                    name: 'II - Visoka Svečenica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: priestessDown,
+                    to: "/the-high-priestess"
+                },
+                {
+                    name: 'III - Cesarica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: empress,
+                    to: "/the-empress"
+                },
+                {
+                    name: 'III - Cesarica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: empressDown,
+                    to: "/the-empress"
+                },
+                {
+                    name: 'IV - Cesar',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: emperor,
+                    to: "/the-emperor"
+                },
+                {
+                    name: 'IV - Cesar',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: emperorDown,
+                    to: "/the-emperor"
+                },
+                {
+                    name: 'V – Svečenik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hierophant,
+                    to: "/the-hierophant"
+                },
+                {
+                    name: 'V – Svečenik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hierophantDown,
+                    to: "/the-hierophant"
+                },
+                {
+                    name: 'VI – Ljubimca',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: lovers,
+                    to: "/the-lovers"
+                },
+                {
+                    name: 'VI – Ljubimca',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: loversDown,
+                    to: "/the-lovers"
+                },
+                {
+                    name: 'VII – Kočija',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: chariot,
+                    to: "/the-chariot"
+                },
+                {
+                    name: 'VII – Kočija',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: chariotDown,
+                    to: "/the-chariot"
+                },
+                {
+                    name: 'VIII – Moč',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: strength,
+                    to: "/strength"
+                },
+                {
+                    name: 'VIII – Moč',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: strengthDown,
+                    to: "/strength"
+                },
+                {
+                    name: 'IX – Puščavnik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hermit,
+                    to: "/the-hermit"
+                },
+                {
+                    name: 'IX – Puščavnik',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hermitDown,
+                    to: "/the-hermit"
+                },
+                {
+                    name: 'X – Kolo sreče',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: wheel,
+                    to: "/wheel-of-fortune"
+                },
+                {
+                    name: 'X – Kolo sreče',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: wheelDown,
+                    to: "/wheel-of-fortune"
+                },
+                {
+                    name: 'XI – Pravica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: justice,
+                    to: "/justice"
+                },
+                {
+                    name: 'XI – Pravica',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: justiceDown,
+                    to: "/justice"
+                },
+                {
+                    name: 'XII – Obešenec',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hanged,
+                    to: "/the-hanged-man"
+                },
+                {
+                    name: 'XII – Obešenec',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: hangedDown,
+                    to: "/the-hanged-man"
+                },
+                {
+                    name: 'XIII – Smrt',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: death,
+                    to: "/death"
+                },
+                {
+                    name: 'XIII – Smrt',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: deathDown,
+                    to: "/death"
+                },
+                {
+                    name: 'XIV – Zmernost',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: temperance,
+                    to: "/temperance"
+                },
+                {
+                    name: 'XIV – Zmernost',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: temperanceDown,
+                    to: "/temperance"
+                },
+                {
+                    name: 'XV – Hudič',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: devil,
+                    to: "/the-devil"
+                },
+                {
+                    name: 'XV – Hudič',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: devilDown,
+                    to: "/the-devil"
+                },
+                {
+                    name: 'XVI – Trdnjava',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tower,
+                    to: "/the-tower"
+                },
+                {
+                    name: 'XVI – Trdnjava',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: towerDown,
+                    to: "/the-tower"
+                },
+                {
+                    name: 'XVII – Zvezda',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: star,
+                    to: "/the-star"
+                },
+                {
+                    name: 'XVII – Zvezda',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: starDown,
+                    to: "/the-star"
+                },
+                {
+                    name: 'XVIII – Luna',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: moon,
+                    to: "/the-moon"
+                },
+                {
+                    name: 'XVIII – Luna',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: moonDown,
+                    to: "/the-moon"
+                },
+                {
+                    name: 'XIX – Sonce',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sun,
+                    to: "/the-sun"
+                },
+                {
+                    name: 'XIX – Sonce',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sunDown,
+                    to: "/the-sun"
+                },
+                {
+                    name: 'XX – Sodba',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: judgement,
+                    to: "/judgement"
+                },
+                {
+                    name: 'XX – Sodba',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: judgementDown,
+                    to: "/judgement"
+                },
+                {
+                    name: 'XXI – Svet',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: world,
+                    to: "/the-world"
+                },
+                {
+                    name: 'XXI – Svet',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: worldDown,
+                    to: "/the-world"
+                },
+                // Palice
+                {
+                    name: 'As palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acewands,
+                    to: "/aspalic"
+                },
+                {
+                    name: 'As palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acewandsDown,
+                    to: "/aspalic"
+                },
+                {
+                    name: 'Dvojka palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twowands,
+                    to: "/dvojkapalic"
+                },
+                {
+                    name: 'Dvojka palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twowandsDown,
+                    to: "/dvojkapalic"
+                },
+                {
+                    name: 'Trojka palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threewands,
+                    to: "/trojkapalic"
+                },
+                {
+                    name: 'Trojka palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threewandsDown,
+                    to: "/trojkapalic"
+                },
+                {
+                    name: 'Štirica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourwands,
+                    to: "/stiricapalic"
+                },
+                {
+                    name: 'Štirica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourwandsDown,
+                    to: "/stiricapalic"
+                },
+                {
+                    name: 'Petica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivewands,
+                    to: "/peticapalic"
+                },
+                {
+                    name: 'Petica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivewandsDown,
+                    to: "/peticapalic"
+                },
+                {
+                    name: 'Šestica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixwands,
+                    to: "/sesticapalic"
+                },
+                {
+                    name: 'Šestica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixwandsDown,
+                    to: "/sesticapalic"
+                },
+                {
+                    name: 'Sedmica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenwands,
+                    to: "/sevenwands"
+                },
+                {
+                    name: 'Sedmica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenwandsDown,
+                    to: "/sedmicapalic"
+                },
+                {
+                    name: 'Osmica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightwands,
+                    to: "/osmicapalic"
+                },
+                {
+                    name: 'Osmica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightwandsDown,
+                    to: "/osmicapalic"
+                },
+                {
+                    name: 'Devetica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninewands,
+                    to: "/deveticapalic"
+                },
+                {
+                    name: 'Devetica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninewandsDown,
+                    to: "/deveticapalic"
+                },
+                {
+                    name: 'Desetica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenwands,
+                    to: "/deseticapalic"
+                },
+                {
+                    name: 'Desetica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenwandsDown,
+                    to: "/deseticapalic"
+                },
+                {
+                    name: 'Paž palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagewands,
+                    to: "/pazpalic"
+                },
+                {
+                    name: 'Paž palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagewandsDown,
+                    to: "/pazpalic"
+                },
+                {
+                    name: 'Vitez palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightwands,
+                    to: "/vitezpalic"
+                },
+                {
+                    name: 'Vitez palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightwandsDown,
+                    to: "/vitezpalic"
+                },
+                {
+                    name: 'Kraljica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenwands,
+                    to: "/kraljicapalic"
+                },
+                {
+                    name: 'Kraljica palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenwandsDown,
+                    to: "/kraljicapalic"
+                },
+                {
+                    name: 'Kralj palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingwands,
+                    to: "/kraljpalic"
+                },
+                {
+                    name: 'Kralj palic',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingwandsDown,
+                    to: "/kraljpalic"
+                },
+                // Kelihi
+                {
+                    name: 'As kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acecups,
+                    to: "/askelihov"
+                },
+                {
+                    name: 'As kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acecupsDown,
+                    to: "/askelihov"
+                },
+                {
+                    name: 'Dvojka kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twocups,
+                    to: "/dvojkakelihov"
+                },
+                {
+                    name: 'Dvojka kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twocupsDown,
+                    to: "/dvojkakelihov"
+                },
+                {
+                    name: 'Trojka kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threecups,
+                    to: "/trojkakelihov"
+                },
+                {
+                    name: 'Trojka kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threecupsDown,
+                    to: "/trojkakelihov"
+                },
+                {
+                    name: 'Štirica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourcups,
+                    to: "/stiricakelihov"
+                },
+                {
+                    name: 'Štirica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourcupsDown,
+                    to: "/stiricakelihov"
+                },
+                {
+                    name: 'Petica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivecups,
+                    to: "/peticakelihov"
+                },
+                {
+                    name: 'Petica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivecupsDown,
+                    to: "/peticakelihov"
+                },
+                {
+                    name: 'Šestica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixcups,
+                    to: "/sesticakelihov"
+                },
+                {
+                    name: 'Šestica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixcupsDown,
+                    to: "/sesticakelihov"
+                },
+                {
+                    name: 'Sedmica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevencups,
+                    to: "/sedmicakelihov"
+                },
+                {
+                    name: 'Sedmica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevencupsDown,
+                    to: "/sedmicakelihov"
+                },
+                {
+                    name: 'Osmica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightcups,
+                    to: "/osmicakelihov"
+                },
+                {
+                    name: 'Osmica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightcupsDown,
+                    to: "/osmicakelihov"
+                },
+                {
+                    name: 'Devetica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninecups,
+                    to: "/deveticakelihov"
+                },
+                {
+                    name: 'Devetica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninecupsDown,
+                    to: "/deveticakelihov"
+                },
+                {
+                    name: 'Desetica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tencups,
+                    to: "/deseticakelihov"
+                },
+                {
+                    name: 'Desetica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tencupsDown,
+                    to: "/deseticakelihov"
+                },
+                {
+                    name: 'Paž kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagecups,
+                    to: "/pazkelihov"
+                },
+                {
+                    name: 'Paž kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagecupsDown,
+                    to: "/pazkelihov"
+                },
+                {
+                    name: 'Vitez kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightcups,
+                    to: "/vitezkelihov"
+                },
+                {
+                    name: 'Vitez kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightcupsDown,
+                    to: "/vitezkelihov"
+                },
+                {
+                    name: 'Kraljica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queencups,
+                    to: "/kraljicakelihov"
+                },
+                {
+                    name: 'Kraljica kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queencupsDown,
+                    to: "/kraljicakelihov"
+                },
+                {
+                    name: 'Kralj kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingcups,
+                    to: "/kraljkelihov"
+                },
+                {
+                    name: 'Kralj kelihov',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingcupsDown,
+                    to: "/kraljkelihov"
+                },
+                // Meči
+                {
+                    name: 'As mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: aceswords,
+                    to: "/asmecev"
+                },
+                {
+                    name: 'As mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: aceswordsDown,
+                    to: "/asmecev"
+                },
+                {
+                    name: 'Dvojka mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twoswords,
+                    to: "/dvojkamecev"
+                },
+                {
+                    name: 'Dvojka mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twoswordsDown,
+                    to: "/dvojkamecev"
+                },
+                {
+                    name: 'Trojka mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threeswords,
+                    to: "/trojkamecev"
+                },
+                {
+                    name: 'Trojka mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threeswordsDown,
+                    to: "/trojkamecev"
+                },
+                {
+                    name: 'Štirica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourswords,
+                    to: "/stiricamecev"
+                },
+                {
+                    name: 'Štirica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourswordsDown,
+                    to: "/stiricamecev"
+                },
+                {
+                    name: 'Petica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fiveswords,
+                    to: "/peticamecev"
+                },
+                {
+                    name: 'Petica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fiveswordsDown,
+                    to: "/peticamecev"
+                },
+                {
+                    name: 'Šestica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixswords,
+                    to: "/sesticamecev"
+                },
+                {
+                    name: 'Šestica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixswordsDown,
+                    to: "/sesticamecev"
+                },
+                {
+                    name: 'Sedmica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenswords,
+                    to: "/sevenswords"
+                },
+                {
+                    name: 'Sedmica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenswordsDown,
+                    to: "/sedmicamecev"
+                },
+                {
+                    name: 'Osmica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightswords,
+                    to: "/osmicamecev"
+                },
+                {
+                    name: 'Osmica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightswordsDown,
+                    to: "/osmicamecev"
+                },
+                {
+                    name: 'Devetica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: nineswords,
+                    to: "/deveticamecev"
+                },
+                {
+                    name: 'Devetica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: nineswordsDown,
+                    to: "/deveticamecev"
+                },
+                {
+                    name: 'Desetica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenswords,
+                    to: "/deseticamecev"
+                },
+                {
+                    name: 'Desetica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenswordsDown,
+                    to: "/deseticamecev"
+                },
+                {
+                    name: 'Paž mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pageswords,
+                    to: "/pazmecev"
+                },
+                {
+                    name: 'Paž mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pageswordsDown,
+                    to: "/pazmecev"
+                },
+                {
+                    name: 'Vitez mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightswords,
+                    to: "/vitezmecev"
+                },
+                {
+                    name: 'Vitez mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightswordsDown,
+                    to: "/vitezmecev"
+                },
+                {
+                    name: 'Kraljica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenswords,
+                    to: "/kraljicamecev"
+                },
+                {
+                    name: 'Kraljica mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenswordsDown,
+                    to: "/kraljicamecev"
+                },
+                {
+                    name: 'Kralj mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingswords,
+                    to: "/kraljmecev"
+                },
+                {
+                    name: 'Kralj mečev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingswordsDown,
+                    to: "/kraljmecev"
+                },
+                // Pentaklji
+                {
+                    name: 'As pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acepentacles,
+                    to: "/aspentakljev"
+                },
+                {
+                    name: 'As pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: acepentaclesDown,
+                    to: "/aspentakljev"
+                },
+                {
+                    name: 'Dvojka pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twopentacles,
+                    to: "/dvojkapentakljev"
+                },
+                {
+                    name: 'Dvojka pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: twopentaclesDown,
+                    to: "/dvojkapentakljev"
+                },
+                {
+                    name: 'Trojka pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threepentacles,
+                    to: "/trojkapentakljev"
+                },
+                {
+                    name: 'Trojka pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: threepentaclesDown,
+                    to: "/trojkapentakljev"
+                },
+                {
+                    name: 'Štirica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourpentacles,
+                    to: "/stiricapentakljev"
+                },
+                {
+                    name: 'Štirica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fourpentaclesDown,
+                    to: "/stiricapentakljev"
+                },
+                {
+                    name: 'Petica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivepentacles,
+                    to: "/peticapentakljev"
+                },
+                {
+                    name: 'Petica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: fivepentaclesDown,
+                    to: "/peticapentakljev"
+                },
+                {
+                    name: 'Šestica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixpentacles,
+                    to: "/sesticapentakljev"
+                },
+                {
+                    name: 'Šestica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sixpentaclesDown,
+                    to: "/sesticapentakljev"
+                },
+                {
+                    name: 'Sedmica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenpentacles,
+                    to: "/sedmicapentakljev"
+                },
+                {
+                    name: 'Sedmica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: sevenpentaclesDown,
+                    to: "/sedmicapentakljev"
+                },
+                {
+                    name: 'Osmica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightpentacles,
+                    to: "/osmicapentakljev"
+                },
+                {
+                    name: 'Osmica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: eightpentaclesDown,
+                    to: "/osmicapentakljev"
+                },
+                {
+                    name: 'Devetica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninepentacles,
+                    to: "/deveticapentakljev"
+                },
+                {
+                    name: 'Devetica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: ninepentaclesDown,
+                    to: "/deveticapentakljev"
+                },
+                {
+                    name: 'Desetica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenpentacles,
+                    to: "/deseticapentakljev"
+                },
+                {
+                    name: 'Desetica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: tenpentaclesDown,
+                    to: "/deseticapentakljev"
+                },
+                {
+                    name: 'Paž pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagepentacles,
+                    to: "/pazpentakljev"
+                },
+                {
+                    name: 'Paž pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: pagepentaclesDown,
+                    to: "/pazpentakljev"
+                },
+                {
+                    name: 'Vitez pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightpentacles,
+                    to: "/vitezpentakljev"
+                },
+                {
+                    name: 'Vitez pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: knightpentaclesDown,
+                    to: "/vitezpentakljev"
+                },
+                {
+                    name: 'Kraljica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenpentacles,
+                    to: "/kraljicapentakljev"
+                },
+                {
+                    name: 'Kraljica pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: queenpentaclesDown,
+                    to: "/kraljicapentakljev"
+                },
+                {
+                    name: 'Kralj pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingpentacles,
+                    to: "/kraljpentakljev"
+                },
+                {
+                    name: 'Kralj pentakljev',
+                    text: ' ndsjdka sdjknfsdjnfnkjdsnf nlkjd njklfsadn jf sadkjf njklasdfn k',
+                    src: kingpentaclesDown,
+                    to: "/kraljpentakljev"
+                },
+            ],
             currentImageIndex: 0,
         }
     },
     computed: {
         currentImageSrc() {
-            return this.slike[this.currentImageIndex];
+            return this.slike[this.currentImageIndex].src;
+        },
+        currentImageText() {
+            return this.slike[this.currentImageIndex].text;
+        },
+        currentImageLink() {
+            return this.slike[this.currentImageIndex].to;
+        },
+        currentImageName() {
+            return this.slike[this.currentImageIndex].name;
         },
     },
     mounted() {
