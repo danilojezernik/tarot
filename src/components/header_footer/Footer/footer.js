@@ -1,7 +1,8 @@
 export default {
     data() {
         return {
-
+            showModalSlike: false,
+            showModalPomoc: false,
         }
     },
     methods: {

@@ -14,11 +14,11 @@ export default {
 
                     podnaslovPokoncna: "Pokončna karta",
                     opisPokoncna: '<p>Kralj kelihov predstavlja mojstrstvo nad sferami čustev, ustvarjalnosti in nezavednega. Ko se ta karta prikaže pri branju tarota, ste pridobili nadzor nad svojimi občutki in jih lahko sprejmete, ne da bi dovolili, da vas premagajo. Tudi ko vas življenje postavi v ovitek, se lahko za pomoč pri soočanju s temi izzivi obrnete na svojo čustveno zrelost in stabilnost. Ne dovolite, da vas stvari prizadenejo, izogibate se drami, namesto tega izberete čustveno uravnotežen in miren pristop.</p><p>Če ste pred osebnimi izzivi, Kralj kelihov predlaga, da morate ostati čustveno zreli, ko se soočate z negativno energijo drugih. Bodite trdni pri svojih osebnih mejah in povejte, kaj je in kaj ni sprejemljivo na čustveni ravni. Ta kralj je umirjen in obvladuje svoja čustva. Svoj intelekt uporablja za pametne odločitve in ne dovoli, da bi ga druge okoliščine ali muhe odvrnile od njegovih osrednjih prepričanj in morale. Ostanite zvesti svojim čustvom in občutkom ter ne dovolite, da bi vas drugi speljali s poti.</p><p>Kralj kelihov uteleša popolno ravnovesje med izvršitvijo in srcem. Ne samo, da ste sposobni logično oceniti in upravljati situacijo, ampak se lahko oprete tudi na svojo intuicijo in razumevanje človeških interakcij. Kot vodja vam je tako pomembno, da dosežete svoje cilje, kot tudi, da skrbite, da so vsi zadovoljni in vključeni na tej poti. Če čutite, da sta logika in čustva v neravnovesju, črpajte energijo tega kralja, da se ponovno poravnate.</p><p>Kot kralj ima moško, očetovsko energijo, kot Kralj kelihov pa postavlja v ospredje svoj čustveni jaz. Ponuja modre nasvete, ko gre za občutke, čustva, ustvarjalnost in odnose ter lahko vidi človeško dinamiko v celoti. Kralj kelihov je sočuten do drugih, ustvarja močne vezi in odnose, ki temeljijo na potrpežljivosti in razumevanju. Ko komunicirate z drugimi, boste morda morali obvladati njihove močne občutke in čustvene sprožilce, da boste lahko v svojih interakcijah ustvarili občutek miru. Lahko se pojavi v vašem življenju kot mentor, trener ali duhovni vodnik; lahko pa tudi sami stopite v to vlogo.</p>',
-                    besedePokoncna: '',
+                    besedePokoncna: 'Varnost, nadzor, moč, disciplina, obilje, čustveno uravnovešen, sočuten, diplomatski, poslovnež, človek zakona, prijaznost, obzirna oseba, pripravljenost prevzeti odgovornost in uživanje v umetnosti ali znanosti.',
 
                     podnaslovObrnjena: "Obrnjena karta",
                     opisObrnjena: '<p>Obrnjen Kralj kelihov kaže, da svojo pozornost usmerjate na svoje najbolj notranje občutke. Odkrivate čustva, shranjena v vaši podzavesti, in kako ta čustva vplivajo na vas. Upate, da boste s tem delom pridobili močnejši občutek nadzora nad svojim čustvenim počutjem, da vas vaši občutki ne bodo odvrnili od najboljšega življenja. Lahko preberete več knjig za samopomoč, pišete dnevnik ali poiščete podporo usposobljenega svetovalca ali hipnoterapevta, da boste lahko potovali globoko v svojo podzavest.</p><p>Ko se obrnjen Kralj kelihov pojavi v vašem branju, ste morda bolj nagnjeni k čustveni vznemirjenosti in drami. Drugi vas lahko sprožijo ali MOČNO pritisnejo na vaše gumbe, celo do mesta, kjer vas skrbi, da bi ga izgubili in povzročili čustveni izpad jeze. Lahko se počutite nerazpoloženi, depresivni, zaskrbljeni in nepredvidljivi. Morda vam primanjkuje tudi samosočutja in se prepirate zaradi majhnih stvari, ki so šle narobe. Če to odmeva z vami, skušajte razumeti temeljni vzrok svojih čustev in se zavestno zavedajte vpliva, ki ga imajo na vaše življenje. Bodite pozorni na svoje čustveno ravnovesje in poiščite svoje mesto miru in sočutja. Drugi ljudje lahko sprožijo te čustvene odzive v vas, vendar je odvisno od vas, da ohranite nadzor!</p><p>Obrnjen Kralj kelihov bi lahko pokazal, da potlačite svoja čustva in se umikate od zunanjega sveta, ker se bojite, kaj bi se lahko zgodilo, če bi se neposredno soočili s svojimi občutki. Vaši občutki se kopičijo v vas in tvegate čustveni izbruh, če pritisk postane prevelik. Če to odmeva, razmislite o iskanju terapevta, ki vam bo pomagal premagati svoja čustva v varnem okolju.</p><p>V najslabšem primeru lahko obrnjen Kralj kelihov predstavlja nekoga, ki je maščevalen in ima talent, da zna kaznovati druge s čustveno manipulacijo. Uporablja čustveno izsiljevanje, da doseže svoje in uveljavlja svoj osebni načrt. Zaradi njega se počutite negotovi vase in kot da ste vi problem, ne on. To vodi samo v (nezasluženo) čustveno nestabilnost v vas. Če to zveni kot nekdo, ki ste ga srečali v preteklosti, morate še vedno delati na tem, da se osvobodite njegovih nadzornih sil.</p>',
-                    besedeObrnjena: '.',
+                    besedeObrnjena: 'Avtoritativen, gospodovalen, nadzorovanje, samo-sočutje, notranji občutki, nerazpoloženje, čustveno manipulativen; močan človek, a dvoličen, zvit, nasilen, škandalozen.',
 
                     podnaslovAfirmacija: "Afirmacija",
                     afirmacija: "\"Negujem in usmerjam tiste, ki to potrebujejo.\"<br>",
@@ -26,48 +26,44 @@ export default {
             ],
             opisSimbolov: [
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Poza",
+                    opis: "Za tega kralja je značilen njegov odprt odnos in jasen pogled – pa tudi njegov izjemen lebdeči kamniti prestol. Vse to so znaki njegovega dostojanstva, suverenosti in zadovoljstva."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Prestol na vodi I",
+                    opis: "Voda podpira. Občutki in zaupanje so glavni stebri obstoja tega kralja. Zakaj se takoj ne potopi s težkim kamnom? Duh, dostojanstvo, zavest - zračne sile mu dajejo vzgon v vodi!"
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Prestol na vodi II",
+                    opis: "Tu ne gre samo za čustva, ampak tudi za osebne zahteve. Hrepenenja in želje so zgoščeni občutki – tudi oni držijo težak kamniti prestol.\n"
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Velik siv prestol",
+                    opis: "Siva je barva nevtralnosti in nestrpnosti. Pozitivno: ravnodušnost, pomanjkanje predsodkov, uravnoteženost. Negativno: brezbrižnost, tukaj: izolacija, (samo)osamljenost."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Jadrnica",
+                    opis: "Pozitivno: balast ni ovira, ampak nujen za uspešno plovbo = bremena so tu, da jih obvladamo. Tudi: biti sposoben obvladati spreminjajoče se vetrove. Opozorilo: nevarnost prepuščenosti vetrovom."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Morska žival",
+                    opis: "Riba, morska kača ali karkoli že je. Kar običajno ostane pod vodo, postane vidno. Kraljevo razumevanje notranjih procesov, občutkov in želj je tisto kar mu daje dostojanstvo in suverenost."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Obesek riba",
+                    opis: "Naloga in sposobnost izražanja čustev. In govoriti o globoko občutenih potrebah. Nevarnost hripavosti ali zadihanosti, ko občutki ne morejo najti prosto pot."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Kelih v desni roki",
+                    opis: "Budnost, sposobnost dojemanja trenutnih potreb, zavedanje, koncentracija na nalogo pred seboj, stopati po poti poštenosti in integritete. Ob upoštevanju želja in strahov je prava pot ..."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Žezlo v levi roki",
+                    opis: "... kar nam tudi omogoča, da zlahka sprejmemo marsikatero odločitev. Zavedati se pomeni vprašati: Katere želje so vredne, katere ne? Katere strahove je vredno sprejeti, katerih pa ne?"
                 },
                 {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Primarne barve: rdeča—rumena—modra",
+                    opis: "Pozitivno: ostajate zvesti svojim glavnim ciljem in izvirnemu viru ter motivom. Negativno: vaše želje so pretirano preproste. Komaj se sploh dotaknete svojega večjega potencial."
                 },
             ],
             elementi: [

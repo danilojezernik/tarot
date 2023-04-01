@@ -13,6 +13,10 @@ li + .breadcrumb-item::before {
     color: white;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 ::v-deep .modal-container {
     display: flex;
     justify-content: center;

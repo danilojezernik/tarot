@@ -12,14 +12,39 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase">Prenesi</h5>
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-white">Link 1</a>
+                            <a @click="showModalSlike= true" class="text-white cursor">Slike</a>
+                            <vue-final-modal v-model="showModalSlike" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+                                <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalSlike = false">
+                                    <mdi-close class="fw-bold text-white">X</mdi-close>
+                                </button>
+                                <span class="modal__title text-center text-dark py-3">Slike</span>
+
+                                <div class="modal__content">
+                                    <div class="container">
+                                        <iframe src="https://tarot-zate.si/prenos/crno-bele-karte-velika-arkana.pdf" style="min-width: 100%; min-height: 65vh"></iframe>
+                                    </div>
+                                </div>
+                            </vue-final-modal>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 2</a>
+                            <a @click="showModalPomoc= true" class="text-white cursor">Dnevnik</a>
+                            <vue-final-modal v-model="showModalPomoc" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+                                <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalPomoc = false">
+                                    <mdi-close class="fw-bold text-white">X</mdi-close>
+                                </button>
+                                <span class="modal__title text-center text-dark py-3">Delovni zvezek za samopomoč</span>
+
+                                <div class="modal__content">
+                                    <div class="container">
+                                        <iframe src="https://tarot-zate.si/prenos/dnevnik-samopomoc.pdf" style="min-width: 100%; min-height: 65vh"></iframe>
+                                    </div>
+                                </div>
+                            </vue-final-modal>
+
                         </li>
                         <li>
                             <a href="#!" class="text-white">Link 3</a>
@@ -30,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-0">Links</h5>
+                    <h5 class="text-uppercase mb-0">Zanimivo</h5>
 
                     <ul class="list-unstyled">
                         <li>
