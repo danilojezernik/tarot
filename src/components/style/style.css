@@ -9,8 +9,24 @@
     background-attachment: fixed;
 }
 
+.bg-image-cards {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("~@/assets/pentagram.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.bg-image-qlipha {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("~@/assets/kliphot/qlipha.png");
+    background-size: cover;
+    background-position: top;
+}
+
 li + .breadcrumb-item::before {
     color: white;
+}
+
+.index {
+    z-index: -1;
 }
 
 .cursor {

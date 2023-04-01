@@ -29,7 +29,7 @@
         <div class="row row-cols-1 row-cols-xl-3 g-4 pt-3">
             <!-- Meditacija na mirnost telesa in tratak -->
             <div class="col">
-                <div class="card bg-dark bg-gradient text-white h-100">
+                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-white">{{ naslovKabala }}</h3>
                     <div class="card-body">
                         <p class="card-text" v-html="kabalaNaKratko"></p>
@@ -42,7 +42,7 @@
             </div>
             <!-- Meditacija na dih in čakre -->
             <div class="col">
-                <div class="card bg-dark bg-gradient text-white h-100">
+                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-white">{{ naslovSefirot }}</h3>
                     <div class="card-body">
                         <p class="card-text" v-html="kabalaSefirot"></p>
@@ -55,7 +55,7 @@
             </div>
             <!-- Meditacija na tarot -->
             <div class="col">
-                <div class="card bg-dark bg-gradient text-white h-100">
+                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-white">{{ naslovNadangeli }}</h3>
                     <div class="card-body">
                         <p class="card-text" v-html="nadangeli"></p>
@@ -149,7 +149,7 @@
 
         <div class="row row-cols-1 row-cols-xl-3 g-4 pt-3">
             <div class="col" v-for="(molitev, index) in molitve" :key="index">
-                <div class="card text-center bg-dark bg-gradient text-white h-100">
+                <div class="card text-center bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-white">{{ molitev.naslov }}</h3>
                     <div class="card-body">
                         <p class="card-text" v-html="molitev.molitev"></p>

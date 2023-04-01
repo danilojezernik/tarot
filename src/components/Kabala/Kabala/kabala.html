@@ -31,9 +31,9 @@
 
                 <div class="row pb-2" v-for="(opis, index) in opisi" :key="index">
                     <div class="col-lg-12">
-                        <div class="card bg-transparent border-0 shadow">
+                        <div class="card border-0 shadow bg-dark bg-image-cards bg-opacity-75 text-white">
                             <div class="row g-0">
-                                <div class="col-lg-12 bg-dark bg-gradient text-white">
+                                <div class="col-lg-12">
                                     <h2 class="card-header border-white">{{ opis.naslov }}</h2>
                                     <div class="card-body">
                                         <p class="card-text" v-html="opis.opis">

@@ -267,182 +267,182 @@ export default {
                 },
                 {
                     name: 'VIII – Moč',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska, oblečena v belo, simbol čisto-srčnosti in razvitega dela vas, se ljubeče približa divji zveri, živalskemu ali nerazvitemu delu vas. Bitje se odzove z lizanjem njene roke. Moč nakazuje, kaj je potrebno, da se popolnoma sprejmeš. Vsakdo ima v sebi zver ali nezrele lastnosti. Karta nakazuje, da vas prijateljevanje, posedovanje in/ali priznavanje teh delov naredi popolno osebo. to ne pomeni, da pustite zver divjati; to pomeni, da ga zreli del vas ljubeče, a trdno vodi.</p><p>Katerega leva upravljate ali bežite pred njim? Ali morda v vas čaka rjoveč lev? Ste prišli v stik z željo po divjosti? Katere občutke poskušate utišati? Kako bi se lahko lotili krotenja zveri? Kdaj je vaša občutljivost prednost ali slabost? Kdaj je vaša moč šibkost ali moč? Koga ali kaj krotite s trdo ljubeznijo? Ali se ob soočanju z besnim levom ne počutite kot junak ali strahopetec? Vam izkušnja notranje moči daje občutek, da morate biti manj močni? Je morda čas, da se spoprijateljite z zverjo v sebi ali v drugi osebi? Kako bi se lahko oddolžili za divjost v sebi ali v drugi osebi? Kako bi nežnost pomagala v potencialno nevarni situaciji? Kam ste poklicani, da spregovorite? Kako bi lahko usmerjanje brezpogojne ljubezni v vse dele vaše osebnosti spremenilo vaše življenje?</p>',
                     src: strength,
                     to: "/strength"
                 },
                 {
                     name: 'VIII – Moč',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska, oblečena v belo, simbol čisto-srčnosti in razvitega dela vas, se ljubeče približa divji zveri, živalskemu ali nerazvitemu delu vas. Bitje se odzove z lizanjem njene roke. Moč nakazuje, kaj je potrebno, da se popolnoma sprejmeš. Vsakdo ima v sebi zver ali nezrele lastnosti. Karta nakazuje, da vas prijateljevanje, posedovanje in/ali priznavanje teh delov naredi popolno osebo. to ne pomeni, da pustite zver divjati; to pomeni, da ga zreli del vas ljubeče, a trdno vodi.</p><p>Katerega leva upravljate ali bežite pred njim? Ali morda v vas čaka rjoveč lev? Ste prišli v stik z željo po divjosti? Katere občutke poskušate utišati? Kako bi se lahko lotili krotenja zveri? Kdaj je vaša občutljivost prednost ali slabost? Kdaj je vaša moč šibkost ali moč? Koga ali kaj krotite s trdo ljubeznijo? Ali se ob soočanju z besnim levom ne počutite kot junak ali strahopetec? Vam izkušnja notranje moči daje občutek, da morate biti manj močni? Je morda čas, da se spoprijateljite z zverjo v sebi ali v drugi osebi? Kako bi se lahko oddolžili za divjost v sebi ali v drugi osebi? Kako bi nežnost pomagala v potencialno nevarni situaciji? Kam ste poklicani, da spregovorite? Kako bi lahko usmerjanje brezpogojne ljubezni v vse dele vaše osebnosti spremenilo vaše življenje?</p>',
                     src: strengthDown,
                     to: "/strength"
                 },
                 {
                     name: 'IX – Puščavnik',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Puščavnik stoji na vrhu gore in namiguje, da ima objektiven ali moder pogled na to, kar se dogaja v svetu spodaj. Rade volje drži svetilko v desni ali zavestni roki, kar kaže na to, da se zaveda, da je nosilec luči modrosti in razumevanja v temi zmede in nevednosti. Palica v njegovi levi ali podzavestni roki nakazuje, da je asimiliral svoje življenjske izkušnje in služi kot navdih drugim. Poleg tega, da spodbuja tiste, ki prepotujejo goro, k višji zavesti, njegova prisotnost pove, da je pomoč, če jo poiščete, vedno na voljo.</p><p>Kateremu vodstvu duše sledite? Na katero goro se vzpenjate? Iščete luč upanja v temnem času? Je morda nekdo ali nekaj ta svetlo za vas? Ali obstaja način, kako lahko osvetlite svojo svetlobo, ne da bi bili navezani na to ali drugi to vidijo ali ne? Bi lahko uživali v umiku od sveta? Zakaj se upirate svoji potrebi biti puščavnik za nekaj časa? Katera orodja ali učenja so vam pri roki? Morda se počutite starejše in modrejše, čeprav ste mladi po letih? Se počutite udobno oz. neprijetno biti sami s seboj? Kakšen pregled ali medsebojno povezavo ste nenadoma videli? Ali vas skrbi prilagajanje v svet? Ste sami, ne da bi se počutili osamljeno? Katero lekcijo asimilirate? Katero modrost delite s svetom? Ste končno spoznali, da je poti do višje zavesti toliko, kolikor je ljudi? Ali bi morda želeli služiti manj srečnim od sebe?</p>',
                     src: hermit,
                     to: "/the-hermit"
                 },
                 {
                     name: 'IX – Puščavnik',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Puščavnik stoji na vrhu gore in namiguje, da ima objektiven ali moder pogled na to, kar se dogaja v svetu spodaj. Rade volje drži svetilko v desni ali zavestni roki, kar kaže na to, da se zaveda, da je nosilec luči modrosti in razumevanja v temi zmede in nevednosti. Palica v njegovi levi ali podzavestni roki nakazuje, da je asimiliral svoje življenjske izkušnje in služi kot navdih drugim. Poleg tega, da spodbuja tiste, ki prepotujejo goro, k višji zavesti, njegova prisotnost pove, da je pomoč, če jo poiščete, vedno na voljo.</p><p>Kateremu vodstvu duše sledite? Na katero goro se vzpenjate? Iščete luč upanja v temnem času? Je morda nekdo ali nekaj ta svetlo za vas? Ali obstaja način, kako lahko osvetlite svojo svetlobo, ne da bi bili navezani na to ali drugi to vidijo ali ne? Bi lahko uživali v umiku od sveta? Zakaj se upirate svoji potrebi biti puščavnik za nekaj časa? Katera orodja ali učenja so vam pri roki? Morda se počutite starejše in modrejše, čeprav ste mladi po letih? Se počutite udobno oz. neprijetno biti sami s seboj? Kakšen pregled ali medsebojno povezavo ste nenadoma videli? Ali vas skrbi prilagajanje v svet? Ste sami, ne da bi se počutili osamljeno? Katero lekcijo asimilirate? Katero modrost delite s svetom? Ste končno spoznali, da je poti do višje zavesti toliko, kolikor je ljudi? Ali bi morda želeli služiti manj srečnim od sebe?</p>',
                     src: hermitDown,
                     to: "/the-hermit"
                 },
                 {
                     name: 'X – Kolo sreče',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Štirje krilati varuhi obkrožajo kolo, kar nakazuje, da vsa sreča prihaja od zgoraj. Valovita kača znanja nakazuje, da življenjski vzponi in padci prinašajo potencial za popolnejše spoznavanje samega sebe. Varuh podzemlja s šakalovo glavo, Anubis, na katerem se zdi, da kolo počiva, vas spomni, da čeprav so temni časi naravni del življenjskega cikla, božanstvo vedno potuje z vami. Sfinga, varuhinja skrivnosti, sedi zunaj kolesa in opazuje, kako stvaritev kroži skozi stopnje rojstva, življenja, smrti in ponovnega rojstva - kolesa znotraj kolesa. Postavitev varuha nad kolesom nakazuje razvoj zavesti pričevalca, stanje, ki nosi umirjenost in perspektivo sredi tekočega življenja.</p><p>Se vedno bolj zavedate, da vsako dejanje nekje v času ustvari svoj odziv? Kateri cikel zaključujete ali začenjate? Kakšna priložnost je na dosegu roke? Bi vam lahko koristilo, če bi izstopili iz neke situacije in samo opazovali in čakali, namesto da bi v njej aktivno sodelovali? Kateri trenutek ujamete? Ste razmišljali o tem, da bi poiskali pomoč pri obvladovanju vaših duševnih in čustvenih vzponov in padcev? Katere nesrečne ali srečne okoliščine se lahko obrnejo? Ali doživljate posledice nekega dejanja? Ali se borite proti gibanju kolesa življenja? Zakaj se upirate biti tam, kjer ste? Za kakšno dejanje ste nagrajeni? Kako ostajate osredotočeni v času preobratov? Ali vse bolj sprejemate življenjske vzpone in padce? Na kakšen način vas življenje dela boljšega človeka?</p>',
                     src: wheel,
                     to: "/wheel-of-fortune"
                 },
                 {
                     name: 'X – Kolo sreče',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Štirje krilati varuhi obkrožajo kolo, kar nakazuje, da vsa sreča prihaja od zgoraj. Valovita kača znanja nakazuje, da življenjski vzponi in padci prinašajo potencial za popolnejše spoznavanje samega sebe. Varuh podzemlja s šakalovo glavo, Anubis, na katerem se zdi, da kolo počiva, vas spomni, da čeprav so temni časi naravni del življenjskega cikla, božanstvo vedno potuje z vami. Sfinga, varuhinja skrivnosti, sedi zunaj kolesa in opazuje, kako stvaritev kroži skozi stopnje rojstva, življenja, smrti in ponovnega rojstva - kolesa znotraj kolesa. Postavitev varuha nad kolesom nakazuje razvoj zavesti pričevalca, stanje, ki nosi umirjenost in perspektivo sredi tekočega življenja.</p><p>Se vedno bolj zavedate, da vsako dejanje nekje v času ustvari svoj odziv? Kateri cikel zaključujete ali začenjate? Kakšna priložnost je na dosegu roke? Bi vam lahko koristilo, če bi izstopili iz neke situacije in samo opazovali in čakali, namesto da bi v njej aktivno sodelovali? Kateri trenutek ujamete? Ste razmišljali o tem, da bi poiskali pomoč pri obvladovanju vaših duševnih in čustvenih vzponov in padcev? Katere nesrečne ali srečne okoliščine se lahko obrnejo? Ali doživljate posledice nekega dejanja? Ali se borite proti gibanju kolesa življenja? Zakaj se upirate biti tam, kjer ste? Za kakšno dejanje ste nagrajeni? Kako ostajate osredotočeni v času preobratov? Ali vse bolj sprejemate življenjske vzpone in padce? Na kakšen način vas življenje dela boljšega človeka?</p>',
                     src: wheelDown,
                     to: "/wheel-of-fortune"
                 },
                 {
                     name: 'XI – Pravica',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Tako kot Svečenica in Svečenik tudi Pravica stoji med dvema stebroma, ki nakazujeta nevtralnost in dobro uravnoteženo perspektivo. V desni roki drži tehtnico, v levici pa meč razsodnosti, Pravica tehta ali izračuna možne rezultate svojih dejanj, preden jih izvede. Potem ko se odloči, da je pripravljena prevzeti odgovornost za to, kar se lahko zgodi, deluje z vero, da se bo njeno izbrano dejanje sčasoma uravnovesilo. Pravicina iztegnjena noga kaže, da je vedno pripravljena ukrepati, pomagati ponovno uravnotežiti in spremeniti navidez nastavljen cikel dogodkov.</p><p>Ali prevzemate odgovornost za svoja dejanja? Kakšno pravico iščete? Katera navidezno nepravična situacija deluje pravilno? Katera neravnovesja popravljate? Kakšne ukrepe bi lahko sprejeli, da bi ublažili učinke škodljivega dejanja? Pri kateri situaciji bi pomagalo temeljito pretehtati prednosti in slabosti? Kako vas bolečina prisili, da spremenite svoje vedenje? Katera krivica vas vznemirja? Kako lahko vaša sedanja dejanja popravijo preteklo krivico? Ali vihtite meč pravice, da zaščitite sebe ali druge? O kateri nepravičnosti ste obsedeni? Čemu se težko prilagajate? Ali doživljate obdobje prilagajanja? Kaj vas spravlja iz ravnotežja? Kako pomanjkanje ravnotežja druge osebe vpliva na vas ali vaše okolje? Kaj bi lahko storili, da bi se ponovno uravnovesili? Ste šli predaleč, ko ste poskušali popraviti napako iz preteklosti? Katera izkušnja vam povrne vero v idejo, da se življenje vedno izkaže za najboljše?</p>',
                     src: justice,
                     to: "/justice"
                 },
                 {
                     name: 'XI – Pravica',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Tako kot Svečenica in Svečenik tudi Pravica stoji med dvema stebroma, ki nakazujeta nevtralnost in dobro uravnoteženo perspektivo. V desni roki drži tehtnico, v levici pa meč razsodnosti, Pravica tehta ali izračuna možne rezultate svojih dejanj, preden jih izvede. Potem ko se odloči, da je pripravljena prevzeti odgovornost za to, kar se lahko zgodi, deluje z vero, da se bo njeno izbrano dejanje sčasoma uravnovesilo. Pravicina iztegnjena noga kaže, da je vedno pripravljena ukrepati, pomagati ponovno uravnotežiti in spremeniti navidez nastavljen cikel dogodkov.</p><p>Ali prevzemate odgovornost za svoja dejanja? Kakšno pravico iščete? Katera navidezno nepravična situacija deluje pravilno? Katera neravnovesja popravljate? Kakšne ukrepe bi lahko sprejeli, da bi ublažili učinke škodljivega dejanja? Pri kateri situaciji bi pomagalo temeljito pretehtati prednosti in slabosti? Kako vas bolečina prisili, da spremenite svoje vedenje? Katera krivica vas vznemirja? Kako lahko vaša sedanja dejanja popravijo preteklo krivico? Ali vihtite meč pravice, da zaščitite sebe ali druge? O kateri nepravičnosti ste obsedeni? Čemu se težko prilagajate? Ali doživljate obdobje prilagajanja? Kaj vas spravlja iz ravnotežja? Kako pomanjkanje ravnotežja druge osebe vpliva na vas ali vaše okolje? Kaj bi lahko storili, da bi se ponovno uravnovesili? Ste šli predaleč, ko ste poskušali popraviti napako iz preteklosti? Katera izkušnja vam povrne vero v idejo, da se življenje vedno izkaže za najboljše?</p>',
                     src: justiceDown,
                     to: "/justice"
                 },
                 {
                     name: 'XII – Obešenec',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Udobno obešen na drevo v obliki hebrejske črke TAV je Obešenec začasno stopil iz običajnega časa v večni čas. Njegova poza nakazuje prakso dodajanja univerzalne perspektive vaši zemeljski perspektivi. Njegova svetilka in beli lasje kažejo, da je šel skozi vrata modrosti. Kljub temu, da je privezan, obešeni človek svobodno visi, kar nakazuje, da vas razširjeni odnos do življenjskih omejitev lahko osvobodi. Noge Obešenca kažejo v nebesa in simbolizirajo naše prave korenine.</p><p>Kakšen preobrat doživljate? Kaj vas je postavilo na glavo? Katera prepričanja opuščate? Ali morate počastiti sebe tako, da naredite nekaj nekonvencionalnega? Vas nekaj omejuje, vendar osvobaja? Ali prehajate iz enega stanja zavesti v drugega? Kako se spreminja vaša perspektiva? Je vaša najpomembnejša navezanost ta na višjo zavest? Ali si je vredno vzeti čas za samorefleksijo? Ali svoje načrte za nekaj časa odložite? Zakaj se obnašate kot mučenik? Bi lahko prisluhnili svojemu jazu, čeprav vam govori, da naredite tisto, kar je v nasprotju s tem, kar želite? Kako bi lahko ustvarili stabilnost sredi nestabilnosti? Kaj žrtvujete? Kje bi lahko bila opustitev nadzora dragocena? Kakšni resnici se predajate? Česa se bojite, da boste izgubili z obrnjenimi pogledi? Kakšno pomembno vprašanje je zdaj nepomembno zaradi spremembe vaše perspektive?</p>',
                     src: hanged,
                     to: "/the-hanged-man"
                 },
                 {
                     name: 'XII – Obešenec',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Udobno obešen na drevo v obliki hebrejske črke TAV je Obešenec začasno stopil iz običajnega časa v večni čas. Njegova poza nakazuje prakso dodajanja univerzalne perspektive vaši zemeljski perspektivi. Njegova svetilka in beli lasje kažejo, da je šel skozi vrata modrosti. Kljub temu, da je privezan, obešeni človek svobodno visi, kar nakazuje, da vas razširjeni odnos do življenjskih omejitev lahko osvobodi. Noge Obešenca kažejo v nebesa in simbolizirajo naše prave korenine.</p><p>Kakšen preobrat doživljate? Kaj vas je postavilo na glavo? Katera prepričanja opuščate? Ali morate počastiti sebe tako, da naredite nekaj nekonvencionalnega? Vas nekaj omejuje, vendar osvobaja? Ali prehajate iz enega stanja zavesti v drugega? Kako se spreminja vaša perspektiva? Je vaša najpomembnejša navezanost ta na višjo zavest? Ali si je vredno vzeti čas za samorefleksijo? Ali svoje načrte za nekaj časa odložite? Zakaj se obnašate kot mučenik? Bi lahko prisluhnili svojemu jazu, čeprav vam govori, da naredite tisto, kar je v nasprotju s tem, kar želite? Kako bi lahko ustvarili stabilnost sredi nestabilnosti? Kaj žrtvujete? Kje bi lahko bila opustitev nadzora dragocena? Kakšni resnici se predajate? Česa se bojite, da boste izgubili z obrnjenimi pogledi? Kakšno pomembno vprašanje je zdaj nepomembno zaradi spremembe vaše perspektive?</p>',
                     src: hangedDown,
                     to: "/the-hanged-man"
                 },
                 {
                     name: 'XIII – Smrt',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Smrt jaha konja, ki predstavlja povišanje statusa in simbolizira, kako je smrt izkušnja, ki dviguje zavest – svojo osebno zavest pustite za seboj, da vidite sebe in svoja dejanja objektivno. Vse pade smrti pred noge, to nas opominja, da karkoli se rodi, na koncu umre. Sonce, ki vzhaja na vzhodu med dvema stolpoma, pomeni, da je smrt prav tako del življenjskega cikla kot sončni vzhod in zahod. Smrt ima celostno povezanost z življenjem – saj je del naravnega toka življenja – prikazuje tudi voda v ozadju karte, tok življenja, ki je bil prvič viden, da teče iz oblačila Velike svečenice.</p><p>Kakšnega obrabljenega vedenja se oklepate? Česa se bojiš opustiti? Kakšne sanje so prezgodnja smrt? Ste obtičali? Ali doživljate duhovni preporod? Katere želje odpadejo? Zakaj se upirate odraščanju? Ste preživeli obsmrtno izkušnjo? Kateri del vas se spreminja ali izloča? Ali se morda ukvarjate s smrtjo nekoga, ki vam je blizu in drag? Katere nepotrebne načine razmišljanja ali povezovanja ste prisiljeni opustiti? Ali razmišljate o tem, da je smrt naravno nadaljevanje razvoja vaše duše? Za čim ali kom žalujete? Ste z leti vse manj ali bolj navezani na svoje telo? Kakšne majhne smrti opazite vsak dan? Ali se bojite umiranja bolj kot smrti? Kakšno smrt zanikate? Ali bi smrtno nevarna bolezen povečala vaše spoštovanje do življenja? Kako lahko smrt prinese prenovo?</p>',
                     src: death,
                     to: "/death"
                 },
                 {
                     name: 'XIII – Smrt',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Smrt jaha konja, ki predstavlja povišanje statusa in simbolizira, kako je smrt izkušnja, ki dviguje zavest – svojo osebno zavest pustite za seboj, da vidite sebe in svoja dejanja objektivno. Vse pade smrti pred noge, to nas opominja, da karkoli se rodi, na koncu umre. Sonce, ki vzhaja na vzhodu med dvema stolpoma, pomeni, da je smrt prav tako del življenjskega cikla kot sončni vzhod in zahod. Smrt ima celostno povezanost z življenjem – saj je del naravnega toka življenja – prikazuje tudi voda v ozadju karte, tok življenja, ki je bil prvič viden, da teče iz oblačila Velike svečenice.</p><p>Kakšnega obrabljenega vedenja se oklepate? Česa se bojiš opustiti? Kakšne sanje so prezgodnja smrt? Ste obtičali? Ali doživljate duhovni preporod? Katere želje odpadejo? Zakaj se upirate odraščanju? Ste preživeli obsmrtno izkušnjo? Kateri del vas se spreminja ali izloča? Ali se morda ukvarjate s smrtjo nekoga, ki vam je blizu in drag? Katere nepotrebne načine razmišljanja ali povezovanja ste prisiljeni opustiti? Ali razmišljate o tem, da je smrt naravno nadaljevanje razvoja vaše duše? Za čim ali kom žalujete? Ste z leti vse manj ali bolj navezani na svoje telo? Kakšne majhne smrti opazite vsak dan? Ali se bojite umiranja bolj kot smrti? Kakšno smrt zanikate? Ali bi smrtno nevarna bolezen povečala vaše spoštovanje do življenja? Kako lahko smrt prinese prenovo?</p>',
                     src: deathDown,
                     to: "/death"
                 },
                 {
                     name: 'XIV – Zmernost',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Michael stoji z eno nogo na vodi in z drugo na kopnem, kar nakazuje, da duhovna podlaga podpira vaše vsakdanje življenje in da vaša posvetna rast in razvoj podpirata vašo duhovno rast. To je spet razvidno iz vode, ki teče med angelovima skodelicama in meša navidezno protislovne elemente duha zgoraj in materije spodaj. Mavrica nad glavo obljublja, da boste popolnoma uspešni pri duhovnem delu, ki se ga lotite v tem življenju.</p><p>Se počutite zaščitene s svojim angelom varuhom? Kateri vidik vaše osebnosti se čisti in izpopolnjuje? Nad čim se počutite navdušeno? Kakšna želja je zanemarjena? Kateri vidiki vaše osebnosti se poenotijo? Ali ste se borili z odvisnostjo od drog, alkohola, hrane ali druge odvisnosti? Katera kombinacija ljudi v vašem življenju se obnese ali ne odnese? Kakšno novo kombinacijo je treba narediti? Kako lahko utrdite svoje energije? Greste morda iz vroče ponve v ogenj? Katere nasprotne sile se usklajujejo? Ali iščete ali doživljate stik s svojim višjim jazom? Katere napotke ste hvaležno prejeli? Kdo vas jezi? Je čas, da svojo filozofijo prenesete v prakso? Se počutite, kot da ste na "preizkušnji z ognjem"? Ste v potencialno nestabilni situaciji? Kako življenjski stresi in napori poduhovljajo vaše življenje? Vam duhovni nauki dajejo potrebno podporo? Katerega testa ne opravite ali ne opravite?</p>',
                     src: temperance,
                     to: "/temperance"
                 },
                 {
                     name: 'XIV – Zmernost',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Michael stoji z eno nogo na vodi in z drugo na kopnem, kar nakazuje, da duhovna podlaga podpira vaše vsakdanje življenje in da vaša posvetna rast in razvoj podpirata vašo duhovno rast. To je spet razvidno iz vode, ki teče med angelovima skodelicama in meša navidezno protislovne elemente duha zgoraj in materije spodaj. Mavrica nad glavo obljublja, da boste popolnoma uspešni pri duhovnem delu, ki se ga lotite v tem življenju.</p><p>Se počutite zaščitene s svojim angelom varuhom? Kateri vidik vaše osebnosti se čisti in izpopolnjuje? Nad čim se počutite navdušeno? Kakšna želja je zanemarjena? Kateri vidiki vaše osebnosti se poenotijo? Ali ste se borili z odvisnostjo od drog, alkohola, hrane ali druge odvisnosti? Katera kombinacija ljudi v vašem življenju se obnese ali ne odnese? Kakšno novo kombinacijo je treba narediti? Kako lahko utrdite svoje energije? Greste morda iz vroče ponve v ogenj? Katere nasprotne sile se usklajujejo? Ali iščete ali doživljate stik s svojim višjim jazom? Katere napotke ste hvaležno prejeli? Kdo vas jezi? Je čas, da svojo filozofijo prenesete v prakso? Se počutite, kot da ste na "preizkušnji z ognjem"? Ste v potencialno nestabilni situaciji? Kako življenjski stresi in napori poduhovljajo vaše življenje? Vam duhovni nauki dajejo potrebno podporo? Katerega testa ne opravite ali ne opravite?</p>',
                     src: temperanceDown,
                     to: "/temperance"
                 },
                 {
                     name: 'XV – Hudič',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Uriel, kar pomeni "Svetloba ali senca Najvišjega", sedi na njegovem prestolu. V hebrejščini se številke prevedejo v črke in obratno. Z uporabo tega sistema številka karte za Hudiča, številka 15, postane beseda Jah, eno od mnogih imen za božanstvo. Hudičeva bela brada namiguje, da je senca Najvišjega, ki te sprijazni s svojo senco – tvojo nezrelostjo. Če ima božanstvo lahko senco, imaš tudi ti! Sprejemanje tvoje človečnosti vam omogoča, da dvignete verige sovraštva do samega sebe. Ohlapne verige okoli ljudi, ki izvirajo iz hudičevega prestola, nakazujejo, da vas osvobaja ista moč, ki se zdi, da vas omejuje! Podobnost karte z Ljubimcema kaže na to, da iti skozi pekel ustvari strast do svobode.</p><p>Ali se počutite, kot da živite v peklu? Vas muči sram in krivda? Ali se počutite ujeti v materialni svet? Za kaj se odločite, da ostanete glede tega nevedni ali ozkogledi? Kakšno laž širite s tem, da nočete pogledati čez njeno površino? Zakaj živite v zanikanju? Se bojite videti sebe takšnega kakršni ste? Ali se počutite nemočne nad svojimi spolnimi nagoni? Na koga ali kaj poskušate imeti neprimeren vpliv? Ali morda namerno škodujete drugim? Koga ali kaj krivite za svoje pomanjkljivosti? Ali se obnašate kot osel? Ali bi bilo koristno, če bi kdaj pa kdaj sledili svojim instinktom? Kako bi lahko priznali in se spoprijateljil s "temno" ali nerazvito, neljubljeno stranjo sebe?</p>',
                     src: devil,
                     to: "/the-devil"
                 },
                 {
                     name: 'XV – Hudič',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Uriel, kar pomeni "Svetloba ali senca Najvišjega", sedi na njegovem prestolu. V hebrejščini se številke prevedejo v črke in obratno. Z uporabo tega sistema številka karte za Hudiča, številka 15, postane beseda Jah, eno od mnogih imen za božanstvo. Hudičeva bela brada namiguje, da je senca Najvišjega, ki te sprijazni s svojo senco – tvojo nezrelostjo. Če ima božanstvo lahko senco, imaš tudi ti! Sprejemanje tvoje človečnosti vam omogoča, da dvignete verige sovraštva do samega sebe. Ohlapne verige okoli ljudi, ki izvirajo iz hudičevega prestola, nakazujejo, da vas osvobaja ista moč, ki se zdi, da vas omejuje! Podobnost karte z Ljubimcema kaže na to, da iti skozi pekel ustvari strast do svobode.</p><p>Ali se počutite, kot da živite v peklu? Vas muči sram in krivda? Ali se počutite ujeti v materialni svet? Za kaj se odločite, da ostanete glede tega nevedni ali ozkogledi? Kakšno laž širite s tem, da nočete pogledati čez njeno površino? Zakaj živite v zanikanju? Se bojite videti sebe takšnega kakršni ste? Ali se počutite nemočne nad svojimi spolnimi nagoni? Na koga ali kaj poskušate imeti neprimeren vpliv? Ali morda namerno škodujete drugim? Koga ali kaj krivite za svoje pomanjkljivosti? Ali se obnašate kot osel? Ali bi bilo koristno, če bi kdaj pa kdaj sledili svojim instinktom? Kako bi lahko priznali in se spoprijateljil s "temno" ali nerazvito, neljubljeno stranjo sebe?</p>',
                     src: devilDown,
                     to: "/the-devil"
                 },
                 {
                     name: 'XVI – Trdnjava',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ker je bil Babilonski stolp zgrajen na napačni predpostavki, da lahko človeštvo preseže božansko moč, ga je božanskost podrla. Ko smo vi in jaz preveč ponosni ali se ne zavedamo, da bi opustili pretirano egoistične in/ali napačne ideje (ali "stolpe"), nam strela, univerzalni simbol za božansko posredovanje, pomaga olajšati breme ali nas razsvetli. Krona, ljudje, ki padajo, in razjedeni temelji prikazujejo zasnove, zgrajene na človeških in božanskih načelih, ki jih univerzalna modrost in razumevanje izpodbijata.</p><p>Imate občutek, da boste eksplodirali ali se boste odlepili? Se vam življenje razpada? Kako prenašate svojo jezo, ki je usmerjena proti vam? Ali res verjamete, da ste boljši od vseh drugih? Kaj potrebuje prestrukturiranje? Katera stara in nevarna struktura je padla? Kako ste se izolirali? Pred katerimi opozorilnimi znaki si zatiskate oči? Imate vi ali kdo od vaših bližnjih zlom? S kakšno eksplozivno situacijo imate opravka? Kaj so vaše besede ali dejanja uničila? Se počutite, kot da bi vas udarili po glavi? Kakšen poraz, ki drobi ego, doživljate? Ali dobivate odmerek ponižnosti? Kako prekoračite svoje meje? Ali vas postavljajo na svoje mesto? Kdo vse se igra? Katera naravna nesreča ali nesreča je doletela vas ali vaše okolje? Ste v šoku? Kaj se mora sesuti, da se zgradi boljša struktura?</p>',
                     src: tower,
                     to: "/the-tower"
                 },
                 {
                     name: 'XVI – Trdnjava',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ker je bil Babilonski stolp zgrajen na napačni predpostavki, da lahko človeštvo preseže božansko moč, ga je božanskost podrla. Ko smo vi in jaz preveč ponosni ali se ne zavedamo, da bi opustili pretirano egoistične in/ali napačne ideje (ali "stolpe"), nam strela, univerzalni simbol za božansko posredovanje, pomaga olajšati breme ali nas razsvetli. Krona, ljudje, ki padajo, in razjedeni temelji prikazujejo zasnove, zgrajene na človeških in božanskih načelih, ki jih univerzalna modrost in razumevanje izpodbijata.</p><p>Imate občutek, da boste eksplodirali ali se boste odlepili? Se vam življenje razpada? Kako prenašate svojo jezo, ki je usmerjena proti vam? Ali res verjamete, da ste boljši od vseh drugih? Kaj potrebuje prestrukturiranje? Katera stara in nevarna struktura je padla? Kako ste se izolirali? Pred katerimi opozorilnimi znaki si zatiskate oči? Imate vi ali kdo od vaših bližnjih zlom? S kakšno eksplozivno situacijo imate opravka? Kaj so vaše besede ali dejanja uničila? Se počutite, kot da bi vas udarili po glavi? Kakšen poraz, ki drobi ego, doživljate? Ali dobivate odmerek ponižnosti? Kako prekoračite svoje meje? Ali vas postavljajo na svoje mesto? Kdo vse se igra? Katera naravna nesreča ali nesreča je doletela vas ali vaše okolje? Ste v šoku? Kaj se mora sesuti, da se zgradi boljša struktura?</p>',
                     src: towerDown,
                     to: "/the-tower"
                 },
                 {
                     name: 'XVII – Zvezda',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Gola ženska na upognjenih kolenih zliva vodo na kopno in v vodo, medtem ko meditativno zre v valoviti tolmun, simbol čarobnih voda univerzalne zavesti. Voda in zemlja jo podpirata, kar kaže na to, da se te pojavijo, ko iščete duhovne točke, na katerih bi temeljili svoje življenje. Medtem ko meditacija in molitev – mešanje bazena univerzalnega uma – zagotavljata dokaz o obstoju božanskosti, fizični svet ponuja isto izkušnjo, če ga zaznavamo s čuti, ki so bili poduhovljeni z molitvijo in meditacijo – tisti, ki želijo videti, slišati, čutiti, okušati, dotikati se in vonjati božanskost v vsem.</p>Sijete kot zvezda? Kdaj boste začeli svetiti v svojem življenju? Kakšno upanje lahko vidite v temni situaciji? Kaj odpade? Kako vas vodi vaša vest? Kaj si želite ali molite, da se bo zgodilo? Kaj želite izvedeti, ne glede na to, kaj zakriva? Zakaj na kolenih prosite za vodstvo in smer? Se vaše zanimanje za duhovnost aktivira? Kako svoja spoznanja iz molitve in meditacije vključujete v svoje vsakdanje življenje? Katero resnico v življenju postavljate na prvo mesto? Ali duhovna praksa preoblikuje vaše življenje? So vaše čutne zaznave jasnejše? Ste pripravljeni na samorefleksijo? Kako stojite goli s svojim višjim jazom? Ali ste bolj pošteni glede tega, kaj potrebujete in kdo ste? Kakšne navdihe prejemate? Ali drugim rečete "ne" sebi pa "da"?</p>',
                     src: star,
                     to: "/the-star"
                 },
                 {
                     name: 'XVII – Zvezda',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Gola ženska na upognjenih kolenih zliva vodo na kopno in v vodo, medtem ko meditativno zre v valoviti tolmun, simbol čarobnih voda univerzalne zavesti. Voda in zemlja jo podpirata, kar kaže na to, da se te pojavijo, ko iščete duhovne točke, na katerih bi temeljili svoje življenje. Medtem ko meditacija in molitev – mešanje bazena univerzalnega uma – zagotavljata dokaz o obstoju božanskosti, fizični svet ponuja isto izkušnjo, če ga zaznavamo s čuti, ki so bili poduhovljeni z molitvijo in meditacijo – tisti, ki želijo videti, slišati, čutiti, okušati, dotikati se in vonjati božanskost v vsem.</p>Sijete kot zvezda? Kdaj boste začeli svetiti v svojem življenju? Kakšno upanje lahko vidite v temni situaciji? Kaj odpade? Kako vas vodi vaša vest? Kaj si želite ali molite, da se bo zgodilo? Kaj želite izvedeti, ne glede na to, kaj zakriva? Zakaj na kolenih prosite za vodstvo in smer? Se vaše zanimanje za duhovnost aktivira? Kako svoja spoznanja iz molitve in meditacije vključujete v svoje vsakdanje življenje? Katero resnico v življenju postavljate na prvo mesto? Ali duhovna praksa preoblikuje vaše življenje? So vaše čutne zaznave jasnejše? Ste pripravljeni na samorefleksijo? Kako stojite goli s svojim višjim jazom? Ali ste bolj pošteni glede tega, kaj potrebujete in kdo ste? Kakšne navdihe prejemate? Ali drugim rečete "ne" sebi pa "da"?</p>',
                     src: starDown,
                     to: "/the-star"
                 },
                 {
                     name: 'XVIII – Luna',
-                    text: '',
+                    text: 'Rak z lahkoto priplava iz tolmuna in simbolizira veliki ocean ali maternico življenja, iz katere vse izvira. Volčji in pasji zaliv ob luni, vidne so vse lunine faze. Ti simboli kažejo, da se morate, ko potujete po avtocesti do višje zavesti (pot, ki vodi v oddaljene gore), razvijati skozi vsa stanja zavesti - ničesar ni mogoče preskočiti.</p><p>Kateri življenjski cikel se umirja ali teče? Kje vidite, da vaše sposobnosti naraščajo ali upadajo? Kakšno pot boste prehodili? Ali morate združiti krotke in divje dele sebe? Se počutite, kot da se odpravljate v neznano? Kako ste zavajali sebe ali druge? Ali razumete, da so vsi dogodki v vašem življenju del vašega duhovnega potovanja? Bi lahko prešteli svoje blagoslove? Se počutite sami? Se vam zdi, da ima duhovna pot veliko zavojev? Kako bi lahko izstopili iz padca v silna čustva in občutke? Katera stara rana se celi ali gnoji? Bi bili pripravljeni odpustiti sebi ali drugemu? Kakšne spremembe po vašem mnenju prinaša vaša duhovna praksa? Vas psihična postranska zabava odvrača od vašega duhovnega dela? Katero bolečino iz preteklosti ste predolgo skrivali? Kateri strahovi zahtevajo obravnavanje da lahko tako napredujete na svoji poti?</p>',
                     src: moon,
                     to: "/the-moon"
                 },
                 {
                     name: 'XVIII – Luna',
-                    text: '',
+                    text: 'Rak z lahkoto priplava iz tolmuna in simbolizira veliki ocean ali maternico življenja, iz katere vse izvira. Volčji in pasji zaliv ob luni, vidne so vse lunine faze. Ti simboli kažejo, da se morate, ko potujete po avtocesti do višje zavesti (pot, ki vodi v oddaljene gore), razvijati skozi vsa stanja zavesti - ničesar ni mogoče preskočiti.</p><p>Kateri življenjski cikel se umirja ali teče? Kje vidite, da vaše sposobnosti naraščajo ali upadajo? Kakšno pot boste prehodili? Ali morate združiti krotke in divje dele sebe? Se počutite, kot da se odpravljate v neznano? Kako ste zavajali sebe ali druge? Ali razumete, da so vsi dogodki v vašem življenju del vašega duhovnega potovanja? Bi lahko prešteli svoje blagoslove? Se počutite sami? Se vam zdi, da ima duhovna pot veliko zavojev? Kako bi lahko izstopili iz padca v silna čustva in občutke? Katera stara rana se celi ali gnoji? Bi bili pripravljeni odpustiti sebi ali drugemu? Kakšne spremembe po vašem mnenju prinaša vaša duhovna praksa? Vas psihična postranska zabava odvrača od vašega duhovnega dela? Katero bolečino iz preteklosti ste predolgo skrivali? Kateri strahovi zahtevajo obravnavanje da lahko tako napredujete na svoji poti?</p>',
                     src: moonDown,
                     to: "/the-moon"
                 },
                 {
                     name: 'XIX – Sonce',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Sonce sije kot otrok, oblečen v pero (kot Norec), ki jezdi brez sedla na konju. Jahanje konja brez sedla ali uzde, poleg tega, da kaže na ozaveščanje, simbolizira otrokovo popolno obvladovanje živalskih nagonov, kar se prvič vidi v karti Moč. Stena v ozadju karte navaja, da so bile premagane velike ovire in posledično ozdravljen "otrok v notranjosti".</p><p>Se vaše srce odpira sebi ali drugemu? Ste optimistični ali pesimistični? S čim morda pretiravate? Ali se morda usmerjate v izgorelost? Kaj vas navdaja z vitalnostjo? Se vaše zdravje obnavlja, ali je ogroženo? Kako delite svetlobo in ljubezen? Kakšno srečo uživate? Kateri zid ste premagali? V čem se polnete z energijo? Kateri načrt se ponovno oživi? Bi lahko bili bolj odprti in strpni do drugih? Ali uživate v lepotah življenja? Vas muči pomanjkanje sonca? Kateri dosežek praznujete? Kako vaša energija in entuziazem pomagata ali ovirata vas ali druge? Kateri viri so shranjeni za deževen dan? Ali čutite božansko svetlobo v vsem? Kako ustvarjate srečnejše, bolj zdravo in prijetnejše življenje zase in za druge? Kako bi lahko prinesli energijo v situacijo, ne da bi zanikali prizadevanja drugih?</p>',
                     src: sun,
                     to: "/the-sun"
                 },
                 {
                     name: 'XIX – Sonce',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Sonce sije kot otrok, oblečen v pero (kot Norec), ki jezdi brez sedla na konju. Jahanje konja brez sedla ali uzde, poleg tega, da kaže na ozaveščanje, simbolizira otrokovo popolno obvladovanje živalskih nagonov, kar se prvič vidi v karti Moč. Stena v ozadju karte navaja, da so bile premagane velike ovire in posledično ozdravljen "otrok v notranjosti".</p><p>Se vaše srce odpira sebi ali drugemu? Ste optimistični ali pesimistični? S čim morda pretiravate? Ali se morda usmerjate v izgorelost? Kaj vas navdaja z vitalnostjo? Se vaše zdravje obnavlja, ali je ogroženo? Kako delite svetlobo in ljubezen? Kakšno srečo uživate? Kateri zid ste premagali? V čem se polnete z energijo? Kateri načrt se ponovno oživi? Bi lahko bili bolj odprti in strpni do drugih? Ali uživate v lepotah življenja? Vas muči pomanjkanje sonca? Kateri dosežek praznujete? Kako vaša energija in entuziazem pomagata ali ovirata vas ali druge? Kateri viri so shranjeni za deževen dan? Ali čutite božansko svetlobo v vsem? Kako ustvarjate srečnejše, bolj zdravo in prijetnejše življenje zase in za druge? Kako bi lahko prinesli energijo v situacijo, ne da bi zanikali prizadevanja drugih?</p>',
                     src: sunDown,
                     to: "/the-sun"
                 },
                 {
                     name: 'XX – Sodba',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Gabriel, "glasnik Najvišjega", pošilja prebujajoči klic tistim, ki ga lahko slišijo. Ljudje vstanejo iz svojih krstam podobnih škatel ali mrtvih samoomejujočih konstruktov v neomejenost. Ko stopite iz začasne resničnosti v večno resničnost, izkusite življenje. Vi in drugi ste natanko takšni, kot bi morali biti - brezhibnost in sočutje kraljujeta. Ta sprememba perspektive je kot preklop z gledanja filma na majhnem zaslonu na velik zaslon - nenadoma postane vidna večja slika.</p><p>Ali slišite klic k višji zavesti? Kakšne koristi bi vam lahko koristilo zadržanje sodbe? Kakšna sodba je bila izrečena? Zaradi česar se kesaš? Kako se osvobajate nepotrebnega samoobsojanja? Katero resnico slišite ali nočete slišati? Ali se vaša sposobnost dajanja ali sprejemanja konstruktivne kritike izboljšuje? Trobite predolgo in preglasno? Kakšen obred prehoda ali preobrazbe doživljate? Kakšen utrinek večnega vidite? Kolikšen časovni pritisk se zmanjšuje? Se vaš občutek za čas spreminja? Ali se zavedate, da morate za vedno dokončati svoje duhovno delo? Nad katerim mrtvim načinom razmišljanja ali vedenjem se dvigujete? Ali bolj poslušate sebe in manj druge? Ali se počutite osvobojeni od obsojanja drugih? Ali ste del skupinskega prizadevanja za družbene, politične ali okoljske spremembe?</p>',
                     src: judgement,
                     to: "/judgement"
                 },
                 {
                     name: 'XX – Sodba',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Nadangel Gabriel, "glasnik Najvišjega", pošilja prebujajoči klic tistim, ki ga lahko slišijo. Ljudje vstanejo iz svojih krstam podobnih škatel ali mrtvih samoomejujočih konstruktov v neomejenost. Ko stopite iz začasne resničnosti v večno resničnost, izkusite življenje. Vi in drugi ste natanko takšni, kot bi morali biti - brezhibnost in sočutje kraljujeta. Ta sprememba perspektive je kot preklop z gledanja filma na majhnem zaslonu na velik zaslon - nenadoma postane vidna večja slika.</p><p>Ali slišite klic k višji zavesti? Kakšne koristi bi vam lahko koristilo zadržanje sodbe? Kakšna sodba je bila izrečena? Zaradi česar se kesaš? Kako se osvobajate nepotrebnega samoobsojanja? Katero resnico slišite ali nočete slišati? Ali se vaša sposobnost dajanja ali sprejemanja konstruktivne kritike izboljšuje? Trobite predolgo in preglasno? Kakšen obred prehoda ali preobrazbe doživljate? Kakšen utrinek večnega vidite? Kolikšen časovni pritisk se zmanjšuje? Se vaš občutek za čas spreminja? Ali se zavedate, da morate za vedno dokončati svoje duhovno delo? Nad katerim mrtvim načinom razmišljanja ali vedenjem se dvigujete? Ali bolj poslušate sebe in manj druge? Ali se počutite osvobojeni od obsojanja drugih? Ali ste del skupinskega prizadevanja za družbene, politične ali okoljske spremembe?</p>',
                     src: judgementDown,
                     to: "/judgement"
                 },
                 {
                     name: 'XXI – Svet',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska ali "plesalka", kot jo včasih imenujejo, stoji v zraku in simbolizira, da duh podpira njena prizadevanja. Karta se imenuje Svet in tudi Vesolje. S spoštovanjem svojih posvetnih obveznosti in odgovornosti obvladate posvetno življenje in pridobite duhovno svobodo, ki jo prikazuje venec zmage. Ponovno se pojavijo štirje krilati varuhi, ki obdajajo kolo sreče, kar nakazuje, da močem, ki jim predstavljajo, so zdaj njej na voljo. Je mag ali mojstrica preobrazbe v njenem najpopolnejšem smislu – nekdo, ki lahko poljubno stopi v kozmično zavest.</p><p>Zakaj plešete v etru? Pod kateri projekt se podpisujete? Ali praznujete težko pričakovan dogodek? Zakaj se trudite izkusiti kozmično zavest? Ali praktična uporaba duhovnih naukov povečuje vašo samozavest in obvladovanje življenja? Kako oddajate kozmično energijo? Kako vas samodisciplina in prilagodljivost osvobajata sredi velikih obveznosti? Kje in kako spuščate in vpijate božansko energijo? Kakšno osvoboditev odkrivate znotraj omejitev svojega vsakdanjega življenja? Zakaj se ne počutite večkrat zvezanega? Za kaj je potreben nadčloveški napor? Se uspešno prevzgajate? Ali doživljate samo-aktualizacijo? Kako vas mešanica ljubezni, trdega dela in nenavezanosti osvobaja? Kam vas v življenju kličejo, da igrate moške in ženske vloge? Kako izpolnjevanje vsakodnevnih obveznosti spoštuje vaše duhovne obveznosti?</p>',
                     src: world,
                     to: "/the-world"
                 },
                 {
                     name: 'XXI – Svet',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska ali "plesalka", kot jo včasih imenujejo, stoji v zraku in simbolizira, da duh podpira njena prizadevanja. Karta se imenuje Svet in tudi Vesolje. S spoštovanjem svojih posvetnih obveznosti in odgovornosti obvladate posvetno življenje in pridobite duhovno svobodo, ki jo prikazuje venec zmage. Ponovno se pojavijo štirje krilati varuhi, ki obdajajo kolo sreče, kar nakazuje, da močem, ki jim predstavljajo, so zdaj njej na voljo. Je mag ali mojstrica preobrazbe v njenem najpopolnejšem smislu – nekdo, ki lahko poljubno stopi v kozmično zavest.</p><p>Zakaj plešete v etru? Pod kateri projekt se podpisujete? Ali praznujete težko pričakovan dogodek? Zakaj se trudite izkusiti kozmično zavest? Ali praktična uporaba duhovnih naukov povečuje vašo samozavest in obvladovanje življenja? Kako oddajate kozmično energijo? Kako vas samodisciplina in prilagodljivost osvobajata sredi velikih obveznosti? Kje in kako spuščate in vpijate božansko energijo? Kakšno osvoboditev odkrivate znotraj omejitev svojega vsakdanjega življenja? Zakaj se ne počutite večkrat zvezanega? Za kaj je potreben nadčloveški napor? Se uspešno prevzgajate? Ali doživljate samo-aktualizacijo? Kako vas mešanica ljubezni, trdega dela in nenavezanosti osvobaja? Kam vas v življenju kličejo, da igrate moške in ženske vloge? Kako izpolnjevanje vsakodnevnih obveznosti spoštuje vaše duhovne obveznosti?</p>',
                     src: worldDown,
                     to: "/the-world"
                 },
                 // Palice
                 {
                     name: 'As palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Palico, ki simbolizira božanski navdih in voljo ter element ognja in označuje vitalnost, drži roka, ki sega iz oblaka, sveta nevidnih, a zelo resničnih sil. Kot podaljšek vašega kazalnega prsta, palica nakazuje, kako pomembno je biti pozoren na to, kar se trenutno dogaja pred vami. Prav tako nakazuje, kako pomembno je biti pozoren ali se zavedati svojih namenov – zakaj razmišljate, govorite in delate to, kar ste. Vsaka palica v obleki se razlisti, kar nakazuje, da kar prekipeva od življenja.</p><p>Kakšna moč je pri roki? Kakšna nova priložnost se vam ponuja? Katere ideje vas aktivirajo? Ali postajate bolj samovoljni? Kakšna situacija vam pokaže pomen besed "tvoja bo, ne moja volja"? Ali čakate na zagon, da se premaknete? Kaj se je končno dobro začelo? Ali doživljate dotok ustvarjalne energije? Katera ideja se uveljavlja ali ne more zaživeti? Kako je bila vaša moč pridobljena? Ob čem se počutite goreče? Ali mislite, da je življenjska sila obrnjena proti vam? Ali se zavedate, da vam jemlje moč moč, ki je večja od vas? Kateri duhovni vpogled ali navdih vas navdušuje? Ali vas kakšen vpogled vodi v večjo duhovno zavest? Koga ste prevzeli z razkazovanjem moči? Kako ravnate s svojo novo močjo ali nemočjo? Kakšna situacija je lahko izpod nadzora?</p>',
                     src: acewands,
                     to: "/aspalic"
                 },
                 {
                     name: 'As palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Palico, ki simbolizira božanski navdih in voljo ter element ognja in označuje vitalnost, drži roka, ki sega iz oblaka, sveta nevidnih, a zelo resničnih sil. Kot podaljšek vašega kazalnega prsta, palica nakazuje, kako pomembno je biti pozoren na to, kar se trenutno dogaja pred vami. Prav tako nakazuje, kako pomembno je biti pozoren ali se zavedati svojih namenov – zakaj razmišljate, govorite in delate to, kar ste. Vsaka palica v obleki se razlisti, kar nakazuje, da kar prekipeva od življenja.</p><p>Kakšna moč je pri roki? Kakšna nova priložnost se vam ponuja? Katere ideje vas aktivirajo? Ali postajate bolj samovoljni? Kakšna situacija vam pokaže pomen besed "tvoja bo, ne moja volja"? Ali čakate na zagon, da se premaknete? Kaj se je končno dobro začelo? Ali doživljate dotok ustvarjalne energije? Katera ideja se uveljavlja ali ne more zaživeti? Kako je bila vaša moč pridobljena? Ob čem se počutite goreče? Ali mislite, da je življenjska sila obrnjena proti vam? Ali se zavedate, da vam jemlje moč moč, ki je večja od vas? Kateri duhovni vpogled ali navdih vas navdušuje? Ali vas kakšen vpogled vodi v večjo duhovno zavest? Koga ste prevzeli z razkazovanjem moči? Kako ravnate s svojo novo močjo ali nemočjo? Kakšna situacija je lahko izpod nadzora?</p>',
                     src: acewandsDown,
                     to: "/aspalic"
                 },
@@ -605,13 +605,13 @@ export default {
                 // Kelihi
                 {
                     name: 'As kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kelih, simbol dovzetnosti in zadrževanja, ter element vode, ki označuje čustva in domišljijo, sega iz roke, katera sega iz oblaka. Karkoli nalijemo v kelih ali posodo, dobi svojo obliko. Voda, ki prav tako simbolizira univerzalno ustvarjalno substanco, iz katere izvira manifestirani svet, teče v vodo spodaj in oplodi svet. Ta snov, ki jo sprejme vsaka človeška domišljija, prevzame obliko posode ali osebnosti, v katero vstopi. Golob, simbol Svetega Duha, drži daritev nad skodelico. Nakazuje, da noben občutek ali domišljija na tem svetu ni resnično osebna; vse prihaja od zgoraj in se lahko vidi kot gostitelj ali telo božanstva.</p><p>Katere sanje se lahko uresničijo? Ali prejemate ali potrebujete duhovno hrano in utrjevanje? Kakšno polnost cenite ali ne cenite? Ali vaša ali tuja čustva tečejo kot voda? Se vaše srce odpira vam ali drugemu? Kaj vas polni do prekipetja? Ali odkrivate svojo srčno željo? Kako prispevate k svoji nesreči, nezadovoljstvu in pomanjkanju izpolnjenosti? Kakšno dovzetnost doživljate? Ali je čas destruktivnih, a konstruktivnih čustvenih pretresov? Se počutite napolnjeni z Duhom? Se počutite polni možnosti? Katere užitke uživate ali bi radi uživali? Ali prihajajo sporočila skozi vaše sanje, domišljijo in meditacijo? Katera višja ljubezen vstopa v vaše življenje? Na katerem področju ste poklicani k dajanju, pa tudi k sprejemanju?</p>',
                     src: acecups,
                     to: "/askelihov"
                 },
                 {
                     name: 'As kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kelih, simbol dovzetnosti in zadrževanja, ter element vode, ki označuje čustva in domišljijo, sega iz roke, katera sega iz oblaka. Karkoli nalijemo v kelih ali posodo, dobi svojo obliko. Voda, ki prav tako simbolizira univerzalno ustvarjalno substanco, iz katere izvira manifestirani svet, teče v vodo spodaj in oplodi svet. Ta snov, ki jo sprejme vsaka človeška domišljija, prevzame obliko posode ali osebnosti, v katero vstopi. Golob, simbol Svetega Duha, drži daritev nad skodelico. Nakazuje, da noben občutek ali domišljija na tem svetu ni resnično osebna; vse prihaja od zgoraj in se lahko vidi kot gostitelj ali telo božanstva.</p><p>Katere sanje se lahko uresničijo? Ali prejemate ali potrebujete duhovno hrano in utrjevanje? Kakšno polnost cenite ali ne cenite? Ali vaša ali tuja čustva tečejo kot voda? Se vaše srce odpira vam ali drugemu? Kaj vas polni do prekipetja? Ali odkrivate svojo srčno željo? Kako prispevate k svoji nesreči, nezadovoljstvu in pomanjkanju izpolnjenosti? Kakšno dovzetnost doživljate? Ali je čas destruktivnih, a konstruktivnih čustvenih pretresov? Se počutite napolnjeni z Duhom? Se počutite polni možnosti? Katere užitke uživate ali bi radi uživali? Ali prihajajo sporočila skozi vaše sanje, domišljijo in meditacijo? Katera višja ljubezen vstopa v vaše življenje? Na katerem področju ste poklicani k dajanju, pa tudi k sprejemanju?</p>',
                     src: acecupsDown,
                     to: "/askelihov"
                 },
@@ -774,13 +774,13 @@ export default {
                 // Meči
                 {
                     name: 'As mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Meč - ki simbolizira razrez, odpravo, oblikovanje in element zraka ter pomeni analitično razmišljanje in načrtovanje - je na vrhu s krono moči in ga prime roka, ki prihaja iz oblakov. Meč oblikuje ideje in predstave, ki prihajajo od zgoraj, v miselne vzorce ali matrice, po katerih nastajajo fizične oblike.</p><p>Kakšna resnica je na dlani? Kako bi lahko razvili svoje analitične sposobnosti? Kaj vam je prijetno ali neprijetno prevzeti? Ali je čas, da odrežete tisto, kar je odvečno, in se lotite bistvenega? Kakšno moč bi lahko uporabili za pomoč ali škodo? Katero osvajanje se zdi mogoče/nemogoče? Katere ideje bi lahko potrebovale ponovno polnjenje? Kdo vas izkorišča oziroma kaj vi izkoriščate? Kakšno izbiro od vas zahtevajo? Imate preveč ali premalo moči? Ali branite ali varujete resnico ali delite pravico? O katerem načrtu je treba še razmisliti? Čemu je treba dati prednost? Ali mentalna jasnost izhaja iz mentalnega kaosa? Kako ločite dejstvo od domišljije? Zakaj imate težave z osredotočanjem misli? Ali je za pravilno celjenje potrebna "operacija"? Je kakšna odločitev, ki se izpostavlja, s katero se je treba soočiti in jo sprejeti? Kaj bi vam lahko pomagalo ugotoviti? Kaj bi bilo najbolje odstraniti? Kakšno stisko doživljate?</p>',
                     src: aceswords,
                     to: "/asmecev"
                 },
                 {
                     name: 'As mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Meč - ki simbolizira razrez, odpravo, oblikovanje in element zraka ter pomeni analitično razmišljanje in načrtovanje - je na vrhu s krono moči in ga prime roka, ki prihaja iz oblakov. Meč oblikuje ideje in predstave, ki prihajajo od zgoraj, v miselne vzorce ali matrice, po katerih nastajajo fizične oblike.</p><p>Kakšna resnica je na dlani? Kako bi lahko razvili svoje analitične sposobnosti? Kaj vam je prijetno ali neprijetno prevzeti? Ali je čas, da odrežete tisto, kar je odvečno, in se lotite bistvenega? Kakšno moč bi lahko uporabili za pomoč ali škodo? Katero osvajanje se zdi mogoče/nemogoče? Katere ideje bi lahko potrebovale ponovno polnjenje? Kdo vas izkorišča oziroma kaj vi izkoriščate? Kakšno izbiro od vas zahtevajo? Imate preveč ali premalo moči? Ali branite ali varujete resnico ali delite pravico? O katerem načrtu je treba še razmisliti? Čemu je treba dati prednost? Ali mentalna jasnost izhaja iz mentalnega kaosa? Kako ločite dejstvo od domišljije? Zakaj imate težave z osredotočanjem misli? Ali je za pravilno celjenje potrebna "operacija"? Je kakšna odločitev, ki se izpostavlja, s katero se je treba soočiti in jo sprejeti? Kaj bi vam lahko pomagalo ugotoviti? Kaj bi bilo najbolje odstraniti? Kakšno stisko doživljate?</p>',
                     src: aceswordsDown,
                     to: "/asmecev"
                 },
@@ -870,13 +870,13 @@ export default {
                 },
                 {
                     name: 'Devetica mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska sedi v postelji z glavo v rokah, morda v molitvi. Nad glavo visi devet mečev, ki simbolizirajo mentalno oblikovanje in analizo. Psihična operacija oziroma operacija napačnih miselnih vzorcev se izvaja zato, da pride do ozdravitve. Slika nakazuje, kako boleče je lahko opustiti tisto, kar si želite, in sprejeti tisto kar je.</p>Se mučite zaradi odločitve? Zaradi česa se počutiš nesrečno? Ali vas nenehno skrbi? Kaj žalujete, ali kaj predvidevate žalovanje? Je pod vašo depresijo jeza? Kako lahko varno sprostite svojo jezo? Kdo bi lahko osvetlil vašo situacijo? Ali se potem, ko naredite vse, kar je v vaši moči, predajate višji sili? Ste razočarani, ker vas drugi narobe razumejo? Kaj znižuje ali dviguje vašo samozavest? Imate težave s spanjem? Se zbujate zaskrbljeni? Bi vam lahko koristil zdravniški pregled? S čim se sprijaznite? Kaj vaše solze sproščajo ali čistijo? Ali molite za vodstvo? Ali priznavate svojo nemoč? Kakšno bolečino prenašate sami? Kdo je vaš najstrožji kritik? Ali preveč razmišljate in premalo delate? Se počutite samodestruktivno? Ali je duševna bolezen prisotna v vaši družini? Bi proaktivnost morda olajšala vaš zatiralski položaj?</p>',
                     src: nineswords,
                     to: "/deveticamecev"
                 },
                 {
                     name: 'Devetica mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ženska sedi v postelji z glavo v rokah, morda v molitvi. Nad glavo visi devet mečev, ki simbolizirajo mentalno oblikovanje in analizo. Psihična operacija oziroma operacija napačnih miselnih vzorcev se izvaja zato, da pride do ozdravitve. Slika nakazuje, kako boleče je lahko opustiti tisto, kar si želite, in sprejeti tisto kar je.</p>Se mučite zaradi odločitve? Zaradi česa se počutiš nesrečno? Ali vas nenehno skrbi? Kaj žalujete, ali kaj predvidevate žalovanje? Je pod vašo depresijo jeza? Kako lahko varno sprostite svojo jezo? Kdo bi lahko osvetlil vašo situacijo? Ali se potem, ko naredite vse, kar je v vaši moči, predajate višji sili? Ste razočarani, ker vas drugi narobe razumejo? Kaj znižuje ali dviguje vašo samozavest? Imate težave s spanjem? Se zbujate zaskrbljeni? Bi vam lahko koristil zdravniški pregled? S čim se sprijaznite? Kaj vaše solze sproščajo ali čistijo? Ali molite za vodstvo? Ali priznavate svojo nemoč? Kakšno bolečino prenašate sami? Kdo je vaš najstrožji kritik? Ali preveč razmišljate in premalo delate? Se počutite samodestruktivno? Ali je duševna bolezen prisotna v vaši družini? Bi proaktivnost morda olajšala vaš zatiralski položaj?</p>',
                     src: nineswordsDown,
                     to: "/deveticamecev"
                 },
@@ -943,13 +943,13 @@ export default {
                 // Pentaklji
                 {
                     name: 'As pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Pentakel - simbol manifestiranega sveta, vsega v njem, in elementa zemlje, ki označuje trdne oblike - je ukleščen v iztegnjeno roko, ki prihaja iz oblaka. Lebdi nad vrtom, podobnim tistemu, ki se pojavi na karti Magika. V središču pentakla je pentagram. Ta petokraka zvezda ima glavo, roke in noge ter simbolizira človeštvo kot "varuhe Edenskega vrta" (planet Zemlja). Pentagram simbolizira tudi magijo - magijo prinašanja nebes na zemljo in zemlje v nebesa. Brez dvoma je vse na zemlji duh, ki je začasno zamrznjen v obliki.</p><p>Kakšen materialni dosežek ali nagrada je v vaših rokah? Začenjate službo ali se selite v novo okolje? Se počutite materialno blagoslovljene? Bi vam lahko koristilo, če svoje vire delite z drugimi? Želite boljše plačilo za svoje delo? Komu bi lahko koristilo, če se ne bi zanašal na vas pri denarju? Ali razumete, da so fizične stvari duhovne ideje v obleki? Kakšna semena sadite? Ali imate zdravstvene težave? Kako ravnate ali ne ravnate s svojimi financami? Ali uživate ali pretiravate s svojim telesom in čutili? Vam kakšna finančna ali službena situacija uhaja izpod nadzora? O kakšnih priložnostih za posel, varnost ali boljše zdravje razmišljate? Kako materialni uspeh kvari vas ali koga drugega? Si vaše telo in okolje zaslužita boljšo nego? Ste preveč navezani na svoje stvari? Kaj za vas pomeni imeti "dovolj"? Kaj potrebuje ali ne potrebuje vaše oskrbe? Na kakšen način uspevate ali ne uspevate?</p>',
                     src: acepentacles,
                     to: "/aspentakljev"
                 },
                 {
                     name: 'As pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Pentakel - simbol manifestiranega sveta, vsega v njem, in elementa zemlje, ki označuje trdne oblike - je ukleščen v iztegnjeno roko, ki prihaja iz oblaka. Lebdi nad vrtom, podobnim tistemu, ki se pojavi na karti Magika. V središču pentakla je pentagram. Ta petokraka zvezda ima glavo, roke in noge ter simbolizira človeštvo kot "varuhe Edenskega vrta" (planet Zemlja). Pentagram simbolizira tudi magijo - magijo prinašanja nebes na zemljo in zemlje v nebesa. Brez dvoma je vse na zemlji duh, ki je začasno zamrznjen v obliki.</p><p>Kakšen materialni dosežek ali nagrada je v vaših rokah? Začenjate službo ali se selite v novo okolje? Se počutite materialno blagoslovljene? Bi vam lahko koristilo, če svoje vire delite z drugimi? Želite boljše plačilo za svoje delo? Komu bi lahko koristilo, če se ne bi zanašal na vas pri denarju? Ali razumete, da so fizične stvari duhovne ideje v obleki? Kakšna semena sadite? Ali imate zdravstvene težave? Kako ravnate ali ne ravnate s svojimi financami? Ali uživate ali pretiravate s svojim telesom in čutili? Vam kakšna finančna ali službena situacija uhaja izpod nadzora? O kakšnih priložnostih za posel, varnost ali boljše zdravje razmišljate? Kako materialni uspeh kvari vas ali koga drugega? Si vaše telo in okolje zaslužita boljšo nego? Ste preveč navezani na svoje stvari? Kaj za vas pomeni imeti "dovolj"? Kaj potrebuje ali ne potrebuje vaše oskrbe? Na kakšen način uspevate ali ne uspevate?</p>',
                     src: acepentaclesDown,
                     to: "/aspentakljev"
                 },
@@ -1109,6 +1109,62 @@ export default {
                     src: kingpentaclesDown,
                     to: "/kraljpentakljev"
                 },
+            ],
+            cards: [
+                {
+                    povezava: 'Tarot',
+                    to: '/tarot',
+                    link: 'Razišči karte tarota',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Tarot vaje',
+                    to: '/vaje',
+                    link: 'Poveži se s kartami',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Tarot postavitve',
+                    to: '/tarotbranje',
+                    link: 'Uporabljaj postavitve',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Kabala',
+                    to: '/kabala',
+                    link: 'Več o Kabali',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Qliphoth',
+                    to: '/kliphot',
+                    link: 'Kaj je Qliphot',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Meditacija',
+                    to: '/meditacija',
+                    link: 'Začnite z meditacijo!',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Sadhana',
+                    to: '/sadhana',
+                    link: 'Podajte se na pot',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'Literatura',
+                    to: '/literatura',
+                    link: 'Berite in raziskujte dalje',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                },
+                {
+                    povezava: 'V&O',
+                    to: '/vpr-odg',
+                    link: 'Pogosta vprašanja in odgovori',
+                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                }
             ],
             currentImageIndex: parseInt(localStorage.getItem('currentImageIndex')) || 0,
         }

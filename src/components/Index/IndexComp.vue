@@ -2,4 +2,4 @@
 
 <script src="./index.js"></script>
 
-<style src="./index.css" scoped></style>
+<style src="../style/style.css" scoped></style>

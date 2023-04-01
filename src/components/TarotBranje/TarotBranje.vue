@@ -4,3 +4,4 @@
 
 <style src="./tarotbranje.css" scoped></style>
 
+<style src="../style/style.css" scoped></style>

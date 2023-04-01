@@ -5,19 +5,19 @@
                 <!-- VIDNO POD MD -->
                 <div class="d-md-none text-center">
                     <h1>Tarot za vašo rast!</h1>
-                    <div class="fs-4">Sile v ozadju so vedno v igri, vedno delujejo. Izbira je v vaših rokah!</div>
+                    <div class="fs-4">Ko spustimo potrebo po temu, da smo nekaj in smo pripravljeni biti nič, se odpremo vsemu!</div>
                 </div>
 
                 <!-- VIDNO NAD MD -->
                 <div class="d-none d-md-block">
                     <h1>Tarot za vašo rast!</h1>
-                    <div class="fs-4">Sile v ozadju so vedno v igri, vedno delujejo. Izbira je v vaših rokah!</div>
+                    <div class="fs-4">Ko spustimo potrebo po temu, da smo nekaj in smo pripravljeni biti nič, se odpremo vsemu!</div>
                 </div>
 
             </div>
             <div class="col-md-6">
                 <div class="bd-highlight">
-                    <img src="@/assets/shiva.png" class="img-fluid">
+                    <img src="@/assets/pentagram-index.png" class="img-fluid p-3 animate__animated animate__flip">
                 </div>
             </div>
         </div>
@@ -25,191 +25,20 @@
 </div>
 <div class="container-fluid bg-header">
     <div class="container py-5">
-        <div class="row row-cols-1 row-cols-md-1 g-4">
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="col-md-4">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Tarot</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <!-- VIDNO POD MD -->
-                        <div class="col-md-4 d-md-none">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
 
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Tarot vaje</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                        <!-- VIDNO NAD MD -->
-                        <div class="col-md-4 d-none d-md-block">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col " v-for="(card, index) in cards" :key="index">
+                <div class="card shadow bg-dark text-white text-center border-0 rounded-2 bg-image-cards bg-opacity-75">
                     <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="col-md-4">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ card.povezava }}</h2>
+                            <img src="~@/assets/hrline.png" class="img-fluid pb-3 text-center" alt="">
+                            <p class="card-text" v-html="card.opis"></p>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Tarot postavitve</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <!-- VIDNO POD MD -->
-                        <div class="col-md-4 d-md-none">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Kabala</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                        <!-- VIDNO NAD MD -->
-                        <div class="col-md-4 d-none d-md-block">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="col-md-4">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Qliphot</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <!-- VIDNO POD MD -->
-                        <div class="col-md-4 d-md-none">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Meditacija</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                        <!-- VIDNO NAD MD -->
-                        <div class="col-md-4 d-none d-md-block">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="col-md-4">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Sadhana</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <!-- VIDNO POD MD -->
-                        <div class="col-md-4 d-md-none">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Literatura</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                        <!-- VIDNO NAD MD -->
-                        <div class="col-md-4 d-none d-md-block">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="col-md-4">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">V&O</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center border-0 bg-transparent mb-3">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <!-- VIDNO POD MD -->
-                        <div class="col-md-4 d-md-none">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h2 class="card-title">Kontakt</h2>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                        <!-- VIDNO NAD MD -->
-                        <div class="col-md-4 d-none d-md-block">
-                            <img src="#" class="img-fluid rounded-start" alt="...">
-                        </div>
+                        <router-link :to="card.to"
+                                     class="btn btn-warning card-footer border-dark bg-header fs-5 fw-bold">
+                            {{ card.link }}
+                        </router-link>
                     </div>
                 </div>
             </div>
@@ -217,18 +46,12 @@
     </div>
 </div>
 
-
 <div class="container-fluid bg-dark bg-gradient text-white">
     <div class="container p-4">
-        <div class="text-center">
-            <div class="fs-1 fw-bold">
-                Karta dneva je: {{ currentImageName }}
-            </div>
-            <p class="lead">
-                Naključno izbrana karta iz tarota, ki se menja vsakih 24 ur. Je karta dneva vsa vprašanja pa si lahko
-                postavite in odgovore zapišete!
-            </p>
-
+        <div class="text-center pb-3">
+            <h2 class="fw-bold">Karta dneva je: {{ currentImageName }}</h2>
+            <p class="lead"> Naključno izbrana karta iz tarota, ki se menja vsakih 24 ur. Je karta dneva in na podana
+                vprašanja si lahko odgovorite in zapišete!</p>
         </div>
         <div class="row g-4 text-center d-flex align-items-center justify-content-center">
             <!-- KARTA DNEVA -->

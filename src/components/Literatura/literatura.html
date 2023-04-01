@@ -27,7 +27,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-4">
 
             <div class="col" v-for="(literatura, index) in knjige" :key="index">
-                <div class="card bg-gradient text-white bg-dark rounded-0 shadow mb-3 position-relative">
+                <div class="card shadow bg-image-cards bg-opacity-75 text-white bg-dark rounded-0 mb-3 position-relative">
                     <a :href="literatura.depository" target="_blank">
                         <img src="~@/assets/buy.png" class="position-absolute bottom-0 end-0 p-2">
                     </a>
@@ -41,7 +41,7 @@
                                 <h4 class="card-title">{{ literatura.naslovKnjige.toUpperCase() }}</h4>
                                 <h6 class="card-title fst-italic">{{ literatura.podnaslov }}</h6>
                                 <p class="card-text">{{ literatura.opis }}</p>
-                                <p class="card-text"><small class="text-muted">Avtor: {{ literatura.avtor }}</small></p>
+                                <p class="card-text fs-6 fst-italic">Avtor: {{ literatura.avtor }}</p>
                             </div>
                         </div>
                     </div>

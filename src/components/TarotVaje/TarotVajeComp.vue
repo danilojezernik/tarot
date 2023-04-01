@@ -2,5 +2,5 @@
 
 <script src="./tarotvaje.js"></script>
 
-<style src="./tarotvaje.css" scoped></style>
+<style src="../style/style.css" scoped></style>
 
