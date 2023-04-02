@@ -1166,7 +1166,10 @@ export default {
                     opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
                 }
             ],
-            currentImageIndex: parseInt(localStorage.getItem('currentImageIndex')) || 0,
+            currentImageIndex: parseInt(localStorage.getItem("currentImageIndex")) || 0,
+            deadline: parseInt(localStorage.getItem("deadline")) || 0,
+            referenceTime: parseInt(localStorage.getItem("referenceTime")) || new Date().getTime(),
+
         }
     },
     computed: {
@@ -1184,22 +1187,40 @@ export default {
         }
     },
     mounted() {
-        let currentTime = new Date().getTime();
-        let deadline = currentTime + 86400000; // 24 hours in milliseconds
+        let deadline = this.deadline;
+        let currentIndex = this.currentImageIndex;
+        let referenceTime = this.referenceTime;
+
+        if (!deadline) {
+            // If there's no deadline in localStorage, set one for 2 minutes from now
+            deadline = new Date(referenceTime + 2 * 60 * 1000).getTime();
+            localStorage.setItem("deadline", deadline);
+        }
+
+        if (!currentIndex) {
+            // If there's no currentIndex in localStorage, set it to a random value
+            currentIndex = Math.floor(Math.random() * this.slike.length);
+            localStorage.setItem("currentImageIndex", currentIndex);
+        }
 
         setInterval(() => {
             let now = new Date().getTime();
             let timeLeft = deadline - now;
+            console.log(timeLeft, currentIndex, now, referenceTime);
 
             if (timeLeft < 0) {
-                // Reset the deadline to 24 hours from now
-                deadline = now + 86400000;
+                // Reset the deadline to 2 minutes from now
+                referenceTime = now;
+                deadline = new Date(referenceTime + 2 * 60 * 1000).getTime();
+                localStorage.setItem("deadline", deadline);
+                localStorage.setItem("referenceTime", referenceTime);
 
                 // Generate a new random index for the next image
-                this.currentImageIndex = Math.floor(Math.random() * this.slike.length);
+                currentIndex = Math.floor(Math.random() * this.slike.length);
+                localStorage.setItem("currentImageIndex", currentIndex);
 
-                // Store the new index in localStorage
-                localStorage.setItem("currentImageIndex", this.currentImageIndex);
+                // Update the currentImageIndex state variable
+                this.currentImageIndex = currentIndex;
             }
         }, 1000);
     },

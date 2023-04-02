@@ -7,7 +7,6 @@ import pentacles from '@/assets/pentacles/ace-of-pentacles.png'
 export default {
     data() {
         return {
-            showModal: false,
             arkane: [
                 {
                     id: 1,
