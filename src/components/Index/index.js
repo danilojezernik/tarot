@@ -1193,7 +1193,7 @@ export default {
 
         if (!deadline) {
             // If there's no deadline in localStorage, set one for 2 minutes from now
-            deadline = new Date(referenceTime + 2 * 60 * 1000).getTime();
+            deadline = new Date(referenceTime + 86400000).getTime();
             localStorage.setItem("deadline", deadline);
         }
 
@@ -1211,7 +1211,7 @@ export default {
             if (timeLeft < 0) {
                 // Reset the deadline to 2 minutes from now
                 referenceTime = now;
-                deadline = new Date(referenceTime + 2 * 60 * 1000).getTime();
+                deadline = new Date(referenceTime + 86400000).getTime();
                 localStorage.setItem("deadline", deadline);
                 localStorage.setItem("referenceTime", referenceTime);
 
