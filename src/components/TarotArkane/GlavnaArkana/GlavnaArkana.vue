@@ -2,6 +2,4 @@
 
 <script src="./glavnaarkana.js"></script>
 
-<style src="./glavnaarkana.css" scoped></style>
-
 <style src="../style_tarot/style.css" scoped></style>

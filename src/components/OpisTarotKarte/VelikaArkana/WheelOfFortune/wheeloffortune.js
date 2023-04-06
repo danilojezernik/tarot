@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Sprejemam plačilo za svoj trud.<br>Kolo zakona se bo obrnilo meni v prid<br>in vladal bom štirim kotom svojega notranjega bitja.<br>Naj se spomnim, da sem poklican h gospodarstvu nad samim seboj<br>in ne h gospodarstvu nad dobrinami sveta.<br>Moje zlato bo v opoldanskem soncu ljubezni in moje srebro v polnočni luni znanja.<br>Resnično sem srečen, da sem bil voden hoditi v luči svetih in v družbi pravičnih.<br>Moj obstoj sega od vrha nebes do globin pekla in jaz sem gospodar vsega.<br>Kolo se vrti v smeri dobrega:<br>naj bom pripravljen in sposoben delovati kot palica v velikem kolesu,<br>ki se vedno premika za lepoto, dobroto in resnico.<br>Obrni se, kolo svete postave, da napreduje veliko božje telo proti cilju lastne izpolnitve!<br>Pozdravljam te, kolo kraljevega voza, kraljestva pravičnosti,<br>in služil ti bom do veličastnega konca.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Se počutite srečnega/no? Zakaj? Kako prenašate spremembe? Kako gledate na priložnost ali srečo? Če se vam zdi sprememba "slaba", razmislite, zakaj mislite tako? Si vzamete čas za razmislek o posledicah vaših misli in dejanj?</p>',
+
                 }
             ],
             opisSimbolov: [

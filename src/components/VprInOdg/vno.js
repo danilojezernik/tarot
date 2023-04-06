@@ -62,6 +62,13 @@ export default {
                     idCollapseL: '#flush-collapseSeven',
                     vpr: 'Kaj pomeni arkana?',
                     odg: '<p>"Arkana" je množina besede "arcanum", ki izhaja iz latinske besede "arcanus", kar pomeni "skrivnost". Velike arkanske karte v tarotu predstavljajo življenjske teme in lekcije, ki odražajo vašo posvetno in duhovno resničnost. Uporaba kart Velike Arkane pri branju tarota je povezana z željo po globlje uglašenosti z vzorcem, ki se odvija v življenju, v prepričanju, da so vse izkušnje smiselne, povezane in pravilne.</p>'
+                },
+                {
+                    idHeading: 'flush-headingEight',
+                    idCollapse: 'flush-collapseEight',
+                    idCollapseL: '#flush-collapseEight',
+                    vpr: 'Moška in ženska energija oziroma zavest v vzhodni in zahodni filozofiji',
+                    odg: '<p>Če pozorno berete tako vzhodne kot zahodne filozofije lahko opazite, da je v zahodnem delu sveta moška energija smatrana kot energija, ki deluje, ki je aktivna, ženska pa je tista, ki je pasivna energija. V vzhodnem svetu (bolj natančno v hinduizmu) pa je ravno obratno in je ženska tista aktivna energija, moška pa pasivna, je zavest, je Šiva.</p>'
                 }
             ]
         }

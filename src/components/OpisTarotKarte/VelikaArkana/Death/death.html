@@ -54,20 +54,17 @@
     <div v-for="(opis, index) in opisKarte" :key="index">
 
         <!-- SPODAJ -->
-        <div class="container">
-            <div v-html="opis.opisKarte" class="p-2"></div>
-        </div>
-
-        <div class="container-fluid">
-            <!-- PODNASLOV POKONČNA -->
-            <div class="text-center ">
-                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-            </div>
-        </div>
-
         <div class="container p-2 p-md-4">
+            <div v-html="opis.opisKarte"></div>
+            <div v-html="opis.kljucnaVpr"></div>
+        </div>
 
+        <div class="container py-4 py-md-5  p-2 p-md-4 shadow bg-image-cards bg-dark text-white bg-opacity-75">
+            <!-- PODNASLOV POKONČNA -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3" alt="">
+            </div>
             <!-- SLIKA VIDNA NAD lg-->
             <img src="~@/assets/majorarcana/death.png" ondragstart="return false;"
                  class="float-md-start m-2 d-none d-lg-block shadow">
@@ -82,16 +79,12 @@
             <span class="fw-bold">Ključne besede pokončne karte:</span> {{ opis.besedePokoncna }}
         </div>
 
-        <div class="container-fluid">
+        <div class="container shadow py-4 py-md-5 p-2 p-md-4">
             <!-- PODNASLOV OBRNJENA -->
             <div class="text-center">
                 <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3" alt="">
             </div>
-        </div>
-
-        <div class="container p-2 p-md-4">
-
             <!-- SLIKA VIDNA NAD lg-->
             <img src="~@/assets/majorarcana/death-down.png" ondragstart="return false;"
                  class="float-lg-end m-2 d-none d-lg-block shadow">
@@ -106,23 +99,18 @@
             <span class="fw-bold">Ključne besede obrnjene karte:</span> {{ opis.besedeObrnjena }}
         </div>
 
-        <div class="container-fluid p-2 p-md-4">
+        <div class="container py-4 py-md-5 p-2 p-md-4 shadow bg-image-cards bg-dark bg-opacity-75">
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
             </div>
-        </div>
-
-        <div class="container p-2 p-md-4">
-            <!-- Slike simbolov ali pa slika karte in na vseh straneh opis v sliki-->
-
             <!-- OPIS VIDEN SAMO NA NAPRAVAH NAD lg -->
             <div class="d-none d-lg-block">
                 <div class="row">
                     <div class="col-lg-9">
-                        <ul class="list-group list-group-numbered">
-                            <li class="list-group-item bg-transparent border-0 d-flex justify-content-between align-items-start"
+                        <ul class="list-group list-group-numbered border border-dark bg-dark bg-gradient shadow">
+                            <li class="list-group-item bg-transparent text-white border-0 d-flex justify-content-between align-items-start"
                                 v-for="(simbol, index) in opisSimbolov" :key="index">
                                 <div class="ms-2 me-auto">
                                     <div class="fw-bold">{{ simbol.simbol }}</div>
@@ -133,10 +121,9 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="text-center pb-3">
-                            <img src="~@/assets/majorarcana/death.png" class="shadow"
-                                 ondragstart="return false;">
+                            <img src="~@/assets/majorarcana/death.png" class="shadow" ondragstart="return false;">
                         </div>
-                        <ul class="list-group list-group-flush rounded-2">
+                        <ul class="list-group list-group-flush border border-dark">
                             <li class="list-group-item text-white shadow border-0 bg-opis" v-for="element in elementi">
                                 <b>{{ element.ime }}</b>
                                 {{ element.vrednost }}
@@ -151,8 +138,8 @@
                 <div class="text-center pb-3">
                     <img src="~@/assets/majorarcana/death.png" ondragstart="return false;" class="shadow">
                 </div>
-                <ul class="list-group list-group-numbered">
-                    <li class="list-group-item bg-transparent border-0 d-flex justify-content-between align-items-start"
+                <ul class="list-group list-group-numbered border border-dark bg-dark bg-gradient shadow mb-4">
+                    <li class="list-group-item text-white bg-transparent border-0 d-flex justify-content-between align-items-start"
                         v-for="(simbol, index) in opisSimbolov" :key="index">
                         <div class="ms-2 me-auto">
                             <div class="fw-bold">{{ simbol.simbol }}</div>
@@ -164,8 +151,8 @@
 
             <!-- OPIS VIDEN SAMO NA NAPRAVAH POD lg -->
             <div class="d-lg-none">
-                <ul class="list-group list-group-flush rounded-2">
-                    <li class="list-group-item bg-opis text-white border-0" v-for="element in elementi">
+                <ul class="list-group list-group-flush border border-dark mb-4">
+                    <li class="list-group-item shadow bg-opis text-white border-0" v-for="element in elementi">
                         <b>{{ element.ime }}</b>
                         {{ element.vrednost }}
                     </li>
@@ -173,36 +160,39 @@
             </div>
         </div>
 
-        <div class="container-fluid p-2">
+        <div class="container shadow py-4 py-md-5 p-2 p-md-4">
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">{{ opis.podnaslovMeditacija }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
             </div>
-        </div>
-        <div class="container pt-3 pb-3 pb-lg-5 pt-lg-5">
-            <div class="text-center fs-4" v-html="opis.opisMeditacija"></div>
+            <p class="text-center fs-4" v-html="opis.opisMeditacija"></p>
         </div>
 
-        <div class="container-fluid p-2">
+        <div class="container py-4 py-md-5 p-2 p-md-4 shadow bg-image-cards bg-dark bg-opacity-75">
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">Modrosti karte</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
             </div>
-        </div>
-
-        <div class="container p-4">
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col" v-for="(modrost, index) in modrostiKarte" :key="index">
                     <figure class="text-center">
-                        <blockquote class="blockquote">
+                        <blockquote class="blockquote text-white">
                             <p>{{ modrost.modrost }}</p>
                         </blockquote>
                     </figure>
                 </div>
             </div>
 
+        </div>
+
+        <div class="container-fluid p-4">
+            <!-- PODNASLOV -->
+            <div class="text-center">
+                <h1 class="shadow-text-main">Galerija</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="container-fluid p-2">

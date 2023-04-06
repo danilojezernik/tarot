@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Skozi osrednja vrata uravnoteženega bitja vstopim v palačo mojega veličastnega kralja.<br>Kličem svoje zveste pomočnike, pogum in iskrenost, da mi pomagajo pri prehodu skozi zlata vrata.<br>Ponižno pripogibam kolena pred lepoto Njega,<br>ki kraljuje iz središča mojega bitja.<br>Razmišljam o veličastni lepoti tistega, ki prebiva v srcu vseh bitij.<br>Naj se moj um zaveda svoje veličastnosti in moje srce obžari njegova ljubezen.<br>Usmeril bom sveti ogenj v svoje telo in dušo,<br>da bo puščica moje volje usmerjena v najvišji cilj.<br>Puščica leti v srce vseh! Naj ostaneta puščica in njen cilj za vedno združena v lepoti in ljubezni.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali se prepuščate toku ali se borite s spremembo? Kaj lahko storite, da ustvarite več miru in ravnovesja v vašem življenju? Ste razpeti med dve poti? Kakšne misli, prepričanja ali dejanja lahko združite skupaj, da ustvarite harmonijo v svojem življenje? Kaj bi bilo potrebno, da bi dobili pravo mešanico svojega življenja? Vas skrbi vaše zdravje? Če je tako, katere korake lahko naredite, da postanete zdravi in v ravnovesju?</p>',
+
                 }
             ],
             opisSimbolov: [

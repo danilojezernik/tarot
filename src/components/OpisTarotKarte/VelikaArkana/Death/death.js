@@ -22,7 +22,10 @@ export default {
                     besedeObrnjena: "Upiranje spremembam, osebna transformacija, notranje čiščenje, stagnacija, ponavljajoči se vzorci, ne prilagajanje, propadanje, negibnost, goljufanje smrti.",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Konci so le začetki v tebi, o moj slavni kralj, osrednje sonce!<br>Naj se spomnim, da se bom v smrti prebudil v večno življenje in v vzvišeno svetlobo.<br>Naj se v meni usmrti tema, da zasije luč.<br>Noč mineva, ko se bliža dan.<br>To, kar sem posejal v zunanji svet, mora umreti,<br>da bi se lahko z umiranjem prebudilo v novo življenje v svetu moje prave duše.<br>Kar sem posejal, ne oživi, ​​razen umre.<br>Pozdravil bom uničenje vseh ovir in neobnovljenih sil v svoji naravi,<br>da se bom lahko ustrojil v Bogu!\"<br>",
+                    opisMeditacija: "\"Konci so le začetki v tebi, o moj slavni kralj, osrednje sonce!<br>Naj se spomnim, da se bom v smrti prebudil v večno življenje in v vzvišeno svetlobo.<br>Naj se v meni usmrti tema, da zasije luč.<br>Noč mineva, ko se bliža dan.<br>To, kar sem posejal v zunanji svet, mora umreti,<br>da bi se lahko z umiranjem prebudilo v novo življenje v svetu moje prave duše.<br>Kar sem posejal, ne oživi, razen umre.<br>Pozdravil bom uničenje vseh ovir in neobnovljenih sil v svoji naravi,<br>da se bom lahko ustrojil v Bogu!\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kako prenašate spremembe? Kaj lahko storite, da se pripravite na spremembe? Je v vašem življenju nekaj, kar se pripravlja na spremembo? Ali bi morali malo počakati, da sprejmete to odločitev zaradi katere vas je skrbelo? Kako se vam zdijo konci? Ali si prepoznate, da jim sledijo novi začetki? Ali ste pošteni do sebe pri izpostavljanju področja svojega življenja, ki potrebujejo prehod?</p>',
+
                 }
             ],
             opisSimbolov: [

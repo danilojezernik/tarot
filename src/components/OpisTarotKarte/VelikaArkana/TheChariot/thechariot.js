@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Najvišja volja mi ukazuje, naj grem naprej in se borim za božanskega kralja.<br>Jaz sem nebeški bojevnik, ki se borim s temo zemlje.<br>Jaz sem zmagovalec elementov in nadzornik univerzalnih sil,<br>toda ostrino mojega razumevanja in strogost moje presoje morata zajeziti prijaznost in ljubezen.<br>Naj bo resnica moj meč in sočutje moj ščit, da bom lahko premagal z božanskim ravnovesjem.<br>Jaz, bojevnik luči, ukazujem temi, naj se umakne,<br>tako da lahko vsi popotniki varno preidejo v obljubljeno deželo.<br>Moja osebnost je izraz najvišje volje:<br>moj um je utelešenje moči tistega, ki me je poslal.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kaj vas žene? Kakšna je vaša motivacija? So vaši cilji razumni? Dobavljivi? Kaj poskušate nadzorovati in zakaj? Ali imate veščine, ki jih potrebujete za uspeh? Lahko poskusite drugačen pristop k doseganje svojih ciljev? Kaj bi storili, če bi morali nenadoma spremeniti smer ali lokacijo?</p>',
+
                 }
             ],
             opisSimbolov: [

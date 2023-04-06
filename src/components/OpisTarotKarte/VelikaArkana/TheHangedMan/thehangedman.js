@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Na križu, ki visi med nebom in zemljo, visim v popolnem ravnotežju.<br>Z žrtvovanjem vsega, kar sem bil, bom podedoval stanje svojega prihodnjega bitja.<br>Čeprav je moja glava v nižjih svetovih, je moje oko usmerjeno v svetila nebes.<br>Sem drevo življenja, ukoreninjeno v božansko zemljo.<br>Moje korenine segajo v Božje srce in moja krona je na zemlji.<br>Jaz sem očitna slava, obešena med skrajnostmi visokega in nizkega,<br>in bom uravnotežen, miren in zmagovalec sredi žrtvovanja in preobrata.<br>Ti z malo modrosti me bodo imeli za neumnega, ki ne hodi po njihovih poteh,<br>jaz pa poznam skrite načrte tistega, ki me je poslal.<br>Lebdim na vodah velikega morja in varen sem pred nevihto.<br>V meni se bo izpolnila skrivnost, ki visi v kozmosu.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali vlagate svoj čas v sproščanje? Ali ste pripravljeni žrtvovati svoja pričakovanja? Se mučite z odločitvijo oziroma problemom? Lahko to pustite? Ali se preveč raztezate in potrebujete odmor? Ali bi morali malo počakati, da sprejmete to odločitev, zaradi katere ste se obremenjevali? Katerim dejavnostim v življenju se lahko odrečete da bi omogočili več koristi? Kakšna prepričanja in misli ovirajo vaš napredek? Ali v vašem življenju obstajajo stvari/ljudje, ki ste jih poskušali nadzorovati? Lahko to potrebo po nadzoru opustite?</p>',
+
                 }
             ],
             opisSimbolov: [

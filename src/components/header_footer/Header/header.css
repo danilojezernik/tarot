@@ -10,6 +10,8 @@
 }
 .bg-image-cards {
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("~@/assets/pentagram.png");
-    background-size: cover;
-    background-position: top;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

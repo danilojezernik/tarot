@@ -22,7 +22,10 @@ export default {
                     besedeObrnjena: "Skrivnosi, blokada intuicije, umik in tišina, zamegljeni vpogled, dvom vase, razmišljanje o željah, naivnost, notranje vodstvo, nevednost, pomanjkanje razumevanja, sebičnost, plitkost, pomanjakanje osebnostne harmonije, zadržane informacije, težave s plodnostjo, nekontrolirani izbruhi, spolne napetosti, nesigurnost, nezaželena pozornost.",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Na ladji puščave se vozim po prostrani pustinji duše.<br>O ti srebrna luna, moja vodnica in luč, sveti na mojo pot!<br>Vse ve zvezde in luči neba, vodite me skozi nevarnosti velikega potovanja,<br>da bom lahko prispel do najvišjega venca svojega bitja in vstopil v neizrekljiv sijaj zadnje sobe palače!<br>Pot do velikega venca končne zmage vodi skozi nevarnost brezna,<br>kjer me lahko uniči živi pesek skušnjave.<br>Samo ravnotežje me lahko reši pred padcem v jamo.<br>Zato bom v svojo osebnost priklical moč ravnovesja;<br>umeščen med svetle in temne stebre svojega bitja,<br>spokojno in trdno bom hitel v skrivnostni kraj,<br>kjer me dan in noč kliče brezglasni glas ljubljene.\"<br>",
+                    opisMeditacija: "\"Na ladji puščave se vozim po prostrani pustinji duše. O ti srebrna luna, moja vodnica in luč, sveti na mojo pot! Vse ve zvezde in luči neba, vodite me skozi nevarnosti velikega potovanja, da bom lahko prispel do najvišjega venca svojega bitja in vstopil v neizrekljiv sijaj zadnje sobe palače! Pot do velikega venca končne zmage vodi skozi nevarnost brezna, kjer me lahko uniči živi pesek skušnjave. Samo ravnotežje me lahko reši pred padcem v jamo. Zato bom v svojo osebnost priklical moč ravnovesja; umeščen med svetle in temne stebre svojega bitja, spokojno in trdno bom hitel v skrivnostni kraj, kjer me dan in noč kliče brezglasni glas ljubljene.\" ",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali poslušam svoj notranji glas? Kakšne skrivnosti skrivajo pred menoj? Ali sem povezan/a s svojo višjo silo? Kakšne skrivnosti skrivam pred drugimi in zakaj? Kako naj jasneje razumem svoje življenje in namen?</p>',
+
                 }
             ],
             opisSimbolov: [

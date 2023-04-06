@@ -23,6 +23,8 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Ko se vzpenjam v področja svoje resnične narave,<br>se moram odpovedati vsemu, kar se ne nanaša na nadnaravne svetove.<br>Naj bom dovolj presojen in sprevideven, da se bom pravilno odločil.<br>Naj moj um razsvetli angelsko vodstvo in božansko razsvetljenje,<br>da bom lahko izbiral med pomembnim in nepomembnim, tudi najvišjim dobrim in manj dobrim.<br>Sodba najvišje vesti me bo udarila, če moja izbira ni prava.<br>Pridi, razsvetljujoča navzočnost mojega notranjega varuha, in mi pokaži pot do svete poročne sobane duš,<br>kjer se bom poročil s protipostavko svojega bitja.<br>Le če se združim v mistični poroki s svojim dvojčkom,<br>bom najden cel in primeren za vstop v kraljestvo.<br>Ljubezen in modrost me bosta naredili vrednega prestopiti vrata sodbe<br>in mi omogočili vstop v imperij brezmejne svetlobe.\"",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kako se počutim, ko zaupam drugim? Kako se počutim glede svojih odnosov? Ali sem iskren/a glede svojih odnosov? Ali moram biti bolj pozoren/na na svoje zdravje? Katere odnose v življenju potrebujem ponovno pregledati? Sem vedno na preži ali lahko dovolim da sem ranljiv/a? Kaj bo potrebno, da bom imel/a strasten, ljubeč, zaupljiv odnos?</p>',
                 }
             ],
             opisSimbolov: [

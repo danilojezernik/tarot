@@ -158,7 +158,7 @@ export default {
                 },
                 {
                     naslov: 'Zvečer',
-                    molitev: 'Spominjam se božanske pesmi<br>IHVH<br>Meditiram s srcem<br>Iščem s svojim duhom<br>In govorim z resnico<br>Uriel sprejmi mojo opoldansko molitev<br>In jo dvigni na orlovih krilih<br>Do prisotnosti Šekine<br>Da bo vtkana v krono slave<br>Eheieh, Yah, Yahveh, Adonai, El, Eloah, Elohim, Shaddai, Tzavaot<br>',
+                    molitev: 'Spominjam se božanske pesmi<br>IHVH<br>Meditiram s srcem<br>Iščem s svojim duhom<br>In govorim z resnico<br>Uriel sprejmi mojo večerno molitev<br>In jo dvigni na orlovih krilih<br>Do prisotnosti Šekine<br>Da bo vtkana v krono slave<br>Eheieh, Yah, Yahveh, Adonai, El, Eloah, Elohim, Shaddai, Tzavaot<br>',
                 }
             ]
         }

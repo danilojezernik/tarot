@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Naj vedno sije nad mano nikoli zahajajoča zvezda moje božanske in nesmrtne duše.<br>Imam vodilno luč, ki je moj notranji Bog.<br>Naj nikoli ne izgubim izpred oči svoje nesmrtne in božanske duše,<br>vsajene v moje bitje pred začetkom časov.<br>Sem znotraj božje orbite, planeta na nebu duš.<br>Sem zvezda kot vsi drugi ljudje.<br>Naj moja luč, skupaj z lučjo vseh drugih, vedno sveti.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali dovolim, da je moj višji vir moj vodnik? Kako naj negujem sebe in tiste okoli sebe? Ali drugim oddajam prisotnost miru in harmonije? Kaj lahko naredim, da bo več miru v mojem dnevu? Ali dovolim miru in sprostitvi, da tečeta skozi moje življenje? Kaj lahko naredim, da mi bo bolj udobno s seboj in s svojo okolico?</p>',
+
                 }
             ],
             opisSimbolov: [

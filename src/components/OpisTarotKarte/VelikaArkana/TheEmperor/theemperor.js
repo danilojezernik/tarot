@@ -6,7 +6,7 @@ export default {
                 {
                     tarotKarta: "IV - The Emperor (Cesar)",
                     rekLevo: "Bodite nežni in lahko ste drzni; bodite varčni in lahko ste liberalni; izogibajte se postavljanju sebe pred druge in lahko postanete vodja med ljudmi.",
-                    rekDesno: "Biti vladar svojega življenja; obvladati samega sebe; biti prvi; beustrašno se soočiti z neznanim; najti puščavo in jo spremeniti v prelep vrt - vse to je moč Cesarja!",
+                    rekDesno: "Biti vladar svojega življenja; obvladati samega sebe; biti prvi; neustrašno se soočiti z neznanim; najti puščavo in jo spremeniti v prelep vrt - vse to je moč Cesarja!",
                 },
             ],
             opisKarte: [
@@ -22,17 +22,20 @@ export default {
                     besedeObrnjena: "Zloraba moči, nadzor, prevladujoč, manipulativen, togost, trma, pomanjkanje discipline, izguba nadzora, težave z očetom, odsotnost očeta, tiran, velik ego, nezrelost, neodločnost, pomanjkanje notranje moči, nezrelost, diktator, slaba koncentracija, gospodovanje.",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Sem moški med ljudmi.<br>Otrok zemlje sem; vendar v meni gori ogenj najvišjih nebes.<br>Naj ogenj ljubezni in dobrote tako očisti zemeljsko naravo mojega osebnega jaza,<br>da bom vreden vstopiti v svetišče templja prave ljubezni.<br>Samo čisti v srcu lahko resnično ljubijo.<br>Naj v moji ljubezni ne bo jaza.<br>Naj bo ljubljeni vse, jaz pa nič.<br>O ljubezen, ki iz zemlje izvabljaš iskre svetosti,<br>vodi me k vrtnici na zlatem križu!<br>O ljubezen, ki si življenjska sila vesolja in hranilec moje duše,<br>daj mi moč, da se povzpnem k tebi!<br>Iz senc me vodi v svoj sočutni sijaj!\"",
+                    opisMeditacija: "\"Sem moški med ljudmi.Otrok zemlje sem; vendar v meni gori ogenj najvišjih nebes.Naj ogenj ljubezni in dobrote tako očisti zemeljsko naravo mojega osebnega jaza,da bom vreden vstopiti v svetišče templja prave ljubezni.Samo čisti v srcu lahko resnično ljubijo.Naj v moji ljubezni ne bo jaza.Naj bo ljubljeni vse, jaz pa nič.O ljubezen, ki iz zemlje izvabljaš iskre svetosti,vodi me k vrtnici na zlatem križu!O ljubezen, ki si življenjska sila vesolja in hranilec moje duše,daj mi moč, da se povzpnem k tebi!Iz senc me vodi v svoj sočutni sijaj!\"",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali vodim z zgledom? Kakšen vladar sem? Ali sem neprilagodljiv? Preveč praktičen/na? Ali potrebujem nasvet glede te situacije? Na katere vire se zanašam po vrstnem redu, da sem najboljši vodja? Kakšna je moja strategija, da te cilje dosežem in ali so realni?</p>',
+
                 }
             ],
             opisSimbolov: [
                 {
                     simbol: "Krona",
-                    opis: "Krona zaprtega tipa predstavlja avtoriteto; nobena višja sila ni priznana. Prav tako predstavlja krosnko čakro ali tako imenovano sahasraro, kot tudi povezavo med nebesi in zemljo."
+                    opis: "Krona zaprtega tipa predstavlja avtoriteto; nobena višja sila ni priznana. Prav tako predstavlja kronsko čakro ali tako imenovano sahasraro, kot tudi povezavo med nebesi in zemljo."
                 },
                 {
                     simbol: "Bela brada in lasje",
-                    opis: "Je simbol moči in nakazuje na avtoriteto, modrost starešin, dostojanstvo, moškost izkušnje in trajnost. Enako predstavlja tudi nov začetek, mostra, ki zna oceniti vsakodnevne premike v situacijah in opravilih."
+                    opis: "Je simbol moči in nakazuje na avtoriteto, modrost starešin, dostojanstvo, moškost izkušnje in trajnost. Enako predstavlja tudi nov začetek, mojstra, ki zna oceniti vsakodnevne premike v situacijah in opravilih."
                 },
                 {
                     simbol: "Črna-bela-rdeča",

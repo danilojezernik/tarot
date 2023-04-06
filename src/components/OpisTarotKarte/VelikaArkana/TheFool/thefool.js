@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 export default {
     data() {
         return {
@@ -24,7 +22,9 @@ export default {
                     besedeObrnjena: "Malomarnost, odvračanje pozornosti, tveganje, zadrževanje nazaj, neracionalnost, neumnost, nepremišljenost, naivnost, lahkovernost, zastarel, pomanjkanje užitka, dolgočasnost, apatija, biti nepripravljen, odsotnost.",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"V meni je prisotna vzvišena čistost neizrekljivega bistva.<br>Prepoznavam se kot bistvo brez oblike, brez lastnosti in brez omejitve.<br>Sem vse v vsem. Jaz nisem nič, ampak sem prisoten v vseh stvareh.<br>Jaz sem končna točka vsega in primarni izvor začetka.<br>Bil sem in nisem bil; sem in nisem; bom, vendar sem popolnoma brez prihodnosti.<br>Jaz sem krog s središčem povsod in brez obsega.<br>Kot otrok in starodaven, mlad in star, nov in star.<br>Čistejši od snega, bolj sijoč od sonca, manjši od najmanjšega atoma, večji od prostranstva vesolja.<br>Vse to sem. Jaz sem vse in nič. sem svoboden.<br>Torej sem, sem bil in bom, znotraj biti in v nebivanju,<br>znotraj časa in izven časa, vedno in nikoli. Om!\"<br>",
+                    opisMeditacija: "\"V meni je prisotna vzvišena čistost neizrekljivega bistva. Prepoznavam se kot bistvo brez oblike, brez lastnosti in brez omejitve. Sem vse v vsem. Jaz nisem nič, ampak sem prisoten v vseh stvareh. Jaz sem končna točka vsega in primarni izvor začetka. Bil sem in nisem bil; sem in nisem; bom, vendar sem popolnoma brez prihodnosti. Jaz sem krog s središčem povsod in brez obsega. Kot otrok in starodaven, mlad in star, nov in star. Čistejši od snega, bolj sijoč od sonca, manjši od najmanjšega atoma, večji od prostranstva vesolja. Vse to sem. Jaz sem vse in nič. sem svoboden. Torej sem, sem bil in bom, znotraj biti in v nebivanju, znotraj časa in izven časa, vedno in nikoli. Om!\" ",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali sledim svojim sanjam? Ali spoštujem svojo glavno strast? Kaj bi norec naredil v moji situaciji? Kaj najbolj cenim ... svoja prepričanja ali svojo predstavo svetu? Se bojim avanture ali se bojim praktičnosti? Če je moje življenje moje sporočilo ... kakšno sporočilo pošiljam?</p>',
                 }
             ],
             opisSimbolov: [
@@ -70,7 +70,7 @@ export default {
                 },
                 {
                     simbol: "Oblačila",
-                    opis: "Spodnja majica je bela, kar predstvalja čistost in nov potencial. Zgornje oblačilo nakazuje na to, da ga zanima bolj estetika kot pa uporabnost. Nakazuje tudi na sposobnost živeti iz dneva v dan."
+                    opis: "Spodnja majica je bela, kar predstavlja čistost in nov potencial. Zgornje oblačilo nakazuje na to, da ga zanima bolj estetika kot pa uporabnost. Nakazuje tudi na sposobnost živeti iz dneva v dan."
                 },
                 {
                     simbol: "Črna palica",
@@ -145,12 +145,4 @@ export default {
             reversed: 'the-fool-down.png',
         }
     },
-    computed: {
-        imageSrcUp() {
-            return `http://localhost:5000/velika_arkana/${this.upright}`;
-        },
-        imageSrcUDown() {
-            return `http://localhost:5000/velika_arkana/${this.reversed}`;
-        }
-    }
 }

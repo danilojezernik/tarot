@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Naj slišim klic od zgoraj!<br>Skozi hrup in zmedo nižjih svetov me od daleč kliče glas mojega Očeta.<br>Naj nikoli ne preneham poslušati tega klica<br>in se zberem pod zastavo svojega notranjega Gospoda,<br>medtem ko divja bitka življenja. Gospod moje duše kraljuje nad poplavami:<br>odstranil bo iz mene vso zablodo in zmedo.<br>Ustavil se bom, poslušal in molčal, da bi slišal glas.<br>Glasnejši od grmenja padajočih voda je tihi, tihi glas, ki odmeva iz daljnega kraja.<br>Slišim te, o glas nad vsemi glasovi!<br>Poslušam te, o klic pred vsemi klici!\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Čemu dovolim, da me zmoti? Kako lahko jasno vidim svoje višje ideale? Ali imam jasnost misli, namena in dejanja? Kaj me pelje oziroma kaj me vodi stran od mojega najvišjega dosežki? Čemu dovolim, da vpliva na mojo presojo ali vpliva na moje odločitve? Ali sem zašel/la s svoje božanske poti? Kaj moram narediti, da se vrnem na pravo pot? Kakšne korake lahko naredim, da utišam zoprne misli, ki odvračajo mojo pozornost iz veselja?</p>',
+
                 }
             ],
             opisSimbolov: [

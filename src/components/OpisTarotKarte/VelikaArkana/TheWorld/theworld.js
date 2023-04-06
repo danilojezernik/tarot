@@ -23,6 +23,9 @@ export default {
 
                     podnaslovMeditacija: "Meditacija",
                     opisMeditacija: "\"Nisem od tega sveta, ampak sem otrok onstranstva.<br>Moj dom je daleč in hrepenim po hiši svojega Očeta.<br>Naj upravičeno začnem pot nazaj.<br>Svoje fizične, čustvene, mentalne in intuitivne sposobnosti posvečam izvedbi velikega dela.<br>Naj čutila mojega telesa, občutki mojih čustev, misli mojega uma in vpogledi moje intuicije služijo velikemu delu.<br>Ni dela mene, ki ne bi bil božanski.<br>Odločam se, da bom vse dogodke v svojem življenju obravnaval kot del dialoga med menoj in Jazom.<br>Naj bo vsak del mojega bitja in vsako dejanje mojega življenja posvečeno namenu vrnitve v dom Božanskega.\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kaj je moja končna želja? Ali verjamem, da je zdaj moj čas za slavo? Ali sem pripravljen/a sprejeti svoj najvišji dosežek? Kako bom prejel priznanje za svoje trdo delo? Ali si lahko predstavljam prihajajočo nagrado za svoj trud? Ali verjamem, da vse stvari prihajajo skupaj za moje najvišje in najboljše dobro?</p>',
+
                 }
             ],
             opisSimbolov: [

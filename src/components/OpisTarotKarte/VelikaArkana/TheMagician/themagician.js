@@ -22,7 +22,10 @@ export default {
                     besedeObrnjena: "Razpršena energija, zapravljanje virov, zapravljen talent, neizkoriščene sposobnosti, manipulacija, slabo planiranje, čakanje na akcijo, pohleponost, iluzija, pomanjkanje duševne jasnosti, nepoštenost, neresničnost.",
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Vir moči, kreator modrosti, studenec potoka življenja, poklanjam se ti!<br>Ti si nosilec palice moči, modri, ki urejaš kombinacije elementov mojega bitja: bodi moj vodnik!<br>Moram se preoblikovati, spremeniti.<br>Iz otroka teme se želim spremeniti v bitje luči.<br>Iz bitja impulza moram postati bitje razsvetljene volje.<br>Spremeni me, o čarobni gospodar moje duše!<br>V mojo osebnost prinesi blesk božanske strele, da se bom lahko prebudil v zavest svoje pristne narave.<br>Bil sem moški; zdaj bom bog.<br>Bil sem iz zemlje; zdaj se pridružujem zvezdam.<br>Pozdravljen, sonce nebesnega svoda moje duše!<br>Jaz sem tvoja luč, jaz sem tvoja ljubezen, tvoja modrost in tvoja moč!\"<br>",
+                    opisMeditacija: "\"Vir moči, kreator modrosti, studenec potoka življenja, poklanjam se ti! Ti si nosilec palice moči, modri, ki urejaš kombinacije elementov mojega bitja: bodi moj vodnik! Moram se preoblikovati, spremeniti. Iz otroka teme se želim spremeniti v bitje luči. Iz bitja impulza moram postati bitje razsvetljene volje. Spremeni me, o čarobni gospodar moje duše! V mojo osebnost prinesi blesk božanske strele, da se bom lahko prebudil v zavest svoje pristne narave. Bil sem moški; zdaj bom bog. Bil sem iz zemlje; zdaj se pridružujem zvezdam. Pozdravljen, sonce nebesnega svoda moje duše! Jaz sem tvoja luč, jaz sem tvoja ljubezen, tvoja modrost in tvoja moč!\" ",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali se zavedam lastne moči? Ali prepoznam svoj največji potencial? Ali igram vlogo žrtve ali zmagovalca? Ali svojo moč uporabljam za dobro ali jo zlorabljam? Ali se povezujem s svojim višjim virom energija? Ali se učinkovito in koristno uporabljam? Kaj lahko storim, da se prestavim v boljšo smer? Katera sredstva so mi na voljo in kako naj se poglobim v njih?',
+
                 }
             ],
             opisSimbolov: [

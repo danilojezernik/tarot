@@ -22,7 +22,10 @@ export default {
                     besedeObrnjena: 'Neodvisnost, nenavezanost, premagovanje težkih situacij, svoboda, vpogled, ponovno pridobivanje moči ali nadzora, soočanje s strahovi, olajšanje, ločitev, pomanjkljivosti so premagane, razsvetljenje.',
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Iz globin omejenosti kličem k tebi, o lepota neizrekljiva!<br>Obsijaj mojo pot, ti polnočno sonce lepote in ljubezni!<br>Prestal bom temo in prebival bom v ječi zunanjih temnih krajev,<br>če le vem, da se bliža tvoj dan.<br>O, nikoli ne zahajajoče sonce moje duše, kličem tvojo sijočo lepoto.<br>Spremeni mojo nevednost v modrost in moje strasti v ljubezen do tebe.<br>Kajti tebe sem ljubil skozi eone in tebe iščem povsod.<br>Daj mi lahkotnosti srca, da bom lahko zrahljal svoje verige suženjstva<br>in poletel v tvoje naročje, moje upanje, moja ljubezen in edini osvoboditelj!\"<br>",
+                    opisMeditacija: "\"Iz globin omejenosti kličem k tebi, o lepota neizrekljiva!<br>Obsij mojo pot, ti polnočno sonce lepote in ljubezni!<br>Prestal bom temo in prebival bom v ječi zunanjih temnih krajev,<br>če le vem, da se bliža tvoj dan.<br>O, nikoli ne zahajajoče sonce moje duše, kličem tvojo sijočo lepoto.<br>Spremeni mojo nevednost v modrost in moje strasti v ljubezen do tebe.<br>Kajti tebe sem ljubil skozi eone in tebe iščem povsod.<br>Daj mi lahkotnosti srca, da bom lahko zrahljal svoje verige suženjstva<br>in poletel v tvoje naročje, moje upanje, moja ljubezen in edini osvoboditelj!\"<br>",
+
+                    kljucnaVpr: '<p><b>Ključna vprašanja:</b> Ali hranim odvisnost? Kaj pridobim, če pustim, da moj ego nadzoruje moje življenje? Ali mislim, da nisem vreden ljubezni? Sreče? Miru? Zakaj? Ali vedno čutim, da moram odgovoriti nekomu? Zakaj? Kaj me ves čas muči? Kaj lahko storim glede tega? Se mi zdi, da nimam nikoli dovolj, da nikoli ne more biti dovolj? Zakaj? Kako naj se dvignem iz teh nižjih ravni misli in občutkov?</p>',
+
                 }
             ],
             opisSimbolov: [
