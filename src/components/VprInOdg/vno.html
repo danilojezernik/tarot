@@ -35,7 +35,9 @@
                     </h2>
                     <div :id="accordion.idCollapse" class="accordion-collapse collapse text-dark collapse bg-tarot rounded-0"
                          :aria-labelledby="accordion.idHeading" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body" v-html="accordion.odg">
+                        <div class="accordion-body">
+                            <img v-show="accordion.show === true" :src="accordion.img" class="float-end p-2 img-fluid"/>
+                            <div v-html="accordion.odg"></div>
                         </div>
                     </div>
                 </div>
