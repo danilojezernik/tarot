@@ -43,10 +43,11 @@
                             <h3 class="card-header border-white">{{ index + 1 }}: {{ sadhana.ime }}</h3>
                             <div class="card-body">
                                 <p class="card-text">{{ sadhana.opis }}</p>
+                                <p class="card-text text-end"><small class="text-white-50">Minimalni čas za to sadhano: {{ sadhana.cas }} meseca</small></p>
                             </div>
                             <div class="d-grid gap-2">
                                 <router-link class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
-                                             :to="`${sadhana.to}`"> Sadhana za karto: Fool
+                                             :to="`${sadhana.to}`"> Naprej na sadhano
                                 </router-link>
                             </div>
                         </div>

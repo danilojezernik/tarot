@@ -28,7 +28,9 @@
                 <div class="card text-white h-100 bg-dark shadow bg-image-cards bg-opacity-75">
                     <h3 class="card-header border-white">{{ vaja.naslov }}</h3>
                     <div class="card-body">
-                        <p class="card-text" v-html="vaja.opis"></p>
+                        <p class="card-text">{{ vaja.opis }} <a class="text-decoration-none text-warning" href="#!"
+                                                                download>{{ vaja.show === true ? vaja.prenos : '' }}</a>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -53,6 +53,9 @@
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaTelo }}</p>
                     </div>
+                    <div class="card-footer border-0 bg-transparent">
+                        <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo: {{ casEna }} meseca</small></p>
+                    </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalTelo = true">
                         Obrni
@@ -66,6 +69,9 @@
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaDih }}</p>
                     </div>
+                    <div class="card-footer border-0 bg-transparent">
+                        <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo: {{ casDva }} meseca</small></p>
+                    </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalDih = true">
                         Obrni
@@ -78,6 +84,9 @@
                     <h3 class="card-header border-white">{{ meditacijaTretja }}</h3>
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaRojstvo }}</p>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent">
+                        <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo: {{ casTri }} meseca</small></p>
                     </div>
                     <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
                             @click="showModalMeditacija = true">
@@ -135,105 +144,6 @@
             </div>
         </vue-final-modal>
 
-
-        <!--        <p>Kako meditirati s tarot kartami (in zakaj)</p>-->
-
-        <!--        <p>Meditacija s tarotom lahko poglobi vaše razumevanje kart na zelo osebno in globoko raven. Lahko je tudi močno-->
-        <!--            orodje za samozdravljenje, metoda za manifestacijo ali način dostopa do Božanskega.</p>-->
-
-        <!--        <p>Ko meditiramo s tarotom, se lahko poglobimo v pomen in simboliko posamezne tarot karte. Omogoča nam, da-->
-        <!--            obidemo zavestni um in se povežemo s svojo intuicijo.</p>-->
-
-        <!--        <p>S sprostitvijo uma in opuščanjem nenehnega miselnega klepetanja odpremo pot do naše podzavesti in začnemo-->
-        <!--            posegati po višji ravni znanja in uvida. V tem prostoru dovolimo, da nas vodi intuicija, in s tem gradimo-->
-        <!--            globlje razumevanje kart.</p>-->
-
-        <!--        <p>V današnji objavi z vami delim preprost postopek meditacije s tarotom v 7 korakih.</p>-->
-
-        <!--        <p>Kako meditirati s tarotom</p>-->
-        <!--        <p>1. korak: Izberite tarot karto</p>-->
-        <!--        <p>Če uporabljate meditacijo s kartami Tarot, da bi preprosto podrobneje spoznali pomene kart Tarot, potem-->
-        <!--            naključno izberite karto Tarot ali izberite karto, s katero se želite globlje povezati.</p>-->
-
-        <!--        <p>Karto tarota lahko izberete tudi glede na določeno temo, ki je najbolj pomembna. Na primer, če ste samski in-->
-        <!--            želite v svoje življenje vnesti ljubezen, lahko izberete Dvojko skodelic ali Zaljubljenca. Ali pa, če ste-->
-        <!--            bili na poti duhovnega razvoja, lahko izberete Puščavnika.</p>-->
-
-        <!--        <p>2. korak: Ustvarite svoje okolje</p>-->
-        <!--        <p>Izberite čas in kraj, kjer vas ne bodo motili vsaj 20 minut. Prepričajte se, da vam je udobno, da je telefon-->
-        <!--            odklopljen in da vse druge motnje niso v sobi.</p>-->
-
-        <!--        <p>Morda bi radi predvajali CD z meditacijo ali preprosto imeli tišino. Lahko zažgete nekaj eteričnih olj in-->
-        <!--            zatemnite luči.</p>-->
-
-        <!--        <p>Sedite v pokončnem položaju. (Ležanje vas bo najverjetneje le uspavalo!) In imejte pred seboj karto-->
-        <!--            Tarot.</p>-->
-
-        <!--        <p>3. korak: Osredotočite se na svoj dih</p>-->
-        <!--        <p>Ko se počutite udobno, usmerite pozornost na dih.</p>-->
-
-        <!--        <p>Vdihnite skozi nos in pri tem opazujte občutek dihanja v nosnicah. Globoko vdihnite in nato izdihnite skozi-->
-        <!--            nos, pri čemer se ponovno osredotočite na občutek v nosnicah.</p>-->
-
-        <!--        <p>Nadaljujte z dihanjem in se osredotočite na občutek dihanja.</p>-->
-
-        <!--        <p>Če na tej stopnji opazite kakršne koli naključne misli, ki vam prihajajo v misli, jih samo opazujte in si-->
-        <!--            nato predstavljajte, da odplavajo kot oblaki. Ponovno usmerite pozornost na dih.</p>-->
-
-        <!--        <p>4. korak: Sprostite se</p>-->
-        <!--        <p>Zdaj pa preusmerite pozornost na svoje telo. Ko vdihnete, začutite, kako kisik vstopa v vaše telo in vas-->
-        <!--            napolni s čisto energijo. In ko izdihnete, si predstavljajte, da sprostitev preprosto teče skozi vaše-->
-        <!--            telo.</p>-->
-
-        <!--        <p>Preglejte svojo glavo, vrat, ramena, roke, trup, boke, noge in stopala ter občutite sprostitev, ki teče skozi-->
-        <!--            vse do prstov na nogah.</p>-->
-
-        <!--        <p>Zdaj ste sproščeni in mirni.</p>-->
-
-        <!--        <p>5. korak: Osredotočite se na svojo tarot karto</p>-->
-        <!--        <p>Osredotočite se na tarot karto pred seboj. Nežno glejte v tarot karto in petkrat globoko vdihnite. Še enkrat,-->
-        <!--            če opazite kakršne koli misli, ki prihajajo v vaš um, jih samo opazujte in si nato predstavljajte, da-->
-        <!--            odplavajo kot oblaki. Ponovno usmerite pozornost na dih in tarot karto pred seboj.</p>-->
-
-        <!--        <p>Predstavljajte si, da kartica postaja vse večja in večja, dokler številke in podobe niso skoraj v naravni-->
-        <!--            velikosti. Vidite, kako stopite v karto. Poglej okoli sebe. Kaj vidiš? Kdo je s teboj na kartici? Kateri-->
-        <!--            predmeti so prisotni? Katere barve vas izstopajo?</p>-->
-
-        <!--        <p>Vzemite si trenutek in se dotaknite predmeta na kartici in občutite njegovo teksturo. kaj slišiš Globoko-->
-        <!--            vdihnite in povonjajte zrak. Je na kartici kaj užitnega? Okusi.</p>-->
-
-        <!--        <p>Zdaj pa si predstavljajte sebe kot eno od figur na kartici. Postanite ta oseba ali ta arhetip. Kakšen je-->
-        <!--            občutek biti ta oseba? Kaj ta lik misli in čuti? Kako se gibljejo in obnašajo? Kakšen je njihov odnos do-->
-        <!--            trenutnih razmer?</p>-->
-
-        <!--        <p>Začnite govoriti, kot da ste ta lik. Kaj imaš povedati? Kaj je vaše sporočilo? Kaj svetujete?</p>-->
-
-        <!--        <p>Še enkrat poglej okoli sebe. Zaradi česa se počutiš dobro? Kaj vam daje energijo?</p>-->
-
-        <!--        <p>Zaradi česa se počutite tesnobni, zaskrbljeni ali razburjeni? Opazite morebitne občutke v svojem telesu na-->
-        <!--            tej točki in sprostite kakršno koli napetost, ki je morda nastala.</p>-->
-
-        <!--        <p>Zdaj poiščite različne predmete in simbole na kartici. Kako jih je mogoče uporabiti? Zakaj so tukaj? Kakšen-->
-        <!--            je njihov simbolni pomen?</p>-->
-
-        <!--        <p>Poglej okoli sebe še zadnjič. Kaj vidite zdaj, česar prej niste videli?</p>-->
-
-        <!--        <p>Vaše delo je zdaj skoraj končano. Izstopite iz figure in nato izstopite iz karte Tarot. Opazujte, kako-->
-        <!--            kartica postaja vse manjša in se vrača na običajno velikost.</p>-->
-
-        <!--        <p>6. korak: Prebudite se</p>-->
-        <!--        <p>Priznajte delo, ki ste ga opravili, in vedite, da se lahko kadar koli vrnete na ta kraj miru in vpogleda.</p>-->
-
-        <!--        <p>Začnite vračati svojo pozornost v sobo, dvakrat globoko vdihnite in občutite, kako se energija vrača v vaša-->
-        <!--            stopala, roke in telo.</p>-->
-
-        <!--        <p>Odprite oči (če so bile zaprte), počutite se osveženi in polni energije.</p>-->
-
-        <!--        <p>7. korak: Zapomnite si svoje vpoglede</p>-->
-        <!--        <p>Takoj po meditaciji s tarot kartami si zapomnite, kaj ste videli, slišali, mislili ali čutili med meditacijo.-->
-        <!--            To vnesite neposredno v svoj tarot delovni zvezek ali zvezek.</p>-->
-
-        <!--        <p>Dvignite svojo meditacijo tarota na naslednjo raven</p>-->
 
     </div>
 </div>

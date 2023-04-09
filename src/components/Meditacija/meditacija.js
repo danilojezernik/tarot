@@ -12,8 +12,11 @@ export default {
         return {
             // NASLOV
             meditacijaPrva: 'Meditacija na telo in tratak',
+            casEna: '3',
             meditacijaDruga: 'Meditacija na dih in na čakre',
+            casDva: '3',
             meditacijaTretja: 'Meditacija ponovnega rojstva',
+            casTri: '2',
 
             //KRATKA RAZLAGA
             meditacijaTelo: 'Če ste začetnik in še nikoli niste zares meditirali, potem sledite navodilom tukaj. Meditacija na telo sprosti celotno telo in ga naredi negibnega, kar pa je potrebno, če želimo doseči globoka stanja meditacije. Pri meditaciji (dharani), ki sledi, se osredotočamo na različne dele telesa in na mirnost telesa, dele telesa sproščamo in pripravljamo fizično telo, da ostane ves čas prakse mirno um pa osredotočen in miren. Po meditaciji na telo lahko naredite še kratko tratako, ki pomaga čistiti čustvene blokade in znatno izboljša fokus, vendar le takrat, ko izpopolnite meditacijo na telo.',

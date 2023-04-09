@@ -556,13 +556,13 @@ export default {
                 },
                 {
                     name: 'Paž palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Paž stoji blizu piramid, simbola duhovne aspiracije. Razmišlja o svoji palici, kar kaže na njegovo pripravljenost prinesti ideje in navdihe od zgoraj v svetu. Kot novi učenec palice predstavlja voljo do pozornosti in zavedanja svojih namenov ali motivov. Paž palic je dojemljiv za lekcije, ki jih prinaša njegovo orodje. Uči se usklajevanja tega, za kar verjame, da je njegova volja, z eno samo božansko voljo.</p><p>Kaj vas navdihuje? Kaj nameravate storiti? Ste radovedni ali odporni na učenje? Kako se pripravljate na soočanje s prihodnostjo? Ali je možno, da grizete več, kot lahko prežvečite? Se vaša spolna energija prebuja ali ponovno prebuja? Kako ste naivni ali kako ostajate čisti? Je vaše vedenje otročje? Katero pot začenjate? Se vaš um odpira novim možnostim? Ali lahko vaša visoka energija in spontanost spravljata druge ob živce? Ali se vaše pomanjkanje izkušenj pozna? Ali iščete ali prejemate močne vpoglede? Ali vzamete duhovnega učitelja ali širite svoja duhovna obzorja? Kaj vzbuja vaše navdušenje? Kdo pravi, da veliko obetate? Je kakšno sporočilo težko razvozlati? Ali vzpostavljate stik s svojim duhovnim vodnikom? O čem ste iskreni kljub posledicam? Na kaj ste še posebej pozorni?</p>',
                     src: pagewands,
                     to: "/pazpalic"
                 },
                 {
                     name: 'Paž palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Paž stoji blizu piramid, simbola duhovne aspiracije. Razmišlja o svoji palici, kar kaže na njegovo pripravljenost prinesti ideje in navdihe od zgoraj v svetu. Kot novi učenec palice predstavlja voljo do pozornosti in zavedanja svojih namenov ali motivov. Paž palic je dojemljiv za lekcije, ki jih prinaša njegovo orodje. Uči se usklajevanja tega, za kar verjame, da je njegova volja, z eno samo božansko voljo.</p><p>Kaj vas navdihuje? Kaj nameravate storiti? Ste radovedni ali odporni na učenje? Kako se pripravljate na soočanje s prihodnostjo? Ali je možno, da grizete več, kot lahko prežvečite? Se vaša spolna energija prebuja ali ponovno prebuja? Kako ste naivni ali kako ostajate čisti? Je vaše vedenje otročje? Katero pot začenjate? Se vaš um odpira novim možnostim? Ali lahko vaša visoka energija in spontanost spravljata druge ob živce? Ali se vaše pomanjkanje izkušenj pozna? Ali iščete ali prejemate močne vpoglede? Ali vzamete duhovnega učitelja ali širite svoja duhovna obzorja? Kaj vzbuja vaše navdušenje? Kdo pravi, da veliko obetate? Je kakšno sporočilo težko razvozlati? Ali vzpostavljate stik s svojim duhovnim vodnikom? O čem ste iskreni kljub posledicam? Na kaj ste še posebej pozorni?</p>',
                     src: pagewandsDown,
                     to: "/pazpalic"
                 },
@@ -1223,7 +1223,7 @@ export default {
                 this.currentImageIndex = currentIndex;
             }
         }, 1000);
-    },
+    }
 }
 
 

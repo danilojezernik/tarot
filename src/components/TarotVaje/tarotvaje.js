@@ -23,6 +23,8 @@ export default {
                 {
                     id: 4,
                     naslov: 'Vaja 3 - Spoznavanje Velike arkane 2. del',
+                    show: true,
+                    prenos: 'Prenesite meditacijo!',
                     opis: 'Vsak dan si vzemite tudi čas, da meditirate na izbrano karto. Med dnevi, ki je namenjeno neki določeni karti si vsaj enkrat na dan vzemite čas, se usedite v tišino in sprostite svoje telo. Potem nekaj časa opazujte karto in vse kar vidite na njej, kot so barve, simboli, obleke, lasje, klobuk, ozadje, gore, živali, hiše,... Potem zaprite oči in si predstavljajte, da ste vi ta lik v karti. Kaj se dogaja? Kaj trenutno delate? Kam greste? Kje ste bili? Kdo je še z vami? Kaj delajo? Enostavno bodite tam in raziskujte karto, kot da ste to vi. Poistovetite se s karto! To je zelo pomembna vaja, ki je ključna za nadaljne delo!'
                 },
                 {

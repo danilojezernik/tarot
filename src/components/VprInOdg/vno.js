@@ -69,8 +69,15 @@ export default {
                     idHeading: 'flush-headingEight',
                     idCollapse: 'flush-collapseEight',
                     idCollapseL: '#flush-collapseEight',
-                    vpr: 'Moška in ženska energija oziroma zavest v vzhodni in zahodni filozofiji',
+                    vpr: 'Moška in ženska energija oziroma zavest v vzhodni in zahodni filozofiji?',
                     odg: '<p>Če pozorno berete tako vzhodne kot zahodne filozofije lahko opazite, da je v zahodnem delu sveta moška energija smatrana kot energija, ki deluje, ki je aktivna, ženska pa je tista, ki je pasivna energija. V vzhodnem svetu (bolj natančno v hinduizmu) pa je ravno obratno in je ženska tista aktivna energija, moška pa pasivna, je zavest, je Šiva.</p>'
+                },
+                {
+                    idHeading: 'flush-headingNine',
+                    idCollapse: 'flush-collapseNine',
+                    idCollapseL: '#flush-collapseNine',
+                    vpr: 'Zakaj je potrebno tako dolgo ostajati na eni praksi meditacije ali sadhane?',
+                    odg: '<p>Čas, ki ga predlagam, da ostanete na eni praksi je minimalen in je tam z razlogom. Stvar je taka, da dan danes vse več ljudi skače iz ene prakse na drugo in tako je duhovnost nekakšna komercialna pot na kateri ni več tistega pravega, oprijemljivega učinka. Vsako prakso, ki se jo lotimo je potrebno dokončati in jo izpopolniti, da nam da res tisto, kar nam ima za dati, da od nje odnesemo, kar moramo odnesti. Zato je zraven napisan čas, ker bo tako pomagal nekaterim ostati tam dovolj dolgo, da bodo prakso izkusili v vsej svoji polnosti. Seveda je to povprečen, minimalen čas, lahko pa ostanete na njej dlje in tako v naslednjo od nje nekaj odnesete.</p>'
                 }
             ]
         }
