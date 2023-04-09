@@ -28,11 +28,31 @@
                 <div class="card text-white h-100 bg-dark shadow bg-image-cards bg-opacity-75">
                     <h3 class="card-header border-white">{{ vaja.naslov }}</h3>
                     <div class="card-body">
-                        <p class="card-text">{{ vaja.opis }} <a class="text-decoration-none text-warning" href="#!"
-                                                                download>{{ vaja.show === true ? vaja.prenos : '' }}</a>
+                        <p class="card-text">{{ vaja.opis }}
+                            <a class="text-decoration-none text-warning cursor"
+                               @click="vaja.modalShow = true">
+                                {{ vaja.show === true ? vaja.prenos : '' }}
+                            </a>
                         </p>
                     </div>
                 </div>
+                <!-- MODAL DOWNLOAD START -->
+                <vue-final-modal v-model="vaja.modalShow"
+                                 classes="modal-container-three animate__animated animate__bounceInDown"
+                                 content-class="modal-content">
+                    <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                            @click="vaja.modalShow = false">
+                        <mdi-close class="fw-bold text-white">X</mdi-close>
+                    </button>
+                    <span class="modal__title text-center text-dark py-3">Meditacija na tarot karte</span>
+                    <div class="modal__content">
+                        <div class="container">
+                            <iframe src="https://tarot-zate.si/prenos/meditacija_na_tarot.pdf"
+                                    style="min-width: 100%; min-height: 65vh"></iframe>
+                        </div>
+                    </div>
+                </vue-final-modal>
+                <!-- MODAL DOWNLOAD END -->
             </div>
         </div>
 

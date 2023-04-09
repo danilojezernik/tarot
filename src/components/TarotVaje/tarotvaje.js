@@ -1,6 +1,7 @@
 export default {
     data() {
         return {
+            modalShow: false,
             naslov: 'Vaje za spoznavanje s tarot kartami',
             rek: '',
             opisVaje: '<p>Pri vajah spoznavanja s tarot kartami najprej začnete z Veliko arkano. Tukaj boste ostali kar nekaj časa saj je pomembno, da se z njimi spoznate in da z njimi navežete nekakšen stik, kar vam bo seveda služilo v bodoče. Dobro je, če sledite spodaj navedenimi vajami, kajti tako vam bo najlažje začeti. Pomembna je potrpežljivost in vztrajnost. Ves trud pa se vam bo vsekakor poplačal. Vsaka karta, ko jo bolje spoznavate, nekaj v vas prebudi in to je cilj teh vaj. Da vzpostavite neko globljo povezavo med sabo in kartami.</p><p>Ponavadi se postavlja vprašanje kako karte mešati, kako jih prečistiti, kako napolniti in podobno. Najbolj pomembno je, da o tem razmislite sami in kako boste to naredili. Uporabite svojo domišljijo, poslušajte sebe, dajte v to svoje srce in naj vse to postane vaš oseben ritual. Naj bo to nekaj vašega. Lahko za čiščenje uporabljate kristale, lahko svojo energijo in vizualizacijo, lahko uporabljate kadila. Za polnjenje kart lahko uporabljate moč sonca in lune in tako dalje. Razmislite kako bi to naredili in kako bi to bilo za vas najbolje. Tukaj ni prav ali narobe, ampak enostavno je tako kot si boste zamislili. Tudi ni pravilnega mešanja kart. Mešajte kot želite. Globoko razmišljajte o vprašanju. Ko dobite občutek, da bi prenehali, prenehajte mešati in izberite karto, ki se vam prva ponudi. Če želite prelagati kupe in podobno tudi prav.</p><p><b>Rad pa bi poudaril naslednje:</b><ul><li>Vedno postavite razločno vprašanje!</li><li>Če karta pade ven je ne dajajte nazaj na kup ampak jo postavite zraven in jo potem interpretirajte. Nekaj vam sporoča!</li><li>Karte ne obračate, da bodo postavljene pravilno. Če je karta obrnjena jo dajte normalno tudi nazaj. Ko pograbite karte ne razmišljajte ali so pravilno obrnjene. Ne manipulirajte s kartami. Naj vam dajo odgovor, takšen kakršen je. Odgovor po navadi ne bo takšen, kot bi si želeli da je!</li></ul></p>',
@@ -24,6 +25,7 @@ export default {
                     id: 4,
                     naslov: 'Vaja 3 - Spoznavanje Velike arkane 2. del',
                     show: true,
+                    modalShow: false,
                     prenos: 'Prenesite meditacijo!',
                     opis: 'Vsak dan si vzemite tudi čas, da meditirate na izbrano karto. Med dnevi, ki je namenjeno neki določeni karti si vsaj enkrat na dan vzemite čas, se usedite v tišino in sprostite svoje telo. Potem nekaj časa opazujte karto in vse kar vidite na njej, kot so barve, simboli, obleke, lasje, klobuk, ozadje, gore, živali, hiše,... Potem zaprite oči in si predstavljajte, da ste vi ta lik v karti. Kaj se dogaja? Kaj trenutno delate? Kam greste? Kje ste bili? Kdo je še z vami? Kaj delajo? Enostavno bodite tam in raziskujte karto, kot da ste to vi. Poistovetite se s karto! To je zelo pomembna vaja, ki je ključna za nadaljne delo!'
                 },

@@ -16,7 +16,8 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a @click="showModalSlike= true" class="text-white cursor">Slike</a>
+                            <a @click="showModalSlike = true" class="text-white cursor">Slike</a>
+
                             <vue-final-modal v-model="showModalSlike" classes="modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
                                 <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalSlike = false">
                                     <mdi-close class="fw-bold text-white">X</mdi-close>
@@ -29,6 +30,7 @@
                                     </div>
                                 </div>
                             </vue-final-modal>
+
                         </li>
                         <li>
                             <a @click="showModalPomoc= true" class="text-white cursor">Dnevnik</a>

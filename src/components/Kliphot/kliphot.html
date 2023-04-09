@@ -21,9 +21,13 @@
             <div class="lead text-center">{{ qliphothRek }}</div>
             <img src="~@/assets/hrline.png" class="img-fluid" alt="">
         </div>
-        <img src="~@/assets/kliphot/kliphot.png" class="img-fluid">
+
     </div>
     <div class="container">
+        <div class="text-center d-md-none">
+            <img src="~@/assets/kliphot/kliphot.png" class="img-fluid">
+        </div>
+        <img src="~@/assets/kliphot/kliphot.png" class="img-fluid float-end d-none d-md-block">
         <span v-html="qliphothOpis"></span>
 
         <div class="py-4 text-center">
@@ -58,6 +62,3 @@
         </div>
     </div>
 </div>
-
-
-<app-navrh/>
