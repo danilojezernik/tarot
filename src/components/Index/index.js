@@ -580,25 +580,25 @@ export default {
                 },
                 {
                     name: 'Kraljica palic',
-                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samoponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samo-ponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
                     src: queenwands,
                     to: "/kraljicapalic"
                 },
                 {
                     name: 'Kraljica palic',
-                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samoponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samo-ponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
                     src: queenwandsDown,
                     to: "/kraljicapalic"
                 },
                 {
                     name: 'Kralj palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Obrnjen vstran, kralj v desni roki drži palico. Njegov prestol je poslikan z levi, ki označujejo njegov pogum, dostojanstvo, samo-ponos in prevlado. Ob vznožju njegovega prestola stoji močerad, za katerega so nekoč verjeli, da živi in se upira ognju. Ko se vročina življenja dvigne, Kralj palic modro usmeri pozornost navznoter, da ohladi navdih.</p><p>Kaj ali kdo vas navdihuje? Na kaj se osredotočate? Zaradi česa ste navdušeni ali jezni? Kaj spravljate s tal? Je vaš namen napačno razložen? Ali morate usmerjati druge? Kaj vas motivira, da posežete po zvezdah? Se počutite polne energije ali ste obupani? S katero moško avtoriteto se soočate? Obožujete izzive? Kakšno modrost uporabljate ali delite? Mislite, da imate vedno prav? Ste odgovorni za druge? Kako uporabljate svoje izvršilne sposobnosti? Ali vztrajate pri svojem ali ste egoistični? Zakaj ste gospodovalni ali prepirljivi? Ste vse bolj usmerjeni vase? Ali sledite svojim duhovnim spoznanjem? Ali druge vleče k sebi ali stran od sebe? Zakaj ste togi ali nepopustljivi? Glede česa ste optimistični? Bi lahko gojili potrpežljivost? Ali služite drugim kot vzornik? Bi lahko asertivnost sprejeli bolje kot agresivnost?</p>',
                     src: kingwands,
                     to: "/kraljpalic"
                 },
                 {
                     name: 'Kralj palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Obrnjen vstran, kralj v desni roki drži palico. Njegov prestol je poslikan z levi, ki označujejo njegov pogum, dostojanstvo, samo-ponos in prevlado. Ob vznožju njegovega prestola stoji močerad, za katerega so nekoč verjeli, da živi in se upira ognju. Ko se vročina življenja dvigne, Kralj palic modro usmeri pozornost navznoter, da ohladi navdih.</p><p>Kaj ali kdo vas navdihuje? Na kaj se osredotočate? Zaradi česa ste navdušeni ali jezni? Kaj spravljate s tal? Je vaš namen napačno razložen? Ali morate usmerjati druge? Kaj vas motivira, da posežete po zvezdah? Se počutite polne energije ali ste obupani? S katero moško avtoriteto se soočate? Obožujete izzive? Kakšno modrost uporabljate ali delite? Mislite, da imate vedno prav? Ste odgovorni za druge? Kako uporabljate svoje izvršilne sposobnosti? Ali vztrajate pri svojem ali ste egoistični? Zakaj ste gospodovalni ali prepirljivi? Ste vse bolj usmerjeni vase? Ali sledite svojim duhovnim spoznanjem? Ali druge vleče k sebi ali stran od sebe? Zakaj ste togi ali nepopustljivi? Glede česa ste optimistični? Bi lahko gojili potrpežljivost? Ali služite drugim kot vzornik? Bi lahko asertivnost sprejeli bolje kot agresivnost?</p>',
                     src: kingwandsDown,
                     to: "/kraljpalic"
                 },
@@ -761,13 +761,13 @@ export default {
                 },
                 {
                     name: 'Kralj kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kralj drži kratko žezlo v levi roki in kelih v desni in udobno lebdi na oceanu. Na eni strani skače delfin; na drugi pa ladja. Ti simboli nakazujejo, da lahko kralj jezdi življenjske tokove. Zaradi obvladovanja moči samorefleksije postane kapitan svoje ladje, samega sebe in svojega kraljestva. Ne glede na to, ali je morje razburkano ali mirno, je modri in zelo domiselni Kralj kelihov poln ustvarjalnih možnosti.</p><p>Ali svoja čustva ali fantazije izražate skozi ustvarjalnost? Ali delate v poklicih kjer pomagate drugim? Ali obvladate svojo občutljivost? Za koga ljubeče skrbite? Bi lahko uporabili nekaj ljubeče nege? Kakšna čustva ali fantazije izražate ali skrivate? Kaj vas jezi? Kakšno psihično modrost prejemate? Se zavedate, da je najbolj sočutna stvar, ki jo lahko naredite za drugega, biti dober poslušalec? Ste mojster sanjač? Komu ne omogočate več? Koga odrivate s tem, da vedno dajete? Kako negujete svojo dušo? Ali obvladate del osebnosti, ki povzroča odvisnosti? Ali želite, da drugi spoznajo vaša čustva, ne da bi spregovorili? Ste prijazni in velikodušni do napake? Ali lahko manipulirate z drugimi in z njihovimi občutki? Kdaj boste napisali svojo pesem, naslikali svojo sliko ali naredili svojo skulpturo ali glasbo? Kakšne sanje poslušate? Ali ljubite ljubezen?</p>',
                     src: kingcups,
                     to: "/kraljkelihov"
                 },
                 {
                     name: 'Kralj kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kralj drži kratko žezlo v levi roki in kelih v desni in udobno lebdi na oceanu. Na eni strani skače delfin; na drugi pa ladja. Ti simboli nakazujejo, da lahko kralj jezdi življenjske tokove. Zaradi obvladovanja moči samorefleksije postane kapitan svoje ladje, samega sebe in svojega kraljestva. Ne glede na to, ali je morje razburkano ali mirno, je modri in zelo domiselni Kralj kelihov poln ustvarjalnih možnosti.</p><p>Ali svoja čustva ali fantazije izražate skozi ustvarjalnost? Ali delate v poklicih kjer pomagate drugim? Ali obvladate svojo občutljivost? Za koga ljubeče skrbite? Bi lahko uporabili nekaj ljubeče nege? Kakšna čustva ali fantazije izražate ali skrivate? Kaj vas jezi? Kakšno psihično modrost prejemate? Se zavedate, da je najbolj sočutna stvar, ki jo lahko naredite za drugega, biti dober poslušalec? Ste mojster sanjač? Komu ne omogočate več? Koga odrivate s tem, da vedno dajete? Kako negujete svojo dušo? Ali obvladate del osebnosti, ki povzroča odvisnosti? Ali želite, da drugi spoznajo vaša čustva, ne da bi spregovorili? Ste prijazni in velikodušni do napake? Ali lahko manipulirate z drugimi in z njihovimi občutki? Kdaj boste napisali svojo pesem, naslikali svojo sliko ali naredili svojo skulpturo ali glasbo? Kakšne sanje poslušate? Ali ljubite ljubezen?</p>',
                     src: kingcupsDown,
                     to: "/kraljkelihov"
                 },
@@ -930,13 +930,13 @@ export default {
                 },
                 {
                     name: 'Kralj mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Podobno kot pri karti Pravica v veliki arkani Kralj mečev v desni roki drži meč, kar nakazuje, da ima v rokah izjemno moč življenja in smrti. Njegov prestol krasijo metulji, ki simbolizirajo transformativno moč analitičnega mišljenja, ki ga motivira ljubezen. Ko vlada neki domeni, Kralj mečev pusti ob strani osebne pristranskosti in predsodke, da bi svoje nasvete in sodbe utemeljil na razumni razsodnosti in univerzalni modrosti.</p><p>Ste vedno mirovnik? Zakaj morate ohranjati mir? Kaj odločno načrtujete ali planirate? Kaj analizirate ali kritizirate? Kje je potrebna diskretnost? Kaj izločate iz svojega življenja? Ali sta vaš intelekt in čustva uravnotežena? Je vaša presoja izkrivljena? Kakšni načrti se izvajajo? Kaj pa, če bi se nehali truditi ohranjati stvari harmonične? Ali so potrebne vaše mediacijske sposobnosti? Je vaša integriteta pod vprašajem? Katere zakone morate upoštevati in živeti po njih? Katere informacije delite? Ali prehitro razmišljate? Kako vam lahko pomaga čustvena odmaknjenost? Pred čem se varujete? Katere resnice zagovarjate? Ste svojeglavi? Kakšna pravna situacija zahteva vaš čas? Ste se pripravljeni boriti za svoje ali tuje interese? Kaj ste lagali? Ste arogantni? Kaj tolerirate oziroma česa ne boste tolerirali?</p>',
                     src: kingswords,
                     to: "/kraljmecev"
                 },
                 {
                     name: 'Kralj mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Podobno kot pri karti Pravica v veliki arkani Kralj mečev v desni roki drži meč, kar nakazuje, da ima v rokah izjemno moč življenja in smrti. Njegov prestol krasijo metulji, ki simbolizirajo transformativno moč analitičnega mišljenja, ki ga motivira ljubezen. Ko vlada neki domeni, Kralj mečev pusti ob strani osebne pristranskosti in predsodke, da bi svoje nasvete in sodbe utemeljil na razumni razsodnosti in univerzalni modrosti.</p><p>Ste vedno mirovnik? Zakaj morate ohranjati mir? Kaj odločno načrtujete ali planirate? Kaj analizirate ali kritizirate? Kje je potrebna diskretnost? Kaj izločate iz svojega življenja? Ali sta vaš intelekt in čustva uravnotežena? Je vaša presoja izkrivljena? Kakšni načrti se izvajajo? Kaj pa, če bi se nehali truditi ohranjati stvari harmonične? Ali so potrebne vaše mediacijske sposobnosti? Je vaša integriteta pod vprašajem? Katere zakone morate upoštevati in živeti po njih? Katere informacije delite? Ali prehitro razmišljate? Kako vam lahko pomaga čustvena odmaknjenost? Pred čem se varujete? Katere resnice zagovarjate? Ste svojeglavi? Kakšna pravna situacija zahteva vaš čas? Ste se pripravljeni boriti za svoje ali tuje interese? Kaj ste lagali? Ste arogantni? Kaj tolerirate oziroma česa ne boste tolerirali?</p>',
                     src: kingswordsDown,
                     to: "/kraljmecev"
                 },
@@ -1099,13 +1099,13 @@ export default {
                 },
                 {
                     name: 'Kralj pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kralj pentakljev, ki mirno sedi sredi vrta v polnem razcvetu, nosi obleko, zvezeno z grozdjem, kar nakazuje materialno blaginjo. Njegov prestol krasijo bikove glave, simboli vodstva in plodnosti. Kralj drži žezlo v desnici in pentaklje v levici. Njegove oči so zaprte, kar namiguje, da modro ve, da njegova moč izvira iz nevidnega sveta notranjega duha, pa tudi iz tega, kar je nakopičil.</p><p>Ali maksimalno uživate v življenju in svojih čutih? Ali izpolnjujete svoje dogovore? Ali spoštujete ali zanikate duha v materialnem svetu? Ali ste odgovoren ali pasiven oče? Ste morda preveč materialistični? Ste morda bolj dobrodelni? Ali nadzorujete fizično počutje drugih? Ali upravljate z denarjem ali lastnino drugih? Ali morate biti bolj praktični? Ste zdravstveni delavec, maser ali zdravilec? Ali ste zadovoljni ali nezadovoljni s svojo stopnjo svetovnega uspeha? Ste v svojem delu ali skupnosti dobro spoštovani? Kako varujete okolje? Se počutite materialno izpolnjeni, a duhovno neizpolnjeni? Ali spoštujete svoje sodelavce? Ste usmerjeni v podrobnosti? Se vaša seksistična stališča spreminjajo? Ste radi v naravi? Ste mojster športnik ali rokodelec? Imate ali nimate vzdržljivosti ali močne konstitucije? Ste moški v ženskem telesu?</p>',
                     src: kingpentacles,
                     to: "/kraljpentakljev"
                 },
                 {
                     name: 'Kralj pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kralj pentakljev, ki mirno sedi sredi vrta v polnem razcvetu, nosi obleko, zvezeno z grozdjem, kar nakazuje materialno blaginjo. Njegov prestol krasijo bikove glave, simboli vodstva in plodnosti. Kralj drži žezlo v desnici in pentaklje v levici. Njegove oči so zaprte, kar namiguje, da modro ve, da njegova moč izvira iz nevidnega sveta notranjega duha, pa tudi iz tega, kar je nakopičil.</p><p>Ali maksimalno uživate v življenju in svojih čutih? Ali izpolnjujete svoje dogovore? Ali spoštujete ali zanikate duha v materialnem svetu? Ali ste odgovoren ali pasiven oče? Ste morda preveč materialistični? Ste morda bolj dobrodelni? Ali nadzorujete fizično počutje drugih? Ali upravljate z denarjem ali lastnino drugih? Ali morate biti bolj praktični? Ste zdravstveni delavec, maser ali zdravilec? Ali ste zadovoljni ali nezadovoljni s svojo stopnjo svetovnega uspeha? Ste v svojem delu ali skupnosti dobro spoštovani? Kako varujete okolje? Se počutite materialno izpolnjeni, a duhovno neizpolnjeni? Ali spoštujete svoje sodelavce? Ste usmerjeni v podrobnosti? Se vaša seksistična stališča spreminjajo? Ste radi v naravi? Ste mojster športnik ali rokodelec? Imate ali nimate vzdržljivosti ali močne konstitucije? Ste moški v ženskem telesu?</p>',
                     src: kingpentaclesDown,
                     to: "/kraljpentakljev"
                 },
@@ -1127,7 +1127,7 @@ export default {
                     povezava: 'Tarot postavitve',
                     to: '/tarotbranje',
                     link: 'Uporabljaj postavitve',
-                    opis: 'Nimate tarot kart? Se želite seznaniti z različnimi postavitvami kart za posvetovanje? Se želite posvetovati s kartami?'
+                    opis: 'Nimate tarot kart? Se želite seznaniti z različnimi postavitvami kart za posvetovanje?'
                 },
                 {
                     povezava: 'Kabala',
@@ -1151,19 +1151,19 @@ export default {
                     povezava: 'Sadhana',
                     to: '/sadhana',
                     link: 'Podajte se na pot',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Vse, kar se izvaja zavestno, disciplinirano in z namenom duhovne rasti, se lahko šteje za sadhano.'
                 },
                 {
                     povezava: 'Literatura',
                     to: '/literatura',
                     link: 'Berite in raziskujte dalje',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Za nadaljnje raziskovalno delo je tukaj navedena literatura, ki vam lahko pomaga poglobiti znanje o tarotu.'
                 },
                 {
                     povezava: 'V&O',
                     to: '/vpr-odg',
                     link: 'Pogosta vprašanja in odgovori',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Odgovori na pogosto zastavljena vprašanja, ki se lahko pojavijo pri raziskovanju spletne strani.'
                 }
             ],
             currentImageIndex: parseInt(localStorage.getItem("currentImageIndex")) || 0,

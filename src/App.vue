@@ -1,39 +1,23 @@
 <template>
 
-<div>
-  <app-header class="index-two"></app-header>
+  <div class="shadow-main">
+    <app-header></app-header>
 
-  <router-view/>
+    <router-view/>
 
-  <app-footer></app-footer>
+    <app-footer></app-footer>
 
-  <div class="fixed-bottom text-end m-3 index-one">
-    <button class="btn btn-dark rounded-circle me-1 shadow" @click="goBack">◄</button>
-    <button class="btn btn-dark rounded-circle me-1 shadow" @click="scrollToTop">▲</button>
+    <app-navrh/>
   </div>
-</div>
 
 </template>
 
 <style>
-.index-one {
-  z-index: 1;
-}
 
-.index-two {
-  z-index: 2;
+.shadow-main {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 </style>
 
 <script>
-export default {
-  methods: {
-    scrollToTop() {
-      window.scrollTo(0,0);
-    },
-    goBack() {
-      return this.$router.go(-1)
-    }
-  }
-}
 </script>

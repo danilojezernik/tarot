@@ -39,14 +39,14 @@
                         <div class="col-lg-3 d-flex align-items-center justify-content-center">
                             <img :src="sadhana.img" class="img-fluid rounded-start pb-3">
                         </div>
-                        <div class="col-lg-9 bg-dark shadow bg-image-cards bg-opacity-75 text-white">
-                            <h3 class="card-header border-white">{{ index + 1 }}: {{ sadhana.ime }}</h3>
+                        <div class="col-lg-9 bg-dark shadow-card border-dark rounded-0 bg-image-cards bg-opacity-75 text-white">
+                            <h3 class="card-header border-0 bg-transparent">{{ index + 1 }}: {{ sadhana.ime }}</h3>
                             <div class="card-body">
                                 <p class="card-text">{{ sadhana.opis }}</p>
                                 <p class="card-text text-end"><small class="text-white-50">Minimalni čas za to sadhano: {{ sadhana.cas }} meseca</small></p>
                             </div>
                             <div class="d-grid gap-2">
-                                <router-link class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                                <router-link class="btn btn-warning card-footer border-dark rounded-0 bg-tarot fs-5 fw-bold"
                                              :to="`${sadhana.to}`"> Naprej na sadhano
                                 </router-link>
                             </div>

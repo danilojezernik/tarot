@@ -32,7 +32,7 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col " v-for="(card, index) in cards" :key="index">
-                <div class="card shadow bg-dark text-white text-center border-0 rounded-2 bg-image-cards bg-opacity-75">
+                <div class="card shadow-card bg-dark text-white text-center border-dark rounded-0 bg-image-cards bg-opacity-75">
                     <div class="row g-0 d-flex align-items-center justify-content-center">
                         <div class="card-body">
                             <h2 class="card-title">{{ card.povezava }}</h2>
@@ -40,7 +40,7 @@
                             <p class="card-text" v-html="card.opis"></p>
                         </div>
                         <router-link :to="card.to"
-                                     class="btn btn-warning card-footer border-dark bg-header fs-5 fw-bold">
+                                     class="btn btn-warning card-footer rounded-0 border-0 bg-header fs-5 fw-bold">
                             {{ card.link }}
                         </router-link>
                     </div>
@@ -51,7 +51,7 @@
 </div>
 
 <div class="container-fluid py-4 bg-dark bg-gradient text-white">
-    <div class="container p-4">
+    <div class="container p-2">
         <div class="text-center pb-3">
             <h2 class="fw-bold">Karta dneva je: {{ currentImageName }}</h2>
             <p class="lead"> Naključno izbrana karta iz tarota, ki se menja vsakih 24 ur. Je karta dneva in na podana
@@ -72,3 +72,5 @@
         </div>
     </div>
 </div>
+
+

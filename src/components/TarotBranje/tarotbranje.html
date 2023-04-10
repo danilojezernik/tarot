@@ -1,4 +1,4 @@
-<div class="container-fluid text-white bg-tarot-index shadow-sm">
+<div class="container-fluid text-white bg-tarot-index">
     <div class="container p-md-4 p-2">
         <div class="fs-1 fw-bold">
             Tarot postavitve
@@ -14,21 +14,24 @@
     </div>
 </div>
 
-<div class="container-fluid p-0 bg-tarot">
+<div class="container-fluid p-0 bg-tarot rounded-0 pb-3">
     <div class="container p-3">
         <div class="py-4 text-center">
             <h1>Postavitev tarot kart</h1>
             <p class="lead">Pred mešanjem kart si vedno vzemite čas, da se sprostite in postavite vprašanje. Med
                 mešanjem se osredotočite na vprašanje in ga resnično začutite. Ko boste dobili občutek, da so karte
                 dovolj pomešane in, da bodo odgovorile, jih pričnite obračati.</p>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center">
+            <div class=" d-none d-md-block">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
         </div>
 
         <div class="row row-cols-1 row-cols-xl-3 g-4">
             <!-- 1 karta -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">1 karta</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 border-dark border-1 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">1 karta</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Pri branju z eno karto je odličen način ta, da spoznamo pomen karte in se z
                             njo povežemo, hkrati pa
@@ -38,7 +41,7 @@
                             "Da" ali "Ne" ali pa "Morda". Vsekakor je ta odgovor zelo površinski in je primeren za hitre
                             odločitve.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 rounded-0 bg-tarot rounded-0 fs-5 fw-bold"
                             @click="showModal1 = true">
                         Obrni
                     </button>
@@ -46,8 +49,9 @@
             </div>
             <!-- 3 karte -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">3 karte</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 border-dark border-1 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">3 karte</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Ta postavitev kart je odlična za manjše branje in pa za bolj natačni
                             odgovor pri vprašanjih, ki zahtevajo odgovor "Da" ali "Ne". Če je odgovor 3x "Da" potem je
@@ -57,7 +61,7 @@
                             um, 2. telo, 3. duša ali pa 1. ljubezen, 2. denar, 3. dom ali 1. situacija, 2. ovire, 3.
                             nasvet.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModal2 = true">
                         Obrni
                     </button>
@@ -65,8 +69,9 @@
             </div>
             <!-- Keltski križ -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">Keltski križ</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">Keltski križ</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Karta 1 predstavlja sedanjost, kaj se trenutno dogaja. Karta 2 predstavlja
                             izziv ali težavo s katero se trenutno soočate. Karta 2 predstavlja preteklost oziroma
@@ -77,7 +82,7 @@
                             ljudi, energij ali dogodkov. Karta 9 je karta upanja in/ali strahov. In karta 10 je karta
                             rezultata oziroma kam vodi situacija in kako težavo rešiti.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModal4 = true">
                         Obrni
                     </button>
@@ -85,8 +90,9 @@
             </div>
             <!-- Pretekla življenja -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">Pretekla življenja</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">Pretekla življenja</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Karta 1 predstavlja, kakšen je vpliv le teh na vaša čustva, karta 2
                             predstavlja kakšen je vpliv na vaše duševno stanje, karta 3 kakšen je vpliv na vaše duhovno
@@ -95,7 +101,7 @@
                             predstavlja vpliv preteklega življenja na sedanje življenje in karta 8 predstavlja vpliv
                             preteklega življenja na vašo prihodnost.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModal5 = true">
                         Obrni
                     </button>
@@ -103,8 +109,9 @@
             </div>
             <!-- Mandala -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">Mandala</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">Mandala</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Karta 1 predstavlja vas. Karta 2 predstavlja vaše ambicije, želje in
                             primarne pozive. Karta 3 predstavlja Ideale, cilje in pot do duhovnega zadovoljstva. Karta 4
@@ -113,7 +120,7 @@
                             lastnosti. Karta 7 predstavlja napake in slabosti. Karta 8 govori o vašem samozavedanju in
                             samopodobi in karta 9 o vaših željah in višjih namenih.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModal7 = true">
                         Obrni
                     </button>
@@ -121,8 +128,9 @@
             </div>
             <!-- Vaše rojstvo -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">Vaše rojstvo</h3>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">Vaše rojstvo</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">Karta 1 predstavlja vaše trenutno mesto v svetu. Karta dva predstavlja vaše
                             cilje za naslednje leto. Karta 3 govori o tem, kaj je tisto, kar vam daje moč. Karta 4
@@ -131,7 +139,7 @@
                             predstavlja vaše trenutno duhovno stanje. Karta 8 predstavlja nasprotovanja in karta 9
                             dejanja, ki so potrebna za doseganje ciljev.</p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModal8 = true">
                         Obrni
                     </button>
@@ -603,12 +611,12 @@
         <div class="row row-cols-1 row-cols-xl-1 g-4">
             <!-- 0 - Norec -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Norec: Poglej preden skočiš</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent">Norec: Poglej preden skočiš</h3>
                     <div class="card-body">
                         <div v-html="opisFool"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalFool = true">
                         Obrni
                     </button>
@@ -616,12 +624,12 @@
             </div>
             <!-- 1 - Magik -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Magik: Spoznajte svojo moč; Uporabite svoja orodja</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Magik: Spoznajte svojo moč; Uporabite svoja orodja</h4>
                     <div class="card-body">
                         <div v-html="opisMagician"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalMagician = true">
                         Obrni
                     </button>
@@ -629,12 +637,12 @@
             </div>
             <!-- 2 - Visoka Svečenica 1 -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Visoka Svečenica: Skrivni svet sanj</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Visoka Svečenica: Skrivni svet sanj</h4>
                     <div class="card-body">
                         <div v-html="opisPriestessOne"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalPriestessOne = true">
                         Obrni
                     </button>
@@ -642,12 +650,12 @@
             </div>
             <!-- 2 - Visoka Svečenica 2 -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Visoka Svečenica: Intuitivni vpogled</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Visoka Svečenica: Intuitivni vpogled</h4>
                     <div class="card-body">
                         <div v-html="opisPriestessTwo"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalPriestessTwo = true">
                         Obrni
                     </button>
@@ -655,12 +663,12 @@
             </div>
             <!-- 3 - Cesarica -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Cesarica: Nega se začne pri sebi</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Cesarica: Nega se začne pri sebi</h4>
                     <div class="card-body">
                         <div v-html="opisEmpress"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalEmpress = true">
                         Obrni
                     </button>
@@ -668,12 +676,12 @@
             </div>
             <!-- 4 - Cesar -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Cesar: Zmagoviti načrt</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Cesar: Zmagoviti načrt</h4>
                     <div class="card-body">
                         <div v-html="opisEmperor"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalEmperor = true">
                         Obrni
                     </button>
@@ -681,12 +689,12 @@
             </div>
             <!-- 5 - Svečenik -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Svečenik: Iskanje sveta modreca</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Svečenik: Iskanje sveta modreca</h4>
                     <div class="card-body">
                         <div v-html="opisHierophant"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalHierophant = true">
                         Obrni
                     </button>
@@ -694,12 +702,12 @@
             </div>
             <!-- 6 - Ljubimca 1 -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Ljubimca: Za pare</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Ljubimca: Za pare</h4>
                     <div class="card-body">
                         <div v-html="opisLoversOne"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalLoversOne = true">
                         Obrni
                     </button>
@@ -707,12 +715,12 @@
             </div>
             <!-- 6 - Ljubimca 2-->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Ljubimca: Za samske</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Ljubimca: Za samske</h4>
                     <div class="card-body">
                         <div v-html="opisLoversTwo"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalLoversTwo = true">
                         Obrni
                     </button>
@@ -720,12 +728,12 @@
             </div>
             <!-- 7 - Kočija -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Kočija: Neomajni razgled</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Kočija: Neomajni razgled</h4>
                     <div class="card-body">
                         <div v-html="opisChariot"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalChariot = true">
                         Obrni
                     </button>
@@ -733,12 +741,12 @@
             </div>
             <!-- 8 - Moč -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Moč: Zmaga nad strahom</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Moč: Zmaga nad strahom</h4>
                     <div class="card-body">
                         <div v-html="opisStrength"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalStrength = true">
                         Obrni
                     </button>
@@ -746,12 +754,12 @@
             </div>
             <!-- 9 - Puščavnik -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Puščavnik: Pojdi vase</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Puščavnik: Pojdi vase</h4>
                     <div class="card-body">
                         <div v-html="opisHermit"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalHermit = true">
                         Obrni
                     </button>
@@ -759,12 +767,12 @@
             </div>
             <!-- 10 - Kolo sreče -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Kolo sreče: Karmične lekcije</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Kolo sreče: Karmične lekcije</h4>
                     <div class="card-body">
                         <div v-html="opisWheel"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalWheel = true">
                         Obrni
                     </button>
@@ -772,12 +780,12 @@
             </div>
             <!-- 11 - Pravica -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Pravica: Resnica v ravnotežju</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Pravica: Resnica v ravnotežju</h4>
                     <div class="card-body">
                         <div v-html="opisJustice"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalJustice = true">
                         Obrni
                     </button>
@@ -785,12 +793,12 @@
             </div>
             <!-- 12 - Obešenec -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Obešenec: Resnica v perspektivi</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Obešenec: Resnica v perspektivi</h4>
                     <div class="card-body">
                         <div v-html="opisHanged"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalHanged = true">
                         Obrni
                     </button>
@@ -798,12 +806,12 @@
             </div>
             <!-- 15 - Smrt -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Smrt: Sprejemanje sprememb</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Smrt: Sprejemanje sprememb</h4>
                     <div class="card-body">
                         <div v-html="opisDeath"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalDeath = true">
                         Obrni
                     </button>
@@ -811,12 +819,12 @@
             </div>
             <!-- 16 - Zmernost -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Zmernost: Sveta poravnava</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Zmernost: Sveta poravnava</h4>
                     <div class="card-body">
                         <div v-html="opisTemperance"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalTemperance = true">
                         Obrni
                     </button>
@@ -824,12 +832,12 @@
             </div>
             <!-- 17 - Hudič -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Hudič: Zdrave meje</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Hudič: Zdrave meje</h4>
                     <div class="card-body">
                         <div v-html="opisDevil"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalDevil = true">
                         Obrni
                     </button>
@@ -837,12 +845,12 @@
             </div>
             <!-- 18 - Trdnjava -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Trdnjava: Onkraj ruševin</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Trdnjava: Onkraj ruševin</h4>
                     <div class="card-body">
                         <div v-html="opisTower"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalTower = true">
                         Obrni
                     </button>
@@ -850,12 +858,12 @@
             </div>
             <!-- 19 - Zvezda -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Zvezda: Luč, ki vodi</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Zvezda: Luč, ki vodi</h4>
                     <div class="card-body">
                         <div v-html="opisStar"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalStar = true">
                         Obrni
                     </button>
@@ -863,12 +871,12 @@
             </div>
             <!-- 20 - Luna -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Luna: Sence v središču</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Luna: Sence v središču</h4>
                     <div class="card-body">
                         <div v-html="opisMoon"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalMoon = true">
                         Obrni
                     </button>
@@ -876,12 +884,12 @@
             </div>
             <!-- 21 - Sonce -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Sonce: Najboljši obraz naprej</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Sonce: Najboljši obraz naprej</h4>
                     <div class="card-body">
                         <div v-html="opisSun"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalSun = true">
                         Obrni
                     </button>
@@ -889,12 +897,12 @@
             </div>
             <!-- 22 - Sodba -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Sodba: Upoštevajte klic</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Sodba: Upoštevajte klic</h4>
                     <div class="card-body">
                         <div v-html="opisJudgement"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalJudgement = true">
                         Obrni
                     </button>
@@ -902,12 +910,12 @@
             </div>
             <!-- 23 - Svet -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Svet: Prihaja poln krog</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Svet: Prihaja poln krog</h4>
                     <div class="card-body">
                         <div v-html="opisWorld"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalWorld = true">
                         Obrni
                     </button>
@@ -915,12 +923,12 @@
             </div>
             <!-- 24 - 22 Kart -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-white">Celotna slika z 22 kartami</h4>
+                <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
+                    <h4 class="card-header border-0 bg-transparent">Celotna slika z 22 kartami</h4>
                     <div class="card-body">
                         <div v-html="opisAll"></div>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 bg-tarot rounded-0 rounded-0 fs-5 fw-bold"
                             @click="showModalWholePicture = true">
                         Obrni
                     </button>
@@ -2638,4 +2646,3 @@
 </div>
 
 
-<app-navrh/>

@@ -137,12 +137,14 @@ li + .breadcrumb-item::before {
     transform: rotateY( 180deg );
 }
 
+.shadow-card {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 
 /* TEXT SHADOW */
 
 .text-shadow {
     text-shadow: 1px 1px 2px black;
-
 }
 
 /* Index of image */

@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="container-fluid p-0 bg-tarot position-relative">
+<div class="container-fluid p-0 bg-tarot position-relative pb-3">
     <div class="container p-3">
         <div class="py-4 text-center">
             <h1>Meditacija</h1>
@@ -46,8 +46,9 @@
         <div class="row row-cols-1 row-cols-xl-3 g-4 pt-3">
             <!-- Meditacija na mirnost telesa in tratak -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">{{ meditacijaPrva }}</h3>
+                <div class="card bg-dark border-dark rounded-0 shadow-card bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">{{ meditacijaPrva }}</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaTelo }}</p>
                     </div>
@@ -55,7 +56,7 @@
                         <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo:
                             {{ casEna }} meseca</small></p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 rounded-0 bg-tarot fs-5 fw-bold"
                             @click="showModalTelo = true">
                         Obrni
                     </button>
@@ -63,8 +64,9 @@
             </div>
             <!-- Meditacija na dih in čakre -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">{{ meditacijaDruga }}</h3>
+                <div class="card bg-dark border-dark rounded-0 shadow-card bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">{{ meditacijaDruga }}</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaDih }}</p>
                     </div>
@@ -72,7 +74,7 @@
                         <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo:
                             {{ casDva }} meseca</small></p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 rounded-0 bg-tarot fs-5 fw-bold"
                             @click="showModalDih = true">
                         Obrni
                     </button>
@@ -80,8 +82,9 @@
             </div>
             <!-- Meditacija na tarot -->
             <div class="col">
-                <div class="card bg-dark shadow bg-image-cards bg-opacity-75 text-white h-100">
-                    <h3 class="card-header border-white">{{ meditacijaTretja }}</h3>
+                <div class="card bg-dark border-dark rounded-0 shadow-card bg-image-cards bg-opacity-75 text-white h-100">
+                    <h3 class="card-header border-0 bg-transparent text-center">{{ meditacijaTretja }}</h3>
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
                     <div class="card-body">
                         <p class="card-text">{{ meditacijaRojstvo }}</p>
                     </div>
@@ -89,7 +92,7 @@
                         <p class="card-text text-center"><small class="text-white-50">Minimalni čas za to meditacijo:
                             {{ casTri }} meseca</small></p>
                     </div>
-                    <button class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                    <button class="btn btn-warning card-footer border-0 rounded-0 bg-tarot fs-5 fw-bold"
                             @click="showModalMeditacija = true">
                         Obrni
                     </button>
@@ -185,4 +188,4 @@
 </div>
 
 
-<app-navrh/>
+

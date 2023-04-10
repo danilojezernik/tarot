@@ -30,11 +30,11 @@
             <div class="col-lg-6 p-3">
 
                 <div class="row pb-2" v-for="(opis, index) in opisi" :key="index">
-                    <div class="col-lg-12">
-                        <div class="card border-0 shadow bg-dark bg-image-cards bg-opacity-75 text-white">
+                    <div class="col-lg-12 pb-3">
+                        <div class="card border-dark rounded-0 shadow-card bg-dark bg-image-cards bg-opacity-75 text-white">
                             <div class="row g-0">
                                 <div class="col-lg-12">
-                                    <h2 class="card-header border-white">{{ opis.naslov }}</h2>
+                                    <h2 class="card-header border-0 bg-transparent">{{ opis.naslov }}</h2>
                                     <div class="card-body">
                                         <p class="card-text" v-html="opis.opis">
 
@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="d-grid gap-2">
                                         <router-link
-                                                class="btn btn-warning card-footer border-dark bg-tarot fs-5 fw-bold"
+                                                class="btn btn-warning card-footer border-0 rounded-0 bg-tarot fs-5 fw-bold"
                                                 :to="opis.to">
                                             Beri dalje
                                         </router-link>
