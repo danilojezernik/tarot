@@ -568,25 +568,25 @@ export default {
                 },
                 {
                     name: 'Vitez palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Vitez nosi palico in galopira mimo piramid, ki so simbol duhovnega stremljenja, na živahnem konju. Vitez palic z navdušenjem prevzame moč, ki se jo je naučil kot paž ali vajenec, in jo vključi v svoje življenje. Ta vitez je odločen in osredotočen na aktivno uporabo načela usklajevanja svoje volje z eno božansko voljo za toliko situacij, na kolikor se jih lahko spomni.</p><p>Ali začenjate ali zaključujete pomemben prehod? Ali tvegate po potrebi ali po nepotrebnem? Vam pomanjkanje vezi olajša spremembo službe, kariere ali prebivališča? Pred katero zatiralno osebo ali situacijo bežite? Katerim idejam ali spoznanjem morate slediti? Nad katerimi nauki ali filozofijo ste navdušeni? Se odpravljate na pustolovščino? Kaj vas vznemirja? Kateri duhovni navdih vas vodi naprej? Bijete svojo bitko? Ali ste duhovno iniciaciirani? Zakaj imate težave pri sprejemanju obveznosti? Ali želite osredotočiti svojo energijo? Kako se soočate z opozicijo? Kaj vas je nenadoma navdihnilo, da poskusite? Kaj želite dokazati ali premagati? Ali bi lahko upoštevanje intuicijskega vodenja pomagalo, ko vas imobilizira preveč informacij? Se počutite spolno pustolovski? Zakaj se ne morete umiriti ali napolniti z energijo? Ste polni energije ali vam je primanjkuje? Zakaj ste nestrpni?</p>',
                     src: knightwands,
                     to: "/vitezpalic"
                 },
                 {
                     name: 'Vitez palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Vitez nosi palico in galopira mimo piramid, ki so simbol duhovnega stremljenja, na živahnem konju. Vitez palic z navdušenjem prevzame moč, ki se jo je naučil kot paž ali vajenec, in jo vključi v svoje življenje. Ta vitez je odločen in osredotočen na aktivno uporabo načela usklajevanja svoje volje z eno božansko voljo za toliko situacij, na kolikor se jih lahko spomni.</p><p>Ali začenjate ali zaključujete pomemben prehod? Ali tvegate po potrebi ali po nepotrebnem? Vam pomanjkanje vezi olajša spremembo službe, kariere ali prebivališča? Pred katero zatiralno osebo ali situacijo bežite? Katerim idejam ali spoznanjem morate slediti? Nad katerimi nauki ali filozofijo ste navdušeni? Se odpravljate na pustolovščino? Kaj vas vznemirja? Kateri duhovni navdih vas vodi naprej? Bijete svojo bitko? Ali ste duhovno iniciaciirani? Zakaj imate težave pri sprejemanju obveznosti? Ali želite osredotočiti svojo energijo? Kako se soočate z opozicijo? Kaj vas je nenadoma navdihnilo, da poskusite? Kaj želite dokazati ali premagati? Ali bi lahko upoštevanje intuicijskega vodenja pomagalo, ko vas imobilizira preveč informacij? Se počutite spolno pustolovski? Zakaj se ne morete umiriti ali napolniti z energijo? Ste polni energije ali vam je primanjkuje? Zakaj ste nestrpni?</p>',
                     src: knightwandsDown,
                     to: "/vitezpalic"
                 },
                 {
                     name: 'Kraljica palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samoponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
                     src: queenwands,
                     to: "/kraljicapalic"
                 },
                 {
                     name: 'Kraljica palic',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica palic sedi in drži simbole svoje oblasti, palico v desni roki in sončnico v levi, kar pomeni njeno povezavo z božanskim. Njen prestol je okrašen z levi, kar kaže na svojevoljnost, samoponos, dostojanstvo in dominantnost. Črna mačka, udomačena žival, sedi ob njenih nogah, kar nakazuje, da ima gojene nadnaravne moči. Asertivna, ekstrovertirana in samozavestna kraljica palic namerava vladati z ljubeznijo in razumevanjem ter svoje dolžnosti opravlja s to mislijo v ospredju.</p><p>Koga ali kaj navdihujete ali vas navdihuje? Ste polni idej in energije? Imate raje spontanost kot pa načrtovanje? Se počutite vitalni in močni? S katero žensko avtoriteto se srečujete? Ali vas imajo drugi za nekoga z vpogledom in intuicijo? Ali duhovne vpoglede uporabljate v praktične namene? Zakaj pretiravate pri sebi? Kdo izziva vašo avtoriteto? Zakaj ste tako samovoljni ali egoistični? Koga ščitite? Do česa ali koga se počutite strastno ali brez strasti? Ali se zahtevajo vaše vodstvene sposobnosti? Ste neodvisni mislec? Kako bi lahko uporabili moč pozitivnega mišljenja? Kakšne ambicije uresničujete oziroma katere ambicije so vam onemogočene? Ste ponosni nase? Ali morate biti bolj ekstrovertirani? Kaj pridobite ali izgubite s plezanjem po lestvici v podjetju? Kakšnega razumevanja ste deležni?</p>',
                     src: queenwandsDown,
                     to: "/kraljicapalic"
                 },
@@ -737,25 +737,25 @@ export default {
                 },
                 {
                     name: 'Vitez kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ta graciozni (ne bojeviti) vitez tiho jezdi in v desni roki izteguje kelih, simbol ustvarjalne podobe in želje. Njegova krilata čelada nakazuje, da njegova domišljija poleti. Vitez kelihov vzame tisto, kar se je naučil kot paž – moč svojih občutkov in domišljije – in to vključuje v svoje vsakdanje življenje. Ta vitez si aktivno predstavlja, kako uskladi svoje želje in fantazije z realnostjo tega, kar mu je dano kot sredstvo za nadaljnji razvoj in nesebično služenje drugim.</p><p>Ali sledite svojim sanjam? Kakšno priložnost ponujate ali se vam ponuja? Ali razmerje spreminja smer? Ste odprti za dajanje ali prejemanje ljubezni? Katere storitve opravljate kot prostovoljec? Ali vaše sanje nosijo sporočila? Kako se spopadate s svojo preobčutljivostjo? Kakšne občutke ali sanje delite? Ali odkrivate moč ustvarjalnih podob? Se vaše fantazije nenehno spreminjajo? Imate morda pasivno-agresivno osebnost? Ali doživljate obdobje čustvenih preizkušenj? Ali raziskujete svoja čustva? Ali čakate na nekoga, ki vam bo priskočil na pomoč? Izgubljate ali ohranjate svojo nedolžnost? Se odpravljate na sanjsko potovanje? Ali raziskujete "druge svetove" s snovmi, ki širijo um (kot so na primer ajavaska, marihuana,..)? Ali vaša dejanja pogosto motivira sočutje? Vam je morda preveč mar za druge in premalo mar zase? Kakšno iluzijo skušate izpeljati?</p>',
                     src: knightcups,
                     to: "/vitezkelihov"
                 },
                 {
                     name: 'Vitez kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Ta graciozni (ne bojeviti) vitez tiho jezdi in v desni roki izteguje kelih, simbol ustvarjalne podobe in želje. Njegova krilata čelada nakazuje, da njegova domišljija poleti. Vitez kelihov vzame tisto, kar se je naučil kot paž – moč svojih občutkov in domišljije – in to vključuje v svoje vsakdanje življenje. Ta vitez si aktivno predstavlja, kako uskladi svoje želje in fantazije z realnostjo tega, kar mu je dano kot sredstvo za nadaljnji razvoj in nesebično služenje drugim.</p><p>Ali sledite svojim sanjam? Kakšno priložnost ponujate ali se vam ponuja? Ali razmerje spreminja smer? Ste odprti za dajanje ali prejemanje ljubezni? Katere storitve opravljate kot prostovoljec? Ali vaše sanje nosijo sporočila? Kako se spopadate s svojo preobčutljivostjo? Kakšne občutke ali sanje delite? Ali odkrivate moč ustvarjalnih podob? Se vaše fantazije nenehno spreminjajo? Imate morda pasivno-agresivno osebnost? Ali doživljate obdobje čustvenih preizkušenj? Ali raziskujete svoja čustva? Ali čakate na nekoga, ki vam bo priskočil na pomoč? Izgubljate ali ohranjate svojo nedolžnost? Se odpravljate na sanjsko potovanje? Ali raziskujete "druge svetove" s snovmi, ki širijo um (kot so na primer ajavaska, marihuana,...)? Ali vaša dejanja pogosto motivira sočutje? Vam je morda preveč mar za druge in premalo mar zase? Kakšno iluzijo skušate izpeljati?</p>',
                     src: knightcupsDown,
                     to: "/vitezkelihov"
                 },
                 {
                     name: 'Kraljica kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica kelihov sedi na obali in opazuje ali s svojim kelihom vidi v prihodnost. Njen prestol, okrašen z vodnimi nimfami, simbolizira njeno oblast nad elementom vode. Intuitivna, psihična, domiselna, ustvarjalna, čustvena in preroška Kraljica kelihov je sanjač in vizionarka. Razume, da tisto, kar pričara, odraža njeno stanje zavesti. Iz spoštovanja do svojega položaja kraljica razlaga, kar ji pride, v smislu duhovnih zakonov in načel.</p><p>O čem sanjate? Kako živite svoje sanje? Ali se umikate vase, da bi obvladovali nerazrešena čustva? Koga kaznujete z umikom? Je to za vas čustven čas? Ali vi vladate svojim občutkom ali občutki vladajo vam? Za kaj ste dojemljivi ali kaj zavračate? Kdo vas utaplja v ljubezni? Kaj vas očara? Ali živite v drugem svetu? Ali imate opravka s čustvenim neravnovesjem ali depresijo? Ali se morda samozdravite z drogami ali alkoholom? Ste morda preveč vtisljivi? O čem razmišljate? Kaj si kar naprej domišljate? Koga nezavedno zapeljujete? Je vaša občutljivost povečana ali oslabljena? Ali izražate ali skrivate svoja čustva? Do koga se počutite romantično? Kaj razumete skozi psihične ali mistične izkušnje? Koga morda preveč ljubite?</p>',
                     src: queencups,
                     to: "/kraljicakelihov"
                 },
                 {
                     name: 'Kraljica kelihov',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica kelihov sedi na obali in opazuje ali s svojim kelihom vidi v prihodnost. Njen prestol, okrašen z vodnimi nimfami, simbolizira njeno oblast nad elementom vode. Intuitivna, psihična, domiselna, ustvarjalna, čustvena in preroška Kraljica kelihov je sanjač in vizionarka. Razume, da tisto, kar pričara, odraža njeno stanje zavesti. Iz spoštovanja do svojega položaja kraljica razlaga, kar ji pride, v smislu duhovnih zakonov in načel.</p><p>O čem sanjate? Kako živite svoje sanje? Ali se umikate vase, da bi obvladovali nerazrešena čustva? Koga kaznujete z umikom? Je to za vas čustven čas? Ali vi vladate svojim občutkom ali občutki vladajo vam? Za kaj ste dojemljivi ali kaj zavračate? Kdo vas utaplja v ljubezni? Kaj vas očara? Ali živite v drugem svetu? Ali imate opravka s čustvenim neravnovesjem ali depresijo? Ali se morda samozdravite z drogami ali alkoholom? Ste morda preveč vtisljivi? O čem razmišljate? Kaj si kar naprej domišljate? Koga nezavedno zapeljujete? Je vaša občutljivost povečana ali oslabljena? Ali izražate ali skrivate svoja čustva? Do koga se počutite romantično? Kaj razumete skozi psihične ali mistične izkušnje? Koga morda preveč ljubite?</p>',
                     src: queencupsDown,
                     to: "/kraljicakelihov"
                 },
@@ -906,25 +906,25 @@ export default {
                 },
                 {
                     name: 'Vitez mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Z izvlečenim mečem ta vitez dirka s polno hitrostjo, kot da bi jurišal v boj. Vitez mečev prevzame veščino, ki se je je naučil, kot paž – moč miselne formulacije, analize in razsodnosti – in jo aktivno vključuje v svoje vsakdanje življenje. Ta izjemno pozoren vitez uporablja svojo mentalno bistrost, da prereže težave – ločuje zrnje od pleva – in tako sprejema najboljše in najbolj zdrave odločitve, ki jih je sposoben sprejemati. Nato voljno sprejme odgovornost za rezultate in se iz njih uči.</p><p>Ste kljub vsem težavam pogumni? Kakšno nasilje se dogaja? V kateri konflikt vas sili vaš jaz? Kaj želite povedati? Namesto koga govorite ali proti komu govorite? Ali vodite pravičen boj? Ali se borite za izgubljen primer? Kam vas pelje vaš svojeglav odnos? S katero resnico ali dejstvi ste oboroženi? Komu bi lahko pristopili bolj previdno? Bi lahko bila taktnost koristna? Ali sprejemate nove ukrepe? Ali se zavedate posledic svojih nepremišljenih ali premišljenih besed? Kam se vam mudi? Vas priložnost za učenje spodbuja? Je za vami obdobje psihične stagnacije? Kdo ogroža vaše pravice? Čemu se upirate ali predajate? V kaj bi se lahko preveč vneto vključili? Na kakšno delovanje ste navezani? Se počutite zelo možato? Ste psihično polni energije ali doživljate izgorelost?</p>',
                     src: knightswords,
                     to: "/vitezmecev"
                 },
                 {
                     name: 'Vitez mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Z izvlečenim mečem ta vitez dirka s polno hitrostjo, kot da bi jurišal v boj. Vitez mečev prevzame veščino, ki se je je naučil, kot paž – moč miselne formulacije, analize in razsodnosti – in jo aktivno vključuje v svoje vsakdanje življenje. Ta izjemno pozoren vitez uporablja svojo mentalno bistrost, da prereže težave – ločuje zrnje od pleva – in tako sprejema najboljše in najbolj zdrave odločitve, ki jih je sposoben sprejemati. Nato voljno sprejme odgovornost za rezultate in se iz njih uči.</p><p>Ste kljub vsem težavam pogumni? Kakšno nasilje se dogaja? V kateri konflikt vas sili vaš jaz? Kaj želite povedati? Namesto koga govorite ali proti komu govorite? Ali vodite pravičen boj? Ali se borite za izgubljen primer? Kam vas pelje vaš svojeglav odnos? S katero resnico ali dejstvi ste oboroženi? Komu bi lahko pristopili bolj previdno? Bi lahko bila taktnost koristna? Ali sprejemate nove ukrepe? Ali se zavedate posledic svojih nepremišljenih ali premišljenih besed? Kam se vam mudi? Vas priložnost za učenje spodbuja? Je za vami obdobje psihične stagnacije? Kdo ogroža vaše pravice? Čemu se upirate ali predajate? V kaj bi se lahko preveč vneto vključili? Na kakšno delovanje ste navezani? Se počutite zelo možato? Ste psihično polni energije ali doživljate izgorelost?</p>',
                     src: knightswordsDown,
                     to: "/vitezmecev"
                 },
                 {
                     name: 'Kraljica mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica mečev je obrnjena postrani, z desnico drži meč pokonci, levo pa iztegnjeno v pozdrav. Njen resen izraz in pokončna drža nakazujeta, da je seznanjena z dolžnostmi vladanja. Blagoslovljena je z močjo pravičnosti, neodvisnosti, večdimenzionalnega razmišljanja in samoodločnosti. Njen prestol krasijo krilati kerubi in metulji. Tudi njena krona je narejena iz metuljev, ki simbolizirajo dejstvo, da razume transformativno moč analitičnega razmišljanja, ki ga motivira ljubezen.</p><p>Ste morda ženska v moškem svetu? Kako se uveljavljate? Bi lahko postavili boljše meje? Ste netolerantni? Kakšno resnico zagovarjate? Ali uživate v svojem podjetju? Kam bi lahko dodali kanček ljubezni, prijaznosti, sočutja ali humorja? Ste povezani z visoko motivirano in neodvisno žensko? Od česa mislite, da se morate ločiti ali oddaljiti? Ste zaradi bolečine in žalosti manj čustveni in bolj razumni? Uporabljate ali skrivate svojo inteligenco? Za kaj vas kličejo ali od vas zahtevajo, da analizirate? Bi bili raje sami kot pa z neinteligentnimi ljudmi? Ste preveč kul? Bi lahko bili intelektualni snob? Katere zakone uveljavljate? Se radi učite in kritično razmišljate? Ali preveč obsojate sebe ali druge? Zakaj bi lahko drugi vašo nečustvenost razumeli kot hladnost? Kakšne načrte uresničujete? Kaj nameravate narediti?</p>',
                     src: queenswords,
                     to: "/kraljicamecev"
                 },
                 {
                     name: 'Kraljica mečev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica mečev je obrnjena postrani, z desnico drži meč pokonci, levo pa iztegnjeno v pozdrav. Njen resen izraz in pokončna drža nakazujeta, da je seznanjena z dolžnostmi vladanja. Blagoslovljena je z močjo pravičnosti, neodvisnosti, večdimenzionalnega razmišljanja in samoodločnosti. Njen prestol krasijo krilati kerubi in metulji. Tudi njena krona je narejena iz metuljev, ki simbolizirajo dejstvo, da razume transformativno moč analitičnega razmišljanja, ki ga motivira ljubezen.</p><p>Ste morda ženska v moškem svetu? Kako se uveljavljate? Bi lahko postavili boljše meje? Ste netolerantni? Kakšno resnico zagovarjate? Ali uživate v svojem podjetju? Kam bi lahko dodali kanček ljubezni, prijaznosti, sočutja ali humorja? Ste povezani z visoko motivirano in neodvisno žensko? Od česa mislite, da se morate ločiti ali oddaljiti? Ste zaradi bolečine in žalosti manj čustveni in bolj razumni? Uporabljate ali skrivate svojo inteligenco? Za kaj vas kličejo ali od vas zahtevajo, da analizirate? Bi bili raje sami kot pa z neinteligentnimi ljudmi? Ste preveč kul? Bi lahko bili intelektualni snob? Katere zakone uveljavljate? Se radi učite in kritično razmišljate? Ali preveč obsojate sebe ali druge? Zakaj bi lahko drugi vašo nečustvenost razumeli kot hladnost? Kakšne načrte uresničujete? Kaj nameravate narediti?</p>',
                     src: queenswordsDown,
                     to: "/kraljicamecev"
                 },
@@ -1075,25 +1075,25 @@ export default {
                 },
                 {
                     name: 'Vitez pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Vitez, ki jezdi delovnega konja, drži pentakelj v iztegnjenih rokah. Vključuje tisto, kar se je naučil kot paž – moč fizičnih stvari, da služijo kot duhovno orodje. Vitez pentakljev je predan obvladovanju vsakodnevnih situacij na duhovne načine - delo, finance, okolje in njegovo fizično zdravje so orodja za njegov duhovni razvoj. Zavezan je živeti duhovno življenje v fizičnem svetu.</p><p>Kaj ste zavezani dokončati? Ali postajate vse bolj zanesljivi ali usmerjeni v podrobnosti? Katerih novih odgovornosti ste veseli? Ali uživate v tem, da ste produktivni? Katera zadeva zahteva vašo takojšnjo pozornost? Se počutite kot vlečni konj – preobremenjeni in premalo cenjeni? Ali uživate v svoji spolnosti? Ali vse, kar počnete, smatrate za duhovno prakso in se popolnoma posvečate vsemu, kar vam je pri roki? Iščete svetovno priznanje ali se temu izogibate? Kako razvijate svoje delo? Ali ste ponosni na to, da ste dobro organizirani in pripravljeni? Ste vztrajni in prevzemate pobudo? Ali trdo delate ali ste leni? Ali preizkušate različne vrste dela, da bi našli tisto, ki vam je všeč? Ali ste radi zunaj na prostem? Ste iznajdljivi – znate iz nič narediti nekaj? Ste telesno aktivni ali prepuščate svoje telo mirovanju? Iščete delo? Kateri rutini se želite izogniti?</p>',
                     src: knightpentacles,
                     to: "/vitezpentakljev"
                 },
                 {
                     name: 'Vitez pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Vitez, ki jezdi delovnega konja, drži pentakelj v iztegnjenih rokah. Vključuje tisto, kar se je naučil kot paž – moč fizičnih stvari, da služijo kot duhovno orodje. Vitez pentakljev je predan obvladovanju vsakodnevnih situacij na duhovne načine - delo, finance, okolje in njegovo fizično zdravje so orodja za njegov duhovni razvoj. Zavezan je živeti duhovno življenje v fizičnem svetu.</p><p>Kaj ste zavezani dokončati? Ali postajate vse bolj zanesljivi ali usmerjeni v podrobnosti? Katerih novih odgovornosti ste veseli? Ali uživate v tem, da ste produktivni? Katera zadeva zahteva vašo takojšnjo pozornost? Se počutite kot vlečni konj – preobremenjeni in premalo cenjeni? Ali uživate v svoji spolnosti? Ali vse, kar počnete, smatrate za duhovno prakso in se popolnoma posvečate vsemu, kar vam je pri roki? Iščete svetovno priznanje ali se temu izogibate? Kako razvijate svoje delo? Ali ste ponosni na to, da ste dobro organizirani in pripravljeni? Ste vztrajni in prevzemate pobudo? Ali trdo delate ali ste leni? Ali preizkušate različne vrste dela, da bi našli tisto, ki vam je všeč? Ali ste radi zunaj na prostem? Ste iznajdljivi – znate iz nič narediti nekaj? Ste telesno aktivni ali prepuščate svoje telo mirovanju? Iščete delo? Kateri rutini se želite izogniti?</p>',
                     src: knightpentaclesDown,
                     to: "/vitezpentakljev"
                 },
                 {
                     name: 'Kraljica pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica sedi v čudovitem vrtu in meditira na pentakelj v svojem naročju — gleda vanj, kot bi gledali v kristalno kroglo ko Kraljica kelihov in njen kelih). V naslonjala za roke njenega prestola so vklesane kozje glave, ki simbolizirajo njeno pripravljenost skrbeti za svojo čredo in njeno sposobnost, da se povzpne čez in skozi vsako oviro, da bi dosegla to skrb. Skrbna, delavna, razumska, neomajna in čutna Kraljica pentakljev razume duhovno realnost, ki je prisotna v fizični realnosti.</p><p>Ste materialno varni? je vaša zdrava pamet vaša moč? Ali prispevate k blaginji planeta? Negujete ali pretiravate z drugimi? Ste odgovorna mama ali "mrtva" mama? Je vaša bližina z naravo tudi bližina z božanskim? Ste noseči ali mati? Se ponovno vključujete v delovno silo? Ste finančno neodvisni in človekoljubni? Vam manjka motivacije? Ali obvladate upravljanje denarja? Ste v ciklu gospodinjstva? Ste zadovoljni z domačim življenjem? Vam je dolgčas ali ste navdušeni nad svojo rutino? Ste senzualist? Ali menite, da je fizični svet božanskost v svoji obliki? Ste naravni športnik, plesalec ali jogi? Ste morda bolj v stiku s svojim telesom? Ali ste ženska v moškem telesu? Se spopadate z zdravstvenimi težavami?</p>',
                     src: queenpentacles,
                     to: "/kraljicapentakljev"
                 },
                 {
                     name: 'Kraljica pentakljev',
-                    text: '',
+                    text: '<p><b>Univerzalni arhetip:</b> Kraljica sedi v čudovitem vrtu in meditira na pentakelj v svojem naročju — gleda vanj, kot bi gledali v kristalno kroglo ko Kraljica kelihov in njen kelih). V naslonjala za roke njenega prestola so vklesane kozje glave, ki simbolizirajo njeno pripravljenost skrbeti za svojo čredo in njeno sposobnost, da se povzpne čez in skozi vsako oviro, da bi dosegla to skrb. Skrbna, delavna, razumska, neomajna in čutna Kraljica pentakljev razume duhovno realnost, ki je prisotna v fizični realnosti.</p><p>Ste materialno varni? je vaša zdrava pamet vaša moč? Ali prispevate k blaginji planeta? Negujete ali pretiravate z drugimi? Ste odgovorna mama ali "mrtva" mama? Je vaša bližina z naravo tudi bližina z božanskim? Ste noseči ali mati? Se ponovno vključujete v delovno silo? Ste finančno neodvisni in človekoljubni? Vam manjka motivacije? Ali obvladate upravljanje denarja? Ste v ciklu gospodinjstva? Ste zadovoljni z domačim življenjem? Vam je dolgčas ali ste navdušeni nad svojo rutino? Ste senzualist? Ali menite, da je fizični svet božanskost v svoji obliki? Ste naravni športnik, plesalec ali jogi? Ste morda bolj v stiku s svojim telesom? Ali ste ženska v moškem telesu? Se spopadate z zdravstvenimi težavami?</p>',
                     src: queenpentaclesDown,
                     to: "/kraljicapentakljev"
                 },
@@ -1115,37 +1115,37 @@ export default {
                     povezava: 'Tarot',
                     to: '/tarot',
                     link: 'Razišči karte tarota',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Opis vseh 78 kart iz velike in male arkane tarota in vse kar potrebujete za razumevanje vsake posamezne karte.'
                 },
                 {
                     povezava: 'Tarot vaje',
                     to: '/vaje',
                     link: 'Poveži se s kartami',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Si želite delati s tarotom in se želite spoznati z vsako karto posebej. Če je temu tako, potem je to mesto za vas.'
                 },
                 {
                     povezava: 'Tarot postavitve',
                     to: '/tarotbranje',
                     link: 'Uporabljaj postavitve',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Nimate tarot kart? Se želite seznaniti z različnimi postavitvami kart za posvetovanje? Se želite posvetovati s kartami?'
                 },
                 {
                     povezava: 'Kabala',
                     to: '/kabala',
                     link: 'Več o Kabali',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Kabala, včasih prevedena kot "misticizem" ali "okultno znanje", je del judovske tradicije, ki se ukvarja z bistvom Boga.'
                 },
                 {
                     povezava: 'Qliphoth',
                     to: '/kliphot',
                     link: 'Kaj je Qliphot',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'Qliphoth je iniciacijski sistem, znan tudi kot Drevo smrti, Drevo nočne strani, saj je nasprotna stran Drevesa življenja.'
                 },
                 {
                     povezava: 'Meditacija',
                     to: '/meditacija',
                     link: 'Začnite z meditacijo!',
-                    opis: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    opis: 'S tehnikami meditacije pripravite sebe za nadaljnje, poglobljeno delo na samem sebi, ki lahko ima koristi na mnogih področjih.'
                 },
                 {
                     povezava: 'Sadhana',
