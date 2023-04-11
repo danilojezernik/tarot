@@ -33,6 +33,7 @@ import mindful from '@/assets/literatura/mindful-tarot.jpg'
 import correspondences from '@/assets/literatura/correspondences-tarot.jpg'
 import kabbalahexperiences from '@/assets/literatura/kabala-experiences.jpg'
 import chicken from '@/assets/literatura/chicken.jpg'
+import magical from '@/assets/literatura/magic-qabalah.jpg'
 
 export default {
     data() {
@@ -352,6 +353,15 @@ export default {
                     opis: "Edinstven in šaljiv ter tudi praktičen pristop k vse bolj priljubljenemu preučevanju Kabale. To je res smešna knjiga!",
                     depository: 'https://www.bookdepository.com/Chicken-Qabalah-Rabbi-Lamed-Ben-Clifford-Lon-Milo-Duquette/9781578632152?ref=pd_detail_2_sims_cat_bs_1&qid=1680121979707&sr=1-1-8',
                     avtor: "Naomi Ozaniec"
+                },
+                {
+                    id: 36,
+                    naslovKnjige: "Magical Qabalah",
+                    podnaslov: "A Comprehensive Guide to Occult Knowledge",
+                    image: magical,
+                    opis: "V knjigi Magical Qabalah for Beginners Frater Barrabbas poučuje ritualnega magika in okultnega študenta o zgodovini in teoriji kabale ter njeni praktični ritualni uporabi.",
+                    depository: 'https://www.bookdepository.com/Magical-Qabalah-for-Beginners-Frater-Barrabbas/9780738732442',
+                    avtor: "Frater Barrabbas"
                 }
             ]
         }

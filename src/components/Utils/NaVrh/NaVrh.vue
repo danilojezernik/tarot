@@ -20,6 +20,6 @@ export default {
 
 <style>
 .index-one {
-  z-index: -1;
+  z-index: 1;
 }
 </style>

@@ -19,73 +19,82 @@
 <div class="container-fluid p-0 bg-header">
     <div class="container p-md-4 p-2">
 
-<div class="p-md-2 text-black">
+        <div class="p-md-2 text-black">
 
-    <!-- MINOR ARCANA: PALICE-->
-    <div class="py-4 text-center">
-        <h1 class="text-center">Mala Arkana: Palice</h1>
-        <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-    </div>
+            <!-- MINOR ARCANA: PALICE-->
+            <div class="py-4 text-center">
+                <h1 class="text-center">Mala Arkana: Palice</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
 
-    <p class="lead">Pomeni tarot kart Palic so povezani s primarno energijo, duhovnostjo, navdihom, odločnostjo, močjo,
-        intuicijo, ustvarjalnostjo, ambicijami in širitvijo, izvirno mislijo in semeni, skozi katera se rodi življenje.
-        Obleka palic je povezana z elementom ognja. Ogenj je vroč, divji, nepredvidljiv in energičen. Lahko je
-        ustvarjalen, ko nam pomaga pri kuhanju hrane ali sestavljanju orodja, ali pa je lahko uničujoč, na primer
-        uničujoč požar v gozdu ali hišni požar. Ogenj je simbol strasti, energije, navdušenja in spolnosti. Je moški
-        element in odraža zagon in moč volje moške energije.</p>
+            <p class="lead">Pomeni tarot kart Palic so povezani s primarno energijo, duhovnostjo, navdihom, odločnostjo,
+                močjo,
+                intuicijo, ustvarjalnostjo, ambicijami in širitvijo, izvirno mislijo in semeni, skozi katera se rodi
+                življenje.
+                Obleka palic je povezana z elementom ognja. Ogenj je vroč, divji, nepredvidljiv in energičen. Lahko je
+                ustvarjalen, ko nam pomaga pri kuhanju hrane ali sestavljanju orodja, ali pa je lahko uničujoč, na
+                primer
+                uničujoč požar v gozdu ali hišni požar. Ogenj je simbol strasti, energije, navdušenja in spolnosti. Je
+                moški
+                element in odraža zagon in moč volje moške energije.</p>
 
-    <p class="lead"><span class="fw-bold lead">Kaj pri branju pomenijo tarot karte Palice?</span>
-        Pomeni tarot kart Palice se ukvarjajo z duhovno stopnjo zavesti in odražajo tisto, kar je za vas pomembno v
-        jedru vašega bitja. Obravnavajo tisto, kar vas razveseli – vašo osebnost, ego, navdušenje, samopodobo in osebno
-        energijo, tako notranjo kot zunanjo.</p>
+            <p class="lead"><span class="fw-bold lead">Kaj pri branju pomenijo tarot karte Palice?</span>
+                Pomeni tarot kart Palice se ukvarjajo z duhovno stopnjo zavesti in odražajo tisto, kar je za vas
+                pomembno v
+                jedru vašega bitja. Obravnavajo tisto, kar vas razveseli – vašo osebnost, ego, navdušenje, samopodobo in
+                osebno
+                energijo, tako notranjo kot zunanjo.</p>
 
-    <p class="lead">Negativni vidiki obleke palic vključujejo iluzijo, egoistično vedenje, impulzivnost, pomanjkanje
-        smeri ali namena ali občutek nesmiselnosti.</p>
+            <p class="lead">Negativni vidiki obleke palic vključujejo iluzijo, egoistično vedenje, impulzivnost,
+                pomanjkanje
+                smeri ali namena ali občutek nesmiselnosti.</p>
 
-    <p class="lead">Palice Tarot karte pogosto predstavljajo astrološka znamenja ognja - Leva, Strelca in Ovna. Ko v
-        branju tarota vidite dvorno karto Palic, se pogosto nanaša na osebo zv znamenju Leva, Strelca ali Ovna. Na
-        splošno so ljudje palic energični, karizmatični, topli, duhovni.</p>
+            <p class="lead">Palice Tarot karte pogosto predstavljajo astrološka znamenja ognja - Leva, Strelca in Ovna.
+                Ko v
+                branju tarota vidite dvorno karto Palic, se pogosto nanaša na osebo zv znamenju Leva, Strelca ali Ovna.
+                Na
+                splošno so ljudje palic energični, karizmatični, topli, duhovni.</p>
 
-    <p class="lead"><span
-            class="fw-bold lead">Kaj pomeni, ko so pri branju tarota prisotne večinoma tarot karta Palice?</span>
-        Če je branje Tarota pretežno iz kart Palic, ste lahko prepričani, da iščete rešitve za vprašanja, ki temeljijo
-        predvsem na področju misli ali pa so v prvih fazah razvoja. Morda iščete tudi večji namen in smisel v svojem
-        življenju in boste želeli razumeti več o tem, kaj vas motivira in daje energijo.</p>
+            <p class="lead"><span
+                    class="fw-bold lead">Kaj pomeni, ko so pri branju tarota prisotne večinoma tarot karta Palice?</span>
+                Če je branje Tarota pretežno iz kart Palic, ste lahko prepričani, da iščete rešitve za vprašanja, ki
+                temeljijo
+                predvsem na področju misli ali pa so v prvih fazah razvoja. Morda iščete tudi večji namen in smisel v
+                svojem
+                življenju in boste želeli razumeti več o tem, kaj vas motivira in daje energijo.</p>
 
-    <div class="py-4 text-center">
-        <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-    </div>
+            <div class="py-4 text-center">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
 
-    <strong>Karte palic so:</strong> <span v-for="karte in palice">
+            <strong>Karte palic so:</strong> <span v-for="karte in palice">
                 <router-link class="text-decoration-none text-white" :to="`${karte.to}`">{{ karte.ime }}</router-link> |
             </span>
 
-    <div class="py-4 text-center">
-        <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
-    </div>
+            <div class="py-4 text-center">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            </div>
 
-    <div class="row row-cols-1 row-cols-xl-4 g-4">
-        <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in palice"
-             :key="index">
-            <router-link :to="`${arkana.to}`" class="text-decoration-none">
-                <div class="card-my">
-                    <div class="content-my">
-                        <div class="front">
-                            <img :src="arkana.img" alt="" class="img-fluid">
+            <div class="row row-cols-1 row-cols-xl-4 g-4">
+                <div class="col-xl d-flex align-items-center justify-content-center" v-for="(arkana, index) in palice"
+                     :key="index">
+                    <router-link :to="`${arkana.to}`" class="text-decoration-none">
+                        <div class="card-my">
+                            <div class="content-my">
+                                <div class="front">
+                                    <img :src="arkana.img" alt="" class="img-fluid">
+                                </div>
+                                <div class="back p-2 text-white bg-dark shadow bg-image-cards bg-opacity-75">
+                                    <h3 class="text-shadow">{{ arkana.ime }}</h3>
+                                    <p>{{ arkana.pregled }}</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="back p-2 text-white bg-dark shadow bg-image-cards bg-opacity-75">
-                            <h3 class="text-shadow">{{ arkana.ime }}</h3>
-                            <p>{{ arkana.pregled }}</p>
-                        </div>
-                    </div>
+                    </router-link>
                 </div>
-            </router-link>
+            </div>
+            <!-- END WANDS -->
+
         </div>
     </div>
-    <!-- END WANDS -->
-
 </div>
-    </div>
-</div>
-
-<app-navrh/>
