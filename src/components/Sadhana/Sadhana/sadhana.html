@@ -14,12 +14,13 @@
     </div>
 </div>
 
-<div class="container-fluid p-0 bg-tarot">
+<div class="container-fluid pb-4 p-0 bg-tarot">
     <div class="container p-3">
 
         <div class="py-4 text-center">
             <h1>Sadhana</h1>
-            <div class="lead text-center">"Ne meditiraj... BODI! Ne misli, da si... BODI! Ne razmišljaj o tem, da si... TI SI!"
+            <div class="lead text-center">"Ne meditiraj... BODI! Ne misli, da si... BODI! Ne razmišljaj o tem, da si...
+                TI SI!"
             </div>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
@@ -33,21 +34,30 @@
         </div>
         <div class="row row-cols-1 row-cols-xl-1 g-4">
 
-            <div class="col pt-5 pt-md-5" v-for="(sadhana, index) in sadhane" :key="index" :id="sadhana.id">
+            <div class="col pt-2" v-for="(sadhana, index) in sadhane" :key="index" :id="sadhana.id">
                 <div class="card bg-transparent border-0">
                     <div class="row g-0">
                         <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                            <img :src="sadhana.img" class="img-fluid rounded-start pb-3">
+                            <router-link :to="`${sadhana.toOpis}`">
+                                <img :src="sadhana.img" class="img-fluid rounded-start shadow">
+                            </router-link>
                         </div>
-                        <div class="col-lg-9 bg-dark shadow-card border-dark rounded-0 bg-image-cards bg-opacity-75 text-white">
-                            <h3 class="card-header border-0 bg-transparent">{{ index + 1 }}: {{ sadhana.ime }}</h3>
+                        <div class="col-lg-9 mt-3 bg-dark shadow-card border-dark rounded-0 bg-image-cards bg-opacity-75 text-white">
+                            <h3 class="card-header text-center border-0 bg-transparent">
+                                {{ sadhana.ime }}<br>
+                                <span class="text-warning fs-2" v-html="sadhana.hLetter"></span><br>
+                                {{ sadhana.pot }}<br>
+
+                            </h3>
                             <div class="card-body">
                                 <p class="card-text">{{ sadhana.opis }}</p>
-                                <p class="card-text text-end"><small class="text-white-50">Minimalni čas za to sadhano: {{ sadhana.cas }} meseca</small></p>
+                                <p class="card-text text-end"><small class="text-white-50">Minimalni čas za to sadhano:
+                                    {{ sadhana.cas }} meseca</small></p>
                             </div>
                             <div class="d-grid gap-2">
-                                <router-link class="btn btn-warning card-footer border-dark rounded-0 bg-tarot fs-5 fw-bold"
-                                             :to="`${sadhana.to}`"> Naprej na sadhano
+                                <router-link
+                                        class="btn btn-warning card-footer border-dark rounded-0 bg-tarot fs-5 fw-bold"
+                                        :to="`${sadhana.to}`"> Naprej na sadhano
                                 </router-link>
                             </div>
                         </div>
