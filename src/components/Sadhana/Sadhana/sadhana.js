@@ -136,15 +136,15 @@ export default {
                 },
                 {
                     id: 10,
-                    hLetter: '23 - Mem - &#1502;',
-                    pot: 'Hod ➡ Geburah',
                     ide: '#10',
-                    ime: "XII – Obešenec (The Hanged Man)",
-                    img: hanged,
+                    hLetter: '20 - Yod - &#1497;',
+                    pot: 'Tiphareth ➡ Chesed',
+                    ime: "IX – Puščavnik (The Hermit)",
+                    img: hermit,
                     cas: '1,5',
                     opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
-                    to: "/the-hanged-man-sadhana",
-                    toOpis: '/the-hanged-man'
+                    to: "/the-hermit-sadhana",
+                    toOpis: '/the-hermit'
                 },
                 {
                     id: 11,
@@ -160,27 +160,28 @@ export default {
                 },
                 {
                     id: 12,
+                    ide: '#12',
+                    hLetter: '23 - Mem - &#1502;',
+                    pot: 'Hod ➡ Geburah',
+                    ime: "XII – Obešenec (The Hanged Man)",
+                    img: hanged,
+                    cas: '1,5',
+                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    to: "/the-hanged-man-sadhana",
+                    toOpis: '/the-hanged-man'
+
+                },
+                {
+                    id: 13,
+                    ide: '#13',
                     hLetter: '21 - Kaf - &#1499;',
                     pot: 'Netzach ➡ Chesed',
-                    ide: '#12',
                     ime: "X – Kolo sreče (Wheel of Fortune)",
                     img: wheel,
                     cas: '1,5',
                     opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
                     to: "/wheel-of-fortune-sadhana",
                     toOpis: '/wheel-of-fortune'
-                },
-                {
-                    id: 13,
-                    hLetter: '20 - Yod - &#1497;',
-                    pot: 'Tiphareth ➡ Chesed',
-                    ide: '#13',
-                    ime: "IX – Puščavnik (The Hermit)",
-                    img: hermit,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
-                    to: "/the-hermit-sadhana",
-                    toOpis: '/the-hermit'
                 },
                 {
                     id: 14,
@@ -196,27 +197,27 @@ export default {
                 },
                 {
                     id: 15,
-                    hLetter: '18 - Het - &#1495;',
-                    pot: 'Geburah ➡ Binah',
                     ide: '#15',
-                    ime: "VII – Kočija (The Chariot)",
-                    img: chariot,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
-                    to: "/the-chariot-sadhana",
-                    toOpis: '/the-chariot'
-                },
-                {
-                    id: 16,
                     hLetter: '17 - Zayin - &#1494;',
                     pot: 'Tiphareth ➡ Binah',
-                    ide: '#16',
                     ime: "VI – Ljubimca (The Lovers)",
                     img: lovers,
                     cas: '1,5',
                     opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
                     to: "/the-lovers-sadhana",
                     toOpis: '/the-lovers'
+                },
+                {
+                    id: 16,
+                    ide: '#16',
+                    hLetter: '15 - He - &#1492;',
+                    pot: 'Tiphareth ➡ Chokmah',
+                    ime: "IV - Cesar (The Emperor)",
+                    img: emperor,
+                    cas: '1,5',
+                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    to: "/the-emperor-sadhana",
+                    toOpis: '/the-emperor'
                 },
                 {
                     id: 17,
@@ -232,15 +233,16 @@ export default {
                 },
                 {
                     id: 18,
-                    hLetter: '15 - He - &#1492;',
-                    pot: 'Tiphareth ➡ Chokmah',
                     ide: '#18',
-                    ime: "IV - Cesar (The Emperor)",
-                    img: emperor,
+                    hLetter: '18 - Het - &#1495;',
+                    pot: 'Geburah ➡ Binah',
+                    ime: "VII – Kočija (The Chariot)",
+                    img: chariot,
                     cas: '1,5',
                     opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
-                    to: "/the-emperor-sadhana",
-                    toOpis: '/the-emperor'
+                    to: "/the-chariot-sadhana",
+                    toOpis: '/the-chariot'
+
                 },
                 {
                     id: 19,
