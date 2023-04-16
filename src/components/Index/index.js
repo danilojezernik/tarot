@@ -167,6 +167,7 @@ import kingpentaclesDown from '@/assets/pentacles/king-of-pentacles-down.png'
 export default {
     data() {
         return {
+            pozdravi: 'Naj bo vaše iskanje vedno polno čudes Norca, dosežkov Magika, čutnosti Visoke Svečenice, ljubezni Cesarice, pameti Cesarja, Svečenikovega verovanje, jasnosti Ljubimcev, moči Kočije, poguma Moči, Puščavnikove modrosti, sreče Kolesa Sreče, pravičnosti Resnice, pomoči Obešenca, osvoboditev Smrti, mirnosti Zmernosti, spoznanj Hudiča, varnosti Trdnjave, upanja Zvezde, intuicije Lune, veselja Sonca, svobode Presoje in enotnosti Sveta.',
             slike: [
                 // Velika Arkana
                 {

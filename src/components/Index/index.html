@@ -19,17 +19,28 @@
                 </div>
 
             </div>
-            <div class="col-md-6 text-end">
+            <div class="col-md-6 text-center">
                 <div class="bd-highlight">
-                    <img src="@/assets/tetragramaton-index.png" class="img-fluid animate__animated animate__flip">
+                    <img src="@/assets/tetragramaton-index.png" ondragstart="return false;" class="img-fluid animate__animated animate__flip">
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container-fluid py-4 bg-dark bg-gradient text-white">
+    <div class="container p-5">
+        <div class="pb-3 text-center">
+            <img src="~@/assets/hrline-white.png" class="img-fluid pb-3 text-center" alt="">
+            <p v-html="pozdravi" class="fs-5"></p>
+            <img src="~@/assets/hrline-white.png" class="img-fluid text-center" alt="">
+
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid bg-header">
     <div class="container py-5">
-
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col " v-for="(card, index) in cards" :key="index">
                 <div class="card shadow-card bg-dark text-white text-center border-dark rounded-0 bg-image-cards bg-opacity-75">
@@ -63,12 +74,63 @@
             <!-- KARTA DNEVA -->
             <div class="col-lg-3">
                 <router-link :to="currentImageLink" class="text-decoration-none">
-                    <img :src="currentImageSrc" class="img-fluid shadow"/>
+                    <img :src="currentImageSrc" class="img-fluid shadow" ondragstart="return false;"/>
                 </router-link>
             </div>
             <div class="col-lg-9">
                 <p v-html="currentImageText"></p>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-header">
+    <div class="container py-5">
+        <div class="text-center">
+<h2>Kontakt</h2>
+            <img src="~@/assets/hrline.png" class="img-fluid pb-3" alt="">
+        </div>
+
+        <div class="row p-2 p-md-2 pt-md-3 pb-md-3 d-flex align-items-center justify-content-center">
+
+            <div class="col-lg-3 text-center pb-3">
+                <img src="~@/assets/majorarcana/judgement.png" ondragstart="return false;"
+                     class="img-fluid shadow">
+            </div>
+
+            <div class="col-lg-9 bg-dark shadow bg-image-cards bg-opacity-75 text-white p-4 shadow rounded-2">
+                <form
+                        action="https://formspree.io/f/xlekwvek"
+                        method="POST"
+                >
+                    <!-- Name input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example1">Ime in priimek</label>
+                        <input type="text" name="name" id="form4Example1"
+                               class="form-control text-white border-dark bg-tarot" required/>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example2">Email naslov</label>
+                        <input type="email" name="email" id="form4Example2"
+                               class="form-control text-white border-dark bg-tarot" required/>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example3">Sporočilo</label>
+                        <textarea class="form-control text-white border-dark bg-tarot" name="message" id="form4Example3"
+                                  rows="5" required></textarea>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-outline-warning btn-block mt-4">Pošlji</button>
+                    </div>
+                </form>
+            </div>
+
         </div>
     </div>
 </div>

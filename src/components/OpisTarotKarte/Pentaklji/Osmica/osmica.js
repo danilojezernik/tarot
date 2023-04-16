@@ -26,48 +26,44 @@ export default {
             ],
             opisSimbolov: [
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Poza",
+                    opis: "To je edina karta pri pentakljih, pri kateri lik na sliki dejansko deluje na pentaklje. Slika obrtnika pri delu: pri delu na nalogi ali predmetu, hkrati pa tudi metafora za delo na sebi."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Delo na pentaklju I",
+                    opis: "Nobenega mojstrstva ni mogoče doseči brez učenja in prakse. Če mora figura delati še na drugih sedmih pentakljih, se pojavi kot vajenec. Toda če je delo na ostalih sedmih končano, potem se pojavi kot mojster."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Delo na pentaklju II",
+                    opis: "Tako kot kovanec ima vsak človek nekaj lastnosti, ki se zdijo izrazite, nekatere pa se zdijo precej enostavne. Ena stran kovanca je zaskrbljena: kaj me je oblikovalo? In druga stran: kaj bom ukalupil?"
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Palica/hlod s pentaklji",
+                    opis: "Pozitivno: zmernost označuje pravega mojstra. Tukaj se omejite na eno samo veščino, da ne postanete učenec vseh obrti in ne-mojster ničesar. Povezava med nebom in zemljo. Negativno: monotonost, ponavljanje."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "En pentaklj na tleh",
+                    opis: "Ta pentaklj poudarja našo lastno situacijo, posameznikovo osebno razliko, morda tudi nov pristop - vendar tudi pentaklje, ki sodijo ob stran, to je prednosti in talente, ki jim ni posvečeno dovolj pozornosti."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Modra in rdeča",
+                    opis: "Barvi ognja in vode: ko se pojavita skupaj, pomenita vnemo in strast. Pozitivno: velika pripravljenost na trud, premagovanje težav. Negativno: slepa predanost, ponavljanje."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Vas v ozadju",
+                    opis: "Opomba: na zadnji strani lika. Pobegniti od množice, da bi lahko razvili posebne prednosti lastnih talentov. Toda največji talenti ostanejo brez vrednosti, če ne prispevajo v korist drugih."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Klop",
+                    opis: "Pozitivno: bodite svoje merilo. Naredite sami. Naredite, kar je potrebno, in uporabite / delajte na svojih talentih. Negativno: pomanjkanje zaupanja v druge. Nagnjenost k posvečanju preveč pozornosti podrobnostim."
                 },
                 {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Grče na hlodu",
+                    opis: "Pozitivno: letni obroči, potrpežljivost, rast, mojstrstvo, postopen razvoj. Negativno: vozli, pomanjkanje alternative (brez vej), prazna rutina, kompleks ponavljanja, pomanjkanje domišljije, dolgočasje."
                 },
                 {
-                    simbol: "",
-                    opis: ""
-                },
-                {
-                    simbol: "",
-                    opis: ""
+                    simbol: "Kladivo in dleta",
+                    opis: "Pozitivno: podoba lastne sposobnosti narediti vtis. Sposobnost ustvarjanja trajnostne vrednosti. Spremembe in trajne vrednote. Negativno: treba je dati lasten pečat vsem in vsemu."
                 },
             ],
             elementi: [
