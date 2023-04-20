@@ -44,7 +44,7 @@ export default {
                     ide: '#2',
                     ime: "XX – Sodba (Judgement)",
                     img: judgement,
-                    cas: '1,5',
+                    cas: '2',
                     opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
                     to: "/judgement-sadhana",
                     toOpis: '/judgement'
