@@ -2,7 +2,6 @@ export default {
     data() {
         return {
             naslov: "Sadhana XX – Sodba",
-            modrostGlavna: '"To je pot duhovnega prebujenja, ki se ustvari skozi vključevanja presoje, ne pa pot presoje na duhovnem potovanju. Presojanje je aktiven mentalni proces, ki uravnoteži dva ali več možnosti in oceni posledice."',
 
             priprava:
                 '<p>Usedite se v udoben meditacijski položaj s prekrižanimi nogami, sede na stolu ali pa kako drugače. Poskrbite, da boste lahko ves čas meditacije sedeli udobno in brez kakršnih koli večjih neprijetnosti. Zaprite oči roke položite na kolena in se začnite zavedati vsega telesa. Zavedajte se vsega telesa, položaja rok in nog, zavedajte se hrbtenice ki podpira glavo in zavedajte se vašega stika s tlemi. Nadaljujte s tem nekaj trenutkov.</p>' +

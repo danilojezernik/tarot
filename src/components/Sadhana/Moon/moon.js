@@ -3,27 +3,25 @@ export default {
         return {
             naslov: "Sadhana XVIII – Luna",
             modrostGlavna: '"Mislim, da je začetek duhovne poti razumevanje, da se lahko transformiramo."',
-            priprava:
-                '<p>Če ste si resnično vzeli čas za prejšnjo, prvo sadhano, potem je potreben čas za sprostitev precej krajši. Zato predlagam, da si vzamete čas, da se sami potopite</p>',
 
-            uvodPrvi:
-                '<p>ANTARMOUNA 2</p>',
+            priprava:
+                '<p>Usedite se v udoben meditacijski položaj s prekrižanimi nogami, sede na stolu ali pa kako drugače. Poskrbite, da boste lahko ves čas meditacije sedeli udobno in brez kakršnih koli večjih neprijetnosti. Zaprite oči roke položite na kolena in se začnite zavedati vsega telesa. Zavedajte se vsega telesa, položaja rok in nog, zavedajte se hrbtenice ki podpira glavo in zavedajte se vašega stika s tlemi. Nadaljujte s tem nekaj trenutkov.</p>' +
+                '<p>Nato se pričnite zavedati vseh občutkov v telesu. Zavedajte se hladu, toplote, vetra, bolečine, togosti, neudobja, srbenja. Zavedajte se vseh teh občutkov v telesu. Ne premikajte se le zavedajte se tega nekaj trenutkov. Nato se zavedajte samo glave in vseh občutkov v glavi in ničesar drugega. Nato nadaljujte k vratu. Nadaljujte k desni roki in desni nogi. Nato k levi roki in nadaljujte k levi nogi. Zavedajte se obeh rok in obeh nog. Nato nadaljujte k zadnjemu delu trupa in nato k prsim, nato trebuh. In končno celotno telo. Sprostite se. Lahko naredite še eno rundo.</p>' +
+                '<p>Nato se pričnite zavedati svojega diha in telesa hkrati. Ne spreminjajte diha samo zavedajte se naravnega toka diha. Zavedajte se kako se z vdihom vaše telo polni s pomirjajočo se svetlobo z izdihom pa izdihujete vse napetosti iz svojega celotnega telesa. Vezmite si nekaj trenutkov, da se umirite in sprostite.</p>',
 
             mantraMeditacija:
                 '<p>Predstavlajte si sebe v popolni tišini. Ničesar ne obstaja ampak samo tišina. Nato si recite in čutite: "Naj slišim klic od zgoraj! Skozi hrup in zmedo nižjih svetov me od daleč kliče glas mojega najvišjega Jaza." Čutite, kako je tam daleč nek glas, ki vas vedno pravilno vodi. Nato si recite: "Naj nikoli ne preneham poslušati tega klica in se zberem pod zastavo svojega notranjega Jaza, medtem ko divja bitka življenja. Moj najvišji Jaz kraljuje nad poplavami: odstranil bo iz mene vso zablodo in zmedo."  Sedaj čutite, kako se vse ustavi okoli vas, vse obstane in si recite: "Ustavil se bom, poslušal in molčal, da bi slišal glas. Glasnejši od grmenja padajočih voda je tihi, tihi glas, ki odmeva iz daljnega kraja. Slišim te, o glas nad vsemi glasovi! Poslušam te, o klic pred vsemi klici!" Zavedajte se, da vas notranji glas vedno pravilno vodi in da vam pomaga pri vsemu, vedno in povsod. Zavedajte se tega dela sebe!</p>' +
-                '<p>Sedaj si recite: "Naj se odstranijo vsi moji strahovi." Nato ponovite naslednjo mantro 9x, 27x, 54x ali 108x.</p>' +
+                '<p>Sedaj si recite: "Naj se odstranijo vsi moji strahovi." Nato si predstavljajte sebe, kako sedite na belem lotosu in nosite srebrno biserno ogrlico z bleščečo svetlobo. V levi in desni roki držite rdeči lotos. Nato ponovite naslednjo mantro 9x, 27x, 54x ali 108x. <sup class="fw-bold">* <sup>1</sup></sup></p>' +
                 '<p>om̐ śrīm̐ śrīm̐ śrūm̐ saḥ somāya svāhā </p>',
 
             chandraBheda: '<p>Usedite se v udoben meditacijski položaj. Roke položite na kolena. Zaprite oči in sprostite celotno telo. Naj dihanje postane vse bolj globlje. Dvignite levo roko pred obraz v nasagra mudro Zaprite desno nosnico s palcem. Zdaj začnite s prakso.</p><p>Vdihnite počasi in globoko skozi levo nosnico. Pri koncu vdiha zaprite obe nosnici. Zadržite dih znotraj, dokler je to udobno. Ne napenjajte se. Nato sprostite pritisk palca in počasi izdihnite skozi desno nosnico. To je 1 krog. Naredite še 10 krogov. Ohranite zavedanje diha in mehanike prakse.</p><p><b>Trajanje in čas prakse</b> Ne vadite več kot 11 krogov v enem dnevu. Najboljši čas za vadbo je zgodaj zjutraj pred zajtrkom. Ne vadite po hrani, ker boste posegali v naravni pretok energije, ki je povezan s prebavo.</p>',
 
-            konec: '<p></p>',
+            konec: '<p>Ko ste pripravljeni, da končate se zavedajte svojega dihanja. Pričnite se zavedati dihanja in kako pri vdihu vdihnete svetlobo, ki napolni vaše telo. Pri izdihu pa se vedno bolj zavedate svojega telesa. Zavedajte se diha in telesa hkrati. Naj bo ta proces vračanja ali zaključka počasen, ne hitite. Vzemite si čas, da začutite telo in dih. Po nekaj trenutkih se zavedajte položaja telesa in stičnih točk telesa s tlemi. Začnite se zavedati okolice v kateri ste. Počasi pričnite premikati glavo in roke. Pri izdihu odprite počasi oči. Kakšno minuto še sedite in počasi vstanite.</p>',
 
             dodatno: '<ol><li>Ulezite se na tla in se pričnite zavedai svojega celotnega telesa. Zavedajte se točk, kjer se telo dotika postelje oziroma tal. Sprostite se... Sedaj bomo šteli 5 dihov... Sedaj pa se zavedajte svoje desne noge... Zavedajte se svoje leve noge... Zavedajte se svojega trebuha... Prsi... Križa... Hrbta... Desne noge... leve noge... Ramen... vratu... glave... in pojdite še enkrat sami po enakem vrstnem redu... Sedaj se zavedajte trebušnega dihanja in štejte 5 dihov... Pričnite se spominjati dneva od tega trenutka pa nazaj do trenutka, ko ste se zbudili... Ne trudite se... kar se spominjate se spominjate... Če kaj preskočite in se kasneje spolnite nadaljujte od tam, kjer ste ostali na zadnje... Samo sprostite se in nadaljujte s prakso nekaj minut... Ko boste to prakso delali doma, jo lahko delate tako dolgo, vse dokler ne zaspite... ampak tukaj nadaljujte s to prakso še nekaj trenutkov v tišini, ki nastopi zdaj... Sedaj se zavedajte celotnega telesa... zavedajte se telesa in dihanja... zavedajte se, da ležite na tleh... zavedajte se prostora okoli sebe... zavedajte se telesa in prostora... sedaj trikrat globoko vdihnite in izdihnite... iztegnite telo… se usedite in počasi odprite oči.</li>' +
-                '<li>Spominjanje sanj</li>',
+                '<li>Pričnite si voditi svoj dnevnik sanj. Vsako jutro si zapišite v zvezek svoje sanje.</li>',
 
-            opombe: '<p>Opombe</p>' +
-                '<ol><li>Delajte to dokler ne čutite, da se je vaše telo dovolj sprostilo. Če čutite, da se vaše telo še vedno ni dovolj sprostilo, potem lahko delate samo pripravo in zaključek dokler ne čutite, da lahko grete naprej na uvod. Lahko nekaj tedno izvajate kakšno vodeno sproščanje ali joga nidro.</li>' +
-                '<li>Ko se govori o velikem delu se cilja na desjtvo, da vupostavimo stik z univerzalno zavestjo, da individualno zavest združimo z univerzalno.</li></ol>',
+            opombe: '<ol><li>Čez mesec dni to mantro ponovite 20.000 krat v roku 30ih dni.</li>'
         }
     }
 }
