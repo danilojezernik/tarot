@@ -14,6 +14,8 @@ export default {
 
             konec: '<p>Ko ste pripravljeni, da končate se zavedajte svojega telesa in vseh prijetnih občutkov. Predstavljajte si, kako se počasi pričenjate vračati v prostor od koder ste prišli. Zavedajte se, da se vračate nazaj. Naj bo ta proces počasen. Pričnite se zavedati dihanja in kako pri vdihu vdihnete svetlobo, ki napolni vaše telo. Pri izdihu se vedno bolj zavedate svojega telesa. Zavedajte se diha in telesa hkrati. Naj bo ta proces vračanja ali zaključka počasen, ne hitite. Vzemite si čas, da začutite telo in dih. Po nekaj trenutkih se zavedajte položaja telesa in stičnih točk telesa s tlemi. Začnite se zavedati okolice v kateri ste. Počasi pričnite premikati glavo in roke. Pri izdihu odprite počasi oči. Kakšno minuto še sedite in počasi vstanite.</p>',
 
+            dodatno: '<ol><li>Če ste pisali dnevnik sanj redno, potem je tukaj čas, da pričnete delati tudi z nočnimi morami. 3x na teden zvečer, preden greste spati, si vzemite še nekaj časa za to, da izzovete nočne more na naslednji način. Pojdite tja, kar v vas vzbuja strah kot je na primer hoja po temnem gozdu, sedenje v gozdu ponoči, morda sprehod po pokopališču ali nekaj, česar vas je strah. Potem tik pred spanjem poližite limono ali nekaj kislega. Nato pojdite spati. Zapišite si sanje in kaj se je dogajalo in raziskujte ta temni del vaše podzavesti</li></ol>'
+
         }
     }
 }

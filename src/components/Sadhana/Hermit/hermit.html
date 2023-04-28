@@ -22,11 +22,78 @@
 
         <div class="py-4 text-center">
             <h1>{{ naslov }}</h1>
-            <div class="lead text-center">{{ modrostGlavna }}
-            </div>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
-        Sadhana =
+
+        <h2>Priprava</h2>
+        <span v-html="priprava"></span>
+
+        <div class="row row-cols-1 row-cols-xl-1 g-4 pb-4">
+
+            <div class="col">
+                <div class="card bg-transparent border-0 shadow">
+                    <div class="row g-0">
+                        <div class="col-lg-12 bg-dark shadow bg-image-cards bg-opacity-75 text-white">
+                            <h2 class="card-header border-white">SoHam meditacija</h2>
+                            <div class="card-body">
+                                <p class="card-text" v-html="soHam">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center d-lg-none">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-transparent border-0 shadow">
+                    <div class="row g-0">
+                        <div class="col-lg-12 bg-dark shadow bg-image-cards bg-opacity-75 text-white">
+                            <h2 class="card-header border-white">Tattwa shuddhi</h2>
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="~@/assets/tattve.png" class="img-fluid" alt="">
+                                </div>
+                                <p class="card-text" v-html="tattwa"></p>
+
+                                    <div class="row justify-content-evenly pt-3 fw-bold">
+                                        <div class="col-md-4 text-center">
+                                            Papa Purusha<br>
+                                            <img src="~@/assets/papapurusha.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-md-4 pt-md-0 pt-3 text-center">
+                                            Prana Shakti<br>
+                                            <img src="~@/assets/pranashakti.png" class="img-fluid" alt="">
+
+                                        </div>
+                                    </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center d-lg-none">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Zaključek</h2>
+        <span v-html="konec"></span>
+
+        <div class="py-4 text-center">
+            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+        </div>
+
+        <h2>Dodatno</h2>
+        <span v-html="dodatno"></span>
+
 
     </div>
 </div>

@@ -2,7 +2,7 @@ export default {
     data() {
         return {
             naslov: "Sadhana XXI – Svet",
-            modrostGlavna: '"Mislim, da je začetek duhovne poti razumevanje, da se lahko transformiramo."',
+
             priprava:
                 '<p>Usedite se v udoben meditacijski položaj s prekrižanimi nogami, sede na stolu ali pa kako drugače. Poskrbite, da boste lahko ves čas meditacije sedeli udobno in brez kakršnih koli večjih neprijetnosti. Zaprite oči roke položite na kolena in se začnite zavedati vsega telesa. Zavedajte se vsega telesa, položaja rok in nog, zavedajte se hrbtenice ki podpira glavo in zavedajte se vašega stika s tlemi. Nadaljujte s tem nekaj trenutkov.</p>' +
                 '<p>Nato se pričnite zavedati vseh občutkov v telesu. Zavedajte se hladu, toplote, vetra, bolečine, togosti, neudobja, srbenja. Zavedajte se vseh teh občutkov v telesu. Ne premikajte se le zavedajte se tega nekaj trenutkov. Nato se zavedajte samo glave in vseh občutkov v glavi in ničesar drugega. Nato nadaljujte k vratu. Nadaljujte k desni roki in desni nogi. Nato k levi roki in nadaljujte k levi nogi. Zavedajte se obeh rok in obeh nog. Nato nadaljujte k zadnjemu delu trupa in nato k prsim, nato trebuh. In končno celotno telo. Sprostite se. Lahko naredite še eno rundo <sup class="fw-bold">*<sup> 1</sup></sup>.</p>' +
