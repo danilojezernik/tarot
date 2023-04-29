@@ -1207,7 +1207,6 @@ export default {
         setInterval(() => {
             let now = new Date().getTime();
             let timeLeft = deadline - now;
-            console.log(timeLeft, currentIndex, now, referenceTime);
 
             if (timeLeft < 0) {
                 // Reset the deadline to 2 minutes from now
