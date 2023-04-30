@@ -33,7 +33,7 @@ export default {
                     ime: "XXI – Svet (The World)",
                     img: world,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Meditacija na prizemljenost in širino<br>Meditacija na muladhara čakro<br>Meditacija Sveta<br>Ustavite se in zavedajte se<br>Narava in aktivna meditacija med hojo</p>',
                     to: "/the-world-sadhana",
                     toOpis: '/the-world'
                 },
@@ -44,8 +44,8 @@ export default {
                     ide: '#2',
                     ime: "XX – Sodba (Judgement)",
                     img: judgement,
-                    cas: '2',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '3',
+                    opis: '<p>Meditacija na notranjo tišino 1<br>Meditacija na notranjo tišino 2<br>Meditacija Sodbe<br>Zavedanje dihov<br>Več zavedanja v dnevu<br></p>',
                     to: "/judgement-sadhana",
                     toOpis: '/judgement'
                 },
@@ -53,11 +53,11 @@ export default {
                     id: 3,
                     hLetter: '30 - Resh - &#1512;',
                     pot: 'Yesod ➡ Hod',
-                    ide: '#4',
+                    ide: '#3',
                     ime: "XIX – Sonce (The Sun)",
                     img: sun,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>Pozdrav soncu<br>Surya bheda pranayama<br>Meditacija med hojo<br>Meditacija na 12 imen Surye<br>Meditacija Sonca</p>',
                     to: "/the-sun-sadhana",
                     toOpis: '/the-sun'
                 },
@@ -65,11 +65,11 @@ export default {
                     id: 4,
                     hLetter: '29 - Qof - &#1511;',
                     pot: 'Malkut ➡ Netzach',
-                    ide: '#3',
+                    ide: '#4',
                     ime: "XVIII – Luna (The Moon)",
                     img: moon,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Pozdrav luni<br>Mantra meditacija<br>Čandra bheda pranayama<br>Tehnika spominjanja nazaj<br>Osebni dnevnik sanj<br></p>',
                     to: "/the-moon-sadhana",
                     toOpis: '/the-moon'
                 },
@@ -80,8 +80,8 @@ export default {
                     ide: '#5',
                     ime: "XVII – Zvezda (The Star)",
                     img: star,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '3',
+                    opis: '<p>Nadi shodhana pranayama 1<br>Nadi shodhana pranayama 2<br>Nadi shodhana pranayama 3<br>Začetniški um<br>Dnevne molitve<br></p>',
                     to: "/the-star-sadhana",
                     toOpis: '/the-star'
                 },
@@ -92,8 +92,8 @@ export default {
                     ide: '#6',
                     ime: "XVI – Trdnjava (The Tower)",
                     img: tower,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '3',
+                    opis: '<p>Meditacija na čiščenje elementov kratka<br>Meditacija priznavanja<br>Meditacija Trdnjave<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-tower-sadhana",
                     toOpis: '/the-tower'
                 },
@@ -104,8 +104,8 @@ export default {
                     ide: '#7',
                     ime: "XV – Hudič (The Devil)",
                     img: devil,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>Hranjenje svojih demonov<br>Meditacija Hudiča<br>Raziskovanje nočnih mor<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-devil-sadhana",
                     toOpis: '/the-devil'
                 },
@@ -113,11 +113,11 @@ export default {
                     id: 8,
                     hLetter: '24 - Nun - &#1504;',
                     pot: 'Netzach ➡ Tiphareth',
-                    ide: '#9',
+                    ide: '#8',
                     ime: "XIII – Smrt (Death)",
                     img: death,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Meditacija umiranja in ponovnega rojstva<br>Pred spanjem<br>Umik<br>Poraba energije<br><div class="d-none d-lg-block"><br></div></p>',
                     to: "/death-sadhana",
                     toOpis: '/death'
 
@@ -126,11 +126,11 @@ export default {
                     id: 9,
                     hLetter: '25 - Samekh - &#1505;',
                     pot: 'Yesod ➡ Tiphareth',
-                    ide: '#8',
+                    ide: '#9',
                     ime: "XIV – Zmernost (Temperance)",
                     img: temperance,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>Meditacija na swadhisthano<br>Mentalna menjava diha<br>Gayatri mantra<br>Meditacija Zmernosti<br>Ritualno umivanje<br>Menstruacija oddih</p>',
                     to: "/temperance-sadhana",
                     toOpis: '/temperance'
                 },
@@ -141,8 +141,8 @@ export default {
                     pot: 'Tiphareth ➡ Chesed',
                     ime: "IX – Puščavnik (The Hermit)",
                     img: hermit,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>SoHam meditacija<br>Tattwa shuddhi<br>Umik z Gayatri mantro<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-hermit-sadhana",
                     toOpis: '/the-hermit'
                 },
@@ -153,8 +153,8 @@ export default {
                     ide: '#11',
                     ime: "XI – Pravica (Justice)",
                     img: justice,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '3',
+                    opis: '<p>Yame<br>Niyame<br>Meditacija Pravice<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/justice-sadhana",
                     toOpis: '/justice'
                 },
@@ -166,7 +166,7 @@ export default {
                     ime: "XII – Obešenec (The Hanged Man)",
                     img: hanged,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Meditacija na manipuro<br>Viparet krani mudra<br>Kapalabhati pranayama<br>Meditacija Obešenca<br><div class="d-none d-lg-block"><br></div></p>',
                     to: "/the-hanged-man-sadhana",
                     toOpis: '/the-hanged-man'
 
@@ -179,7 +179,7 @@ export default {
                     ime: "X – Kolo sreče (Wheel of Fortune)",
                     img: wheel,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Meditacija na anahato<br>Navagraha sadhana<br>Meditacija Kolesa sreče<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/wheel-of-fortune-sadhana",
                     toOpis: '/wheel-of-fortune'
                 },
@@ -190,8 +190,8 @@ export default {
                     ide: '#14',
                     ime: "VIII – Moč (Strength)",
                     img: strength,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>Meditacija na vishuddhi<br>32 imen Durge<br>Durga mantra<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/strength-sadhana",
                     toOpis: '/strength'
                 },
@@ -202,8 +202,8 @@ export default {
                     pot: 'Tiphareth ➡ Binah',
                     ime: "VI – Ljubimca (The Lovers)",
                     img: lovers,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '2',
+                    opis: '<p>Meditacija na sočutje<br>Meditacija na ajno<br>Meditacija dviga in združitve za dva<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-lovers-sadhana",
                     toOpis: '/the-lovers'
                 },
@@ -214,8 +214,8 @@ export default {
                     pot: 'Tiphareth ➡ Chokmah',
                     ime: "IV - Cesar (The Emperor)",
                     img: emperor,
-                    cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    cas: '3',
+                    opis: '<p>Čakra sadhana<br>Mahamrityunjay mantra<br>Meditacija Cesar<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-emperor-sadhana",
                     toOpis: '/the-emperor'
                 },
@@ -227,7 +227,7 @@ export default {
                     ime: "V – Svečenik (The Hierophant)",
                     img: hierophant,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Guru meditacija<br>Meditacija Svečenika</p>',
                     to: "/the-hierophant-sadhana",
                     toOpis: '/the-hierophant'
                 },
@@ -239,7 +239,7 @@ export default {
                     ime: "VII – Kočija (The Chariot)",
                     img: chariot,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p>Kali mantra</p>',
                     to: "/the-chariot-sadhana",
                     toOpis: '/the-chariot'
 
@@ -252,7 +252,7 @@ export default {
                     ime: "III - Cesarica (The Empress)",
                     img: empress,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p></p>',
                     to: "/the-empress-sadhana",
                     toOpis: '/the-empress'
                 },
@@ -264,7 +264,7 @@ export default {
                     ime: "II - Visoka Svečenica (The High Priestess)",
                     img: priestess,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p></p>',
                     to: "/the-high-priestess-sadhana",
                     toOpis: '/the-high-priestess'
                 },
@@ -276,7 +276,7 @@ export default {
                     ime: "I - Magik (The Magician)",
                     img: magician,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p></p>',
                     to: "/the-magician-sadhana",
                     toOpis: '/the-magician'
                 },
@@ -288,7 +288,7 @@ export default {
                     ime: "0 - Norec (The Fool)",
                     img: fool,
                     cas: '1,5',
-                    opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae metus a elit finibus scelerisque. Vivamus quis nunc odio. Ut pretium, purus varius faucibus cursus, arcu ipsum mattis magna, vel fermentum dolor risus at nulla. Donec pellentesque orci urna. Aliquam quis mauris ligula. Curabitur vestibulum porttitor odio ac convallis. Integer sollicitudin lorem nisl, vel porta odio fringilla imperdiet. Fusce blandit dapibus nisl a viverra.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at posuere nisi. Aenean dictum felis augue, eu venenatis ante sodales a. Curabitur convallis sagittis nibh, nec laoreet augue ornare sit amet. Fusce laoreet nisl quis risus laoreet condimentum. Vestibulum ut urna aliquet, sagittis magna id, fringilla odio. Curabitur et consequat ante, id ultricies libero. In imperdiet ex eget lacus faucibus fringilla. Quisque nec laoreet leo. Vivamus imperdiet pulvinar bibendum.",
+                    opis: '<p></p>',
                     to: "/the-fool-sadhana",
                     toOpis: '/the-fool'
                 }

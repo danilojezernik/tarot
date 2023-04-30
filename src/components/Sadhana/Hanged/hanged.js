@@ -10,22 +10,8 @@ export default {
 
             meditacijaManpiura:
                 '<p>Pričnite se zavedati, da sedite na nazaj obrnjenem trikotniku svetlo rdeče barve. Trikotnik ima ravno tolikšen premer, da lahko na njem sedite. Okoli trikotnika je krog, ki ima 10 lotosovih cvetov, ki so modre barve. Počutite se polni ravno pravšnje energije, ki vas napaja. Ste pomirjeni in prizemljeni. Medtem ko sedite čutite vse smeri neba vendar tej prostranosti okoli vas ni konca. Je brezmejni prostor. Pomembno je, da to čutite.</p>' +
-                '<p>Po nekaj trenutkih pričnite čutiti po vrstnem redu naslednje:</p>' +
-                '<ol>' +
-                '<li>Zavedajte se duhovna nevednost - po nekaj trenutkih 3x ponovite mantro <b>DAM</b> in čutite, kako se duhovna nevednost transformira v sprejemanje vsega in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se poželjivih želja - po nekaj trenutkih 3x ponovite mantro <b>DHAM</b> in čutite kako se poželenje transformira v občutek, da ne potrebujete ničesar in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se ljubosumja - po nekaj trenutkih 3x ponovite mantro <b>NAM</b> in čutite kako se ljubosumje transformira v ljubezen do sebe in vsega in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se neusmiljenosti - po nekaj trenutkih 3x ponovite mantro <b>TAM</b> in čutite kako se neusmiljenost transformira v sočutje in mirnost in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se sramu - po nekaj trenutkih 3x ponovite mantro <b>THAM</b> in čutite kako se sram transformira v sprejemanje vsega takšnega kakršno je in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se strahu - po nekaj trenutkih 3x ponovite mantro <b>DAM</b> in čutite kako se strah transformira v razumevanje vsega in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se gnusa - po nekaj trenutkih 3x ponovite mantro <b>DHAM</b> in čutite kako se gnus transformira v sprejemanje vsega in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se zablode - po nekaj trenutkih 3x ponovite mantro <b>NAM</b> in čutite kako se zabloda transformira v sprejemanje in ponižnost in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se neumnosti - po nekaj trenutkih 3x ponovite mantro <b>PAM</b> in čutite kako se neumnost transformira v modrost in mirnost in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se žalosti - po nekaj trenutkih 3x ponovite mantro <b>PHAM</b> in čutite kako se žalost transformira v zadovoljstvo in veselje in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '<li>Zavedajte se swadhisthana čakre in ponovite mantro <b>RAM</b> in čutite brezmejno vibracijo, ki se širi v vse smeri.</li>' +
-                '</ol>' +
-                '<p>Vizualizirajte, kako sedite na lotosu z 10imi modrimi cvetovi v katerem je svetlo rdeč trikotnik. Kmalu se pod vami pojavi še ogenj, ki izgoreva vse temno v vas in okoli vas.</p>' +
-                '<p>Sedaj vidite celotno sliko čakre in ponovite naslednje mantre še enkrat: <b>DAM</b> (in vizualizirajte prvi cvet čakre kako še bolj sveti in pojdite naprej v smeri urinega kazalca), <b>DHAM</b>, <b>NAM</b>, <b>TAM</b>, <b>THAM</b>, <b>DAM</b>, <b>DHAM</b>, <b>NAM</b>, <b>PAM</b> in ponovno <b>PHAM</b>. Nato ponovite <b>RAM</b> 11x in čutite, kako vse slabo izgoreva iz vas in na koncu ostane le čista svetloba.</p>',
+                '<p>Po nekaj trenutkih pričnite vizualizirati, kako sedite na lotosu z 10imi modrimi cvetovi v katerem je svetlo rdeč trikotnik. Kmalu se pod vami pojavi še ogenj, ki izgoreva vse temno v vas in okoli vas.</p>' +
+                '<p>Sedaj vidite celotno sliko čakre v predelu swadhisthane in ponovite naslednje mantre še enkrat: <b>DAM</b> (in vizualizirajte prvi cvet čakre kako še bolj sveti in pojdite naprej v smeri urinega kazalca), <b>DHAM</b>, <b>NAM</b>, <b>TAM</b>, <b>THAM</b>, <b>DAM</b>, <b>DHAM</b>, <b>NAM</b>, <b>PAM</b> in <b>PHAM</b>. Nato ponovite <b>RAM</b> 108x in čutite, kako vse slabo izgoreva iz vas in na koncu ostane le čista svetloba.</p>',
 
             viparetmudra: '<p>Lezite na hrbet. Roke so ravne, ob telesu. Z vdihom pokrčimo kolena in dvignemo noge in zadnjico. Roke dvignite pod boke, da podprete zadnjico. Komolci ostanejo na tleh. Noge poravnajte navpično navzgor. Sprostite mišice stopal, nog in bokov. Dihajte normalno, ostanite v tem položaju, dokler vam je udobno in z vdihom čutite, kako vroč nektar teče iz manipura čakre po hrbtenici do vishuddhi čakre kjer se zbere in zadržite dih za nekaj sekund in čutite, kako se netar ohladi z izdihom čutite kako se nektar pretaka iz te čakre skozi ajna čakro, skozi bindu in v sahasraro. Nato se vrnete z zavedanjem nazaj v manipura čakro in ponovite postopek. To ponovite, dokler vam je udobno. Prvič morda 1x in povečujete, da v nekaj mesecih lahko naredite 11 ponovitev ali več. Nato vdihnite in z izdihom pokrčimo kolena proti čelu, počasi spustimo zadnjico in noge ter se vrnemo v začetni položaj. To vajo naredite samo enkrat. Tisti z visokim pritiskom naj tega položaja ne delajo.</p>',
 
@@ -35,7 +21,9 @@ export default {
 
             konec: '<p>Ko ste pripravljeni, da končate se zavedajte svojega telesa in vseh prijetnih občutkov. Predstavljajte si, kako se počasi pričenjate vračati v prostor od koder ste prišli. Zavedajte se, da se vračate nazaj. Naj bo ta proces počasen. Pričnite se zavedati dihanja in kako pri vdihu vdihnete svetlobo, ki napolni vaše telo. Pri izdihu se vedno bolj zavedate svojega telesa. Zavedajte se diha in telesa hkrati. Naj bo ta proces vračanja ali zaključka počasen, ne hitite. Vzemite si čas, da začutite telo in dih. Po nekaj trenutkih se zavedajte položaja telesa in stičnih točk telesa s tlemi. Začnite se zavedati okolice v kateri ste. Počasi pričnite premikati glavo in roke. Pri izdihu odprite počasi oči. Kakšno minuto še sedite in počasi vstanite.</p>',
 
-            dodatno: '<ol><li>Pričnite raziskovati rune, če želite.</li></ol>'
+            dodatno: '<ol><li>Pričnite raziskovati rune, če želite.</li></ol>',
+
+
 
         }
     }

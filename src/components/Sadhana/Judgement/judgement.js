@@ -24,8 +24,7 @@ export default {
 
             konec: '<p>Ko ste pripravljeni, da končate se zavedajte svojega dihanja. Pričnite se zavedati dihanja in kako pri vdihu vdihnete svetlobo, ki napolni vaše telo. Pri izdihu pa se vedno bolj zavedate svojega telesa. Zavedajte se diha in telesa hkrati. Naj bo ta proces vračanja ali zaključka počasen, ne hitite. Vzemite si čas, da začutite telo in dih. Po nekaj trenutkih se zavedajte položaja telesa in stičnih točk telesa s tlemi. Začnite se zavedati okolice v kateri ste. Počasi pričnite premikati glavo in roke. Pri izdihu odprite počasi oči. Kakšno minuto še sedite in počasi vstanite.</p>',
 
-            dodatno: '<ol><li>Vsak dan si vzemite nekaj trenutkov svojega časa, se ustavite in poglejte okoli sebe. Zavedajte se sebe in okolice. Opazite kje ste in kaj delate.</li>' +
-                '<li>Vsak dan si vzemite čas za 30 zavestnih dihov. Vdih in izdih je en dih. Tudi preden zaspite se lahko zavestno ostredotočate na trebušno dihanje in se na ta način sproščate.</li>' +
+            dodatno: '<ol><li>>Vsak dan si vzemite čas za 30 zavestnih dihov. Vdih in izdih je en dih. Tudi preden zaspite se lahko zavestno ostredotočate na trebušno dihanje in se na ta način sproščate.</li>' +
                 '<li>Vsako jutro, ko se zbudite, si recite, da bo to dan v katerem bo več zavedanja, kot pa dan pred njim. V ta namen si lahko pripravite kakšen listek ali nekaj, kar vas opominja, da živite bolj zavedno. Lahko uporabljate tudi kakšno aplikacijo (na primer "<i>Mindfulness Bell</i>") na telefonu, ki vas bo naključno opominjala, da postanete zavedni.</li></ol>',
 
             opombe: '<ol><li>Če imate čas in voljo, si lahko te različne zvoke posnamete in posnetek uporabljate pri sadhani.</li>'

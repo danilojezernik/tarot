@@ -2,4 +2,4 @@
 
 <script src="./404.js"></script>
 
-<style src="./404.css" scoped></style>
+<style src="../style/style.css" scoped></style>

@@ -2,5 +2,5 @@
 
 <script src="./kontakt.js"></script>
 
-<style src="./kontakt.css" scoped></style>
+<style src="../style/style.css" scoped></style>
 

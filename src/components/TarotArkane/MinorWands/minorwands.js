@@ -115,7 +115,8 @@ export default {
                     pregled: "Pameten, pošten, človek, ki daje dobre nasvete...",
                     to: "/kraljpalic"
                 }
-            ]
+            ],
+            opis: '<p>Pomeni tarot kart Palic so povezani s primarno energijo, duhovnostjo, navdihom, odločnostjo, močjo, intuicijo, ustvarjalnostjo, ambicijami in širitvijo, izvirno mislijo in semeni, skozi katera se rodi življenje.Palice so povezane z elementom ognja. Ogenj je vroč, divji, nepredvidljiv in energičen. Lahko je ustvarjalen, ko nam pomaga pri kuhanju hrane ali sestavljanju orodja, ali pa je lahko uničujoč, na primer uničujoč požar v gozdu ali hišni požar. Ogenj je simbol strasti, energije, navdušenja in spolnosti. Je moški element in odraža zagon in moč volje moške energije.</p><p><b>Kaj pri branju pomenijo tarot karte Palice?</b> Pomeni tarot kart Palice se ukvarjajo z duhovno stopnjo zavesti in odražajo tisto, kar je za vas pomembno v jedru vašega bitja. Obravnavajo tisto, kar vas razveseli – vašo osebnost, ego, navdušenje, samopodobo in osebno energijo, tako notranjo kot zunanjo.</p><p>Negativni vidiki obleke palic vključujejo iluzijo, egoistično vedenje, impulzivnost, pomanjkanje smeri ali namena ali občutek nesmiselnosti.</p><p>Palice tarot kart pogosto predstavljajo astrološka znamenja ognja - Leva, Strelca in Ovna. Ko v branju tarota vidite dvorno karto Palic, se pogosto nanaša na osebo v znamenju Leva, Strelca ali Ovna. Na splošno so ljudje palic energični, karizmatični, topli, duhovni.</p><p><b>Kaj pomeni, ko so pri branju tarota prisotne večinoma tarot karta Palice?</b> Če je branje tarota pretežno iz kart Palic, ste lahko prepričani, da iščete rešitve za vprašanja, ki temeljijo predvsem na področju misli ali pa so v prvih fazah razvoja. Morda iščete tudi večji namen in smisel v svojem življenju in boste želeli razumeti več o tem, kaj vas motivira in daje energijo.</p>'
         }
     }
 }

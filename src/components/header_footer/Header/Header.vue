@@ -2,4 +2,4 @@
 
 <script src="./header.js"></script>
 
-<style src="./header.css"></style>
+<style src="../../style/style.css" scoped></style>

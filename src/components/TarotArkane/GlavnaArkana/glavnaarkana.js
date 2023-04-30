@@ -25,7 +25,6 @@ import world from '@/assets/majorarcana/the-world.png'
 export default {
     data() {
         return {
-            showModal: false,
             tarot: [
                 {
                     id: 1,
@@ -181,7 +180,8 @@ export default {
                     pregled: "Uspešen zaključek, zagotovljen uspeh, priznanje, potovanja na dolge razdalje, harmonija...",
                     to: "/the-world"
                 }
-            ]
+            ],
+            opis: '<p>Karte Tarota Velike arkane predstavljajo življenjske lekcije, karmične vplive in velike arhetipske teme, ki vplivajo na vaše življenje in potovanje vaše duše do razsvetljenja. Pomeni kart Velike arkane so globoki in zapleteni – na čudovite načine! Teze Tarot karte resnično predstavljajo strukturo človeške zavesti in vsebujejo ključe življenjskih lekcij, ki so se prenašale skozi stoletja.</p><p>Karte Velika Arcana vključujejo 21 oštevilčenih kart in 1 neoštevilčeno karto (Norec). Norec je glavni lik Velike Arkane in se poda na svoje potovanje skozi vsako od kart, spoznava nove učitelje in se na tej poti uči novih življenjskih lekcij ter na koncu doseže zaključek svojega potovanja s karto Svet. To je znano kot potovanje Norca in je koristen način za razumevanje zgodbe pomenov kart Tarota Velike arkane.</p><p><b>Kaj pomeni karta velike arkane pri branju tarota?</b> Ko v branju tarota zagledate karto Velike arkane, ste pozvani, da razmislite o življenjskih lekcijah in temah, ki jih trenutno doživljate. Karte Velike arkane bodo pogosto postavile sceno za celotno branje Tarota, druge karte pa se nanašajo na ta temeljni pomen Velike Arkane.</p><p><b>Kaj pomeni, ko je pri branju tarota prisotna večinoma karta iz Velike arkane?</b> Ko je branje tarota pretežno sestavljeno iz kart velike arkane, doživljate dogodke, ki vam bodo spremenili življenje in bodo imeli dolgoročne učinke. Obstajajo pomembne lekcije, na katere morate biti pozorni, da boste še naprej napredovali v svojem duhovnem in osebnem iskanju.</p><p>Če pa je veliko tarot kart Velike arkane obrnjenih navzdol, je to morda znak, da tem pomembnim življenjskim lekcijama ne posvečate dovolj pozornosti in morate lekcije najprej obvladati, preden lahko nadaljujete.</p>'
         }
     }
 }

@@ -115,7 +115,8 @@ export default {
                     pregled: "Občutljiv in ustvarjalen očetovski mož...",
                     to: "/kraljkelihov"
                 }
-            ]
+            ],
+            opis: '<p>Karte tarota Kelihov obravnavajo čustveno raven zavesti in so povezane z ljubeznijo, čustvi, odnosi in povezavami.</p><p>Kelihi so povezani z elementom vode. Voda je tekoča, okretna in "v toku", vendar je tudi zelo močna in tvorna. Lahko je mehka in nežna, kot valovi, ki pljuskajo ob peščeno obalo, ali pa močna in celo tako močna, kot divja reka. Element vode je simbol pretočnosti, občutkov in čustev, intuicije, odnosov, zdravljenja in čiščenja. Je ženski element in odraža subtilno moč, ki pogosto prebiva v ženskah. Je sprejemljiva, prilagodljiva, prečiščevalna in tekoča.</p><p><b>Kaj v branju pomenijo tarot karte Kelihov?</b> Karte tarota Kelihi kažejo, da razmišljate s srcem in ne z glavo, in tako odražajo vaše spontane odzive in vaše običajne reakcije na situacije. Kelihi so povezani tudi z ustvarjalnostjo, romantiko, fantazijo in domišljijo.</p><p>Negativni vidiki Kelihov vključujejo pretirano čustveno ali popolnoma neangažiranost in nepristranskost, nerealna pričakovanja in fantaziranje o tem, kaj bi lahko bilo. Prisotna so lahko potlačena čustva, nezmožnost resničnega izražanja in pomanjkanje ustvarjalnosti.</p><p>Tarot karte Kelihi pogosto predstavljajo astrološka znamenja vode - Ribe, Raka in Škorpijona. Ko v branju tarota vidite karto Kelihov, se pogosto nanaša na osebo z znakom Ribe, Raka in Škorpijona. Na splošno so ljudje Kelihov čustveni, umetniški, humani in ustvarjalni. Povezani so s svojim čustvenim jazom in črpajo energijo iz tega, kar čutijo v sebi.</p><p><b>Kaj pomeni, ko so pri branju tarota prisotne večinoma tarot karte Kelihi?</b> Če je pri branju tarota pretežno kelih, iščete rešitve za predvsem čustvene konflikte, osebne interakcije, ljubezenske zadeve, občutke in ustvarjalnost.</p>'
         }
     }
 }

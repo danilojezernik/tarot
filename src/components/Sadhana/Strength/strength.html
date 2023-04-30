@@ -24,6 +24,7 @@
             <h1>{{ naslov }}</h1>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
+
         <h2>Priprava</h2>
         <span v-html="priprava"></span>
 
@@ -34,9 +35,11 @@
                     <div class="row g-0">
                         <div class="col-lg-12 bg-dark shadow bg-image-cards bg-opacity-75 text-white">
                             <h2 class="card-header border-white">Meditacija na vishuddhi</h2>
-                            <div class="card-body text-center">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="~@/assets/chakre/vishuddhi-bija.png" class="img-fluid text-center" alt="">
+                                </div>
                                 <p class="card-text" v-html="meditacijaVishudhi"></p>
-
                             </div>
                         </div>
                     </div>
@@ -91,9 +94,6 @@
         <div class="py-4 text-center">
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
-
-        <h2>Dodatno</h2>
-        <span v-html="dodatno"></span>
 
     </div>
 </div>

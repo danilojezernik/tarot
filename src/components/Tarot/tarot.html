@@ -19,8 +19,7 @@
 
         <div class="py-4 text-center">
             <h1>Tarot</h1>
-            <div class="lead text-center">Cilj je, da Tarot spregovori, vendar arkane govorijo samo s tistimi, ki so se jih naučili razumeti!
-            </div>
+            <p class="lead text-center" v-html="modrost"></p>
             <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
         </div>
         <div class="row row-cols-1 row-cols-xl-5 g-4">
@@ -46,33 +45,8 @@
         </div>
     </div>
 
-
-
     <div class="container p-md-4 p-2">
-        <p>22 kart velike predstavlja življenjske karmične in duhovne lekcije. Predstavljajo pot do duhovnega
-            samozavedanja in prikazujejo različne stopnje, s katerimi se srečujemo, ko iščemo večji pomen in
-            razumevanje. Na ta način imajo karte Velike arkane globoke in pomembne lekcije na ravni duše.
-        </p>
-
-        <p>56 kart male arkane odraža preizkušnje in stiske, ki jih doživljamo vsak dan. Te karte tarota poudarjajo bolj
-            praktične vidike življenja in se lahko nanašajo na trenutna vprašanja, ki imajo začasen ali manjši
-            vpliv.</p>
-
-        <p>Znotraj kart male arkane je 16 tarot dvornih kart, od katerih vsaka predstavlja 16 različnih osebnostnih
-            značilnosti, ki jih lahko kadar koli izrazimo. Obstaja tudi 40 oštevilčenih kart, organiziranih v 4 barve –
-            skodelice, pentaklji, meči in palice – vsaka z 10 kartami, ki predstavljajo različne situacije, s katerimi
-            se srečujemo vsak dan.</p>
-
-        <p>Nekateri bodo morda rekli, da so karte tarot preprosto črnilo na papirju. Vendar pa sem ugotovil naslednje,
-            medtem, ko sem se poglabljal v njih:</p>
-
-        <p class="fw-bold">Tarot je knjiga zgodb našega življenja, ogledalo naše duše in ključ do naše notranje
-            modrosti.</p>
-
-        <p>Vsako duhovno lekcijo, ki jo srečamo v življenju, lahko najdemo v 78 kartah tarota. In ko se
-            posvetujemo s tarotom, nam bodo pokazane natančne lekcije, ki se jih moramo naučiti in obvladati, da bomo
-            živeli navdihnjeno življenje. To je, kot da bi sebi postavili ogledalo, da bi lahko dostopali do svoje
-            podzavesti in se dotaknili modrosti (in odgovorov), ki živi v vseh nas.</p>
+        <p v-html="opis"></p>
     </div>
 
 </div>
