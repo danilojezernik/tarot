@@ -21,7 +21,8 @@
             </div>
             <div class="col-md-6 text-center">
                 <div class="bd-highlight">
-                    <img src="@/assets/tetra-index.png" ondragstart="return false;" class="img-fluid animate__animated animate__flip">
+                    <img src="@/assets/tetra-index.png" ondragstart="return false;"
+                         class="img-fluid animate__animated animate__flip">
                 </div>
             </div>
         </div>
@@ -44,18 +45,19 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col " v-for="(card, index) in cards" :key="index">
                 <router-link class="text-decoration-none" :to="card.to">
-                <div class="card shadow-card bg-dark text-white text-center border-dark rounded-0 bg-image-cards bg-opacity-75">
-                    <div class="row g-0 d-flex align-items-center justify-content-center">
-                        <div class="card-body">
-                            <h2 class="card-title">{{ card.povezava }}</h2>
-                            <img src="~@/assets/hrline.png" class="img-fluid pb-3 text-center" alt="">
-                            <p class="card-text" v-html="card.opis"></p>
-                        </div>
-                        <div class="btn btn-warning card-footer rounded-0 border-0 bg-header fs-5 fw-bold">
-                            {{ card.link }}
+                    <div class="card shadow-card bg-dark text-white text-center border-dark rounded-0 bg-image-cards bg-opacity-75">
+                        <div class="row g-0 d-flex align-items-center justify-content-center">
+                            <div class="card-body">
+                                <h2 class="card-title">{{ card.povezava }}</h2>
+                                <img src="~@/assets/hrline.png" class="img-fluid pb-3 text-center" alt="">
+                                <p class="card-text" v-html="card.opis"></p>
+                            </div>
+                            <div class="btn btn-warning card-footer rounded-0 border-0 bg-header fs-5 fw-bold">
+                                {{ card.link }}
+                            </div>
+
                         </div>
                     </div>
-                </div>
                 </router-link>
             </div>
         </div>
