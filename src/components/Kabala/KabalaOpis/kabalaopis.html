@@ -24,7 +24,7 @@
             <h1>{{ naslov }}</h1>
             <div class="lead text-center">{{ kabalaRek }}</div>
             <div class=" d-none d-md-block">
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             <div class="col">
                 <div class="card bg-dark shadow-card bg-image-cards border-dark rounded-0 bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-0 bg-transparent text-center">{{ naslovKabala }}</h3>
-                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center">
                     <div class="card-body">
                         <p class="card-text" v-html="kabalaNaKratko"></p>
                     </div>
@@ -47,7 +47,7 @@
             <div class="col">
                 <div class="card bg-dark shadow-card bg-image-cards border-dark rounded-0 bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-0 bg-transparent text-center">{{ naslovSefirot }}</h3>
-                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center">
                     <div class="card-body">
                         <p class="card-text" v-html="kabalaSefirot"></p>
                     </div>
@@ -61,7 +61,7 @@
             <div class="col">
                 <div class="card bg-dark shadow-card bg-image-cards border-dark rounded-0 bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-0 bg-transparent text-center">{{ naslovNadangeli }}</h3>
-                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center">
                     <div class="card-body">
                         <p class="card-text" v-html="nadangeli"></p>
                     </div>
@@ -151,7 +151,7 @@
         <div class="py-4 text-center">
             <h1>{{ naslovMolitev }}</h1>
             <div class="lead text-center">{{ molitevRek }}</div>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
         </div>
 
         <p v-html="molitevOpis"></p>
@@ -160,7 +160,7 @@
             <div class="col" v-for="(molitev, index) in molitve" :key="index">
                 <div class="card text-center bg-dark border-dark rounded-0 shadow-card bg-image-cards bg-opacity-75 text-white h-100">
                     <h3 class="card-header border-0 bg-transparent">{{ molitev.naslov }}</h3>
-                    <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                    <img src="~@/assets/hrline.png" class="img-fluid text-center">
                     <div class="card-body">
                         <p class="card-text" v-html="molitev.molitev"></p>
                     </div>

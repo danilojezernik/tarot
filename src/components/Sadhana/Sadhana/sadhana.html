@@ -39,7 +39,7 @@
                     <div class="row g-0">
                         <div class="col-lg-3 pe-2 pe-lg-1 d-flex align-items-center justify-content-center">
                             <router-link :to="`${sadhana.toOpis}`">
-                                <img :src="sadhana.img" class="img-fluid rounded-start shadow">
+                                <img :src="sadhana.img" class="img-fluid rounded-start shadow" :alt="sadhana.ime">
                             </router-link>
                         </div>
                         <div class="col-lg-9 mt-3 bg-dark shadow-card border-dark rounded-0 bg-image-cards bg-opacity-75 text-white">
@@ -51,7 +51,7 @@
                             </h3>
                             <div class="card-body">
                                 <p class="card-text text-center" v-html="sadhana.opis"></p>
-                                <p class="card-text text-end">
+                                <p class="card-text text-end" v-show="sadhana.cas !== false">
                                     <small class="text-white-50">Minimalni čas tukaj: {{ sadhana.cas }} meseca</small>
                                 </p>
                             </div>

@@ -148,7 +148,8 @@
         </div>
 
         <!-- Modal ENE KARTE: showModal1 -->
-        <vue-final-modal v-model="showModal1" classes="modal-container animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal1" classes="modal-container animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class="modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal1 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -158,13 +159,15 @@
                     <router-link :to="selectedImage.to" class="text-decoration-none">
                         <img :src="selectedImage.src" :alt="selectedImage.name" class="img-fluid"/>
                     </router-link>
-                    <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ selectedImage.name }}</h6>
+                    <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                        {{ selectedImage.name }}</h6>
                 </div>
             </div>
         </vue-final-modal>
 
         <!-- Modal TREH KART: showModal2 -->
-        <vue-final-modal v-model="showModal2" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal2" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal2 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -187,7 +190,8 @@
         </vue-final-modal>
 
         <!-- Modal KELTSKI KRIŽ KART: showModal4 -->
-        <vue-final-modal v-model="showModal4" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal4" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal4 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -205,58 +209,69 @@
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4"></div>
                                     <div class="col-sm-4">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[2].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[2].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[2].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[2].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            3</h6>
                                     </div>
                                     <div class="col-sm-4"></div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[5].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[5].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[5].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[5].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">6</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            6</h6>
                                     </div>
 
                                     <div class="col-sm-3 position-relative">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            1</h6>
                                         <router-link :to="randomImageUrlsCeltic[0].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[0].src"
                                                  class="img-fluid position-absolute top-50 start-0 translate-middle-y"
                                                  style=" z-index: 1;"/>
                                         </router-link>
 
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            2</h6>
                                         <router-link :to="randomImageUrlsCeltic[1].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[1].src"
                                                  class="img-fluid position-absolute top-0 start-0 rotate"
                                                  style=" z-index: 2;"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[1].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[1].name }}</h6>
                                     </div>
 
                                     <div class="col-sm-4">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[4].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[4].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[4].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[4].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">5</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            5</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-sm-4"></div>
                                     <div class="col-sm-4">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[3].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[3].name }}</h6>
                                         <router-link :to="randomImageUrlsCeltic[3].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[3].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            4</h6>
                                     </div>
                                     <div class="col-sm-4">
                                         <h6 class="text-center fw-bold">Dve karti na sredini:</h6>
@@ -274,41 +289,49 @@
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-8 pb-1">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">10</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            10</h6>
                                         <router-link :to="randomImageUrlsCeltic[9].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[9].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[9].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[9].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-8 pb-1">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">9</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            9</h6>
                                         <router-link :to="randomImageUrlsCeltic[8].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[8].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[8].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[8].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-8 pb-1">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">8</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            8</h6>
                                         <router-link :to="randomImageUrlsCeltic[7].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[7].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[7].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[7].name }}</h6>
                                     </div>
                                 </div>
 
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <div class="col-8">
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">7</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            7</h6>
                                         <router-link :to="randomImageUrlsCeltic[6].to" class="text-decoration-none">
                                             <img :src="randomImageUrlsCeltic[6].src" class="img-fluid"/>
                                         </router-link>
-                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsCeltic[6].name }}</h6>
+                                        <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                            {{ randomImageUrlsCeltic[6].name }}</h6>
                                     </div>
                                 </div>
                             </div>
@@ -325,7 +348,8 @@
         </vue-final-modal>
 
         <!-- Modal PRETEKLA ŽIVLJENJA: showModal5 -->
-        <vue-final-modal v-model="showModal5" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal5" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal5 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -340,7 +364,8 @@
                             <router-link :to="randomImageUrlsPastLife[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[0].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -348,7 +373,8 @@
                             <router-link :to="randomImageUrlsPastLife[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[1].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -356,7 +382,8 @@
                             <router-link :to="randomImageUrlsPastLife[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[2].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -364,7 +391,8 @@
                             <router-link :to="randomImageUrlsPastLife[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[3].name }}</h6>
                         </div>
                     </div>
 
@@ -374,7 +402,8 @@
                             <router-link :to="randomImageUrlsPastLife[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[4].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -382,7 +411,8 @@
                             <router-link :to="randomImageUrlsPastLife[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[5].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -390,7 +420,8 @@
                             <router-link :to="randomImageUrlsPastLife[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[6].name }}</h6>
                         </div>
                     </div>
 
@@ -400,7 +431,8 @@
                             <router-link :to="randomImageUrlsPastLife[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsPastLife[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsPastLife[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsPastLife[7].name }}</h6>
                         </div>
 
                     </div>
@@ -411,7 +443,8 @@
         </vue-final-modal>
 
         <!-- Modal MANDALA: showModal7 -->
-        <vue-final-modal v-model="showModal7" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal7" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal7 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -425,7 +458,8 @@
                             <router-link :to="randomImageUrlsMandala[8].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[8].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[8].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[8].name }}</h6>
                         </div>
                     </div>
 
@@ -435,14 +469,16 @@
                             <router-link :to="randomImageUrlsMandala[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[7].name }}</h6>
                         </div>
                         <div class="col-3 pb-1">
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">2</h6>
                             <router-link :to="randomImageUrlsMandala[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[1].name }}</h6>
                         </div>
                     </div>
 
@@ -452,21 +488,24 @@
                             <router-link :to="randomImageUrlsMandala[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[6].name }}</h6>
                         </div>
                         <div class="col-3 pb-1">
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">1</h6>
                             <router-link :to="randomImageUrlsMandala[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[0].name }}</h6>
                         </div>
                         <div class="col-3 pb-1">
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">3</h6>
                             <router-link :to="randomImageUrlsMandala[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[2].name }}</h6>
                         </div>
                     </div>
 
@@ -476,14 +515,16 @@
                             <router-link :to="randomImageUrlsMandala[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[5].name }}</h6>
                         </div>
                         <div class="col-3 pb-1">
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">4</h6>
                             <router-link :to="randomImageUrlsMandala[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[3].name }}</h6>
                         </div>
                     </div>
 
@@ -493,7 +534,8 @@
                             <router-link :to="randomImageUrlsMandala[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsMandala[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsMandala[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsMandala[4].name }}</h6>
                         </div>
                     </div>
 
@@ -503,7 +545,8 @@
         </vue-final-modal>
 
         <!-- Modal VAŠE ROJSTVO: showModal8 -->
-        <vue-final-modal v-model="showModal8" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModal8" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModal8 = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -518,7 +561,8 @@
                             <router-link :to="randomImageUrlsBirthday[0].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[0].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[0].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[0].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -526,7 +570,8 @@
                             <router-link :to="randomImageUrlsBirthday[1].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[1].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[1].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[1].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -534,7 +579,8 @@
                             <router-link :to="randomImageUrlsBirthday[2].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[2].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[2].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[2].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -542,7 +588,8 @@
                             <router-link :to="randomImageUrlsBirthday[3].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[3].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[3].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[3].name }}</h6>
                         </div>
                     </div>
 
@@ -552,7 +599,8 @@
                             <router-link :to="randomImageUrlsBirthday[4].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[4].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[4].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[4].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -560,7 +608,8 @@
                             <router-link :to="randomImageUrlsBirthday[5].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[5].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[5].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[5].name }}</h6>
                         </div>
 
                         <div class="col-3 pb-1">
@@ -568,7 +617,8 @@
                             <router-link :to="randomImageUrlsBirthday[6].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[6].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[6].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[6].name }}</h6>
                         </div>
                     </div>
 
@@ -578,14 +628,16 @@
                             <router-link :to="randomImageUrlsBirthday[7].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[7].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[7].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[7].name }}</h6>
                         </div>
                         <div class="col-3">
                             <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">9</h6>
                             <router-link :to="randomImageUrlsBirthday[8].to" class="text-decoration-none">
                                 <img :src="randomImageUrlsBirthday[8].src" class="img-fluid"/>
                             </router-link>
-                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">{{ randomImageUrlsBirthday[8].name }}</h6>
+                            <h6 class="text-center bg-dark bg-gradient font-size-sm text-white m-0 p-1 fw-bold">
+                                {{ randomImageUrlsBirthday[8].name }}</h6>
                         </div>
 
                     </div>
@@ -625,7 +677,8 @@
             <!-- 1 - Magik -->
             <div class="col">
                 <div class="card bg-dark border-dark border-1 shadow-card rounded-0 bg-image-cards bg-opacity-75 text-white h-100">
-                    <h4 class="card-header border-0 bg-transparent">Magik: Spoznajte svojo moč; Uporabite svoja orodja</h4>
+                    <h4 class="card-header border-0 bg-transparent">Magik: Spoznajte svojo moč; Uporabite svoja
+                        orodja</h4>
                     <div class="card-body">
                         <div v-html="opisMagician"></div>
                     </div>
@@ -937,7 +990,9 @@
         </div>
 
         <!-- showModalFool -->
-        <vue-final-modal v-model="showModalFool" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalFool"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalFool = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1000,7 +1055,9 @@
         </vue-final-modal>
 
         <!-- showModalMagician -->
-        <vue-final-modal v-model="showModalMagician" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalMagician"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalMagician = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1074,8 +1131,11 @@
         </vue-final-modal>
 
         <!-- showModalPriestessOne -->
-        <vue-final-modal v-model="showModalPriestessOne" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalPriestessOne = false">
+        <vue-final-modal v-model="showModalPriestessOne"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalPriestessOne = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Skrivni svet sanj</span>
@@ -1112,8 +1172,11 @@
         </vue-final-modal>
 
         <!-- showModalPriestessTwo -->
-        <vue-final-modal v-model="showModalPriestessTwo" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalPriestessTwo = false">
+        <vue-final-modal v-model="showModalPriestessTwo"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalPriestessTwo = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Intuitivni vpogled</span>
@@ -1180,7 +1243,9 @@
         </vue-final-modal>
 
         <!-- showModalEmpress -->
-        <vue-final-modal v-model="showModalEmpress" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalEmpress"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalEmpress = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1246,7 +1311,9 @@
         </vue-final-modal>
 
         <!-- showModalEmperor -->
-        <vue-final-modal v-model="showModalEmperor" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalEmperor"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalEmperor = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1312,8 +1379,11 @@
         </vue-final-modal>
 
         <!-- showModalHierophant -->
-        <vue-final-modal v-model="showModalHierophant" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHierophant = false">
+        <vue-final-modal v-model="showModalHierophant"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalHierophant = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Iskanje sveta modreca</span>
@@ -1372,8 +1442,11 @@
         </vue-final-modal>
 
         <!-- showModalLoversOne -->
-        <vue-final-modal v-model="showModalLoversOne" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalLoversOne = false">
+        <vue-final-modal v-model="showModalLoversOne"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalLoversOne = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Za zaljubljene</span>
@@ -1458,8 +1531,11 @@
         </vue-final-modal>
 
         <!-- showModalLoversTwo -->
-        <vue-final-modal v-model="showModalLoversTwo" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalLoversTwo = false">
+        <vue-final-modal v-model="showModalLoversTwo"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalLoversTwo = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Za samske</span>
@@ -1544,7 +1620,9 @@
         </vue-final-modal>
 
         <!-- showModalChariot -->
-        <vue-final-modal v-model="showModalChariot" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalChariot"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalChariot = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1610,7 +1688,9 @@
         </vue-final-modal>
 
         <!-- showModalStrength -->
-        <vue-final-modal v-model="showModalStrength" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalStrength"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalStrength = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1676,7 +1756,9 @@
         </vue-final-modal>
 
         <!-- showModalHermit -->
-        <vue-final-modal v-model="showModalHermit" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalHermit"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHermit = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1732,7 +1814,9 @@
         </vue-final-modal>
 
         <!-- showModalWheel -->
-        <vue-final-modal v-model="showModalWheel" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalWheel"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWheel = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1798,7 +1882,9 @@
         </vue-final-modal>
 
         <!-- showModalJustice -->
-        <vue-final-modal v-model="showModalJustice" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalJustice"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalJustice = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1871,7 +1957,9 @@
         </vue-final-modal>
 
         <!-- showModalHanged -->
-        <vue-final-modal v-model="showModalHanged" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalHanged"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalHanged = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -1949,7 +2037,9 @@
         </vue-final-modal>
 
         <!-- showModalDeath -->
-        <vue-final-modal v-model="showModalDeath" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalDeath"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalDeath = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2021,8 +2111,11 @@
         </vue-final-modal>
 
         <!-- showModalTemperance -->
-        <vue-final-modal v-model="showModalTemperance" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalTemperance = false">
+        <vue-final-modal v-model="showModalTemperance"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalTemperance = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Sveta poravnava</span>
@@ -2080,7 +2173,9 @@
         </vue-final-modal>
 
         <!-- showModalDevil -->
-        <vue-final-modal v-model="showModalDevil" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalDevil"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalDevil = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2153,7 +2248,9 @@
         </vue-final-modal>
 
         <!-- showModalTower -->
-        <vue-final-modal v-model="showModalTower" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalTower"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalTower = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2232,7 +2329,9 @@
         </vue-final-modal>
 
         <!-- showModalStar -->
-        <vue-final-modal v-model="showModalStar" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalStar"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalStar = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2302,7 +2401,9 @@
         </vue-final-modal>
 
         <!-- showModalMoon -->
-        <vue-final-modal v-model="showModalMoon" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalMoon"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalMoon = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2368,7 +2469,8 @@
         </vue-final-modal>
 
         <!-- showModalSun -->
-        <vue-final-modal v-model="showModalSun" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalSun" classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalSun = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2447,8 +2549,11 @@
         </vue-final-modal>
 
         <!-- showModalJudgement -->
-        <vue-final-modal v-model="showModalJudgement" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalJudgement = false">
+        <vue-final-modal v-model="showModalJudgement"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalJudgement = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Upoštevajte klic</span>
@@ -2520,7 +2625,9 @@
         </vue-final-modal>
 
         <!-- showModalWorld -->
-        <vue-final-modal v-model="showModalWorld" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
+        <vue-final-modal v-model="showModalWorld"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
             <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWorld = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
@@ -2599,8 +2706,11 @@
         </vue-final-modal>
 
         <!-- showModalWholePicture -->
-        <vue-final-modal v-model="showModalWholePicture" classes=" modal-container-three animate__animated animate__bounceInDown" content-class="modal-content">
-            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2" @click="showModalWholePicture = false">
+        <vue-final-modal v-model="showModalWholePicture"
+                         classes=" modal-container-three animate__animated animate__bounceInDown"
+                         content-class="modal-content">
+            <button class=" modal__close border-0 rounded-3 bg-dark bg-gradient p-2"
+                    @click="showModalWholePicture = false">
                 <mdi-close class="fw-bold text-white">X</mdi-close>
             </button>
             <span class="modal__title text-center py-3">Celotna slika z 22 kartami</span>
@@ -2631,18 +2741,14 @@
                         <li><b>Sonce</b>: Kako vas vidijo drugi; zunanji izraz vas samih.</li>
                         <li><b>Sodba</b>: Kaj je tisto, ki vas kliče, da morate dvigniti in se s tem soočiti.</li>
                         <li><b>Svet</b>: Kako lahko najbolje dosežete izpolnitev v tem življenju ali na tej stopnji
-                            svojega
-                            potovanja.
+                            svojega potovanja.
                         </li>
                     </ol>
-
 
                 </div>
             </div>
         </vue-final-modal>
-
     </div>
-
 </div>
 
 

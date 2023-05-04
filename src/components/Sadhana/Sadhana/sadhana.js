@@ -142,7 +142,7 @@ export default {
                     ime: "IX – Puščavnik (The Hermit)",
                     img: hermit,
                     cas: '2',
-                    opis: '<p>SoHam meditacija<br>Tattwa shuddhi<br>Umik z Gayatri mantro<br><div class="d-none d-lg-block"><br><br></div></p>',
+                    opis: '<p>SoHam meditacija<br>Tattwa shuddhi<br>Umik z Gayatri mantro<br>Seznam z dnevnimi cilji za samoopazovanje<br><div class="d-none d-lg-block"><br></div></p>',
                     to: "/the-hermit-sadhana",
                     toOpis: '/the-hermit'
                 },
@@ -154,7 +154,7 @@ export default {
                     ime: "XI – Pravica (Justice)",
                     img: justice,
                     cas: '3',
-                    opis: '<p>Yame<br>Niyame<br>Meditacija Pravice<br><div class="d-none d-lg-block"><br><br></div></p>',
+                    opis: '<p>Yame<br>Niyame<br>Meditacija v naglici pred semaforjem<br>Meditacija Pravice<br><div class="d-none d-lg-block"><br></div></p>',
                     to: "/justice-sadhana",
                     toOpis: '/justice'
                 },
@@ -226,8 +226,8 @@ export default {
                     ide: '#17',
                     ime: "V – Svečenik (The Hierophant)",
                     img: hierophant,
-                    cas: '1,5',
-                    opis: '<p>Guru meditacija<br>Meditacija Svečenika</p>',
+                    cas: '3',
+                    opis: '<p>Guru meditacija<br>Guru mantra<br>Meditacija Svečenika<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-hierophant-sadhana",
                     toOpis: '/the-hierophant'
                 },
@@ -239,7 +239,7 @@ export default {
                     ime: "VII – Kočija (The Chariot)",
                     img: chariot,
                     cas: '1,5',
-                    opis: '<p>Kali mantra</p>',
+                    opis: '<p>Gayatri mantra ob obali<br>Graha mantre vsak dan<br>Durga mantra na travniku<br>Mahamrityunjay mantra z razgledom<br><div class="d-none d-lg-block"><br></div></p>',
                     to: "/the-chariot-sadhana",
                     toOpis: '/the-chariot'
 
@@ -251,8 +251,8 @@ export default {
                     ide: '#19',
                     ime: "III - Cesarica (The Empress)",
                     img: empress,
-                    cas: '1,5',
-                    opis: '<p></p>',
+                    cas: '2',
+                    opis: '<p>Dolga Gayartri mantra<br><div class="d-none d-lg-block"><br><br><br><br></div></p>',
                     to: "/the-empress-sadhana",
                     toOpis: '/the-empress'
                 },
@@ -263,8 +263,8 @@ export default {
                     ide: '#20',
                     ime: "II - Visoka Svečenica (The High Priestess)",
                     img: priestess,
-                    cas: '1,5',
-                    opis: '<p></p>',
+                    cas: '3',
+                    opis: '<p>Kurukulla sadhana 1<br>Jutranja molitev Kurukulli<br>Večerna molitev Kurukulli<br><div class="d-none d-lg-block"><br><br></div></p>',
                     to: "/the-high-priestess-sadhana",
                     toOpis: '/the-high-priestess'
                 },
@@ -275,8 +275,8 @@ export default {
                     ide: '#21',
                     ime: "I - Magik (The Magician)",
                     img: magician,
-                    cas: '1,5',
-                    opis: '<p></p>',
+                    cas: '6',
+                    opis: '<p>Kurukulla sadhana 2<br>Meditacija Magika<br><div class="d-none d-lg-block"><br><br><br></div></p>',
                     to: "/the-magician-sadhana",
                     toOpis: '/the-magician'
                 },
@@ -287,8 +287,8 @@ export default {
                     ide: '#22',
                     ime: "0 - Norec (The Fool)",
                     img: fool,
-                    cas: '1,5',
-                    opis: '<p></p>',
+                    cas: false,
+                    opis: '<p>Jutranja sadhana<br>Večerna sadhana<br>Meditacija Norca<br><div class="d-none d-lg-block"><br><br><br></div></p>',
                     to: "/the-fool-sadhana",
                     toOpis: '/the-fool'
                 }

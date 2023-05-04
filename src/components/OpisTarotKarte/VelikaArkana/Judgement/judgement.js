@@ -22,7 +22,7 @@ export default {
                     besedeObrnjena: 'Dvom vase, notranji kritik, ignoriranje intuicije, pomanjkanje, samoprezir, obtoževanje drugih, dvom, strah pred smrtjo, možno izgubo, slabim zdravjem.',
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Ko zaslišim glasni klic,<br>ki me kliče v kraljevo palačo,<br>bom prenovljen znotraj in zunaj.<br>Sem novo bitje in vse moje misli, občutki, dejanja in spoznanja bodo novi.<br>Sem otrok božanskega ognja, iskra iz pra-plamena.<br>Zemlja me ne more zadušiti; voda me ne more utopiti.<br>Naj me dih mojega Jaza ponese v novo življenje in novo dejavnost.<br>Prenovljena sem. Odločam se, da se bom vsak dan obnavljal.\"<br>",
+                    opisMeditacija: "\"Ko zaslišim glasni klic, ki me kliče v kraljevo palačo, bom prenovljen znotraj in zunaj. Sem novo bitje in vse moje misli, občutki, dejanja in spoznanja bodo novi. Sem otrok božanskega ognja, iskra iz pra-plamena. Zemlja me ne more zadušiti; voda me ne more utopiti. Naj me dih mojega Jaza ponese v novo življenje in novo dejavnost. Prenovljena sem. Odločam se, da se bom vsak dan obnavljal.\"",
 
                     kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kaj je moj najvišji klic? Ali je čas za preobrazbo v mojem življenju? Ali prestrogo obsojam druge ali sebe? Kako naj se dvignem iz mračnejše situacije? Ali sem pošten/a glede svojega načina življenja? Ali poslušam svoj višji jaz in svoje višje moči? Ali v tem primeru dobro presojam situacijo, ki je bila v mojih mislih zadnje čase?</p>',
 

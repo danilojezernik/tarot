@@ -4,19 +4,47 @@
     padding: 0 4px;
 }
 
-.bg-header {
-    background: rgb(176,153,104);
-    background: linear-gradient(266deg, rgba(176,153,104,1) 0%, rgba(187,148,89,1) 100%);
-}
-
 .bg-tarot {
     background: rgb(176,153,104);
     background: linear-gradient(266deg, rgba(176,153,104,1) 0%, rgba(187,148,89,1) 100%);
 }
 
+.bg-tarot-index {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1.5), rgba(255,255,255,0.5)), url("~@/assets/tgarot-bg-2.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .bg-opis {
     background-color: #3c3c3c;
 }
+
+.bg-image-cards {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("~@/assets/pentagram.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-header {
+    background: rgb(176,153,104);
+    background: linear-gradient(266deg, rgba(176,153,104,1) 0%, rgba(187,148,89,1) 100%);
+}
+
+.bg-image-header {
+    background-image: url("~@/assets/tarot-index.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.bg-image-qlipha {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("~@/assets/kliphot/qlipha.png");
+    background-size: cover;
+    background-position: top;
+}
+
+
 
 /* Create four equal columns that sits next to each other */
 .column {

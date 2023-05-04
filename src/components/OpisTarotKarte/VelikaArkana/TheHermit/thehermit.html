@@ -34,7 +34,7 @@
 
             <!-- SREDINA -->
             <div class="col-lg-4 p-3">
-                <img src="~@/assets/majorarcana/the-hermit.png" ondragstart="return false;"
+                <img src="~@/assets/majorarcana/the-hermit.png" alt="Tarot karta Puščavnik" ondragstart="return false;"
                      style="height: 500px" class="img-fluid shadow">
             </div>
 
@@ -63,15 +63,15 @@
             <!-- PODNASLOV POKONČNA -->
             <div class="text-center">
                 <h1 class="shadow-text-main">{{ opis.podnaslovPokoncna }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3">
             </div>
             <!-- SLIKA VIDNA NAD lg-->
-            <img src="~@/assets/majorarcana/the-hermit.png" ondragstart="return false;"
+            <img src="~@/assets/majorarcana/the-hermit.png" alt="Tarot karta Puščavnik" ondragstart="return false;"
                  class="float-md-start m-2 d-none d-lg-block shadow">
 
             <!-- SLIKA VIDNA POD lg-->
             <div class="d-flex py-md-0 py-4 align-items-center justify-content-center">
-                <img src="~@/assets/majorarcana/the-hermit.png" ondragstart="return false;"
+                <img src="~@/assets/majorarcana/the-hermit.png" alt="Tarot karta Puščavnik" ondragstart="return false;"
                      class="p-md-4 p-0 d-lg-none shadow">
             </div>
 
@@ -83,15 +83,15 @@
             <!-- PODNASLOV OBRNJENA -->
             <div class="text-center">
                 <h1 class="shadow-text-main">{{ opis.podnaslovObrnjena }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-0 pb-md-3">
             </div>
             <!-- SLIKA VIDNA NAD lg-->
-            <img src="~@/assets/majorarcana/the-hermit-down.png" ondragstart="return false;"
+            <img src="~@/assets/majorarcana/the-hermit-down.png" alt="Tarot karta Puščavnik" ondragstart="return false;"
                  class="float-lg-end m-2 d-none d-lg-block shadow">
 
             <!-- SLIKA VIDNA POD lg-->
             <div class="d-flex py-md-0 py-4 align-items-center justify-content-center">
-                <img src="~@/assets/majorarcana/the-hermit-down.png" ondragstart="return false;"
+                <img src="~@/assets/majorarcana/the-hermit-down.png" alt="Tarot karta Puščavnik" ondragstart="return false;"
                      class="p-md-4 p-0 d-lg-none shadow">
             </div>
 
@@ -103,7 +103,7 @@
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">Pomen simbolov v karti</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3">
             </div>
             <!-- OPIS VIDEN SAMO NA NAPRAVAH NAD lg -->
             <div class="d-none d-lg-block">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="text-center pb-3">
-                            <img src="~@/assets/majorarcana/the-hermit.png" class="shadow" ondragstart="return false;">
+                            <img src="~@/assets/majorarcana/the-hermit.png" alt="Tarot karta Puščavnik" class="shadow" ondragstart="return false;">
                         </div>
                         <ul class="list-group list-group-flush border border-dark">
                             <li class="list-group-item text-white shadow border-0 bg-opis" v-for="element in elementi">
@@ -136,7 +136,7 @@
             <!-- OPIS VIDEN SAMO NA NAPRAVAH POD lg -->
             <div class="d-lg-none">
                 <div class="text-center pb-3">
-                    <img src="~@/assets/majorarcana/the-hermit.png" ondragstart="return false;" class="shadow">
+                    <img src="~@/assets/majorarcana/the-hermit.png" alt="Tarot karta Puščavnik" ondragstart="return false;" class="shadow">
                 </div>
                 <ul class="list-group list-group-numbered border border-dark bg-dark bg-gradient shadow mb-4">
                     <li class="list-group-item text-white bg-transparent border-0 d-flex justify-content-between align-items-start"
@@ -164,16 +164,16 @@
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">{{ opis.podnaslovMeditacija }}</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3">
             </div>
-            <p class="text-center fs-4" v-html="opis.opisMeditacija"></p>
+            <p class="text-center fs-5" v-html="opis.opisMeditacija"></p>
         </div>
 
         <div class="container py-4 py-md-5 p-2 p-md-4 shadow bg-image-cards bg-dark bg-opacity-75">
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">Modrosti karte</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center pb-3">
             </div>
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col" v-for="(modrost, index) in modrostiKarte" :key="index">
@@ -191,7 +191,7 @@
             <!-- PODNASLOV -->
             <div class="text-center">
                 <h1 class="shadow-text-main">Galerija</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
             </div>
         </div>
 
@@ -200,32 +200,32 @@
             <div class="container">
                 <div class="row p-md-3">
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-0.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-1.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-2.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-3.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-17.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-0.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-1.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-2.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-3.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-17.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-10.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-9.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-4.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-14.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-18.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-10.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-9.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-4.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-14.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-18.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-5.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-6.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-7.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-8.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-16.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-5.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-6.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-7.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-8.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-16.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
                     </div>
                     <div class="column">
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-11.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-12.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-13.jpg" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-15.png" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-19.jpg" ondragstart="return false;"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-11.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-12.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-13.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-15.png" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-19.jpg" ondragstart="return false;" alt="Tarot karta Puščavnik"/>
                     </div>
                 </div>
             </div>
@@ -236,55 +236,55 @@
             <div class="container">
                 <div class="row p-md-3">
                     <div class="col text-center">
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-0.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-0.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-1.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-1.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-2.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-2.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-3.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-3.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-10.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-10.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-9.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-9.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-5.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-5.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-6.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-6.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-7.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-7.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-8.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-8.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-4.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-4.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%"
                              ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-11.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-11.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-12.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-12.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-13.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-13.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-14.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-14.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-15.png" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-15.png" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-16.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-16.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-17.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-17.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-18.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-18.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
-                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-19.jpg" class="pb-2"
+                        <img src="@/assets/galerija-tarota/the-hermit/the-hermit-19.jpg" class="pb-2" alt="Tarot karta Puščavnik"
                              style="max-width: 100%" ondragstart="return false;"/>
                     </div>
                 </div>
@@ -293,6 +293,3 @@
 
     </div>
 </div>
-
-<!-- Nazaj na vrh -->
-<app-navrh/>

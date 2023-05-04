@@ -22,7 +22,7 @@ export default {
                     besedeObrnjena: 'Notranji otrok, prevelik optimizem, naivnost, nezmožnost ceniti, žalost, depresija, dolgočasje, nerealna prepričanja, odpovedani načrti, razpadla zaroka ali zakon/zveza, zamegljena prihodnost, pomanjkanje prijateljev.',
 
                     podnaslovMeditacija: "Meditacija",
-                    opisMeditacija: "\"Na belem konju čiste zavesti jezdim v sonce.<br>Sem otrok večnega. Napolnjen sem s sijajem, svetlobo in močjo.<br>Nič mi ne more škodovati razen lastne nevednosti.<br>Modrost bo zasijala moj obraz.<br>Jaz sem zmagoviti vpogled.<br>Zmagal bom in zmagal bom vedno znova in znova.<br>Sem žarek žarečega sonca vseh vesolj.<br>Zdaj naredim svoj prvi korak k popolni svobodi.<br>Svoboden bom, ker bom prebival v večnem.\"<br>",
+                    opisMeditacija: "\"Na belem konju čiste zavesti jezdim v sonce. Sem otrok večnega. Napolnjen sem s sijajem, svetlobo in močjo. Nič mi ne more škodovati razen lastne nevednosti. Modrost bo zasijala moj obraz. Jaz sem zmagoviti vpogled. Zmagal bom in zmagal bom vedno znova in znova. Sem žarek žarečega sonca vseh vesolj. Zdaj naredim svoj prvi korak k popolni svobodi. Svoboden bom, ker bom prebival v večnem.\"",
 
                     kljucnaVpr: '<p><b>Ključna vprašanja:</b> Kako naj začnem odstranjevati blokade v svojem življenje? Ali obstaja področje v mojem življenju za katerega potrebujem pojasnilo? Ali sem zgradil/a nekaj zidov okoli svojega srca oziroma proti drugim? Ali dopuščam najvišji in najboljši energijo da teče skozi mene? Kaj bi bilo treba od mene, da bi izpostavil/a svoj pravi jaz in lepoto, ki jo predstavljam? Ali se obrnem svoj obraz k stvarem resnice, lepote in vitalnosti ali pa zabredem v blato?</p>',
 

@@ -20,29 +20,29 @@
         <div class="py-4 text-center">
             <h1>Vprašanja & Odgovori</h1>
             <div class="lead text-center">{{ rekVpr }}</div>
-            <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
         </div>
 
         <div class="accordion text-decoration-none rounded-0" id="accordionFlushExample">
 
-                <div class="accordion-item border-dark rounded-0" v-for="accordion in accordions">
-                    <h2 class="accordion-header" :id="accordion.idHeading">
-                        <button class="accordion-button collapsed text-white bg-dark bg-gradient rounded-0" type="button" data-bs-toggle="collapse"
-                                :data-bs-target="accordion.idCollapseL" aria-expanded="false"
-                                :aria-controls="accordion.idCollapse">
-                            {{ accordion.vpr }}
-                        </button>
-                    </h2>
-                    <div :id="accordion.idCollapse" class="accordion-collapse collapse text-dark collapse bg-tarot rounded-0"
-                         :aria-labelledby="accordion.idHeading" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <img v-show="accordion.show === true" :src="accordion.img" class="float-end p-2 img-fluid"/>
-                            <div v-html="accordion.odg"></div>
-                        </div>
+            <div class="accordion-item border-dark rounded-0" v-for="accordion in accordions">
+                <h2 class="accordion-header" :id="accordion.idHeading">
+                    <button class="accordion-button collapsed text-white bg-dark bg-gradient rounded-0" type="button"
+                            data-bs-toggle="collapse"
+                            :data-bs-target="accordion.idCollapseL" aria-expanded="false"
+                            :aria-controls="accordion.idCollapse">
+                        {{ accordion.vpr }}
+                    </button>
+                </h2>
+                <div :id="accordion.idCollapse"
+                     class="accordion-collapse collapse text-dark collapse bg-tarot rounded-0"
+                     :aria-labelledby="accordion.idHeading" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <img v-show="accordion.show === true" :src="accordion.img" class="float-end p-2 img-fluid"/>
+                        <div v-html="accordion.odg"></div>
                     </div>
                 </div>
-
+            </div>
         </div>
-
     </div>
 </div>

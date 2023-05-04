@@ -23,13 +23,13 @@
 
             <div class="py-4 text-center">
                 <h1 class="text-center">Mala Arkana: Meči</h1>
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
             </div>
 
             <p v-html="opis"></p>
 
             <div class="py-4 text-center">
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
             </div>
 
             <strong>Karte mečev so:</strong> <span v-for="karte in meci">
@@ -37,7 +37,7 @@
             </span>
 
             <div class="py-4 text-center">
-                <img src="~@/assets/hrline.png" class="img-fluid text-center" alt="">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
             </div>
 
             <div class="row row-cols-1 row-cols-xl-4 g-4">
@@ -47,7 +47,7 @@
                         <div class="card-my">
                             <div class="content-my">
                                 <div class="front">
-                                    <img :src="arkana.img" alt="" class="img-fluid shadow">
+                                    <img :src="arkana.img" class="img-fluid shadow" :alt="arkana.ime">
                                 </div>
                                 <div class="back p-2 text-white bg-dark shadow bg-image-cards bg-opacity-75">
                                     <h3 class="text-shadow">{{ arkana.ime }}</h3>
