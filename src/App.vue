@@ -2,7 +2,7 @@
   <div class="d-flex justify-content-center align-items-center min-vh-100">
     <div v-if="isLoading || showSpinner" class="image-spinner"
          :class="{ 'fade-out': !isLoading, 'fade-in': showSpinner }">
-      <img src="@/assets/tetra-index.png" alt="loading">
+      <img src="@/assets/thefoolindex.png" alt="loading">
     </div>
     <div v-else class="shadow-main">
       <app-header/>
@@ -22,7 +22,7 @@
   text-align: center;
   font-size: 18px;
   color: #777;
-  animation: spin 5s linear infinite;
+  animation: bounce 2s linear infinite;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }

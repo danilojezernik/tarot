@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="Spletna stran o Tarotu, Kabali, Qliphotu, Meditaciji in na splošno o osebni rasti.">
+    <meta name="description" content="Spletna stran o Tarotu, Kabali, Qliphotu, Meditaciji in na splošno o osebnostni in duhovni rasti.">
     <meta name="keywords" content="tarot, meditacija, čakre, kabala, mantre, joga, yoga, tantra, numerologija, magija, ezoterika, okultizem">
+    <meta property="og:title" content="Tarot zate"/>
+    <meta property="og:description" content="Spletna stran o Tarotu, Kabali, Qliphotu, Meditaciji in na splošno o osebnostni in duhovni rasti."/>
+    <meta property="og:image" content="https://tarot-zate.si/prenos/index.jpg"/>
+    <meta property="og:url" content="https://tarot-zate.si/"/>
     <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="tbd3kNMBKN2QzhAou6kiaUMq7X2gx0VhsCr7nChi6fM" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>Tarot Zate</title>
     <style>
@@ -35,7 +40,7 @@
         }
 
         .bg-tarot {
-            background-image: url('https://tarot-zate.si/prenos/mountain.jpg');
+            background-image: url('https://tarot-zate.si/prenos/background.jpg');
             background-color: #3c3c3c;
             background-size: cover;
             background-attachment: fixed;
@@ -73,8 +78,15 @@
         }
 
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z91BB6V8C"></script>
 
     <script>
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2Z91BB6V8C');
 
         let docTitle = document.title;
         window.addEventListener("blur", () => {

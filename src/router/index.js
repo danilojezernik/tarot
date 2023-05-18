@@ -199,7 +199,7 @@ const routes = [
     // SADHANE ARKANA
     {
         path: '/the-fool-sadhana',
-        component: FoolSadhana
+        component: FoolSadhana,
     },
     {
         path: '/the-magician-sadhana',
@@ -628,6 +628,8 @@ const routes = [
         component: NotFound
     }
 ]
+
+
 
 const router = createRouter({
     scrollBehavior() {
