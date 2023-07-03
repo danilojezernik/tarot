@@ -1,0 +1,64 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Admin
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/admin">Admin</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Pregled objav</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot position-relative pb-3">
+    <div class="container p-3">
+        <div class="py-4 text-center">
+            <h1>Pregled objav</h1>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
+        </div>
+
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-xl-4 g-4 pt-3">
+                <div class="col" v-for="objava in blogPost" :key="objava._id">
+                    <div class="card text-white h-100 border-dark rounded-0 bg-dark shadow-card bg-image-cards bg-opacity-75">
+                        <h3 class="card-header border-0 bg-transparent text-center">{{ objava.naslov }}</h3>
+                        <div class="text-center">
+                            <img src="~@/assets/hrline.png" class="img-fluid" style="max-width: 70%;">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" v-html="truncateText(objava.vsebina, 100)"></p>
+                        </div>
+                        <div class="d-grid">
+                            <router-link
+                                    class="btn btn-success bg-success card-footer border-0 rounded-0"
+                                    :to="`/blog/${objava._id.$oid}`">
+                                Beri objavo
+                            </router-link>
+                            <router-link
+                                    class="btn btn-warning bg-warning card-footer border-0 rounded-0"
+                                    :to="`/edit/${objava._id.$oid}`">
+                                Uredi objavo
+                            </router-link>
+                            <button
+                                    class="btn btn-danger bg-danger card-footer border-0 rounded-0"
+                                    @click="deleteBlog(objava._id.$oid)"
+                            >
+                                Izbriši objavo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -2,6 +2,7 @@ import {createApp} from 'vue'
 import App from './App.vue'
 import router from './router'
 import vfmPlugin from 'vue-final-modal';
+import Toaster from "@meforma/vue-toaster";
 
 import 'animate.css';
 // STYLE
@@ -19,6 +20,7 @@ const app = createApp(App)
 app.component('app-header',Header);
 app.component('app-footer',Footer);
 app.component('app-navrh',naVrh);
+app.use(Toaster)
 
 app.use(vfmPlugin)
 app.use(router)

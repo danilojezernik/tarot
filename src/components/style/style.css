@@ -223,3 +223,22 @@ li + .breadcrumb-item::before {
     text-shadow: 1px 1px 2px black;
 
 }
+
+.awesome_editor {
+    padding: 10px;
+}
+
+.awesome_editor .btn_container {
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.ProseMirror {
+    min-height: 150px;
+    border: 1px  solid #212529;
+}
+
+
+.ProseMirror:focus {
+    outline: none;
+}

@@ -1,0 +1,74 @@
+<div class="container-fluid bg-tarot-index text-white shadow-lg">
+    <div class="container p-4">
+        <div class="fs-1 fw-bold">
+            Login
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Login</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot">
+    <div class="container">
+        <div class="py-4 text-center">
+            <h1>Vpis skrbnika</h1>
+            <div class="lead text-center">Vpis je omogočen le skrbniku!</div>
+            <img src="~@/assets/hrline.png" class="img-fluid">
+        </div>
+
+        <div class="row p-2 p-md-2 pt-md-3 pb-md-3 d-flex align-items-center justify-content-center">
+
+            <div class="col-4 d-none d-lg-block text-start">
+                <img src="~@/assets/majorarcana/the-empress.png" alt="Tarot karta Cesarica" ondragstart="return false;"
+                     class="img-fluid shadow">
+            </div>
+
+            <div class="col-lg-4 bg-dark shadow bg-image-cards bg-opacity-75 text-white p-4 shadow rounded-2">
+                <form
+                        action="https://formspree.io/f/xlekwvek"
+                        method="POST"
+                >
+                    <!-- Name input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example1">Ime in priimek</label>
+                        <input type="text" name="name" id="form4Example1"
+                               class="form-control text-white border-dark bg-tarot" required/>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example2">Email naslov</label>
+                        <input type="email" name="email" id="form4Example2"
+                               class="form-control text-white border-dark bg-tarot" required/>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="form4Example3">Sporočilo</label>
+                        <textarea class="form-control text-white border-dark bg-tarot" name="message" id="form4Example3"
+                                  rows="5" required></textarea>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="d-grid gap-2">
+                        <router-link class="btn btn-outline-warning my-2" to="/admin">Admin</router-link>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-4 d-none d-lg-block text-end">
+                <img src="~@/assets/majorarcana/the-emperor.png" alt="Tarot karta Cesar" ondragstart="return false;"
+                     class="img-fluid shadow ">
+            </div>
+        </div>
+
+
+    </div>
+</div>

@@ -58,6 +58,44 @@
                     </router-link>
                 </div>
             </div>
+
+            <div class="pb-4 pt-5 text-center">
+                <h1>Norčevo potovanje - Kraljestvo Pentakljev</h1>
+                <img src="~@/assets/hrline.png" class="img-fluid"><br>
+            </div>
+
+            <p v-html="opisPot"></p>
+            <strong>Pot Norca: </strong>
+            <span v-for="(prikaz, index) in potovanje" :key="index">
+            <a class="text-decoration-none text-white" :href="prikaz.ide">{{ prikaz.ime }}</a> |
+        </span>
+
+            <div class="py-4 text-center">
+                <img src="~@/assets/hrline.png" class="img-fluid text-center">
+            </div>
+            <div class="row row-cols-1 row-cols-xl-1 g-4">
+
+                <div class="col pt-2" v-for="(pot, index) in potovanje" :key="index" :id="pot.id">
+                    <div class="card bg-transparent border-0">
+                        <div class="row g-0">
+                            <div class="col-lg-3 text-center pb-lg-1 pb-3">
+                                <img :src="pot.img" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-lg-9 bg-dark shadow-card border-dark rounded-0 bg-image-cards bg-opacity-75 text-white">
+                                <h3 class="card-header text-center border-0 bg-transparent">
+                                    {{ pot.ime }}
+                                </h3>
+                                <div class="card-body">
+                                    <p class="card-text" v-html="pot.opis"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center d-lg-none">
+                        <img src="~@/assets/hrline.png" class="img-fluid text-center pt-3" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,102 @@
+<div class="container-fluid text-white bg-tarot-index shadow-sm">
+    <div class="container p-md-4 p-2">
+        <div class="fs-1 fw-bold">
+            Admin - Edit
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/">Domov</router-link>
+                </li>
+                <li class="breadcrumb-item">
+                    <router-link class="text-decoration-none" to="/admin">Admin</router-link>
+                </li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Edit</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid p-0 bg-tarot position-relative pb-3">
+    <div class="container p-3">
+        <div class="py-4 text-center">
+            <h1>Objavi</h1>
+            <img src="~@/assets/hrline.png" class="img-fluid text-center">
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md ps-0">
+                    <div class="form-floating">
+                        <input v-model="naslov" type="text" class="form-control bg-tarot border-dark rounded-0"
+                               id="floatingInputGrid"
+                               placeholder="Naslov"/>
+                        <label for="floatingInputGrid">Naslov</label>
+                    </div>
+                </div>
+                <div class="col-md p-0">
+                    <div class="form-floating">
+                        <input v-model="podnaslov" type="text" class="form-control bg-tarot border-dark rounded-0"
+                               id="floatingInputGrid"
+                               placeholder="Podnaslov"/>
+                        <label for="floatingInputGrid">Podnaslov</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-floating my-3">
+            <div class="awesome_editor">
+                <div v-if="editor" class="btn_container">
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleBold().run()"
+                          :class="{ 'is-active': editor.isActive('bold') }">
+                            Krepko
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0" @click="editor.chain().focus().toggleItalic().run()"
+                          :class="{ 'is-active': editor.isActive('italic') }">
+                            Ležeče
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleHeading({ level: 1 }).run()"
+                          :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }">
+                            H1
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleHeading({ level: 2 }).run()"
+                          :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }">
+                            H2
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleBulletList().run()"
+                          :class="{ 'is-active': editor.isActive('bulletList') }">
+                            Točkovni seznam
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleOrderedList().run()"
+                          :class="{ 'is-active': editor.isActive('orderedList') }">
+                            Številčni seznam
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().toggleBlockquote().run()"
+                          :class="{ 'is-active': editor.isActive('blockquote') }">
+                            Blockquote
+                    </span>
+                    <span class="btn btn-warning border-0 rounded-0"
+                          @click="editor.chain().focus().setHorizontalRule().run()">
+                            Horizontalna črta
+                    </span>
+                    <span class="btn btn-danger border-0 rounded-0" @click="editor.chain().focus().undo().run()">
+                            Razveljavi
+                    </span>
+                    <span class="btn btn-success border-0 rounded-0" @click="editor.chain().focus().redo().run()">
+                            Povrni
+                    </span>
+                </div>
+                <editor-content :editor="editor" v-model="vsebina" class="ProseMirror"/>
+            </div>
+        </div>
+        <button class="btn btn-success" @click="updateData">Objavi</button>
+    </div>
+</div>
+

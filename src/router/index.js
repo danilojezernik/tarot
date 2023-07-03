@@ -17,6 +17,16 @@ import KontaktComp from '@/components/Kontakt/KontaktComp.vue'
 import TarotBranje from '@/components/TarotBranje/TarotBranje.vue'
 import VprInOdg from '@/components/VprInOdg/VprInOdgComp.vue'
 
+// Blog
+import BlogComp from '@/components/Blog/BlogComp.vue'
+import BlogObjavaComp from '@/components/BlogObjava/BlogObjavaComp.vue'
+import LoginComp from '@/components/Login/LoginComp.vue'
+import AdminComp from '@/components/Admin/AdminComp.vue'
+import ObjaviComp from '@/components/Admin/Objavi/ObjavaComp.vue'
+import PregledComp from '@/components/Admin/Pregled/PregledComp.vue'
+import EditComp from '@/components/Admin/Edit/EditComp.vue'
+
+
 // Sadhana
 import FoolSadhana from '@/components/Sadhana/Fool/FoolSadhanaComp.vue'
 import MagicianSadhana from '@/components/Sadhana/Magician/MagicianSadhanaComp.vue'
@@ -185,6 +195,14 @@ const routes = [
         component: SadhanaComp,
     },
     {
+        path: '/blog',
+        component: BlogComp,
+    },
+    {
+        path: '/blog/:id',
+        component: BlogObjavaComp,
+    },
+    {
         path: '/literatura',
         component: LiteraturaComp,
     },
@@ -195,6 +213,26 @@ const routes = [
     {
         path: '/kontakt',
         component: KontaktComp,
+    },
+    {
+        path: '/login',
+        component: LoginComp,
+    },
+    {
+        path: '/objavi',
+        component: ObjaviComp,
+    },
+    {
+        path: '/pregled',
+        component: PregledComp,
+    },
+    {
+        path: '/admin',
+        component: AdminComp,
+    },
+    {
+        path: '/edit/:id',
+        component: EditComp,
     },
     // SADHANE ARKANA
     {
