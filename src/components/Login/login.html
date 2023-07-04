@@ -30,37 +30,25 @@
             </div>
 
             <div class="col-lg-4 bg-dark shadow bg-image-cards bg-opacity-75 text-white p-4 shadow rounded-2">
-                <form
-                        action="https://formspree.io/f/xlekwvek"
-                        method="POST"
-                >
-                    <!-- Name input -->
+                <form @submit="login">
+                    <!-- Username input -->
                     <div class="form-outline">
-                        <label class="form-label" for="form4Example1">Ime in priimek</label>
-                        <input type="text" name="name" id="form4Example1"
-                               class="form-control text-white border-dark bg-tarot" required/>
+                        <label class="form-label" for="form4Example1">Username</label>
+                        <input type="text" v-model="username" id="form4Example1" class="form-control text-white border-dark bg-tarot" required/>
                     </div>
 
-                    <!-- Email input -->
+                    <!-- Password input -->
                     <div class="form-outline">
-                        <label class="form-label" for="form4Example2">Email naslov</label>
-                        <input type="email" name="email" id="form4Example2"
-                               class="form-control text-white border-dark bg-tarot" required/>
-                    </div>
-
-                    <!-- Message input -->
-                    <div class="form-outline">
-                        <label class="form-label" for="form4Example3">Sporočilo</label>
-                        <textarea class="form-control text-white border-dark bg-tarot" name="message" id="form4Example3"
-                                  rows="5" required></textarea>
+                        <label class="form-label" for="form4Example2">Password</label>
+                        <input type="password" v-model="password" id="form4Example2" class="form-control text-white border-dark bg-tarot" required/>
                     </div>
 
                     <!-- Submit button -->
                     <div class="d-grid gap-2">
-                        <router-link class="btn btn-outline-warning my-2" to="/admin">Admin</router-link>
-
+                        <button type="submit" class="btn btn-outline-warning my-2">Login</button>
                     </div>
                 </form>
+
             </div>
 
             <div class="col-4 d-none d-lg-block text-end">

@@ -221,18 +221,30 @@ const routes = [
     {
         path: '/objavi',
         component: ObjaviComp,
+        meta: {
+            requiresAuth: true,
+        },
     },
     {
         path: '/pregled',
         component: PregledComp,
+        meta: {
+            requiresAuth: true,
+        },
     },
     {
         path: '/admin',
         component: AdminComp,
+        meta: {
+            requiresAuth: true,
+        },
     },
     {
         path: '/edit/:id',
         component: EditComp,
+        meta: {
+            requiresAuth: true,
+        },
     },
     // SADHANE ARKANA
     {
@@ -679,5 +691,6 @@ const router = createRouter({
     routes,
     linkActiveClass: `active`
 })
+
 
 export default router

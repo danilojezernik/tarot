@@ -28,7 +28,7 @@ export default {
             axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data)
                 .then(response => {
                     console.log(response.data);
-                    this.$toast.success('Odlično, objava je bila dodana', {
+                    this.$toast.success('Odlično, nove spremembe so bile objavljene', {
                         position: "bottom-right",
                         duration: 5000
                     })
