@@ -25,9 +25,14 @@ export default {
 
             const blogId = this.$route.params.id;
 
-            axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data)
-                .then(response => {
-                    console.log(response.data);
+            axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data, {
+                headers: {
+                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                }
+            })
+                .then(res => {
+                    localStorage.setItem("token", res.data.access_token)
+                    console.log(res.data);
                     this.$toast.success('Odlično, nove spremembe so bile objavljene', {
                         position: "bottom-right",
                         duration: 5000

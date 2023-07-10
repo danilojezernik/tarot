@@ -11,9 +11,14 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8004/api/blog')
-                .then(response => {
-                    const data = response.data;
+            axios.get('http://localhost:8004/api/blog', {
+                headers: {
+                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                }
+            })
+                .then(res => {
+                    localStorage.setItem("token", res.data.access_token)
+                    const data = res.data;
                     this.blogPost = data;
                 })
                 .catch(error => {
@@ -31,9 +36,14 @@ export default {
             }
         },
         deleteBlog(_id) {
-            axios.delete(`http://localhost:8004/api/blog/delete/${_id}`)
-                .then(response => {
-                    console.log(response.data);
+            axios.delete(`http://localhost:8004/api/blog/delete/${_id}`, {
+                headers: {
+                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                }
+            })
+                .then(res => {
+                    localStorage.setItem("token", res.data.access_token)
+                    console.log(res.data);
                     this.fetchData();
                 })
                 .then(() => {

@@ -1,7 +1,9 @@
 import axios from 'axios'
 
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import {Editor, EditorContent} from '@tiptap/vue-3'
 import StarterKit from '@tiptap/starter-kit'
+
+
 
 export default {
     components: {
@@ -25,9 +27,14 @@ export default {
                 slike: this.slika,
             };
 
-            axios.post('http://localhost:8004/api/blog', data)
-                .then(response => {
-                    console.log(response.data);
+            axios.post('http://localhost:8004/api/blog', data, {
+                headers: {
+                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                }
+            })
+                .then(res => {
+                    localStorage.setItem("token", res.data.access_token)
+                    console.log(res.data);
                 })
                 .then(() => {
                     this.$toast.success('Odlično, objava je bila dodana', {
@@ -57,7 +64,7 @@ export default {
                 StarterKit,
             ],
             autofocus: true,
-            onUpdate:()=> {
+            onUpdate: () => {
                 this.$emit("update", this.editor.getHTML())
             }
         })
