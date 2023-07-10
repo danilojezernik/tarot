@@ -11,13 +11,15 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8004/api/blog', {
+            axios.get('http://localhost:8004/api/blog_pregled', {
                 headers: {
-                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                    'Authorization': `${localStorage.getItem("token")}`
                 }
             })
                 .then(res => {
-                    localStorage.setItem("token", res.data.access_token)
+                    localStorage.setItem("token", JSON.stringify(res.data.access_token))
+                })
+                .then((res) => {
                     const data = res.data;
                     this.blogPost = data;
                 })
@@ -38,12 +40,11 @@ export default {
         deleteBlog(_id) {
             axios.delete(`http://localhost:8004/api/blog/delete/${_id}`, {
                 headers: {
-                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                    'Authorization': `${localStorage.getItem("token")}`
                 }
             })
                 .then(res => {
                     localStorage.setItem("token", res.data.access_token)
-                    console.log(res.data);
                     this.fetchData();
                 })
                 .then(() => {

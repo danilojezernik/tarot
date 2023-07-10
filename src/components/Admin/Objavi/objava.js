@@ -3,8 +3,6 @@ import axios from 'axios'
 import {Editor, EditorContent} from '@tiptap/vue-3'
 import StarterKit from '@tiptap/starter-kit'
 
-
-
 export default {
     components: {
         EditorContent,
@@ -29,12 +27,11 @@ export default {
 
             axios.post('http://localhost:8004/api/blog', data, {
                 headers: {
-                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                    'Authorization': `${localStorage.getItem("token")}`
                 }
             })
                 .then(res => {
                     localStorage.setItem("token", res.data.access_token)
-                    console.log(res.data);
                 })
                 .then(() => {
                     this.$toast.success('Odlično, objava je bila dodana', {

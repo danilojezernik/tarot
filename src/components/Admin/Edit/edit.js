@@ -27,7 +27,7 @@ export default {
 
             axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data, {
                 headers: {
-                    'Authorization': `JWT ${localStorage.getItem("token")}`
+                    'Authorization': `${localStorage.getItem("token")}`
                 }
             })
                 .then(res => {

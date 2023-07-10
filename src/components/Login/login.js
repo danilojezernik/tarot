@@ -12,12 +12,12 @@ export default {
         login(event) {
             event.preventDefault();
 
-            axios.post('http://localhost:8004/auth', {
+            axios.post('http://localhost:8004/api/login', {
                 username: this.username,
                 password: this.password,
             })
                 .then((res) => {
-                    localStorage.setItem("token", res.data.access_token)
+                    localStorage.setItem("token", JSON.stringify(res.data.access_token))
                     console.log(res)
                     // this.isLoggedIn = true;
                     this.$router.push('/admin');
@@ -30,7 +30,7 @@ export default {
     },
     created() {
         axios
-            .get('http://localhost:8004/auth')
+            .get('http://localhost:8004/api/login')
             .then(response => {
                 this.isLoggedIn = response.data.isLoggedIn;
             })
