@@ -27,11 +27,10 @@ export default {
 
             axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data, {
                 headers: {
-                    'Authorization': `${localStorage.getItem("token")}`
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
                 .then(res => {
-                    localStorage.setItem("token", res.data.access_token)
                     console.log(res.data);
                     this.$toast.success('Odlično, nove spremembe so bile objavljene', {
                         position: "bottom-right",

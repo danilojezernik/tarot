@@ -27,12 +27,9 @@ export default {
 
             axios.post('http://localhost:8004/api/blog', data, {
                 headers: {
-                    'Authorization': `${localStorage.getItem("token")}`
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
-                .then(res => {
-                    localStorage.setItem("token", res.data.access_token)
-                })
                 .then(() => {
                     this.$toast.success('Odlično, objava je bila dodana', {
                         position: "bottom-right",

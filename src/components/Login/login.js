@@ -17,9 +17,9 @@ export default {
                 password: this.password,
             })
                 .then((res) => {
-                    localStorage.setItem("token", JSON.stringify(res.data.access_token))
-                    console.log(res)
-                    // this.isLoggedIn = true;
+                    localStorage.setItem("token", res.data.access_token)
+                    console.log('----------------------------')
+                    console.log(res.data.access_token)
                     this.$router.push('/admin');
                 })
                 .catch(error => {

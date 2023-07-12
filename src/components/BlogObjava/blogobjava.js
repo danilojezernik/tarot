@@ -14,13 +14,9 @@ export default {
         fetchData(postId) {
             axios.get(`http://localhost:8004/api/blog/${postId}`, {
                 headers: {
-                    'Authorization': `${localStorage.getItem("token")}`
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
-                .then(res => {
-                    localStorage.setItem("token", JSON.stringify(res.data.access_token))
-
-                })
                 .then((res) => {
                     const data = res.data;
                     this.blogPost = data;

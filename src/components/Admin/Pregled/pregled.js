@@ -11,14 +11,13 @@ export default {
     },
     methods: {
         fetchData() {
+            console.log("--------------------------------------------")
+            console.log(localStorage.getItem("token"))
             axios.get('http://localhost:8004/api/blog_pregled', {
                 headers: {
-                    'Authorization': `${localStorage.getItem("token")}`
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
-                .then(res => {
-                    localStorage.setItem("token", JSON.stringify(res.data.access_token))
-                })
                 .then((res) => {
                     const data = res.data;
                     this.blogPost = data;
@@ -43,11 +42,8 @@ export default {
                     'Authorization': `${localStorage.getItem("token")}`
                 }
             })
-                .then(res => {
-                    localStorage.setItem("token", res.data.access_token)
-                    this.fetchData();
-                })
                 .then(() => {
+                    this.fetchData();
                     this.$toast.warning(`Objava ${_id} je bila odstranjena`, {
                         position: "bottom-right",
                         duration: 5000
