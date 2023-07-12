@@ -39,15 +39,17 @@ export default {
         deleteBlog(_id) {
             axios.delete(`http://localhost:8004/api/blog/delete/${_id}`, {
                 headers: {
-                    'Authorization': `${localStorage.getItem("token")}`
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
                 .then(() => {
-                    this.fetchData();
                     this.$toast.warning(`Objava ${_id} je bila odstranjena`, {
                         position: "bottom-right",
                         duration: 5000
                     })
+                })
+                .then(() => {
+                    this.fetchData();
                 })
                 .catch(error => {
                     this.$toast.error(error, {
