@@ -11,9 +11,7 @@ export default {
     },
     methods: {
         fetchData() {
-            console.log("--------------------------------------------")
-            console.log(localStorage.getItem("token"))
-            axios.get('http://localhost:8004/api/blog_pregled', {
+            axios.get('https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog_pregled', {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
@@ -37,7 +35,7 @@ export default {
             }
         },
         deleteBlog(_id) {
-            axios.delete(`http://localhost:8004/api/blog/delete/${_id}`, {
+            axios.delete(`https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog/delete/${_id}`, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
@@ -58,5 +56,6 @@ export default {
                     })
                 });
         },
+
     }
 };

@@ -25,13 +25,12 @@ export default {
 
             const blogId = this.$route.params.id;
 
-            axios.post(`http://localhost:8004/api/blog/edit/${blogId}`, data, {
+            axios.post(`https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog/edit/${blogId}`, data, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
             })
-                .then(res => {
-                    console.log(res.data);
+                .then(() => {
                     this.$toast.success('Odlično, nove spremembe so bile objavljene', {
                         position: "bottom-right",
                         duration: 5000
@@ -64,7 +63,7 @@ export default {
 
         const blogId = this.$route.params.id;
 
-        axios.get(`http://localhost:8004/api/blog/${blogId}`)
+        axios.get(`https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog/${blogId}`)
             .then(response => {
                 const blogPost = response.data;
                 this.naslov = blogPost.naslov;

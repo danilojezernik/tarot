@@ -25,7 +25,7 @@ export default {
                 slike: this.slika,
             };
 
-            axios.post('http://localhost:8004/api/blog', data, {
+            axios.post('https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog', data, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }

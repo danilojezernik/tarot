@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 // Velika Arkana
 import fool from '@/assets/majorarcana/the-fool.png'
 import foolDown from '@/assets/majorarcana/the-fool-down.png'
@@ -167,6 +169,7 @@ import kingpentaclesDown from '@/assets/pentacles/king-of-pentacles-down.png'
 export default {
     data() {
         return {
+            blogPost: [],
             pozdravi: 'Naj bo vaše iskanje vedno polno čudes Norca, dosežkov Magika, čutnosti Visoke Svečenice, ljubezni Cesarice, pameti Cesarja, Svečenikovega verovanja, jasnosti Ljubimcev, moči Kočije, poguma Moči, Puščavnikove modrosti, sreče Kolesa Sreče, pravičnosti Resnice, pomoči Obešenca, osvoboditev Smrti, mirnosti Zmernosti, spoznanj Hudiča, varnosti Trdnjave, upanja Zvezde, intuicije Lune, veselja Sonca, svobode Presoje in enotnosti Sveta.',
             slike: [
                 // Velika Arkana
@@ -1188,6 +1191,7 @@ export default {
         }
     },
     mounted() {
+        this.fetchData();
         let deadline = this.deadline;
         let currentIndex = this.currentImageIndex;
         let referenceTime = this.referenceTime;
@@ -1209,6 +1213,7 @@ export default {
             let timeLeft = deadline - now;
 
             if (timeLeft < 0) {
+
                 // Reset the deadline to 2 minutes from now
                 referenceTime = now;
                 deadline = new Date(referenceTime + 86400000).getTime();
@@ -1223,6 +1228,28 @@ export default {
                 this.currentImageIndex = currentIndex;
             }
         }, 1000);
+    },
+    methods: {
+        fetchData() {
+            axios.get('http://localhost:8004/api/blog')
+                .then(res => {
+                    const data = res.data.slice(0, 3);
+                    this.blogPost = data;
+                })
+                .catch(err => {
+                    console.error(err)
+                })
+        },
+        truncateText(text, maxLength) {
+            if (text && text.length <= maxLength) {
+                return text;
+            } else if (text) {
+                const truncatedText = text.substring(0, maxLength);
+                return truncatedText + '...';
+            } else {
+                return '';
+            }
+        }
     }
 }
 

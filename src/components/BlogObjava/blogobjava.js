@@ -12,7 +12,7 @@ export default {
     },
     methods: {
         fetchData(postId) {
-            axios.get(`http://localhost:8004/api/blog/${postId}`, {
+            axios.get(`https://backend-tarot-b7395cc53fac.herokuapp.com/api/blog/${postId}`, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }

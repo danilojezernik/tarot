@@ -6,7 +6,7 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8004/api/admin', {
+            axios.get('https://backend-tarot-b7395cc53fac.herokuapp.com/api/admin', {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem("token")}`
                 }
